@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "title": "Assessment of NDVI Dynamics of Maize (Zea mays L.) and Its Relation to Grain Yield in a Polyfactorial Experiment Based on Remote Sensing",
+    "author": "András Tamás, Elza Kovács, Éva Horváth, Csaba Juhász, László Radócz, Tamás Rátonyi, Péter Ragán",
+    "journal": "MDPI AG",
+    "date": "2023. 03. 15."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Remote sensing is an efficient tool to detect vegetation heterogeneity and dynamics of crop development in real-time. In this study, the performance of three maize hybrids  was monitored as a function of nitrogen dose (0, 80 and 160 kg N ha -1 ), soil tillage technologies (winter ploughing, strip-tillage, and ripping), and irrigation (rainfed and 3x25 mm) in a warm temperature dry region of East-Central Europe. Dynamics of the Normalized Difference Vegetation Index (NDVI) were followed in the vegetation period of 2021, a year of drought, by using sensors mounted on an unmanned aerial vehicle. N-fertilization resulted in significantly higher NDVI throughout the entire vegetation period (p < 0.001) in each experimental combination. A significant positive effect of irrigation was observed on the NDVI during the drought period (77-141 days after sowing). For both the tillage technologies and hybrids, NDVI was found to be significantly different between treatments, but showing different dynamics. Grain yield was in strong positive correlation with the NDVI between the late vegetative and the early generative stages (r = 0.80-0.84). The findings suggest that the NDVI dynamics is an adequate indicator for evaluating the impact of different treatments on plant development and yield prediction.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Field crop production is of paramount importance; it is an essential basis for food production and a source of our existence. Maize is one of the most significant crops in the world; it is necessary to provide both food and energy security . Hungary covers a total area of 9.3 million hectares, of which 4.1 million hectares are arable land. Soil moisture is the most direct and important source of water demand for crops . Therefore, climate change is the largest challenge of our time, resulting in less and less precipitation in Hungary every year . Drought is currently a severe environmental limiting factor of crop survival and productivity due to the continuous decline in global water resources . The increasing drought causes severe damage to agriculture, especially crop production . According to Noromiarilanto et al. , the situation will undoubtedly deteriorate as climate change estimates show an increase in extreme weather events.",
+          "table": []
+        },
+        {
+          "text": "The long-term impacts of yield loss are crucial for socioeconomic stability and food security . Research by Horváth et al.  showed that the amount of N fertilizer and application time recommended to achieve the highest yields varies among hybrids with different FAO numbers, which is also influenced by environmental factors.",
+          "table": []
+        },
+        {
+          "text": "Maize is cultivated in many countries around the world  and it is an important source of food, animal feed, and fuel . In our country, the most dominant arable crop is maize (Zea mays L.) , the cultivation of which is highly dependent on climate. In addition to the season, fertilization  and the applied hybrid  have a significant influence on maize yield. The research of Rácz et al.  highlighted, in addition to the environmental conditions during the season, the need for proper N ha -1 treatment as it significantly affects maize biomass yield and increases the protein content of the crop.",
+          "table": []
+        },
+        {
+          "text": "Global agricultural production is extremely sensitive to the negative impacts of climate change (extreme weather, drought, heatwaves), and Hungary is no exception . Crops react differently; they have different responses to abiotic and biotic environmental impacts and, obviously, to other treatments. ML models could offer an appropriate scope for analyzing the vast amounts of data. Agriculture may soon adopt ML technology on a regular basis for tasks such as stress detection, yield prediction and estimation, and real-time field operations .",
+          "table": []
+        },
+        {
+          "text": "The interaction of light and foliage is determined by the physical and chemical properties of vegetation that affect the absorption, transmission and reflectance of light , and these create unique spectral properties for different species and phenotypes .",
+          "table": []
+        },
+        {
+          "text": "To record the different responses, we used UAV remote sensing to record Normalized Difference Vegetation Index (NDVI) values at different measurement times. Plant biomass, developmental stage, and environmental and other stress responses influence leaf spectral values, thus providing a good indication of the current state of the plant. Verhulst et al.  found a strong correlation between NDVI values and the accumulation of biomass both in maize and wheat. Remote-sensing-based plant studies, including UAV-based plant studies, are an excellent tool for assessing maize health and the response of different hybrids to treatments . Remote sensing can be used to cover large areas quickly and efficiently.",
+          "table": []
+        },
+        {
+          "text": "The NDVI provides producers with the opportunity to assess crop biomass and yield. These indirect reflectance measurements have been used to estimate plant biomass and yield .",
+          "table": []
+        },
+        {
+          "text": "UAVs can be used to observe vegetation heterogeneity and its dynamic temporal variation . These unmanned aerial vehicles are increasingly used for crop surveys .",
+          "table": []
+        },
+        {
+          "text": "Research by Burke and Lobell  suggested that NDVI values in the range 0.14-0.88 can be used for yield mapping. The strong (r = 0.89) NDVI -yield correlation was confirmed by other research , and can be used to monitor production.",
+          "table": []
+        },
+        {
+          "text": "The climate of Europe and our country has undergone significant changes in the last 30 years, but especially in the last 4-5 years. The average monthly temperature is rising, and the spatial and temporal distribution of precipitation is becoming more and more unfavorable at the European level. The long-term experiment is a reference for the production practice. The vegetation dynamics of different maize hybrids are different in every geographic area; therefore, it is necessary to narrow down the spatial extent for a more precise examination. UAV-based remote sensing is more accurate and reliable than satellite-based surveys because there are fewer peripheral disturbing factors. In this way, the tests can be better adapted to the given phenological phases.",
+          "table": []
+        },
+        {
+          "text": "NDVI measurements based on remote sensing at different times during the vegetation period can be used to predict the expected yield.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": []
+    },
+    {
+      "title": "Experimental Location and Setup",
+      "div": [
+        {
+          "text": "The study was carried out in Hungary, at the Látókép Experimental Station of the University of Debrecen (N 47 • 33 E 21 • 27 ), on calcareous chernozem soil. The complex soil tillage experiment (rotation x tillage x fertilization x irrigation x plant density x genotype) was set up in 1989, which is unique in the country and in Europe (Figure 1) . The tillage block of the experiment is 8064 m 2 , divided into one irrigated and one non-irrigated block. The main plot size is 2688 m 2 , while the size of the fertilizer treatment plots is 336 m 2 in total. The trials were conducted with three maize hybrids, each with different genotype (Merida FAO-380; Corasano FAO-490-510; Fornad FAO-420) in the crop year of 2021. The sowing date was 22 April, and the first day of emergence was 4 May. The number of plants was 80,000 plants ha -1 . A total of 30 kg N ha -1 and 100% of P and K were applied as a basal fertilizer in autumn. The additional N active ingredient was applied in spring as liquid Nitrosol (27% N + 2% S) by top-dressing in June. The irrigated part of the area received 25 mm of irrigation water in June and 25 -25 mm in early and late July. In the experiment, the NDVI dynamics of maize were studied under three different tillage regimes: winter ploughing, strip-tillage, and ripping. Harvesting took place on 28 September 2021 with a yield-measuring plot harvester.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Soil Characteristics of the Experiment",
+      "div": []
+    },
+    {
+      "title": "Weather Characteristics of the Crop Season",
+      "div": [
+        {
+          "text": "The weather station of the experimental site measures air temperature by means of a P100 plantinum resistance thermometer, global radiation is measured by a Kipp & Zonen SP Lite2 pyranometer, and precipitation is measured by a Hungarian brand PG200 rain gauge, which measures the gravimetric principle. Among the official Hungarian National Meteorological Service (OMSZ) measurements, the temperature and precipitation data available for the city of Debrecen are 30-year averages, and the solar radiation data provide a 20-year average .",
+          "table": []
+        },
+        {
+          "text": "Agrometeorological conditions for the 2021 year were generally unfavorable. The last third of June was more than 3 • C warmer than the 30-year average, and this month is the generative phase of maize. The very hot weather was accompanied by a severe lack of precipitation. In June, 6.4 mm of rain fell in total, well below the 30-year average. The drought continued in July and August (Figure 2). The intensity of solar radiation during the emergence was around the 20-year average, but it exceeded the 20-year average by 23.5% in the intensive growth phase in June, and by 19.4% in the generative phase in July (Figure 3).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Methodology of Measurements and Calculations",
+      "div": [
+        {
+          "text": "NDVI UAV measurements were taken six times (days after sowing (DAS) 42; 56; 77; 90; 105; 141) using UAV. The DAS values correspond to the following phenological phases: V6; V8; V12; VT; R1; R3. Remotely sensed NDVI photos were captured using a DJI Phantom 4 Pro V2 drone with a Sentera Double 4K NDVI sensor. In QGIS 3.16.12, the orthorectified images were examined . The methodology of the experiment was the same as conducted in a previously published article .",
+          "table": []
+        },
+        {
+          "text": "The WebODM software was used for stitching to complete NDVI images. DEM resolution was 2.0, DSM: true, DTM: true and the orthophoto spatial resolution was 2.0 cm. As always, if the certified software of Sentera Inc. is not used, channels have to be further separated. The impact of out-of-band channels on each band can be removed using a set of equations. This calculation takes into account a roughly homogenous incoming light source (which is the case with daylight). The Sentera camera is a multispectral camera with a modified color filter, and the bands from the stored channels can be calculated using the formulae below :",
+          "table": []
+        },
+        {
+          "text": "N IR = 4.350 × DNblue -0.286 × DNred (2)",
+          "table": []
+        },
+        {
+          "text": "Trimble RTK was used to identify the edges of the plot. At different times, the generated polygon shape file was input into the stitched orthophoto. The raster was then updated using the formula by the QGIS program, and zone statistics were utilized to ascertain the mean values on each plot.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Data Analysis",
+      "div": [
+        {
+          "text": "Statistical evaluation was carried out using the R 4.2.2 statistical software environment . The graphical interface was implemented using RStudio , gplots , car  and agricolae  packages. Graphs were created using Microsoft Excel. The first-order error was set at 5%, i.e., alpha = 0.05. To investigate the effects of treatments, a repeated measures ANOVA model was constructed , and to compare the mean of yields, the least significant difference (LSD) approach was employed.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": [
+        {
+          "text": "The NDVI UAV values were significantly (p < 0.001) different between the different measurement times for hybrid and treatment averages. The highest mean value was measured on day 90 after sowing. The mean value measured on day 42 was 67.8% lower. On day 46 it was 59.9% and on day 56 45.8% lower. Day 77 and day 105 were 15.7-17.4% lower. On day 141 there was a significant 49% drop compared to day 90 (Figure 4). The correlation was inspected between the NDVI UAV values and yield t ha -1 with Pearson correlation analysis which can be seen in Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 (2021, Debrecen). It was expected to find a close correlation between the NDVI values and maize yield (Figure 5), and the coefficients pointed to very close positive connection between them at DAS 77, 90, 105 (r = 0.803-0.844), except the other measurement times, where the correlation was weaker (r = 0.420-0.676). The correlation was significant (p = 0.001).",
+          "table": [
+            "Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 (2021, Debrecen)."
+          ]
+        },
+        {
+          "text": "When examining the effect of irrigation on NDVI UAV values measured at different times, there was a significant (p < 0.001) difference between the given DAS except for 42 DAS. Vegetative development up to 56 DAS was minimally lower in the irrigated sections by 1.1-7.9%. From 77 DAS, the irrigation effect was positive, 3.4-19.6%. The largest positive irrigation effect was at 77 DAS: +19.6% (Figure 6).  Pearson's correlation coefficient trends were examined in both the non-irrigated and irrigated variants (Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 in non-irrigated and irrigated conditions (2021, Debrecen)). Medium correlation was observed at early measurement dates (r = 0.437-0.635) and at the time of crop maturity (r = 0.547-0.582). From the 56th day of measurements, the start of actual irrigation, to the end of the vegetative stage (DAS 90), the correlation coefficient between NDVI UAV and yield t ha -1 was higher due to the effect of irrigation (Figure 7). A significant difference is shown in Figure 8, when the effects of tillage types are examined. The tillage types differed at the p < 0.001 level at the time of measurement. Until 77 DAS, the maize crops after winter ploughing had the highest NDVI UAV values. The variance for strip tillage maize plots ranged from 4.9 to 17.9%, while the variance for ripping was lower with a negative variance of 1.8 to 4.5%. At 90 DAS, the highest NDVI UAV values were measured for ripping, with average values 0.3-4.3% lower in the winter ploughing and 1.4-6.1% lower in strip-tillage. Correlation with yield varied across tillage treatments (Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 in non-irrigated and irrigated conditions (2021, Debrecen)). At the early (DAS 42) measurement date, strip-tillage showed a weak correlation (r = 0.129) and a lower correlation between NDVI UAV and yield t ha -1 at all measurement dates. The strongest correlation was observed at 90 and 105 days after sowing, DAS 90 for ripping (r = 0.869), and DAS 105 for winter ploughing (r = 0.920) (Figure 9).",
+          "table": [
+            "Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 in non-irrigated and irrigated conditions (2021, Debrecen).",
+            "Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of tillage systems (2021, Debrecen)."
+          ]
+        },
+        {
+          "text": "Examining the NDVI UAV dynamics of the hybrids (Figure 10), the difference can be statistically confirmed (p < 0.001). The highest mean values were measured for the Fornad FAO-420 hybrid. Overall, there was no significant difference, with Merida FAO-380 having 0.2-11.2% lower NDVI at different time points, and Corasano FAO-490-510 having 0.3-10.5% lower NDVI at the last measurement time (141 DAS).    The correlation between the NDVI UAV values of the hybrids and the yield t ha -1 varied due to the genotypes (different FAO), as is shown in Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of hybrids (2021, Debrecen). In the initial development, the Corasano FAO-490-510 hybrid shows a weak correlation with yield (r = 0.129), which can be explained by its mid-late maturity (Figure 11). The hybrids show the strongest correlation at different times during the growing season: Merida FAO-380 at 105 days after sowing (r = 0.920), Fornad FAO-420 at 90 days after sowing (r = 0.869), and mid-late maturing Corasano FAO-490-510 at 105 days after sowing (r = 0.825).",
+          "table": [
+            "Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of hybrids (2021, Debrecen)."
+          ]
+        },
+        {
+          "text": "Examining the effect of nutrient levels on NDVI UAV values (Figure 12) at different measurement times, the difference was statistically confirmed (p < 0.001). For all DAS, the 160 kg ha -1 N dose resulted in higher NDVI values. A nutrient level of 80 kg ha -1 N resulted in 6.5% lower values in the DAS average, while the control was 15.5% lower.",
+          "table": []
+        },
+        {
+          "text": "The Pearson correlation values (r) show a large variation with N ha -1 fertilization in Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of N ha -1 fertilization (2021, Debrecen).",
+          "table": [
+            "Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of N ha -1 fertilization (2021, Debrecen)."
+          ]
+        },
+        {
+          "text": "In autumn 2020, both the 80 kg N ha -1 and 160 kg N ha -1 treatments received the same amount of nutrients, therefore the 160 kg N ha -1 nutrient level shows a lower (weak) correlation with yield at the initial developmental stages. After top-dressing in June, on day 77 after sowing, there is already a strong correlation between NDVI UAV measured at 160 kg N ha -1 nutrient level and yield (r = 0.801). The control plots show weak to moderate correlations throughout the growing season (r = -0.058-0.563). The 80 kg N ha -1 nutrient level shows a strong coupling at days 77 and 90 after sowing (r = 0.704; 0.721), as shown in Figure 13.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Our UAV-based NDVI dynamics showed a similar trend to those measured by Tunka et al.  using satellite-based NDVI.",
+          "table": []
+        },
+        {
+          "text": "The NDVI dynamics of maize, averaged across cultivars and hybrids, showed a significant correlation with yield on days 90-105 after sowing (r = 0.821 ***-0.844 ***). The developmental stage of the plant at this time was VT and R1. According to research by Yang et al. , NDVI values measured at the R3 phenological state can be used to predict production, whereas our results suggest that it is more likely to be predicted at an earlier mid-vegetative stage as noted by Chivasa et al. , although it is highly dependent on environmental factors and agrotechnology, which may affect the accuracy of the model.",
+          "table": []
+        },
+        {
+          "text": "Irrigation in dry years is essential to maintain crop security. Smart nutrient management is also important for maximum yield potential. Irrigation and fertilization are treatments that ensure stability of maize yields over the years, with the potential to increase crop yields by an average of about 25% and by more than 80% in the dry season compared to the control area . In the analyzed year, precipitation in June and July was well below the 30-year average, and irrigation in June significantly increased NDVI values, which can be seen on day 77 after sowing. Ihuoma et al.  reported similar correlations in the case of remote sensed NDVI and different measured factors by irrigation under the influence of draught. In the examined year, the yield-enhancing effect of irrigation, on average of the treatments, was 14%. In the control plots, there was a 1% increase in yield as a result of irrigation. The 80 kg ha -1 N nutrient level resulted in a 6% increase, while the 160 kg ha -1 N treatment resulted in a 29% yield increase. Irrigation contributed to increased yields and crop security, and Pearson's correlation was strong.",
+          "table": []
+        },
+        {
+          "text": "N ha -1 doses also significantly (p < 0.001) increased NDVI values of maize. The overall correlation with yield showed variability, as a significant proportion of the N active ingredient was applied as liquid top-dressing in June, and therefore showed a strong correlation (r = 0.704 ***-0.801 ***) with yield from day 77 of measurement. The strength of the correlation was the highest at the V12 phenophase (DAS: 77) due to the 160 kg ha -1 N treatment. In the case of lower dose (80 kg ha -1 N), the correlation was more stable during the vegetation. This can be attributed to the fact that the study was conducted in the average of irrigated and non-irrigated treatments. Due to droughty weather at the end of the vegetative phase and at the edge of the generative phase, the absorption of excess N by the plants is limited and has a negative effect.",
+          "table": []
+        },
+        {
+          "text": "The NDVI values measured in the tillage treatments differed statistically (p < 0.001) during the maize growing season. The negative effects of droughty weather in summer were confirmed in the study of NDVI dynamics of maize under conventional tillage. Tillage may be a tool for managing the effects of meteorological elements, particularly their abrupt changes in habitat, in addition to being an agricultural technology tailored to the needs of a certain crop . The strongest correlation between NDVI values measured in the three tillage modes studied and yield was observed on the 105th day after sowing (r = 0.825 ***-0.920 ***).",
+          "table": []
+        },
+        {
+          "text": "The hybrids showed the strongest correlation at different times during the growing season, which is due to the different maturity times (FAO). The NDVI dynamics showed a similar trend for all three hybrids, but were statistically different (p < 0.001) among measurement times.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "With UAV-based remote sensing, more accurate information can be gathered about plant condition, because atmospheric disturbing factors can be excluded and phenological phases can be precisely determined.",
+          "table": []
+        },
+        {
+          "text": "Fertilization, tillage, hybrid and maize plant phenological stage (DAS) influenced NDVI UAV values. In conclusion, based on our results, NDVI images taken with the help of UAVs showed variable correlation with maize crop yield under different cropping technologies.",
+          "table": []
+        },
+        {
+          "text": "The NDVI dynamics suggest that tolerance to environmental stress factors of hybrids of different genotypes can be increased by different combinations of N ha -1 and constant PK treatments, and by irrigation in response to climate change.",
+          "table": []
+        },
+        {
+          "text": "The promotion of environmentally friendly tillage techniques is an important aspect of sustainability, and we recommend the use of ripping and strip-tillage over winter ploughing.",
+          "table": []
+        },
+        {
+          "text": "In a droughty year, the higher-FAO-number hybrids (Corasano FAO-490-510; Fornad FAO-420) proved to be more economical than the early-maturing hybrids (Merida FAO-380).",
+          "table": []
+        },
+        {
+          "text": "In the last few years in our region, irrigation has played a prominent role in terms of crop safety. Only a few areas have the possibility of irrigation; therefore, water-saving tillage methods and reasonable nutrient supply are insufficient from the point of view of sustainability.",
+          "table": []
+        },
+        {
+          "text": "The accuracy of the NDVI-yield correlation can be further enhanced by analyzing several years of data, which is the priority for us in the future.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"\", \"head\": [\"pH (KCl 1:2,5)\", \"7.44\", \"7.50\", \"7.75\"], \"value\": [[\"K A\", \"45.5\", \"46\", \"46\"], [\"CaCO 3 (%)\", \"12.12\", \"12.32\", \"17.37\"], [\"Humus (%)\", \"2.86\", \"3.09\", \"2.11\"], [\"NO 3 + NO 2 (mg kg -1 ) P O 25 (AL) (mg kg -1 ) K 2 O (AL) (mg kg -1 )\", \"5.07 515.98 351.73\", \"3.53 533.43 300.97\", \"2.77 173.05 174.24\"], [\"Note: K A : Arany's plasticity index; AL: ammonium lactate-soluble.\", \"\", \"\"]]}",
+    "{\"title\": \"Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 (2021, Debrecen).\", \"head\": [\"95% Cl\"], \"value\": []}",
+    "{\"title\": \"Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 in non-irrigated and irrigated conditions (2021, Debrecen).\", \"head\": [\"95% Cl\"], \"value\": []}",
+    "{\"title\": \"Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of tillage systems (2021, Debrecen).\", \"head\": [\"95% Cl\"], \"value\": []}",
+    "{\"title\": \"Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of hybrids (2021, Debrecen).\", \"head\": [\"95% Cl\"], \"value\": []}",
+    "{\"title\": \"Pearson correlation coefficient (r) values among NDVI UAV and yield t ha -1 as a result of N ha -1 fertilization (2021, Debrecen).\", \"head\": [\"95% Cl\"], \"value\": []}"
+  ]
+}

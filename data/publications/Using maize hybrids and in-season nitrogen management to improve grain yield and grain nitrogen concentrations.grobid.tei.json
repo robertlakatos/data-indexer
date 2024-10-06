@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Using maize hybrids and in-season nitrogen management to improve grain yield and grain nitrogen concentrations",
+    "author": "Peng Yan, Shanchao Yue, Menglong Qiu, Xinping Chen, Zhenling Cui, Fanjun Chen",
+    "journal": "Elsevier BV",
+    "date": "2014. 06. 26."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Understanding the dynamics of biomass and nitrogen (N) accumulation in maize cultivars and the relationship of these parameters to N management is essential to improve our ability to increase maize grain yield and grain N concentration (GNC). We conducted a field experiment in 2010 and 2011, using five rates of N application and three maize hybrids (YD13, ZD958, and XY335) in Quzhou County, the North China Plain, to evaluate grain yield and GNC under different N managements and with different hybrids. The maximum grain yield in 2010-2011 averaged 8.85 and 8.90 Mg ha À1 for ZD958 and XY335, respectively, which was approximately 45% higher than the yield of YD13 (6.10 Mg ha À1 ). GNC in XY335 was highest among the three hybrids. The maximum GNC for 2010-2011 averaged 1.62% for XY335, 1.42% for ZD958, and 1.48% for YD13. Compared to YD13, XY335 and ZD958 had higher biomass and N accumulation during the grain-filling period and at harvest, and the apparent amount of N remobilization from stover (leaf plus stem) after silking was greater in XY335 than in ZD958, which contributed to high yield and GNC in XY335. The optimal N application rate (ONR) based on in-season N management was 149 kg ha À1 , and split at the 3-leaf (V3), 6-leaf (V6), and 10-leaf (V10) stages. All maize hybrids achieved their maximum grain yield and >95% of their maximum GNC with ONR treatment. Selection of appropriate hybrids such as XY335 in combination with optimal N management can increase grain yield and GNC obtained on the North China Plain.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Improvement in crop grain yield and grain nitrogen (N) concentration (GNC) provides a promising strategy for combating hunger and malnutrition (Pinstrup-Andersen, 2000;Onimisi et al., 2009;TWumasi-Afriyie et al., 2011). Worldwide, approximately one of every eight people lacks access to food or is chronically malnourished as a result of poverty and increasing food prices (FAO, 2013). A negative correlation between GNC and increased grain yield under N fertilization is common for many crops such as wheat, rice, maize, and sorghum (Simmonds, 1995;Fowler, 2003;Guarda et al., 2004). On the North China Plain (NCP), the concentration of N in summer maize (grain) has decreased from 13.1 g kg À1 (yield < 6.0 Mg ha À1 ) to 11.0 g kg À1 (yield > 12 Mg ha À1 ) (Yue, 2013). Similar results have also been reported in the United States, where the maize grain yield increased significantly from the 1930s to 1990s, while the grain protein concentration decreased from 10.3% to 8.8% (Duvick and Cassman, 1999). Therefore, understanding the dynamics of biomass and N accumulation in relation to N management and cultivar is important for improving both maize grain yield and GNC.",
+          "table": []
+        },
+        {
+          "text": "Incremental addition of available soil N can increase both yield and GNC, and GNC was shown to be increased even further at the highest grain yield by increasing the concentration of available N (Duarte et al., 2005;Berenguer et al., 2009;Masoero et al., 2011). However, excess N application often leads to high nitrate in the stalk (Blackmer and Mallarino, 1997) and to lower N-use efficiency (NUE), which increases the risk of N pollution (Ju et al., 2009). Some field studies have also indicated that increased yield and GNC of maize could be achieved by split application of fertilizer (Randall et al., 2003;Gehl et al., 2005). For example, compared to a single or double application of fertilizer, grain yield and N uptake increased by 15-31%, respectively, when N was applied in ratios of 3:5:2 or 2:4:4 at the 6-leaf stage (V6), 10-leaf stage (V10), and 10 days after silking (Lü et al., 2012).",
+          "table": []
+        },
+        {
+          "text": "Genetic improvement can also increase the uptake of N and grain yield in maize (Moll et al., 1982;Duvick, 2005;Lee and Tollenaar, 2007;Worku et al., 2007). Normally, newer cultivars have higher N-uptake efficiency and achieve higher grain yield than older cultivars (Moll et al., 1982;Lafitte and Edmeades, 1994;Gallais and Coque, 2005;Haegele et al., 2013). However, the GNC of new maize cultivars can decrease with increasing grain yield (Dudley and Lambert, 2004;Scott et al., 2006;Gallais et al., 2008) because of the higher energy requirements for synthesis of protein compared to carbohydrate (De Vries et al., 1974). Duvick and Cassman (1999) reported an overall decrease in GNC from 1.03% in the 1930s to 0.88% in the 1990s.",
+          "table": []
+        },
+        {
+          "text": "For cultivars supplied with similar amounts of available soil N, GNC is determined based on the ratio of grain N yield to total grain yield. As a result, higher-yield cultivars will have lower GNC than lower-yield cultivars unless they have an increased ability to extract N from the soil or translocate it to the grain (Fowler, 2003). Maintenance of leaf N concentration is necessary for leaves to remain photosynthetically active during the grain-filling period (Ding et al., 2005), but this physiological requirement may impede remobilization of N from stalk and leaves to grain (Pommel et al., 2006). Stay-green cultivars often achieve higher grain yield because of greater accumulation of dry matter and N uptake during the grain-filling period that result from prolonged retention of N in the leaves and higher rates of photosynthesis (Tollenaar, 1991;Rajcan and Tollenaar, 1999a,b;Echarte et al., 2008). Biomass production is influenced by leaf N concentration since a large proportion of the N in leaves is incorporated into photosynthesis-related functions (Vos et al., 2005). However, lower efficiency in the remobilization of N has often been observed in stay-green cultivars compared to senescent cultivars (Mi et al., 2003).",
+          "table": []
+        },
+        {
+          "text": "We hypothesized that proper maize cultivars and N management could improve grain yield and GNC synchronously by balancing dry-matter production and N uptake or remobilization. In this study, we used three typical maize hybrids, including a senescent hybrid typical of those used in the 1980s and 1990s, a stay-green hybrid, and the current high-yield hybrid on the North China Plain (NCP) with high NUE (Zhang et al., 2013). Five N treatments were implemented, including the typical N dose used by farmers on the NCP, along with low, intermediate, and high rates of application and a control. Our objectives were to evaluate (1) the response of grain yield and GNC in the three maize hybrids under different N management practices; (2) variations in the biomass and N accumulation among maize hybrids under the optimal N rate (ONR); and (3) variation in stover (leaf plus stem) N remobilization among maize cultivars during the period of silking and harvest under the ONR. Our results may help farmers improve both grain yield and GNC.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Field experiments",
+      "div": [
+        {
+          "text": "Field experiments were conducted in 2010 and 2011, as part of a long-term N-fertilization experiment initiated in 2007 in Quzhou (QZ) County (36.9 N, 115.0 E), Hebei Province, China. Maize was planted without tillage after harvest of winter wheat in mid-June, with a row spacing of 60 cm (about 75,000 plants ha À1 ); maize was harvested at the beginning of October, and the average harvest densities were 7.1, 7.5, and 7.6 plants m À2 for YD13, ZD958, and XY335, respectively. Irrigation (90 mm) was applied after sowing of maize in 2010 and 2011. The soil was clay loam with the following characteristics: organic matter content, 14.2 g kg À1 ; total N, 0.83 g kg À1 ; Olsen-P, 7.2 mg kg À1 ; NH 4 OAc-K, 125 mg kg À1 ; pH 8.3; and bulk density, 1.36 g cm À3 . Meteorological conditions were automatically recorded using a standard agro-meteorological station located in the experimental field. Daily mean temperature, solar radiation, and precipitation during the two growing seasons are presented in Fig. 1. During the two growing seasons, the daily mean temperature was 25.4 and 24.0 C, the total solar radiation was 1544 and 1451 MJ m À2 , and the total precipitation was 277 and 333 mm in 2010 and 2011, respectively.",
+          "table": []
+        },
+        {
+          "text": "The experimental design was a split plot design with three replicates. Five N treatments were applied as the main plot, and the three hybrids were designated as subplots. The plot size of the main plot was 300 m 2 (15 m wide Â 20 m long) and the subplot size was 100 m 2 (5 m wide Â 20 m long). The N treatments were as follows: control (0 N), 70% optimal N rate (ONR), ONR based on inseason root-zone N management (INM, see below), 130% ONR, and the typical N dose used by farmers on the NCP (FNP). The FNP was set at 250 kg N ha À1 (100 kg N ha À1 applied at the 3-leaf stage and 150 kg N ha À1 applied at the 6-leaf stage), which is typical for Hebei Province (Cui, 2005). The ONR was determined according to Cui et al. (2008) as follows. The maize-growing season was divided into three periods (stages): planting to the 6-leaf stage, 6-leaf to 10-leaf stage, and 10-leaf to the mature stage. At the 3-leaf stage, 45 kg N ha À1 was applied; ONR was determined using the 6-to 10leaf and the 10-leaf to harvest stages by subtracting measured soil nitrate-N content in the root zone (0-60 cm and 0-90 cm for the two growth stages, respectively) from the target N value. The target values for each successive growth period, estimated based on the target yield and crop N uptake, were 50, 120, and 190 kg N ha À1 , respectively. Detailed descriptions of the field experiments have been reported previously (Zhang et al., 2013). Urea was applied deep (10 cm) into the soil with a furrowing machine at the 3-leaf (V3), 6-leaf (V6), and 10-leaf (V10) stages according to the N treatments. Details on root-zone NO 3 À -N content and N application rates are provided in Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years. Based on the soil P and K test results, all plots received appropriate amounts of triple superphosphate (45 kg P 2 O 5 ha À1 ) and potassium chloride (90 kg K 2 O ha À1 ) at the V3 stage, accompanied by the application of urea. Three maize hybrids developed in different years were used in the experiment. Yedan13 (YD13) was a typical hybrid planted during the 1980s and 1900s; its leaves age rapidly during the grain-filling period and most have senesced by the mature stage. Zhengdan958 (ZD958) and Xianyu335 (XY335) were selected as typical contemporary maize hybrids. ZD958 is a stay-green hybrid. XY335 was introduced from the United States and can maintain green leaves throughout the grain-filling period, but some of its leaves senesce quickly near the mature stage (Zhang et al., 2013). The total growing degree days (GDDs) of these three hybrids were almost the same at about 1580 C, but the potential grain-filling rate of the new hybrids ZD958 and XY335 were higher than that of YD13 (Chen et al., 2013). All maize hybrids had the same growing cycle; silking occurred on August 10, 2010 and on August 16, 2011, in all cultivars. Grains were harvested before complete maturity (black layer) on October 3, 2010 and October 10, 2011 because winter wheat needed to be planted at the site. No obvious water, weed, or pest was observed during either growing season.",
+          "table": [
+            "Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sampling and measurements",
+      "div": [
+        {
+          "text": "A minimum of five soil samples (30 cm increments from 0 to 90 cm) were taken in each plot before planting, 1 day before N application, and at V6, V10, and harvest. Soil samples were extracted with 0.01 M CaCl 2 , and continuous flow analysis (TRAACS 2000; Bran + Luebbe, Norderstedt, Germany) was used to analyze NH 4 + -N and NO 3 À -N content. Nitrate-N test strips and a reflectometer (Reflectometer RQflex, Merck, Darmstadt, Germany) were used to analyze soil NO 3 À -N and to calculate the ONR.",
+          "table": []
+        },
+        {
+          "text": "Plant samples were taken at V6, V10, silking (VT), once per week after silking, and at harvest. During each sampling event, aboveground biomass was collected by clipping six plants in three rows near the middle of each plot. At harvest, plants were removed manually from a 12 m 2 area (four rows, approximately 2.4 m wide Â 5 m long) in the middle of each plot. Leaves and stems were separated at the VT and harvest stages. All plant samples were dried at 70 C in a forced-draft oven to constant weight and then weighed. Subsamples were passed through a 1 mm screen in a sample mill and mineralized using H 2 SO 4 -H 2 O 2 , after which the N concentration was determined using the Kjeldahl method (Horowitz, 1970). The apparent amount of N remobilized in stover (leaf plus stem) was calculated by subtracting the stover content at harvest from the stover content at silking.",
+          "table": []
+        },
+        {
+          "text": "Leaf length (L) and width (W) were measured at V6, V10, silking (VT), once per week after silking, and at harvest, and leaf area (A) was calculated as A = L Â W Â K (Montgomery, 1911), where K = 0.75 for fully expanded leaves and K = 0.5 for incompletely expanded leaves (Bertin and Gallais, 2000). A leaf was considered to have senesced when half or more of its area had yellowed. The green leaf area index (LAI) was calculated as the sum of the green leaf area of the six plants collected during each sampling event divided by the area occupied by those plants.",
+          "table": []
+        },
+        {
+          "text": "Chlorophyll content was measured at V6, V10, silking (VT), once per week after silking, and at harvest with a SPAD-502 chlorophyll meter (Minolta, Ramsey, NJ, USA), which is well adapted to maize leaves (Dwyer et al., 1991). Thirty measurements were performed in the middle third of the ear leaf (lengthwise), and the mean of the 30 values was used.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "div": [
+        {
+          "text": "Maize grain yield and GNC response curves to the N application rate in the different hybrids were generated using the NLIN procedure in SAS (SAS Institute, 1998; Cary, NC, USA). Three response models were evaluated: quadratic, quadratic-withplateau, and linear-with-plateau (Cerrato and Blackmer, 1990). The linear-with-plateau model produced the best fit, whose data are reported here. Data were analyzed using ANOVA. Differences were compared using the least-significant difference (LSD) test at the 0.05 probability level in SAS.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Response of grain yield and grain N concentration to N management",
+      "div": [
+        {
+          "text": "The responses of maize grain yield and grain N concentration (GNC) to increased amounts of N application were similar for the three hybrids, and a linear-with-plateau model fit the data well (Fig. 2; p < 0.05). The minimum N rates required to achieve the maximum grain yield were 133, 105, and 105 kg ha À1 for YD13 (early senescence), ZD958 (stay-green), and XY335 (intermediate), respectively, in 2010, and these corresponding values were 50, 193, and 150 kg ha À1 in 2011. The calculated maximum grain yield in 2010-2011 averaged 8.85 and 8.90 Mg ha À1 for ZD958 and XY335, respectively, which was approximately 45% higher than the yield of YD13 (6.10 Mg ha À1 ). The minimum N rate required to achieve the maximum GNC for 2010 and 2011 averaged 189, 196, and 171 kg ha À1 for YD13, ZD958, and XY335, respectively. The calculated maximum GNC for 2010-2011 averaged 1.62% for XY335, 1.42% for ZD958, and 1.48% for YD13 (Fig. 2).",
+          "table": []
+        },
+        {
+          "text": "The optimal N rate (ONR) treatment based on in-season rootzone N management (INM) across both years averaged 149 kg ha À1 , with 45, 43, and 61 kg ha À1 applied at the V3, V6, and V10 stages, respectively (Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years). Grain yield under ONR averaged 6.1, 9.6, and 9.5 Mg ha À1 during 2010-2011, and the average GNC was 1.42%, 1.36%, and 1.57% for YD13, ZD958, and XY335, respectively. At 70% ONR (average = 104 kg ha À1 ), grain yield decreased by 14%, 20%, and 17%, while GNC decreased by approximately 3%, 14%, and 5% in YD13, ZD958, and XY335, respectively. When extra N fertilizer was applied beyond the ONR (130% ONR and FNP), no gain in grain yield or GNC was achieved (Fig. 2). Response curves showed that grain yield and GNC at the ONR for the three hybrids were similar to the maximum yield and GNC (Fig. 2), indicating that the ONR based on INM was the actual optimal N application rate for both parameters.",
+          "table": [
+            "Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dry matter accumulation and N uptake",
+      "div": [
+        {
+          "text": "No significant differences in biomass accumulation were observed at silking among the three hybrids. However, postsilking biomass accumulation in XY335 and ZD958 averaged 9.6 and 9.6 Mg ha À1 , respectively, which were approximately 77% higher than that of YD13 (5.4 Mg ha À1 ). The average percentage of biomass accumulated after silking (2010-2011) was slightly greater than 50% in XY335 and ZD958, and approximately 41% in YD13 (Fig. 3a andb).",
+          "table": []
+        },
+        {
+          "text": "Similar results to those observed for biomass accumulation among the hybrids were recorded for N accumulation at harvest and were attributable to differences in post-silking N accumulation (Fig. 3c andd). At silking, N accumulation averaged 138, 146, and 151 kg N ha À1 for YD13, ZD958, and XY335, respectively. Postsilking, N accumulation averaged 41 kg N ha À1 for XY335 and 34 kg ha À1 for ZD958, both of which were significantly higher than that observed for YD13 (Fig. 3). The percentages of N accumulated after silking in XY335, ZD958, and YD13 (2-year average) were 21%, 19%, and 10.2%, respectively (Fig. 3).",
+          "table": []
+        },
+        {
+          "text": "The high biomass accumulation and N uptake of XY335 and ZD958 were attributable to high LAI and SPAD readings (chlorophyll content). No differences were observed in the highest LAI at silking stage among hybrids (4.31, 4.64, and 4.64 for YD13, ZD958, and XY335, respectively). In 2010, the hybrids (XY335 and ZD958) maintained an LAI around 4.63 and 4.82 until 5 weeks post-silking, while the LAI of YD13 decreased rapidly at 3 weeks post-silking and was significantly lower than those of XY335 and ZD958 until harvest (Fig. 4a). In 2011, the LAI of YD13 declined immediately after silking, whereas XY335 and ZD958 maintained LAI around 4.56 and 4.33 until 4 weeks post-silking (Fig. 4b). The average LAI values at harvest (2010-2011) were 1.34, 1.83, and 2.13 for YD13, ZD958, and XY335, respectively (Fig. 4a andb).",
+          "table": []
+        },
+        {
+          "text": "No significant differences in SPAD readings were detected before silking in either year among the hybrids, but SPAD readings in YD13 were significantly lower than those in ZD958 and XY335 at 1 and 3 weeks, respectively, after silking (Fig. 4c andd). The SPAD readings at harvest averaged approximately 48 in XY335 and ZD958, and 41 in YD13 (Fig. 4c andd).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "N remobilization in different hybrids with in-season N management",
+      "div": [
+        {
+          "text": "No significant differences in stover (leaf plus stem) N content were noted at silking (120, 136, and 141 kg ha À1 for YD13, ZD958, and XY335, respectively). At harvest, the stover N content of ZD958 declined to 65.4 kg ha À1 , which was significantly higher than those of YD13 and XY335 (47.1 kg ha À1 and 57.7 kg ha À1 , respectively). The apparent amount of N remobilization for XY335 averaged 82.7 kg ha À1 , which was 17.6% and 14.1% higher than that of ZD958 (70.3 kg ha À1 ) and YD13 (72.5 kg ha À1 ), respectively. The average grain N content of XY335 at harvest was 135 kg ha À1 , significantly higher than that of either ZD958 or YD13. The N harvest index of XY335 was 11% higher than that of ZD958 or YD13 (0.63) (Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking (VT) and harvest, the N harvest index, and apparent amount of N remobilization from stover at harvest for three maize hybrids under optimal N management in 2010 and 2011). The average stover biomass was 8.2 and 8.7 Mg ha À1 in 2010 and 2011, respectively. While the stover N content at silking in 2011 averaged 140.5 kg ha À1 , which was 14.0% higher than the 123.2 kg ha À1 in 2010, no difference in stover N content was observed at harvest between 2010 and 2011 (56.2 kg ha À1 and 57.2 kg ha À1 , respectively). The apparent amount of N remobilization in 2011 averaged 83.4 kg ha À1 , which was 24.5% higher than that in 2010 (67.0 kg ha À1 ).",
+          "table": [
+            "Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking (VT) and harvest, the N harvest index, and apparent amount of N remobilization from stover at harvest for three maize hybrids under optimal N management in 2010 and 2011."
+          ]
+        },
+        {
+          "text": "The stem N concentration of XY335 was lower than those of ZD958 and YD13 during the grain-filling period and decreased by more than 50% after silking in all hybrids in both years (Fig. 5c andd). Leaf N concentration did not differ among hybrids during the silking or grain-filling periods, but averaged 1.0% in XY335 at harvest, which was significantly lower than that in ZD958 or YD13. Leaf N concentration in all hybrids decreased after silking, and the largest decline (approximately 50%, 2010-2011 average) occurred in XY335 (Fig. 5a andb).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "In this study, the average grain yield of the new hybrid XY335 was 8.90 Mg ha À1 , which was similar to the 8.85 Mg ha À1 of the stay-green hybrid ZD958, and obtained significantly higher grain N concentration (GNC) than ZD958 or the lower-yield hybrid YD13. This is in contrast to previous reports that found an inverse relationship between grain yield and GNC (Simmonds, 1995;Feil, 1997). Unlike the assimilation of carbon, the quantity of N in grains is primarily source-regulated and is derived mostly from N stored in vegetative tissues under high N availability (Martre et al., 2003). Therefore, genetic variability in carbon assimilation is higher than variability in N assimilation, which results in a negative correlation between grain yield and GNC (Triboi et al., 2006).",
+          "table": []
+        },
+        {
+          "text": "Considering the combined results, two potential explanations for the higher grain yield and GNC achieved in XY335 include the following. First, XY335 had a higher biomass and N accumulation than the old hybridYD13, especially after silking. The average percentage of biomass and N accumulated after silking (2010-2011) was slightly greater than 50% and 20% in XY335 and ZD958, respectively, while the corresponding values were approximately 41% and 10% in YD13 (Fig. 3a andb). This was consistent with previous observations that high-yield maize hybrids have higher NUE than low-yield hybrids because of greater accumulation of dry matter and N uptake during the grain-filling period (Ma and Dwyer, 1998;Echarte et al., 2008). Research on the dynamics of biomass accumulation and N uptake at different yield levels revealed that biomass accumulation and N uptake after silking increased as the grain yield increased (Meng, 2012).",
+          "table": []
+        },
+        {
+          "text": "In the present study, high post-silking biomass accumulation and N uptake in hybrids XY335 and ZD958 were attributable to high canopy LAI and SPAD values. No significant differences in canopy LAI or leaf chlorophyll were observed between the hybrids from sowing to the silking stage, but old hybrid YD13 senesced earlier than XY335 or ZD958 (Fig. 4). This observation is consistent with studies reporting that higher biomass accumulation and N uptake during the grain-filling period in high-yield maize hybrids were related to prolonged green leaf area and maintenance of higher leaf photosynthetic rates (Tollenaar, 1991;Rajcan and Tollenaar, 1999a,b;Echarte et al., 2008). These studies suggest that higher rates of N should be applied later in the growing season to maintain high LAI and leaf photosynthesis for high maize yield.",
+          "table": []
+        },
+        {
+          "text": "Second, compared to ZD958, the higher apparent amount of N remobilization from stover in XY335 contributed to its higher GNC (Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking (VT) and harvest, the N harvest index, and apparent amount of N remobilization from stover at harvest for three maize hybrids under optimal N management in 2010 and 2011). N from remobilization of stem and leaf proteins is a primary source of grain N (Bertin and Gallais, 2000;Gallais and Coque, 2005). Earlier-senescing hybrids exhibit higher rates and percentages of N remobilization from stover, leading to a high GNC (Mi et al., 2003). Most high-yield maize hybrids are stay-green varieties that have a marked ability to take up N from soil during the grain-filling period and retain more N in stover; however, the ratio and quantity of stover N remobilization at maturity are often lower for stay-green cultivars, which decreases the GNC and N harvest index (Mi et al., 2003;He et al., 2003;Pommel et al., 2006).",
+          "table": [
+            "Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking (VT) and harvest, the N harvest index, and apparent amount of N remobilization from stover at harvest for three maize hybrids under optimal N management in 2010 and 2011."
+          ]
+        },
+        {
+          "text": "We compared the leaf and stem N concentrations at VT, 2 and 4 weeks after silking, and at harvest. We found the high-yield and high-GNC maize hybrid XY335 maintained leaf N concentrations as high as those of the stay-green hybrid ZD958, which enabled  XY335 to maintain a high LAI and content, and thus high biomass production, during the grain-filling period (Pommel et al., 2006). However, the leaf N concentration of XY335 declined during the late grain-filling period, which decreased the leaf N concentration at harvest and increased remobilization of N from leaves (Fig. 5). Furthermore, the stem N concentration of XY335 was significantly lower than those of ZD958 and YD13 during the grain-filling period. This is informative for crop-breeding programs; maize hybrids such as XY335 that have high biomass production, N-uptake ability, and apparent stover N remobilization during the grain-filling period should be selected for cultivation. In this study, the maximum grain yield was about 8.9 Mg ha À1 for the high-yield maize hybrids, which was lower than the high yield in the US corn belt (10-12 Mg ha À1 ), and the minimum average N rate required to achieve the maximum grain yield and GNC for all maize hybrids was 137 kg ha À1 (Fig. 2). The average rate of N applied in the optimal N application rate (ONR) treatment based on in-season root-zone N management (INM) was 149 kg ha À1 divided among three applications: 45 kg ha À1 at planting, 43 kg ha À1 at stage V6, and 61 kg ha À1 at stage V10 (Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years), which achieved the maximum grain yield. This finding is consistent with other reports showing that excess or deficient N could be avoided and high yield could be obtained by following INM based on crop N demand and soil nitrate-N (Cui et al., 2009). Previous studies showed that grain yield could be increased by synchronizing the temporal and spatial nutrient supply with plant demand (Tilman et al., 2002;Chen et al., 2011). Application of N fertilizer should be split, and more N should be applied after stage V6 to meet plant demand for N in high-yield and high-GNC maize cultivars (Randall et al., 2003;Gehl et al., 2005;Cui et al., 2009;Lü et al., 2012).",
+          "table": [
+            "Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years."
+          ]
+        },
+        {
+          "text": "N management and cultivars can be exploited to achieve high grain yield and GNC and to further reduce the amount of N application required (Duarte et al., 2005). We found that lower rates of fertilizer application produced GNC and yields in the maize hybrid XY335 that were similar to ZD958, which requires much higher rates of fertilization. Thus, optimal nutrient management practices combined with informed cultivar selection could enable higher grain yield and GNC to be achieved with reduced N application.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "The use of cultivars such as XY335 can resolve the contradiction between increasing grain yield and improving grain N concentration, and achieve yields (8.9 Mg ha À1 ) as high as stay-green cultivars while significantly increasing grain N concentration (GNC > 1.62%). The cultivar XY335 has higher biomass and N accumulation than the lowyield cultivars (YD13), especially after silking, and has a higher apparent amount of N remobilization from stover than the staygreen cultivar (ZD958). In terms of N management, the optimal N application rate (ONR) based on in-season root-zone management enables a significant reduction in the N application rate (from 250 to 149 kg ha À1 ) without compromising yield or GNC. With the ONR treatment, application of N fertilizer was split, and more N was applied after stage V6, which could synchronize the temporal and spatial N supply with maize demand to meet maize demand for N in high-yield and high GNC maize.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Target nitrogen (N) value, soil nitrate-N content in the root layers, and N application rates for different growth stages and years.\", \"head\": [\"Growth stage\", \"Target N value (kg ha À1 )\", \"Soil nitrate-N (kg ha À1 )\", \"\", \"N rates (kg ha À1 )\", \"\"], \"value\": [[\"\", \"\", \"2010\", \"2011\", \"2010\", \"2011\"], [\"Before planting\", \"-\", \"43 a\", \"72 a\", \"45\", \"45\"], [\"6-leaf stage\", \"120\", \"78 b\", \"64 b\", \"30\", \"56\"], [\"10-leaf stage\", \"190\", \"153 c\", \"98 c\", \"30\", \"92\"], [\"a Soil nitrate-N content in the top 30 cm before planting.\", \"\", \"\", \"\", \"\"], [\"b Soil nitrate-N content in the top 60 cm at the 6-leaf stage.\", \"\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking (VT) and harvest, the N harvest index, and apparent amount of N remobilization from stover at harvest for three maize hybrids under optimal N management in 2010 and 2011.\", \"head\": [\"\", \"Stover N content at VT\", \"Stover N content at harvest\", \"Apparent amount of N remobilization\", \"Grain N content\", \"N harvest index\"], \"value\": [[\"\", \"(kg ha À1 )\", \"(kg ha À1 )\", \"(kg ha À1 )\", \"(kg ha À1 )\", \"\"], [\"2010\", \"\", \"\", \"\", \"\", \"\"], [\"YD13\", \"116.0\", \"45.1\", \"70.9\", \"85.2\", \"0.65\"], [\"ZD958\", \"126.9\", \"63.0\", \"63.9\", \"114.4\", \"0.64\"], [\"XY335\", \"126.7\", \"60.6\", \"66.1\", \"132.6\", \"0.69\"], [\"2011\", \"\", \"\", \"\", \"\", \"\"], [\"YD13\", \"123.1\", \"49.0\", \"74.1\", \"78.8\", \"0.64\"], [\"ZD958\", \"144.4\", \"67.7\", \"76.7\", \"116.2\", \"0.62\"], [\"XY335\", \"154.1\", \"54.8\", \"99.3\", \"136.7\", \"0.71\"], [\"Source of variation\", \"\", \"\", \"\", \"\"], [\"Cultivar\", \"*\", \"*\", \"*\", \"**\", \"*\"], [\"Year\", \"*\", \"NS\", \"*\", \"NS\", \"NS\"], [\"Cultivar Â year NS\", \"NS\", \"NS\", \"NS\", \"NS\"]]}"
+  ]
+}

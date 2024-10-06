@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Improving grain yield and protein concentration of maize (Zea mays L.) simultaneously by appropriate hybrid selection and nitrogen management",
+    "author": "Ling Zhang, Zheng-Yuan Liang, Xiao-Ming He, Qing-Feng Meng, Yuncai Hu, Urs Schmidhalter, Wei Zhang, Chun-Qin Zou, Xin-Ping Chen",
+    "journal": "Elsevier BV",
+    "date": "2020. 04."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "The simultaneous improvement of grain yield and protein concentration in crop production is an important global challenge. In maize, genotype selection and nitrogen (N) management are potential methods to improve grain yield and protein concentration. A field experiment was conducted in 2015-2016 in the North China Plain to evaluate the response of grain yield and protein concentration of different modern hybrids (XY1266, ZD958 and DH618) under different N rates (0-259 kg ha -1 ). The highest grain dry matter and protein concentration were observed in DH618. The averaged maximal grain dry matter over the 2 years was 10.3 Mg ha -1 for DH618, 6.1 % higher than for ZD958 (9.7 Mg ha -1 ) and 9.9 % higher than for XY1266 (9.4 Mg ha -1 ), and the maximal grain protein concentration in DH618 was 8.6 %, 11.1 % higher than for XY1266 (7.8 %) and 10.1 % higher than for ZD958 (7.9 %). DH618 had higher post-silking biomass accumulation, a stable high harvest index (HI), and higher post-silking N uptake as well as N harvest index (NHI) compared to the other two hybrids, meanwhile without reducing N remobilization efficiency (NRE). In DH618, high leaf N concentration after silking facilitated a higher rate of photosynthesis, further leading to greater post-silking biomass and N accumulation, and quickly remobilization of leaf N at late grain-filling stage improved the NRE and NHI. Together with choosing the right hybrid, optimisation of N management with split N application as well as appropriate N rate taking into account the residual soil mineral N could ensure both high grain dry matter and increased protein concentration in maize.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Over the last century, maize grain yield had steadily increased as a result of genetic and agronomic improvements (Cardwell, 1982;Khush, 1999;Tollenaar and Lee, 2002;Duvick, 2005). Alongside the increasing grain dry matter, grain protein concentration has decreased in many recent modern maize hybrids used in global maize production (Duvick and Cassman, 1999;Ciampitti and Vyn, 2012). As it is primarily used as an animal foodstuff and partially used for human consumption, the grain protein concentration of maize is an important trait with regards to nutritional quality. Therefore, the major scientific challenge is to improve grain dry matter and grain protein concentration simultaneously in the intensive maize production.",
+          "table": []
+        },
+        {
+          "text": "Theoretically, maize grain dry matter depends on total biomass accumulation and its partitioning to the ear component (HI). It is unlikely that the HI can be improved further; therefore, any increase in grain dry matter will most likely be linked to increased biomass accumulation (Meng et al., 2018), presumably via photosynthetically active stay green hybrids (Tollenaar and Lee, 2006). Since higher dry matter requires an increased nitrogen (N) supply, a high grain protein concentration can be achieved via two possible scenarios: one by increasing plant N uptake or second by sustaining a high N partitioning to grain (nitrogen harvest index-NHI) (Ciampitti and Vyn, 2012). Also, it is important to acknowledge that total grain N uptake at physiological maturity can be split into two phases: pre-silking N remobilization from the vegetative organs (45-65 % of the grain N) and post-silking N uptake (35-55 % of the grain N), and the proportion of these two processes dependeds on the environmental factors and the maize genotype https://doi.org/10.1016/j.fcr.2020.107754 Received 4 January 2019; Received in revised form 15 January 2020; Accepted 11 February 2020 (Hirel et al., 2007). However, there is a trade-off between pre-silking N remobilization and post-silking N uptake (Pommel et al., 2006;Ciampitti and Vyn, 2013). Thus, one of the most challenging goals in improving grain protein concentration is how to increase post-silking N uptake without reducing the efficiency of the plant N remobilization process.",
+          "table": []
+        },
+        {
+          "text": "Genetic improvements have contributed greatly to increasing the grain yield of maize (Duvick, 2005). Compared to the older senescent hybrids, modern stay-green hybrids achieve a higher grain dry matter mainly via higher post-silking N uptake and biomass accumulation (Ciampitti and Vyn, 2012), which is largely explained by delayed leaf senescence after silking (Tollenaar and Lee, 2006;Echarte et al., 2008). However, the stay-green hybrids typically show lower N remobilization because a higher proportion of plant N is retained in the leaf and stem organs at maturity (Rajcan and Tollenaar, 1999a, b;Pommel et al., 2006), resulting in a reduced grain protein concentration. On the other hand, some genotypes have a higher grain protein concentration, which differed in their N metabolism, with higher N uptake and altered NHI; however, the grain dry matter of these high protein genotypes is usually low (Below et al., 2004;Uribelarrea et al., 2007). Recently a few studies showed the possibilities in obtaining a high grain yield and grain protein concentration in some maize hybrids, due to the different N utilization mechanisms (Chen et al., 2014;Yan et al., 2014). Many studies have focused on changes in grain N concentration and N efficiency changes between New Era and Old Era hybrids and their response to N rate and density (Ciampitti and Vyn, 2012;Chen et al., 2015a;Chen and Vyn, 2017). Considering the advantage of high dry matter in modern stay-green hybrids, more studies about selecting N efficient stay-green hybrids with high grain protein and confirming the underlying mechanisms need to be conducted. In this study, we hypothesize that modern maize hybrids with higher N uptake and N partitioning could achieve a balance between pre-silking N remobilization and post-silking N uptake, to simultaneously produce a high grain dry matter and high grain protein concentration.",
+          "table": []
+        },
+        {
+          "text": "Synchronizing soil N supply and in-season crop N demand is the main goal of N management (Chen et al., 2011). A high-yield system is associated not only with a higher total N demand, but also an increased N demand after silking (Chen et al., 2011;Ciampitti and Vyn, 2013;Meng et al., 2018). Compared with single preplant application, similar yields could be achieved with reduced N rates when N was split applied at late stage (Gehl et al., 2005), and a previous study reported by da Silva. (2005) showed that N application at silking significantly increased the grain protein content. Based on these studies, we found the advantages of multi-stage N application, and nevertheless more accurate rate of top-dressed N which could match crop N demand needs to be taken into consideration. Besides, soil residual mineral N (N min ) is an important N resource for crops, eff ;ectively capturing the residual N min by the crop is the key to optimize N management and reduces the risk of nitrate leaching (Cui et al., 2008;Machet et al., 2017). Moreover, under high-yield conditions (13.0 Mg ha -1 ), the percentage of maize dry matter accumulated after silking increased to ∼60 %, while that of N uptake increased to 32 % (Meng et al., 2016), therefore the dilution effect of N after silking could also be the main factor underlying the decline in grain protein concentration. All these studies suggested that split N application with appropriate N rates considering residual N min would be necessary to meet the high N demand during the grain-filling stage, to enable adequate carbohydrate and protein synthesis in the grains.",
+          "table": []
+        },
+        {
+          "text": "In this study, we conducted a 2-year field irrigated experiment using three high-yield maize hybrids and four N rates, and analysed the response of grain dry matter, grain protein concentration, biomass accumulation, HI, N uptake and remobilization, NHI in three maize hybrids to increasing N supply. Our objective was to understand the mechanisms underlying both the high grain dry matter and grain protein concentration afforded by a combination of using the appropriate hybrids and precise N management practices.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Experiment site",
+      "div": [
+        {
+          "text": "The field experiments were conducted in 2015 and 2016, as part of a long-term experiment that was initiated in 2007 in Quzhou county (36.9 °N, 115.0 °E), Hebei Province, North China Plain (NCP). This region has a typical warm, sub-humid, continental monsoon climate, which has cold winters and hot summers. Supplementary Fig. 1 summarizes the rainfall, irrigation, potential evapotranspiration, drainage and monthly mean temperature during the two summer maize growing seasons. The mean temperature was 23.9 °C and 23.6 °C, and the total precipitation was 256 and 442 mm in 2015 and 2016, respectively. In the maize growth seasons during 2008-2016, the mean temperature was 23.1 ± 0.2 °C and the mean precipitation was 347 ± 22 mm. After planting of maize, 90 mm irrigation was applied in each year. At 6-leaf (V6) stage in 2015, water limitation was observed and irrigation (90 mm) was applied on July 8 to alleviate the water storage. The soil type is characterized as calcareous alluvial soil, and the initial physical and chemical characteristics in 0-30 cm soil depth were as follows: organic matter content, 12.6 g kg -1 ; total N, 0.83 g kg -1 ; Olsen-P, 7.2 mg kg -1 ; NH 4 OAc-K, 125 mg kg -1 ; pH 8.3; bulk density, 1.36 g cm - 3 ; CaCO 3 content, 4.5 %; water content at field capacity, 27 % and wilting point, 11 %.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Experimental design",
+      "div": []
+    },
+    {
+      "title": "Sampling and laboratory procedures",
+      "div": [
+        {
+          "text": "At the R6 stage, plants in an area of 12 m 2 (5 × 2.4 m [four rows]) in the middle of each plot were harvested and threshed, and the grains were dried to determine the grain dry matter. The results of N min content and soil water content are listed in Supplementary Tables 1 and2, detailed procedures of sampling and measurement according to Yan et al. (2014). At the R1, milking stage (R2), dough stage (R4) and R6 stages, six representative adjacent plants from each plot were cut at the soil surface and separated into leaves, stems (leaf sheaths, tassel, husks and either cobs at R2, R4 and R6 or ear shoots at R1) and grains (at R2, R4 and R6) to determine the above-ground biomass. All plant samples were dried at 70 °C in a forced-draft oven until they reached a constant weight and were then weighed to calculate the biomass. Harvest index (HI) was determined by the grain dry matter divided by total dry matter collected from six representative plants at R6 stage. Leaves, stems and grains samples were mineralized using H 2 SO 4 -H 2 O 2 , and then the N concentration was determined based on the Kjeldahl method (Horowitz, 1970). Grain protein concentration was calculated as the grain N concentration multiplied by 6.5 (Da Silva et al., 2005). Leaf length (L) and width (W) were measured at the V6, V10, R1 stages, the milk stage (R2), the dent stage (R4) and the R6 stage, and the leaf area (A) was calculated from A = L × W × K (Montgomery, 1911), where K = 0.75 for completely expanded leaves and K = 0.5 for incompletely expanded leaves (Bertin and Gallais, 2000). The green leaf area index (LAI) was calculated as the green leaf area per unit of soil area, summed for all units. At the R1, R2, R4 and R6 stages, the net photosynthetic rate (Pn) was measured using a portable photosynthesis apparatus (LCpro-SD; ADC BioScientific Ltd., Hoddesdon, UK) in the morning (09:00-12:00) under natural sunlight conditions with a light intensity of 1000-1500 μmol m -2 s -1 . Three ear leaves of maize were chosen from each plot to measure the net Pn. Five representative ear leaves in each hybrid in Opt. N were chosen to measure the leaf area, leaf dry matter, N concentration to determine the specific leaf N (leaf N content per unit of leaf area, SLN). Chlorophyll content (SPAD value) was measured at the R1, R2, R4 and R6 stages with a SPAD-502 chlorophyll meter (Minolta, Ramsey, NJ, USA), measurements were conducted in the one third from tip in the ear leaf (lengthwise), and the mean of 30 values for each treatment was taken as the final result (Yan et al., 2014).",
+          "table": []
+        },
+        {
+          "text": "Based on these measurements, several parameters were calculated, as follows (Mi et al., 2003;Chen et al., 2013):",
+          "table": []
+        },
+        {
+          "text": "Leaf N content leaf area 2 N uptake after silking (kg ha -1 ) = N uptake at maturity -N uptake at silking = × Percentage of N uptake after silking (%) 100 N uptake after silking N uptake at maturity grain N content at maturity N uptake at maturity",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "div": [
+        {
+          "text": "After verifying the homogeneity of error variances, analysis of variance (ANOVA) was performed using SAS software (ver. 6.12; SAS Institute, Cary, NC, USA). A two-way ANOVA model with N rate (df = 3) and maize hybrid (df = 2) as the factors was used to assess the overall variability in grain dry matter, grain protein concentration, grain protein yield, HI, N uptake and NHI. Differences in LAI, Pn, SPAD and leaf and stem N concentrations were compared using the leastsignificant difference (LSD) test at the 0.05 probability level in SAS.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Grain dry matter, grain protein concentration and grain protein yield",
+      "div": []
+    },
+    {
+      "title": "Pre-and post-silking biomass accumulation and HI in response to maize hybrids and N rates",
+      "div": [
+        {
+          "text": "Under the Opt. N treatment, the average highest LAI at the R1 stage was 6.5, 5.6 and 4.9 m 2 m -2 for XY1266, ZD958 and DH618, respectively (Fig. 3). From R1 to R6 stage over both years, the LAI for XY1266 decreased earlier than for the other two hybrids. The average highest Pn at R1 stage was 37.8, 34.7 and 32.4 μmol CO 2 m -2 s -1 for DH618, ZD958 and XY1266, respectively, across both cropping years (Fig. 3). XY1266 had the significantly lowest Pn during the entire grain-filling stage and DH618 had the significantly highest Pn until R2 stage, and then ZD958 showed the highest Pn (Fig. 3). The SLN in ear leaf of DH618 were 2.52 g m -2 at R1 and 2.22 g m -2 at R2, highest among the three hybrids (Supplementary Fig. 3). During the entire grain-filling stage, the SPAD readings were the highest for DH618 and XY1266 had the lowest SPAD reading in most cases (Fig. 3).",
+          "table": []
+        },
+        {
+          "text": "Fig. 1. Maize grain dry matter, grain protein concentration and grain protein yield in three hybrids (XY1266, ZD958 and DH618) under different N treatments in 2015 and 2016. N treatments included CK = no N; Opt. N *70 % = 70 % of optimal N; Opt. N = optimal N; Opt. N*130 % = 130 % of optimal N. The optimal N rate was determined based on inseason root zone N management, as explained in the text. Means followed by the same small letter are not significantly different among three hybrids and means followed by the same capital letter are not significantly different among different N treatments at P < 0.05 according to LSD. Vertical bars represent ± S.E. of the mean.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Pre-and post-silking N uptake, NHI and N remobilization",
+      "div": []
+    },
+    {
+      "title": "Discussion",
+      "div": []
+    },
+    {
+      "title": "Grain yield and grain protein concentration",
+      "div": [
+        {
+          "text": "In this study, a high grain yield and high grain protein concentration were simultaneously achieved in the modern stay-green maize DH618 by using in-season root-zone N management. The dry matter of grain achieved for DH618 was 10.3 Mg ha -1 (12.2 Mg ha -1 standard yield at 15.5 % moisture content) (Fig. 1), which reached 92 % of the yield potential in the North China Plain (13.3 Mg ha -1 ), and it was significantly higher than the farmers' yield across China (8.2 Mg ha -1 ) (Liu et al., 2017a). This yield level was similarly high to those obtained in the US Corn Belt and Southern Europe (Grassini et al., 2013). The grain protein concentration in DH618 reached 8.6 %, which was significantly higher than in ZD958 and XY1266 (Fig. 1), and it was higher than the statistical mean value of global maize hybrids released from 1991 to 2011 (7.50 %) (Ciampitti and Vyn, 2012). Although the grain protein concentration in DH618 was lower than in some high protein genotypes (> 10.5 %), the grain yield was markedly higher (Uribelarrea et al., 2007;Adrienn and Janos, 2012). These results indicated the potential to achieve a high grain yield and protein concentration simultaneously.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Hybrids: grain yield and grain protein concentration",
+      "div": [
+        {
+          "text": "In this study, the high yield in DH618 was mainly derived from its high biomass accumulation, especially during the post-silking stage, alongside a stable higher HI (Fig. 6). The percentage of biomass accumulation after silking in DH618 was 65.1 %, this result was consistent with previous studies that revealed high-yield maize had a higher biomass accumulation after silking (Tollenaar et al., 1992;Ma and Dwyer, 1998;Echarte et al., 2008;Meng et al. (2016).",
+          "table": []
+        },
+        {
+          "text": "The strategies of dry matter production were discrepant among the hybrids. Higher pre-silking biomass accumulation in XY1266 mainly depended on the high LAI at the vegetative stage, along with the lower Pn and lower SLN (Fig. 3, Supplementary Fig. 3). The additional postsilking biomass accumulation in DH618 was attributable to the high leaf Pn, with a high SPAD value and delayed leaf senescence, which was consistent with previous studies (Rajcan and Tollenaar, 1999a, b;Echarte et al., 2008). There were significant positive correlations between Pn and SLN, between Pn and leaf N concentration, and a higher leaf N concentration and SLN in DH618 facilitated a higher Pn (Fig. 5, 3. Maize canopy leaf area index (LAI) during the growing period, photosynthesis (μmol CO 2 m -2 s -1 ) and SPAD readings after silking in three hybrids (XY1266, ZD958 and DH618) under the Opt. N treatment in year 2015 and in 2016. Vertical bars represent ± S.E. of the mean. ***, ** and * indicate significant difference at P < 0.001, 0.01, 0.05 levels, respectively, and ns indicate no significant difference. R1 indicates date of silking. Supplementary Fig. 3), which was conducive to the improvement of the accumulation of dry matter and N uptake. Hirel et al. (2005) also found that maize hybrids allocate different amounts of N to build photosynthetic organs. In DH618, high N partitioning proportion to functional organ-leaf rather than the stem, facilitated more dry matter production; thus more carbohydrates could possibly be transported to roots to maintain a high root absorption capacity, which accumulated more N during the grain-filling period. This positive feedback mechanism ultimately may lead to high dry matter and grain protein concentration. The current finding described above showed that the functional stay-green trait of DH618 should be encouraged through breeding programs, because the high leaf N concentration, SLN and Pn during the grain-filling stage were associated with a higher grain yield.",
+          "table": []
+        },
+        {
+          "text": "LAI is an important index which represents the crop production status (Xu et al., 2017), and the difference in LAI among different hybrids depends on the number of leaves, leaf size and plant density. Compared to other two hybrids, lower LAI in DH618 during grainfilling period mainly was derived from lower leaf number and almost smaller leaf size (data not shown). An optimum LAI allows maize to intercept and use solar radiation more efficiently. Generally, LAI increases as plant density increases (Xu et al., 2017). However, the aboveoptimum LAI due to increased density reduced irradiance per plant and enhanced mutual shading (Pagano and Maddonni, 2007;Srinivasan et al., 2017), also led to more barren plants and less distribution of photosynthates in stem and leaves to grain, and finally resulted in low kernel weight and grain yield (Liu et al., 2015). Similar with this study in ZD958 and DH618, a previous study found that erectophile maize had an optimum LAI of 5.0-6.0 (Li, 2000;Wang et al., 2004). More recent studies have observed maximum LAIs of more than 7.0 under extremely high-yield cultivation, although LAI may be a redundant Fig. 4. N uptake (pre-silking and post-silking) and nitrogen harvest index (NHI) in three maize hybrids (XY1266, ZD958 and DH618) under different N treatments in 2015 and 2016. N treatments included CK = no N; Opt. N *70 % = 70 % of optimal N; Opt. N = optimal N; Opt. N*130 % = 130 % of optimal N. The optimal N rate was determined based on in-season root zone N management. Means followed by the same small letter are not significantly different among three hybrids and means followed by the same capital letter are not significantly different among different N treatments at P < 0.05 according to LSD. Vertical bars represent ± S.E. of the mean. parameter in some cases (Liu et al., 2017b;Xu et al., 2017). Based on the researches with different densities and yield levels (Liu et al., 2017b), the maximum LAI of 6.5 in XY1266 in this study was reasonable in such condition with high density cultivation. It is worth noting that under strong wind conditions, high-density planting combined with sufficient N supply, the risk of lodging is still an issue to be considered, and thus, the resistance of the hybrids to lodging should also be emphasized.",
+          "table": []
+        },
+        {
+          "text": "High NHI also could alleviate the antagonism between the post-silking N uptake and the vegetative N remobilization in modern maize hybrids (Gallais et al., 2007). Maize grain protein concentration of a given variety is determined by its inherent traits how efficiently they utilize N for storage product formation, as providing high levels of N cannot overcome a genetic tendency towards low kernel protein (Uribelarrea et al., 2004). Khan (2016) found a more efficient maize genotype that produced heavy seeds with higher seed protein and oil contents, and responded very well to diff ;erent sources and rates of N. A previous study showed high dry matter and grain N concentration was obtained in hybrid XY335 when sufficient split N was supplied (Chen et al., 2015b). Differing from DH618, the higher grain N concentration in XY335 can be explained by its more efficient remobilization of vegetative N and the higher photosynthetic N use efficiency (PNUE) of leaves (Chen et al., 2015b(Chen et al., , 2018)).",
+          "table": []
+        },
+        {
+          "text": "Based on the difference in grain protein across hybrids, the question on how to quantify the amino acid compositions especially the essential amino acid contents, need to be further answered (Kriz and Larkins, 2009). The development of modern new technologies has facilitated agricultural research. Considering the hybrids differences, when using crop modeling to simulate crop growth, new genotype-specific parameters need to be developed to increase prediction accuracy. Similarly, when using remote sensing technologies to monitor crop growth and N status, differences between hybrids should also be taken into consideration.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "N management: grain yield and grain protein concentration",
+      "div": []
+    },
+    {
+      "title": "Table 3",
+      "div": [
+        {
+          "text": "Maize nitrogen (N) content of stover (leaves plus stem) and grain at silking and harvest, post-silking N uptake, the amount of stover N remobilization, and N remobilization efficiency, N harvest index (NHI), contribution to grain N by N remobilization and N uptake after silking for three maize hybrids under the Opt. N treatment in an average of year 2015 and 2016. Within the maize hybrid, means followed by the same letter are not significantly different at P < 0.05 according to LSD.",
+          "table": []
+        },
+        {
+          "text": "difficult to implement. However, with the enhancement of the soil organic matter (SOM), the increased mineral N in the soil could potentially meet the high post-silking N demand (Fan et al., 2013). Besides, the application of a blend of controlled-release urea and urea before sowing was able to satisfy the post-silking N demand of a high-yielding maize system (Guo et al., 2017). In summary, appropriate N rates with split application based on IRNM can complement the N provided by the soil and meet the crop N demand, thereby improve grain dry matter and grain quality.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "div": [
+        {
+          "text": "A high grain dry matter of 10.3 Mg ha -1 and a grain protein concentration of 8.64 % can be obtained simultaneously by using the maize DH618 hybrid and optimal N management. The high dry matter and grain protein concentration in DH618 relied on the following characters: a) improved biomass accumulation, especially during the reproductive phase, and a stable higher HI; b) high total N uptake, with high accumulation after silking and improved NHI; c) reduced trade-off between vegetative N remobilization and post-silking N uptake. A high leaf N concentration and SLN facilitated a high leaf Pn during the grainfilling stage and further contributed to the high post-silking biomass accumulation and N uptake. Furthermore, high N allocation to leaf also served as an N storage reservoir and rapid remobilization leaf N near harvest mitigated the antagonism between the vegetative N remobilization and the post-silking N uptake. Split application of N fertilizer at appropriate rates by taking the residual N min into consideration could meet the N demand for high dry matter and high grain protein concentrations in maize.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Declaration of Competing Interest",
+      "div": [
+        {
+          "text": "None.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": []
+}

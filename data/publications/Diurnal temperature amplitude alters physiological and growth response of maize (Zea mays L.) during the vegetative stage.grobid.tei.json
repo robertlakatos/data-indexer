@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Diurnal temperature amplitude alters physiological and growth response of maize (Zea mays L.) during the vegetative stage",
+    "author": "V Sunoj S John Sunoj, Kyle Shroyer J Shroyer, S Jagadish V Krishna Jagadish, P Prasad V Vara Prasad",
+    "journal": "Elsevier BV",
+    "date": "2016. 05. 10."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Global climate models predict increase in mean daily temperature to be mainly driven by rapid increase in nighttime temperature compared to daytime temperature, leading to narrowing diurnal temperature amplitude. Higher day and night temperatures induce significant negative impact on growth and development of different crops. However, limited studies have focused on quantifying impacts associated with different diurnal temperature amplitudes maintaining the same daily mean temperature. The main objectives were to (i) quantify the impact of diurnal temperature amplitudes on the carbon balance of the plant (photosynthesis versus night respiration rate) and (ii) evaluate the significance of variable day and night temperature with a common mean on the carbohydrate composition and overall plant growth. A maize hybrid (DKC47-27RIB) was grown in controlled environments at two mean daily temperatures (30 C and 35 C) with three different combinations of day and night temperatures resulting in diurnal temperature amplitudes of 2 C, 10 C and 18 C. After 42 days of temperature treatments, lower diurnal temperature amplitude led to a linear increase in night respiration and a linear decrease in total sugars, non-reducing sugars, starch concentrations, plant height, total leaf area and total biomass accumulation. However, there was no significant change in photosynthetic rate among the treatment combinations, while photochemical efficiency (Fv/Fm) and chlorophyll index decreased only with diurnal temperature amplitude of 18 C and 2 C, respectively. A significant negative relationship was found between night respiration and total biomass accumulation (R 2 = 0.73; P < 0.01), total leaf area (R 2 = 0.82; P < 0.01), specific leaf area (R 2 = 0.21; P < 0.01), non-reducing sugars (R 2 = 0.50; P < 0.01) and starch concentrations (R 2 = 0.50; P < 0.01). The results imply that narrowing diurnal temperature amplitude as a result of higher night temperature is the major driver of the negative impact on vegetative growth in maize.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Global climate change models predict daily mean temperature to increase by about 1.0-3.7 C by end of the 21st century. This change will likely be accompanied by increased frequency in heat waves and greater number of warmer nights (IPCC, 2013). Among different climate change factors, temperature is identified as one of the major drivers that affects growth, development and yield of field crops. Optimum day-time temperature and high night temperature or vice versa can alter normal physiological functions of crops as compared with those grown under optimum day and night temperature (Prasad et al., 2011;Shi et al., 2013;Peraudeau et al., 2015). Negative impact of high day and high night temperature stress on physiological, biochemical processes, seed-set and yield has been well documented in different crops (peanut: Arachis hypogaea L., Prasad et al., 2000; maize: Zea mays L., Karim et al., 2000; drybean: Phaseolus vulgaris L., Prasad et al., 2002; cotton: Gossypium hirsutum L., Snider et al., 2009; wheat: Triticum aestivum L., Prasad et al., 2011; soybean: Glycine max L. Merr, Djanaguiraman et al., 2013; sorghum: Sorghum bicolor L. Moench, Djanaguiraman et al., 2014; and rice: Oryza sativa L., Bahuguna et al., 2015). In maize, high day and night temperature decreased growth parameters (leaf area and biomass accumulation), photosynthetic rate, transpiration, water use efficiency and maximum quantum efficiency of PSII (Karim et al., 2000;Sinsawat et al., 2004;Ben-Asher et al., 2008). Similarly, a significant reduction in yield, photosynthetic rate, antioxidant scavenging capacity and photochemical efficiency was observed in winter wheat under high day, high night and combined high day and night temperature exposure (Narayanan et al., 2015). High and optimum day temperature combined with a range of different high night temperatures increased nighttime leaf respiration and decreased leaf chlorophyll content, gas exchange, chlorophyll fluorescence transients and pollen germination leading to lower pod set and reduced yield in soybean (Djanaguiraman et al., 2013). Increase in night temperature resulting in significant decrease in grain yield has also been documented in field crops grown on larger spatial or temporal scales (Peng et al., 2004;Welch et al., 2010;Lobell et al., 2012).",
+          "table": []
+        },
+        {
+          "text": "Mechanistically, high night temperature is known to induce increased respiration and carbon loss leading to altered sugar metabolism, lowering biomass accumulation, resulting in poor grain development and lower yield (Yin et al., 1996;Mohammed and Tarpley, 2009;Loka and Oosterhuis 2010;Djanaguiraman et al., 2013;Matsuda et al., 2014). In contrast, a non-significant effect of high night temperature on plant respiration and biomass accumulation has also been reported in tomato (Lycopersicum esculentum L.), soybean, lettuce (Latuca sativa L.) and rice (Frantz et al., 2004;Peraudeau et al., 2015). Overall, the negative impact of high day temperature stress across crops has been well established while the same with high night temperature is still unclear with contrasting responses documented in different crop species and hence warrants further investigation. In addition, most of the above studies, have quantified the response to either high day or night temperature, while narrowing diurnal temperature amplitude between day and night temperatures as a result of higher night temperature has not been systematically quantified. Although there have been studies involving combined high day and night temperature treatments (Djanaguiraman et al., 2013;Narayanan et al., 2015), these treatments have been imposed without maintaining a common mean daily temperature. Hence, deriving unbiased diurnal temperature amplitude impacts is not possible under such treatment structure.",
+          "table": []
+        },
+        {
+          "text": "Among cereals, maize is one of the major staple food crops with a mean optimum temperature to be 30.8 C and the mean maximum to be 42 C, derived through meta-analysis (Sanchez et al., 2014). The vegetative growth stage in maize and other field crops, plays a key role in determining potential crop yields and significant changes in temperature during this phase can impact yield. Recent studies have documented reduced yields in major field crops such as rice (Peraudeau et al., 2015), wheat (Narayanan et al., 2015), including maize (Karim et al., 2000;Sinsawat et al., 2004;Ben-Asher et al., 2008) when exposed to high day and or high night temperatures. However, there are no reports dealing with maize growth, physiological and biochemical functions affected by changes in diurnal temperature amplitudes. Hence our studies address a novel hypothesis in maize to varying diurnal temperature amplitudes. The main objectives were to (i) quantify the impact of diurnal temperature amplitudes on the carbon balance of the plant (photosynthesis versus night respiration rate) and (ii) evaluate the significance of variable day and night temperatures with a common mean on the carbohydrate composition and overall plant growth.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Plant material and growth conditions",
+      "div": [
+        {
+          "text": "The research was conducted during 2014 using controlled environment facilities at the Department of Agronomy, Kansas State University, Manhattan, KS, USA. Early maturing hybrid maize plants (DKC47-27RIB, DroughtGard hybrid, Monsanto, St. Louis, MO, USA) were grown in 7 L pots (width 22 cm Â height 21 cm) with Metro mix 360 growing medium (Hummert International, Topeka, KS, USA) fertilized with liquid iron (Iron 5%; Bonide products, Oriskany, NY, USA), 35 g and 4 g of Osmocote classic controlled release plant nutrients (14:14:14 NPK) and Micro max micronutrient granules (Hummert International, Topeka, KS, USA), respectively. Three seeds per pot were sown at a depth of 5 cm and four pots per treatment were maintained inside each growth chamber (Conviron Model PGR15; Winnipeg, MB, Canada). After germination, 1 g of systemic insecticide Marathon (1% Imidacloprid, methyl]-N-nitro-2-imidazolidinmine; OHP Inc, Maryland, PA, USA) was applied to each pot to avoid incidence of sucking pest. The day/night temperature inside the growth chambers was maintained at 35/25 C (daily mean temperature 30 C), relative humidity (RH) of 60% and 12 h of photoperiod (0600 h to 1800 h) with photosynthetic active radiation (PAR) of 800 m mol m À2 s À1 at the plant canopy level using cool fluorescent lamps. A transition time of 7 h from day to night and vice versa was followed to replicate the diurnal temperature fluctuation under natural field conditions. Air temperature was monitored at 10 min intervals throughout the experiment using HOBO data logger (Onset UTBi-001; TidbiT v2 Temperature logger; Bourne, MA, USA). After reaching V3 growth stage (Abendroth et al., 2011; third leaf stage) plants were thinned to one plant per pot and temperatures were adjusted to two different mean daily temperature treatments (30 C and 35 C) with three different combinations of day and night temperatures resulting in diurnal temperature amplitude differences of 2 C, 10 C and 18 C in different growth chambers. Three chambers were programmed with a mean daily temperature of 30 C (optimum temperature for growth and development of maize) and other three chambers with mean daily temperature of 35 C (moderately high temperature). The diurnal temperature amplitudes of 2 C, 10 C and 18 C for the daily mean temperature of 30 C was established by adjusting the day and night temperatures ( C AE SD; standard deviation) to 31 C (AE0.6)/29 C (AE0.1), 35 C (AE0.6)/25 C (AE0.1) and 39 C (AE1.1)/21 C (AE0.1). Similarly, for achieving the same amplitude differences with a daily mean temperature of 35 C, the day and night temperatures were adjusted to 36 C (AE 0.4)/34 C (AE0.2), 40 C (AE 0.7)/30 C (AE0.1) and 44 C (AE0.5)/ 26 C (AE0.1) (Fig. 1). An independent experiment with the same hybrid, growing conditions and temperature treatments was repeated and a common set of physiological and biochemical parameters were recorded from both the experiments, after exposing the plants to 42 days of differential diurnal temperature amplitudes as mentioned above. A total of six different growth chambers were used during each experiment to expose plants to different diurnal temperature combinations mentioned above.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Leaf photosynthetic and night respiration rates",
+      "div": [
+        {
+          "text": "Leaf photosynthetic and night time respiration rates were recorded using a portable photosynthesis system (LI-6400 XT; LI-COR, Lincoln, NE, USA). From each temperature treatment, a minimum of six photosynthesis and night respiration measurements were recorded on the final day of treatment exposure from tagged fully expanded mature leaves between 1000 and 1015 h and 2200-2215 h (growth chamber time settings), respectively. In order to maintain equal duration of exposure to day and night temperatures, growth chamber programs were systematically adjusted to delay by 15 min from the actual time from the first chamber to last chamber, which helped to over-come the time lag between chambers, while measuring photosynthesis and leaf night respiration. This adjustment allowed us to capture the leaf photosynthesis and respiration measurements exactly after four hours' exposure to light (PAR; 800 mmol m À2 s À1 ; 0600 h to 1000 h) and dark (PAR; 0 mmol m À2 s À1 ; 1800-2200 h) across all treatments. The CO 2 concentration in the leaf chamber of the portable photosynthesis system was set to 400 mmol mol À1 and block temperature was adjusted to respective day (while measuring photosynthesis) and night (while measuring night respiration) temperature according to the growth chamber setting. The flow rate for photosynthesis measurement was 500 mmol s À1 and was adjusted to 100 mmol s À1 for measuring night respiration to minimize fluctuations. The changes in flow rate was adjusted according to the instruction manual of portable photosynthesis system (using the Li-6400/Li-6400XT; Portable Photosynthesis System; Version 6; LI-COR, Lincoln, NE, USA). Sufficient care was taken to avoid exposure to PAR from external sources while measuring night respiration. This was further confirmed by light sensor reader and 6 sensor quantum bar (field scout and light scout; Spectrum technologies, Inc., Aurora, IL, USA), prior to initiating night respiration measurements.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Photochemical efficiency and chlorophyll index",
+      "div": [
+        {
+          "text": "Photochemical efficiency (Fv/Fm) and chlorophyll index was measured between 1000 and 1015 h. The fluorescence measurements to estimate photochemical efficiency were recorded from fully opened mature leaves after 30 min of dark adaptation using chlorophyll fluorometer (OS30p+; OptiSciences, Hudson, NH, USA) with light pulse intensity of 3000 mmol m À2 s À1 and pulse duration of three sec. Chlorophyll index was measured using chlorophyll meter (SPAD-502 Plus; Konica Minolta Inc., Japan).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Sugars and starch concentration",
+      "div": [
+        {
+          "text": "Total soluble sugars, reducing sugars, and starch were estimated from fully opened mature leaves, obtained at the end of treatment exposure. Tissue samples were collected from the middle portion of the leaves (without midrib), stored in a vial and immersed in liquid nitrogen immediately after recording photosynthetic rate (1015 h). The frozen samples were stored at À80 C until further analysis. Sugars were extracted from leaf samples (1 g) using ethanol (70%). The sample was ground in to powder using liquid nitrogen, homogenized thoroughly with ethanol (70%) and incubated at 70 C in a water bath for 30 min and filtered through whatman No 1 filter paper. The filtrate was used for the estimation of total soluble sugars (Dubois et al., 1956) and reducing sugars (Somogyi, 1952). The difference between total sugars and reducing sugars was considered as non-reducing sugars (Malhotra and Sarkar, 1979). After filtration, the filter paper with the solid residue was kept in hot air oven at 50 C for drying and the dried residue was carefully collected and used for the estimation of starch by following methods of Hedge and Hofreiter (1962).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Plant height, total leaf area and total biomass accumulation",
+      "div": [
+        {
+          "text": "At the end of the treatment period, plant height, total leaf area and above ground total biomass accumulation were recorded. Plant height was determined by measuring the distance from the base of the plant till the ligule of last fully opened leaf. Leaves were detached from the shoot and packed in zip lock covers to avoid drying and total leaf area was measured using leaf area meter (LI 3100 area meter, LI-COR, Lincoln, NE, USA). The total biomass accumulation was calculated by cutting the plants from base and drying at 60 C in hot air oven, including the leaves that were detached to measure leaf area, until constant weight was obtained. Specific leaf area was measured by taking ratio of the total leaf area to leaf dry weight.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "div": [
+        {
+          "text": "Two independent experiments were conducted with four biological replications per treatment and the experimental design was randomized complete block for both growth chamber experiments. Generalized linear model in SPSS (SPSS Inc. Ver.16, Chicago, USA) was used for statistically analyzing all the measured data. The means were compared using Duncan's multiple range test.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": [
+        {
+          "text": "Significant differences were observed in all physiological, biochemical and growth parameters except photosynthesis when exposed to different diurnal temperature amplitudes, wherein six out of twelve parameters measured varied significantly across experiments (Effect of two mean daily temperature treatments (30 C and 35 C) with three diurnal temperature amplitudes (2 C, 10 C and 18 C) on total soluble sugars, reducing sugars, non-reducing sugars and starch concentration in maize leaves during vegetative stage. Probability values for experiment (E), diurnal temperature amplitude (D) and interaction (E Â D) effects on morphological and physiological responses in maize and2). Although, changes in the measured twelve parameters followed same pattern in both experiments, when exposed to different diurnal temperature amplitudes at daily mean temperature of 30 C or 35 C, experimental data is presented separately to demonstrate the repeatability and consistency in responses and results.",
+          "table": [
+            "Effect of two mean daily temperature treatments (30 C and 35 C) with three diurnal temperature amplitudes (2 C, 10 C and 18 C) on total soluble sugars, reducing sugars, non-reducing sugars and starch concentration in maize leaves during vegetative stage. Probability values for experiment (E), diurnal temperature amplitude (D) and interaction (E Â D) effects on morphological and physiological responses in maize.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Plant growth, leaf night respiration and photosynthetic rates",
+      "div": [
+        {
+          "text": "A linear decrease in plant height, total biomass and specific leaf area was documented with decrease in diurnal temperature amplitude in spite of having the same daily mean temperature of 30 C or 35 C (Figs. 2 and3), with the response being more prominent at higher mean temperature of 35 C. A visual image of the plant height shows differential growth response (Fig. 2). On average, across both experiments, 2 C amplitude treatment had 14% and 133% lower plant height compared to 18 C amplitude with 30 and 35 C daily mean temperatures, respectively (Fig. 2). A similar response was recorded with total above ground biomass particularly with 2 C amplitude difference having 221% lower biomass compared to 18 C amplitude at 35 C daily mean temperature, while the difference was not significant with mean daily temperature of 30 C (Fig. 3A). Specific leaf area varied significantly between 2 C and 18 C amplitude with daily mean temperature of 35 C but not with 30 C (Fig. 3B).",
+          "table": []
+        },
+        {
+          "text": "In both experiments, night respiration varied significantly (P< 0.01) among the treatments with lower temperature amplitude (2 C) recording highest night respiration rate while the higher amplitude (18 C) recorded lowest, and 10 C had intermediary respiratory rate. The response was same across both daily temperatures of 30 C (optimum temperature) and 35 C (moderate high temperature) (Fig. 3C). On average, across both the experiments, 18 C temperature amplitude treatment recorded 47 and 42% lower night respiration rate compared to 2 C temperature amplitude with daily mean temperature of 30 and 35 C, respectively. A strong negative relationship was obtained between night respiration rate and total biomass (n = 36; P < 0.01; R 2 = 0.73) and leaf area (n = 36; P < 0.01, R 2 = 0.82) (Fig. 4A andB). Even though the association was weak (n = 36; P < 0.01; R 2 = 0.21), a negative relationship was observed between night respiration rate and specific leaf area (Data not shown). However, there was no significant difference in photosynthetic rate across all six day and  night temperature treatment combinations (Fig. 5A). In all treatment combinations including the 18 C amplitude at 35 C daily mean temperature, photosynthetic rate was close to 25 mmol m À2 s À1 or higher.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Photochemical efficiency and chlorophyll index",
+      "div": [
+        {
+          "text": "Diurnal temperature amplitudes had significant (P < 0.01) effect on photochemical efficiency (Fv/Fm) and chlorophyll index (Effect of two mean daily temperature treatments (30 C and 35 C) with three diurnal temperature amplitudes (2 C, 10 C and 18 C) on total soluble sugars, reducing sugars, non-reducing sugars and starch concentration in maize leaves during vegetative stage. Probability values for experiment (E), diurnal temperature amplitude (D) and interaction (E Â D) effects on morphological and physiological responses in maize). Fv/Fm and chlorophyll index varied significantly among the different diurnal temperature amplitudes only at daily mean temperature of 35 C, except that Fv/Fm varied significantly only in experiment 1 (Fig. 5B andC). On average across both experiments, a decrease of 0.5% in Fv/Fm at 18 C amplitude at daily mean temperature of 30 C and 3.2% at daily mean temperature of 35 C compared to 2 C diurnal temperature amplitude was recorded (Fig. 5B). Chlorophyll index was higher by 38% at 18 C diurnal temperature amplitude compared to 2 C, with daily mean temperature of 35 C but it did not vary significantly with 30 C (Fig. 5C).",
+          "table": [
+            "Effect of two mean daily temperature treatments (30 C and 35 C) with three diurnal temperature amplitudes (2 C, 10 C and 18 C) on total soluble sugars, reducing sugars, non-reducing sugars and starch concentration in maize leaves during vegetative stage. Probability values for experiment (E), diurnal temperature amplitude (D) and interaction (E Â D) effects on morphological and physiological responses in maize."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sugars and starch",
+      "div": []
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Chlorophyll fluorescence is used to evaluate the plant health status and photochemical efficiency of PS II (Fv/Fm) and is routinely used as an indicator of the degree of stress (Laxman et al., 2013;Djanaguiraman et al., 2013). The decrease in photochemical efficiency (Fv/Fm) was associated with higher diurnal temperature amplitude of 18 C wherein the day temperatures were close to 40 C or above. Such high day temperatures are close to or exceeds mean maximum temperature of 42 C for maize growth and development as identified by Sanchez et al. (2014). Photochemical efficiency was the only parameter that was affected by higher day temperatures, while the rest including chlorophyll index were affected due to high night temperature i.e., lower diurnal temperature amplitudes. The reduction in chlorophyll index with low temperature amplitude can be associated with degradation of chlorophyll (Shi et al., 2014) to meet the increased respiratory demand for maintenance under higher night temperature.",
+          "table": []
+        },
+        {
+          "text": "In conclusion, narrow diurnal temperature amplitude increases leaf night respiration rate resulting in decreased carbohydrate content and overall biomass accumulation. Decrease in the biomass accumulation is an indicator of negative effect on plant growth and further studies are required to ascertain the importance of the amplitude changes at the reproductive stages and their impact on yield in field crops. With the predicted increase in night time temperature over day maximum temperature, the impact of amplitude changes under future climate poses to be a  serious threat to global food production and also to sustain the genetic progress already achieved. It is recommended that future studies dealing with temperature stress would need to consider amplitude changes even while dealing with either high day, night or a combined day and night temperature stress response.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Effect of two mean daily temperature treatments (30 C and 35 C) with three diurnal temperature amplitudes (2 C, 10 C and 18 C) on total soluble sugars, reducing sugars, non-reducing sugars and starch concentration in maize leaves during vegetative stage. Probability values for experiment (E), diurnal temperature amplitude (D) and interaction (E Â D) effects on morphological and physiological responses in maize.\", \"head\": [\"Day/Night\", \"Diurnal temperature\", \"Total soluble sugars (mg g À1\", \"Reducing sugars (mg g À1\", \"Non-reducing sugars (mg g À1\", \"Starch (mg g À1 Dw)\"], \"value\": [[\"temperature\", \"Amplitude\", \"Dw)\", \"Dw)\", \"Dw)\", \"\"], [\"Experiment 1 (30 C)\", \"\", \"\", \"\", \"\", \"\"], [\"31/29 C\", \"2 C\", \"4.3(AE0.08) cy\", \"1.9(AE0.04) bc\", \"2.3(AE0.09) cd\", \"134.2(AE1.39) b\"], [\"35/25 C\", \"10 C\", \"5.1(AE0.11) b\", \"1.5(AE0.04) d\", \"3.6(AE0.08) b\", \"144.4(AE5.33) b\"], [\"39/21 C\", \"18 C\", \"13.2(AE0.43) a\", \"3.1(AE0.16) a\", \"10.1(AE0.56) a\", \"164.7(AE6.57) a\"], [\"Mean\", \"\", \"7.5\", \"2.2\", \"5.3\", \"147.8\"], [\"Experiment 1 (35 C)\", \"\", \"\", \"\", \"\", \"\"], [\"36/34 C\", \"2 C\", \"3.3(AE0.12) d\", \"2.0(AE0.10) b\", \"1.3(AE0.20) e\", \"109.3(AE3.51) c\"], [\"40/30 C\", \"10 C\", \"3.3(AE0.12) d\", \"1.7(AE0.07) cd\", \"1.7(AE0.19) de\", \"112.8(AE2.88) c\"], [\"44/26 C\", \"18 C\", \"4.6(AE0.11) bc\", \"1.5(AE0.07) d\", \"3.1(AE0.08) bc\", \"135.1(AE6.89) b\"], [\"Mean\", \"\", \"3.8\", \"1.7\", \"2.0\", \"119.1\"], [\"Experiment 2 (30 C)\", \"\", \"\", \"\", \"\", \"\"], [\"31/29 C\", \"2 C\", \"5.4(AE0.12) b\", \"2.6(AE0.12) b\", \"2.8(AE0.12) bc\", \"117.8(AE2.67) bc\"], [\"35/25 C\", \"10 C\", \"5.8(AE0.24) b\", \"2.0(AE0.07) c\", \"3.8(AE0.31) b\", \"134.5(AE12.9) b\"], [\"39/21 C\", \"18 C\", \"14.3(AE0.96) a\", \"3.4(AE0.32) a\", \"10.9(AE0.84) a\", \"173.7(AE7.10) a\"], [\"Mean\", \"\", \"8.5\", \"2.7\", \"5.9\", \"142.0\"], [\"Experiment 2 (35 C)\", \"\", \"\", \"\", \"\", \"\"], [\"36/34 C\", \"2 C\", \"3.9(AE0.13) c\", \"1.8(AE0.16) cd\", \"2.0(AE0.20) c\", \"111.1(AE6.80) bc\"], [\"40/30 C\", \"10 C\", \"3.6(AE0.09) c\", \"1.3(AE0.12) de\", \"2.2(AE0.07) c\", \"112.3(AE5.59) bc\"], [\"44/26 C\", \"18 C\", \"5.3(AE0.15) b\", \"1.3(AE0.07) e\", \"4.0(AE0.13) b\", \"132.1(AE10.3) b\"], [\"Mean\", \"\", \"4.2\", \"1.5\", \"2.8\", \"118.5\"], [\"LSD\", \"\", \"\", \"\", \"\", \"\"], [\"E\", \"\", \"0.54**\", \"NS\", \"0.55**\", \"NS\"], [\"D\", \"\", \"0.94**\", \"0.39**\", \"0.95**\", \"19.79**\"], [\"ExD\", \"\", \"NS\", \"0.55*\", \"NS\", \"NS\"]]}",
+    "{\"title\": \"\", \"head\": [\"m\", \"\", \"\"], \"value\": [[\"l o m µ (\", \"\", \"\"], [\"e t a r\", \"\", \"\"], [\"s i\", \"\", \"\"], [\"s\", \"\", \"\"], [\"e h t n y\", \"\", \"\"], [\"s o t o h P\", \"\", \"\"], [\") m F ( F v /\", \"0.8\", \"B\"], [\"I I\", \"\", \"\"], [\"S P\", \"0.6\", \"\"], [\"f o\", \"\", \"\"], [\"y c n e i f f i c\", \"0.4\", \"\"], [\"e\", \"\", \"\"], [\"l a c i m\", \"0.2\", \"\"], [\"e h c o t o h P\", \"0.0\", \"\"], [\"\", \"60\", \"\"], [\")\", \"\", \"\"], [\"s t i u n\", \"50\", \"\"], [\"D A P\", \"40\", \"\"], [\"S (\", \"\", \"\"], [\"x e i n d\", \"30\", \"\"], [\"l l y h h C l o r o p\", \"10 20\", \"\"], [\"\", \"0\", \"\"]]}"
+  ]
+}

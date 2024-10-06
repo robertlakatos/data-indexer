@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "title": "Analysis of the Content Values of Sweet Maize (Zea mays L. Convar Saccharata Koern) in Precision Farming",
+    "author": "Cintia Demeter, János Nagy, László Huzsvai, Annabella Zelenák, Atala Szabó, Adrienn Széles",
+    "journal": "MDPI AG",
+    "date": "2021. 12. 20."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "The global precision farming area is constantly increasing, and precision sweet maize production developed the most. Sweet maize yield is above average in precision farming. Additionally, its role in healthy nutrition is becoming increasingly important due to new hybrids with high carotenoid content. Precision farming techniques are needed to produce healthy food. In particular, nutrient supply and irrigation, sowing, crop management and harvesting need to be carried out with precision techniques. These factors are all prerequisites for effective and healthy growing and processing. The aim was to use the yields of the four sweet maize hybrids grown on the largest area to examine their nutritional values and concentrations (mg kg -1 dry matter) and to analyse their yield per hectare. Concentration is important for the consumer because K, P, Mg, Ca, Fe, Zn, and Na play an important role in metabolism, skin protection, and bone and tooth health. The new results obtained show that the amount of lutein and zeaxanthin per hectare is important for the processing industry, especially for use in food supplements. Their anti-inflammatory effects and their role in disease prevention (cardiovascular diseases, Age-Related Macular Degeneration (AMD)) have been demonstrated. Consumers choose sweet maize mainly on the basis of its palatability, which is why the sugar content of the hybrids was also studied. We assumed that the element concentration in the yield of new hybrids with higher yield per hectare does not decrease with increasing yield. The concentrations of zeaxanthin, β-cryptoxanthin and β-carotene appear in one principal component and they are in close positive correlation with each other. The lutein concentration was independent of the former three compounds. The independence of the lutein concentration means that it is not possible to estimate its amount based on the other three components. For yield per unit area, the correlation is one-dimensional. Yield determines the lutein, zeaxanthin, β-cryptoxanthin and β-carotene concentrations per hectare.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Sweet maize is either eaten fresh or used as a raw material for food processing and the industry. Farmers are interested in achieving the highest income per unit area. This in turn depends on who they sell their product to.",
+          "table": []
+        },
+        {
+          "text": "Consumers are interested in buying the most nutrient-rich food possible. As the amount of food consumed per day is limited, the physiological effect of more \"concentrated\" products is better (functional foods). If consumers are willing to pay more for such products, it is preferable to grow hybrids with a high nutrient concentration.",
+          "table": []
+        },
+        {
+          "text": "For hybrids grown for the processing industry, however, quantity is the most important factor, as higher yields provide higher revenues. If the aim is to extract a component, e.g., lutein, the quantity per unit area is important. This is described as the element concentration multiplied by yield.",
+          "table": []
+        },
+        {
+          "text": "The correlation of the content values was examined, and a true multivariate statistical method (Principal Component Analysis (PCA)) was used to group the hybrids under study. This was also done for the concentration data and for the element yields multiplied by yield.",
+          "table": []
+        },
+        {
+          "text": "Fresh sweet maize is an increasingly popular food mainly because of its high valuable content values and taste . New results in the precision production of sweet maize are expected, mainly due to its increasing role in healthy nutrition, however, breeding and production technology challenges are also expected in the context of sustainability and climate change .",
+          "table": []
+        },
+        {
+          "text": "It is in the interest of consumers of sweet maize that the quantity and quality of minerals, fibre, vitamins, and carotenoids are in line with a balanced diet . Precision farmers producing sweet maize are interested in high yield per hectare and high income . The use of artificial neural networks is more efficient than linear regression models in predicting sweet maize yields. In addition to genotypes, the effects of precision farming technology elements on yield have also been investigated .",
+          "table": []
+        },
+        {
+          "text": "In arable precision farming, sweet maize has a high added value as both primary and secondary crop . An increasing number of farmers are producing new super sweet maize hybrids, which have been shown to achieve higher yields . In addition, yield quality is also important for consumers . Genotype x precision farming technology interactions have shown significant results . In addition, there are important research findings on the relationship between high dry matter yield, digestibility, energy and early harvest .",
+          "table": []
+        },
+        {
+          "text": "Significant research is being carried out to determine the quality composition of sweet maize and to examine and analyse the factors influencing this composition. It is also important to determine the amount of P, K, Mg, Ca, Fe, Zn. Research has shown that sweet maize has higher levels of Mg, P, and K than other types of maize (popcorn) . Storage of sweet maize after harvesting is important. Soluble sugars, vitamin C content and wet weight decrease with increasing temperature . Several researchers have confirmed a correlation between β-carotene hydroxylase and β-carotene concentration in maize kernel at maturity . In sweet maize, anthocyanins are important phytochemicals that are usually expressed in the green state. Researchers have also developed new modern methods to measure these phytochemicals .",
+          "table": []
+        },
+        {
+          "text": "After harvesting with precision technology, antioxidants can vary greatly during the processing phase . The content values of sweet maize are also significantly influenced by environmental factors and precision farming parameters . In , the correlations between zeaxanthin, lutein and the position of kernels on the ear were examined. Significant effects on sweet maize quality parameters were reported, but the effect of kernel location was smaller than that of genotype or kernel maturity.",
+          "table": []
+        },
+        {
+          "text": "In addition to the biomolecules in sweet maize, Zn and especially Zn-phytate accumulated in the embryo are more important for human health. Zn-histidine and Zn-cystine, are complexed in the endosperm with Zn-, N-or S-containing ligands. The majority of researchers have measured higher amounts of Zn in the endosperm and pericarpium, suggesting that these are more bioavailable to humans, as opposed to Zn in the embryo .",
+          "table": []
+        },
+        {
+          "text": "Several research results show an inverse relationship between grain yield and nutrient concentration. In sweet maize, the concept of yield is not only the amount of dry matter but also the amount of fresh kernels (high water content). The goal of precision farming is not only to maximize yield, but also to benefit the consumer by increasing nutritional quality. According to , the Zn content per ear of sweet maize increased with increasing number of kernels.",
+          "table": []
+        },
+        {
+          "text": "Sweet maize can be eaten fresh or processed. In addition, blanching using a microwave or hot water method inactivates enzymes. In  the effects of blanching on moisture content, sugars, proteins and processing were determined. Several researchers examined the changes in quality parameters of fresh sweet maize during storage and chilling. According to , storage at 4 • C was sufficient for 15 days while maintaining quality, but sugars and total soluble solids decreased.",
+          "table": []
+        },
+        {
+          "text": "Consumer's awareness of food choices, the consumption of fresh, green products and the ecological environment in which they are produced is constantly growing. According to , the processing and packaging of maize kernels contributes significantly to the ecological footprint of a single can of maize, encouraging increased consumption of fresh produce. The authors of , based on their results of copper and zinc concentration tests, consider it important to use appropriate agricultural land for the production of sweet maize with precision farming methods. Seed quality is important in sweet maize production. Before selecting the appropriate sweet maize hybrid, the prevailing soil properties needed to be considered, since, according to several researchers, new hybrids can produce low germination percentage and poor germination and growth .",
+          "table": []
+        },
+        {
+          "text": "In , the solubility and different parameters of phytoglycogenes from different genotypes of sweet maize hybrids were investigated. The content values of sweet maize may play an increasing role in medical and biotechnological applications. In their analyses,  found that sweet maize beverages were preferred by the majority of consumers in sensory evaluation. Based on the obtained research results, the role of sweet maize will increase in addition to its food uses in quality nutrition and food safety, which requires a lot of new research.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": []
+    },
+    {
+      "title": "Site Description",
+      "div": [
+        {
+          "text": "The agronomic parameters, yield and essential nutrient content of four publicly available super sweet maize hybrids (DE, GS, KW, ME) were examined in an experiment on chernozem soil at the Faculty of Agricultural and Food Science and Environmental Management of the University of Debrecen (DE MÉK) in a randomised experiment with four replications, with the aim to develop precision farming techniques. As a result of precision sowing, irrigation and fertilisation, the obtained quality parameters were determined under laboratory conditions from grain samples taken during the precision harvesting at the DE MÉK Accredited Agricultural Instrument Centre, by removing the grains from ten cobs on each hybrid and in each replication and taking average samples from the grains.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Laboratory Testing Methodology",
+      "div": [
+        {
+          "text": "For the purpose of determining various elements, a gentle low temperature was applied during the drying of sweet maize grain. Samples were dried at 50 • C and stored at 24 • C until processing. The drying process was started in a drying oven at maximum air velocity immediately after collecting the samples from the population . In order to determine the element content of sweet maize grain samples, 0.5 g of the prepared sample was weighed and 5 mL of distilled c.c. HNO 3 and 3 mL of 30% H 2 O 2 were added. The sample was sealed and digested in four steps in accordance with the Application Note 076 method, using an ETHOS Plus Milestone microwave digestion system. After the digestion process, the vessels were cooled and the contents poured into 50 mL volumetric flasks. Measurements were performed with an inductively coupled plasma atomic emission ICAP 7000 spectrophotometer (Thermo Scientific, Bremen, Germany). The light emission of the plasma was spectrally resolved to measure the intensity of the spectral line of each element at a given wavelength. Each element can be measured at several wavelengths, the optimal one was selected, without interference and spectral line overlap: Ca-317.933, Fe-238.204, K-769.896, Li-670.784, Mg-285.213, Na-589.592, P-177.495, Zn-213.856. As a next step, the ICAP 7000 was used to measure the sample solutions taking into account the optimal instrument parameters and to evaluate the obtained data.",
+          "table": []
+        },
+        {
+          "text": "The sugar content of the samples was measured in the accredited laboratory of the University using HPLC (Agilent 1200 RI (Waters, Milford, MA, United States)). The samples were first dissolved and then measured after separation, dilution and filtration. Measurement procedure: 3-5 g were weighed in a centrifuge tube, 10 mL of acetonitrilewater mixture, 0.5-0.5 mL of Carrez I and II solution were added to the sample, then mixed. The final volume is 20-25 mL. An amount of 100-100 mg of solid fructose, glucose and sucrose were added to the sample and the amounts were determined.",
+          "table": []
+        },
+        {
+          "text": "The moisture content of sweet maize samples was measured before determining the amount of carotenoids in the samples. The tests were performed according to the Association of Official Agricultural Chemists (AOAC) Official Method 934.01. The maize samples were ground with dry ice and approximately 1/3 of the ground sample was placed in a 40 mL EPA vial (Agilent Technologies, Inc., Santa Clara, CA, United States), weighed accurately. The dry ice was stored in an open container at room temperature until sublimation. Immediately after reaching room temperature, the vial was weighed to calculate the initial sample weight for moisture content determination. The vials were then placed in a vacuum drying oven at 70 • C, using a vacuum of 500 mbar, reduced to 100 mbar after 3 h and dried overnight at the same pressure. After removal from the oven, the sample was hermetically sealed and weighed when it had cooled to room temperature.",
+          "table": []
+        },
+        {
+          "text": "The  method was used to determine the amount of lutein, zeaxanthin, and βcryptoxanthin. Maize samples were ground with dry ice and stored in an open container in the freezer at -18 • C until the dry ice sublimed. For testing, 0.6 g of ground sample was weighed into a 50 mL centrifuge tube. Six millilitres of 100% ethanol was added and the tube was vortexed for 30 s and then ultrasonicated in a cooled ultrasonic bath for 5 min. An amount of 3 mL of 10% NaCl solution and 10 mL of hexane were added and the tube was vortexed for 30 s and centrifuged for 3 min until phase separation at 5000 rpm. The upper hexane phase was pipetted into an evaporator tube. The hexane extraction was repeated twice until the lower aqueous-alcoholic phase was discoloured. The collected hexane fractions were evaporated to dryness under a stream of nitrogen at room temperature in the dark. Two millilitres of MeOH containing 0.1% BHT was added to the evaporated residue. After dissolution by vortex and ultrasonication, the solution was filtered through a syringe filter with a pore diameter of 0.22 µm into an HPLC vial, stored in a freezer at -18 • C until HPLC analysis.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical Analysis",
+      "div": [
+        {
+          "text": "The correlation between the variables was characterised by Pearson's correlation coefficient. This correlation matrix was used as the starting point for Principal Component Analysis. The applicability of PCA was determined using the Kaiser-Mayer-Olkin test . The critical value of the test is 0.5. If the MSA (Measure of Sampling Adequacy) of any of the variables is above this value, it is suitable for analysis. The number of principal components was set so that the coefficient of variance of the correlations was above 80%. Components with eigenvalue of less than one were not considered, such small components were used only in the representation. Analyses and plotting were performed using R 4.0.5 (31 March 2021) .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Correlation Analysis",
+      "div": []
+    },
+    {
+      "title": "Inorganic Substances, Macro-and Microelements",
+      "div": [
+        {
+          "text": "As a first step, pairwise correlations of inorganic substances expressed in mg kg -1 dry matter were analysed. The main diagonal in Figure 1 shows the distribution of variables. The lower triangle illustrates the relationship between the two variables. Pearson's correlation coefficients can be found in the upper triangle matrix. The size of the figure is proportional to the extent of correlation. Significant correlations are indicated by asterisks, representing significance levels of *** (p < 0.001), ** (p < 0.01) and * (p < 0.05). There is a very strong positive correlation between potassium and phosphorus and zinc. A negative correlation is observed between magnesium and sodium and iron and sodium (Figure 1). lation coefficients can be found in the upper triangle matrix. The size of the figure is proportional to the extent of correlation. Significant correlations are indicated by asterisks, representing significance levels of *** (p < 0.001), ** (p < 0.01) and * (p < 0.05). There is a very strong positive correlation between potassium and phosphorus and zinc. A negative correlation is observed between magnesium and sodium and iron and sodium (Figure 1). In the second step of the precision farming of sweet maize, the element yield per unit area was analysed. In almost all cases, the bivariate correlation coefficients are very high, showing a strong linear stochastic relationship. All coefficients are significant. The lower triangular matrix shows the nature of the relationship between the variables. The linear correlation is strong (Figure 2), due to high yields. In the second step of the precision farming of sweet maize, the element yield per unit area was analysed. In almost all cases, the bivariate correlation coefficients are very high, showing a strong linear stochastic relationship. All coefficients are significant. The lower triangular matrix shows the nature of the relationship between the variables. The linear correlation is strong (Figure 2), due to high yields.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Fructose, Glucose, Sucrose",
+      "div": [
+        {
+          "text": "By analysing the values expressed in mg kg -1 , it was found that the bivariate linear correlation coefficient for fructose and glucose is very high. The other two coefficients show a moderately strong correlation. All coefficients are significant. The lower triangle matrix shows the nature of the correlation between the variables. The positive linear correlation between fructose and glucose is strong. However, the relationship between fructose and sucrose and between glucose and sucrose suggests a parabolic correlation. For this reason, the linear correlation coefficients are low (Figure 3).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Fructose, Glucose, Sucrose",
+      "div": [
+        {
+          "text": "By analysing the values expressed in mg kg -1 , it was found that the bivariate linear correlation coefficient for fructose and glucose is very high. The other two coefficients show a moderately strong correlation. All coefficients are significant. The lower triangle matrix shows the nature of the correlation between the variables. The positive linear correlation between fructose and glucose is strong. However, the relationship between fructose and sucrose and between glucose and sucrose suggests a parabolic correlation. For this reason, the linear correlation coefficients are low (Figure 3).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Fructose, Glucose, Sucrose",
+      "div": [
+        {
+          "text": "By analysing the values expressed in mg kg -1 , it was found that the bivariate linear correlation coefficient for fructose and glucose is very high. The other two coefficients show a moderately strong correlation. All coefficients are significant. The lower triangle matrix shows the nature of the correlation between the variables. The positive linear correlation between fructose and glucose is strong. However, the relationship between fructose and sucrose and between glucose and sucrose suggests a parabolic correlation. For this reason, the linear correlation coefficients are low (Figure 3).    When analysing the correlation of sugar yields in the precision farming of sweet maize, it was found that the bivariate correlation coefficients show a very high positive correlation in all three cases. All coefficients are significant. The lower triangle matrix shows the nature of the relationship between the variables. In all three cases, the correlation is linear, which is also due to high yields (Figure 4). When analysing the correlation of sugar yields in the precision farming of sweet maize, it was found that the bivariate correlation coefficients show a very high positive correlation in all three cases. All coefficients are significant. The lower triangle matrix shows the nature of the relationship between the variables. In all three cases, the correlation is linear, which is also due to high yields (Figure 4).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Lutein, zeaxanthin, β-kriptoxanthin, β-carothene",
+      "div": [
+        {
+          "text": "By analysing the zeaxanthin, β-cryptoxanthin, β-carothene contents, it was found that the linear correlation coefficients for the concentration are high. There is a strong positive correlation between the coefficients, and they are significant in all cases. Lutein shows a moderately strong positive correlation only with zeaxanthin and the other two components are independent (Figure 5).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Lutein, Zeaxanthin, β-kriptoxanthin, β-carothene",
+      "div": [
+        {
+          "text": "By analysing the zeaxanthin, β-cryptoxanthin, β-carothene contents, it was found that the linear correlation coefficients for the concentration are high. There is a strong positive correlation between the coefficients, and they are significant in all cases. Lutein shows a moderately strong positive correlation only with zeaxanthin and the other two components are independent (Figure 5).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Lutein, zeaxanthin, β-kriptoxanthin, β-carothene",
+      "div": [
+        {
+          "text": "By analysing the zeaxanthin, β-cryptoxanthin, β-carothene contents, it was found that the linear correlation coefficients for the concentration are high. There is a strong positive correlation between the coefficients, and they are significant in all cases. Lutein shows a moderately strong positive correlation only with zeaxanthin and the other two components are independent (Figure 5). Analysing the yields of the components per unit area (1 ha) during the precision production of sweet maize, it was found that the linear correlation coefficients are significantly high with two exceptions. For lutein and β-cryptoxanthin and lutein and β-carothene, the correlation is not significant (Figure 6). Analysing the yields of the components per unit area (1 ha) during the precision production of sweet maize, it was found that the linear correlation coefficients are significantly high with two exceptions. For lutein and β-cryptoxanthin and lutein and βcarothene, the correlation is not significant (Figure 6).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results of the Principal Component Analysis",
+      "div": [
+        {
+          "text": "The PCA results for element concentration and element yield were analysed. In the case of element concentration, two principal components are sufficient to describe the correlation system to almost 90%, which is well above the expected 80%. As a conclusion, the two-component model is very adequate. The first principal component consists of potassium, phosphorus, magnesium, iron, zinc, and the second of calcium and sodium (Figure 7a).",
+          "table": []
+        },
+        {
+          "text": "As regards element concentration, the seven components are arranged in two quartiles, which means that they are positively correlated according to the first component, with sodium being the only exception. In the second component, both positive and negative correlations are present. Two independent groups can be formed on the basis of this",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results of the Principal Component Analysis",
+      "div": [
+        {
+          "text": "The PCA results for element concentration and element yield were analysed. In the case of element concentration, two principal components are sufficient to describe the correlation system to almost 90%, which is well above the expected 80%. As a conclusion, the two-component model is very adequate. The first principal component consists of potassium, phosphorus, magnesium, iron, zinc, and the second of calcium and sodium (Figure 7a). eration, because its eigenvalue is below 1. The figure shows that the correlation is onedimensional. Even a single component describes 90% of the correlation of the variables, which is shown to be a very strong positive correlation. The element yield is crucially influenced by the yield. The second principal component increases accuracy by only 9%. Moreover, its eigenvalue is below 1; therefore, it is only taken into account in the representation of data. Only the location along the Dim1 axis requires analysis. The Dim2 axis only helps separation but does not provide any additional information about the correlations. The highest element yield was observed in the following order of hybrids: GS, DE, ME and KW. This order is the same as that of yield.",
+          "table": []
+        },
+        {
+          "text": "The PCA results for sugars are shown in Figure 8. Figure 8a shows the system of correlations in terms of concentrations.",
+          "table": []
+        },
+        {
+          "text": "The three components are located in two quadrants, which means that they are positively related according to the first component. The second component is not considered because its eigenvalue is below 1. The figure shows that the correlation is one-dimensional. Even one component explains almost 80% of the correlations. The four hybrids are significantly different from each other. The hybrids with high sugar concentration are located on the right side of the Dim1 axis (DE and ME hybrids). The GS hybrid has average and the KW hybrid has low sugar concentration (Figure 8a). The DE hybrid has the highest sucrose content, followed by ME, GS and KW.",
+          "table": []
+        },
+        {
+          "text": "Figure 8b shows the location of sugar yields in the coordinate system of two principal components. The three components are positioned in two quadrants, which means that they are positively correlated according to the first component. The second component is not considered because its eigenvalue is below 1. The figure shows that the correlation is one-dimensional. Even one component explains 94% of the correlations. The four hybrids are significantly different from each other. The hybrids with high sugar yields are on the right side of the Dim1 axis (DE and GS hybrids). The ME hybrid has average, and the KW hybrid has low sugar yield (Figure 8b). The Dim1 axis does not require analysis. As regards element concentration, the seven components are arranged in two quartiles, which means that they are positively correlated according to the first component, with sodium being the only exception. In the second component, both positive and negative correlations are present. Two independent groups can be formed on the basis of this figure.",
+          "table": []
+        },
+        {
+          "text": "The upper left part of Figure 7a shows the observations numbered 1-4 and 13-16. These refer to the GS and KW hybrids, respectively. The examined hybrids are very similar in terms of the tested values. In the lower left part are observations 5-8, i.e., the DE hybrid and the ME hybrid is shown on the right.",
+          "table": []
+        },
+        {
+          "text": "The GS and KW hybrids have lower levels of phosphorus, zinc, potassium, magnesium and iron, but higher levels of calcium and sodium. The DE hybrid has lower than average levels of both components, i.e., it is poorer in all minerals compared to the other three hybrids. The ME hybrid has high levels of phosphorus, zinc, potassium, magnesium and iron, but only average levels of calcium and sodium. None of the tested genotypes had high levels of all mineral components at the same time. In the future it should be examined which is the more favourable combination in terms of mineral composition.",
+          "table": []
+        },
+        {
+          "text": "As regards element yield in the precision farming of sweet maize (Figure 7b), the seven components are arranged in two quartiles, which means that they are positively correlated according to the first component. The second component is taken into consideration, because its eigenvalue is below 1. The figure shows that the correlation is one-dimensional. Even a single component describes 90% of the correlation of the variables, which is shown to be a very strong positive correlation. The element yield is crucially influenced by the yield. The second principal component increases accuracy by only 9%. Moreover, its eigenvalue is below 1; therefore, it is only taken into account in the representation of data.",
+          "table": []
+        },
+        {
+          "text": "Only the location along the Dim1 axis requires analysis. The Dim2 axis only helps separation but does not provide any additional information about the correlations. The highest element yield was observed in the following order of hybrids: GS, DE, ME and KW. This order is the same as that of yield.",
+          "table": []
+        },
+        {
+          "text": "The PCA results for sugars are shown in Figure 8. Figure 8a shows the system of correlations in terms of concentrations.",
+          "table": []
+        },
+        {
+          "text": "The three components are located in two quadrants, which means that they are positively related according to the first component. The second component is not considered because its eigenvalue is below 1. The figure shows that the correlation is one-dimensional. Even one component explains almost 80% of the correlations. The four hybrids are significantly different from each other. The hybrids with high sugar concentration are located on the right side of the Dim1 axis (DE and ME hybrids). The GS hybrid has average and the KW hybrid has low sugar concentration (Figure 8a). The DE hybrid has the highest sucrose content, followed by ME, GS and KW. The PCA results for lutein, zeaxanthin, β-cryptoxanthin, β-carothene are shown in Figure 9. Figure 9a shows the system of correlations in terms of concentrations.",
+          "table": []
+        },
+        {
+          "text": "The four components are arranged in two quadrants. The first principal component describes 73% of the correlation of the variables. The first principal component is influenced by all the other components except lutein. The second independent component is made up of lutein alone. On the Dim1 axis, the three components are closely positively related. The second principal component accounts for nearly 26% of the variance. Thus, the two components explain nearly 99% of the correlations. Since the two axes are perpendicular to each other and, therefore, independent, the variation in the amount of lutein is independent of the other three components.",
+          "table": []
+        },
+        {
+          "text": "The four hybrids are clearly separated in the coordinate system. The highest values along the Dim1 axis are shown by the ME and GS hybrids. The DE and KW hybrids have significantly lower values. The Dim2 axis characterises the lutein concentration, with the DE and ME hybrids containing the highest amount of lutein, followed by the GS and KW hybrids, in this particular order. The independence of lutein concentration means that it is not possible to estimate its amount based on the other three components. It is recommended to breed lutein-specific hybrids (Figure 9a).",
+          "table": []
+        },
+        {
+          "text": "Figure 9b shows yields. The four components are arranged in two quadrants. The first principal component describes the correlation of the variables in almost 82% of the cases. On the Dim1 axis, the three components are closely positively correlated. The second principal component describes 18% of the variances. Thus, the two principal components explain almost 100% of the correlations. Since the two axes are perpendicular to each other and, therefore, independent, the variation in the amount of lutein is only moderately correlated with the other three components. The first principal component is influenced by all the other components except lutein. The second independent component is made up of lutein alone. Figure 8b shows the location of sugar yields in the coordinate system of two principal components. The three components are positioned in two quadrants, which means that they are positively correlated according to the first component. The second component is not considered because its eigenvalue is below 1. The figure shows that the correlation is one-dimensional. Even one component explains 94% of the correlations. The four hybrids are significantly different from each other. The hybrids with high sugar yields are on the right side of the Dim1 axis (DE and GS hybrids). The ME hybrid has average, and the KW hybrid has low sugar yield (Figure 8b). The Dim1 axis does not require analysis.",
+          "table": []
+        },
+        {
+          "text": "The PCA results for lutein, zeaxanthin, β-cryptoxanthin, β-carothene are shown in Figure 9. Figure 9a shows the system of correlations in terms of concentrations. The four hybrids are clearly separated in the coordinate system. The highest values along the Dim1 axis are shown by the GS hybrid. The ME and DE hybrids have significantly lower values and the KW hybrid shows the lowest value. The Dim2 axis characterises the lutein content, although the correlation is rather uncertain. The DE hybrid has the highest lutein yield. The other three hybrids have almost equal yields (Figure 9b). If industrial lutein yield is the primary objective, the DE hybrid is the best choice for the production and processing industry.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "The introduction and industrial use of new sweet maize hybrids, due in particular to their increasing role in healthy nutrition, has led to a broadening of the scope of nutritional testing and research. The authors of  provide a high quality summary of the results of the last five years of sweet maize research. After a careful study of the literature sources, no research results were found on the relationship between sweet maize kernel content concentration (mg/kg dry matter) and increasing yield per hectare (kg/t) results. Our research results provide evidence that, unlike other field crops, increasing yields do not de- The four components are arranged in two quadrants. The first principal component describes 73% of the correlation of the variables. The first principal component is influenced by all the other components except lutein. The second independent component is made up of lutein alone. On the Dim1 axis, the three components are closely positively related. The second principal component accounts for nearly 26% of the variance. Thus, the two components explain nearly 99% of the correlations. Since the two axes are perpendicular to each other and, therefore, independent, the variation in the amount of lutein is independent of the other three components.",
+          "table": []
+        },
+        {
+          "text": "The four hybrids are clearly separated in the coordinate system. The highest values along the Dim1 axis are shown by the ME and GS hybrids. The DE and KW hybrids have significantly lower values. The Dim2 axis characterises the lutein concentration, with the DE and ME hybrids containing the highest amount of lutein, followed by the GS and KW hybrids, in this particular order. The independence of lutein concentration means that it is not possible to estimate its amount based on the other three components. It is recommended to breed lutein-specific hybrids (Figure 9a).",
+          "table": []
+        },
+        {
+          "text": "Figure 9b shows yields. The four components are arranged in two quadrants. The first principal component describes the correlation of the variables in almost 82% of the cases. On the Dim1 axis, the three components are closely positively correlated. The second principal component describes 18% of the variances. Thus, the two principal components explain almost 100% of the correlations. Since the two axes are perpendicular to each other and, therefore, independent, the variation in the amount of lutein is only moderately correlated with the other three components. The first principal component is influenced by all the other components except lutein. The second independent component is made up of lutein alone.",
+          "table": []
+        },
+        {
+          "text": "The four hybrids are clearly separated in the coordinate system. The highest values along the Dim1 axis are shown by the GS hybrid. The ME and DE hybrids have significantly lower values and the KW hybrid shows the lowest value. The Dim2 axis characterises the lutein content, although the correlation is rather uncertain. The DE hybrid has the highest lutein yield. The other three hybrids have almost equal yields (Figure 9b). If industrial lutein yield is the primary objective, the DE hybrid is the best choice for the production and processing industry.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "The introduction and industrial use of new sweet maize hybrids, due in particular to their increasing role in healthy nutrition, has led to a broadening of the scope of nutritional testing and research. The authors of  provide a high quality summary of the results of the last five years of sweet maize research. After a careful study of the literature sources, no research results were found on the relationship between sweet maize kernel content concentration (mg/kg dry matter) and increasing yield per hectare (kg/t) results. Our research results provide evidence that, unlike other field crops, increasing yields do not decrease the values of DM concentration. This may allow an efficient increase in the industrial processing of sweet maize.",
+          "table": []
+        },
+        {
+          "text": "When assessing the concentration of inorganic substances (mg/kg dry matter), it was found that there is a very strong positive correlation between K, P and Zn. This is a positive result for healthier nutrition. A new finding is that Na concentrations show a negative correlation with Mg and Fe concentrations. Our studies demonstrate a strong, significant linear relationship between fructose and glucose expressed in mg/kg dry matter. At the same time, the relationship of sucrose with either fructose or glucose is not linear. When analysing the zeaxanthin and p-carothene contents, it was found that the linear correlation coefficients for concentration are high and there is a strong positive significant correlation between them.",
+          "table": []
+        },
+        {
+          "text": "Sweetness is one of the most preferred attributes for consumers of fresh sweet maize produced with precision farming techniques. This trait can be characterised by sugar concentration. Of the four tested hybrids, the DE and ME hybrids performed best in this respect. The sugar concentration of GS was average, and that of KW was low.",
+          "table": []
+        },
+        {
+          "text": "However, precision farmers are interested in growing high-yielding hybrids. Based on the obtained experimental results, the final order of hybrids was GS, DE, ME and KW.",
+          "table": []
+        },
+        {
+          "text": "No correlation was found between yield and fructose and between yield and glucose concentration. There is a medium positive relationship between yield and sucrose (r = 0.58 *).",
+          "table": []
+        },
+        {
+          "text": "In terms of mineral content, the ME hybrid is the most beneficial for consumers as it has high concentrations of phosphorus, zinc, potassium, magnesium and iron. No hybrid was found with high concentrations of all elements at the same time.",
+          "table": []
+        },
+        {
+          "text": "Most of the correlations between mineral concentration and yield are significant negative correlations. Significant close negative correlations were found for potassium (r = -0.88 *), phosphorus (r = -0.64 *) and zinc (r = -0.7 *).",
+          "table": []
+        },
+        {
+          "text": "From the aspect of lutein, the DE hybrid is the best choice for consumers. This hybrid is also highly recommended for the production and processing industry. It is a novel finding that the concentrations of lutein, zeaxanthin, β-cryptoxanthin, β-carothene did not decrease with yield growth, which confirms the importance of the choice of sweet maize hybrid from the aspect of healthy nutrition.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "Based on the findings of this experiment, the content value of sweet maize hybrids also needs to be examined from the producers' and consumers' points of view during the development and improvement of precision farming techniques of sweet maize production. Precision farmers are interested in saving costs and obtaining high yields per hectare, as it is the primary source of their income. Consumers, however, want to consume inexpensive but healthy food with a high nutritional value. By consuming the same amount of sweet maize, more and better-quality nutritional value is delivered to the human body in the form of healthier food.",
+          "table": []
+        },
+        {
+          "text": "In precision farming, different needs are met by different hybrids. Considerations may include high mineral concentration, sweetness, as well as zeaxanthin and lutein content. Based on the performed tests, no \"universal hybrid\" was found that would fully satisfy all needs. Precision farmers need to be aware of the interests of consumers and take them into account to help produce healthier food and increase food safety. The obtained research results confirm the importance of considering processing and healthy food consumption when selecting sweet maize hybrids and the implementation and improvement of precision farming techniques.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": []
+}

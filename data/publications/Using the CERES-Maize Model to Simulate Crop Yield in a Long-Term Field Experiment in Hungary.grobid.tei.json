@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "title": "Using the CERES-Maize Model to Simulate Crop Yield in a Long-Term Field Experiment in Hungary",
+    "author": "Annabella Zelenák, Atala Szabó, János Nagy, Anikó Nyéki",
+    "journal": "MDPI AG",
+    "date": "2022. 03. 24."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Precision crop production requires accurate yield prediction and nitrogen management. Crop simulation models may assist in exploring alternative management systems for optimizing water, nutrient and microelements use efficiencies, increasing maize yields. Our objectives were: (i) to access the ability of the CERES-Maize model for predicting yields in long-term experiments in Hungary; (ii) to use the model to assess the effects of different nutrient management (different nitrogen rates-0, 30, 60, 90, 120, and 150 kg ha -1 ). A long-term experiment conducted in Látókép (Hungary) with various N-fertilizer applications allowed us to predict maize yields under different conditions. The aim of the research is to explore and quantify the effects of ecological, biological, and agronomic factors affecting plant production, as well as to conduct basic science studies on stress factors on plant populations, which are made possible by the 30-year database of long-term experiments and the high level of instrumentation. The model was calibrated with data from a long-term experiment field trial. The purpose of this evaluation was to investigate how the CERES-Maize model simulated the effects of different N treatments in long-term field experiments. Sushi hybrid's yields increased with elevated N concentrations. The observed yield ranged from 5016 to 14,920 kg ha -1 during the 2016-2020 growing season. The range of simulated data of maize yield was between 6671 and 13,136 kg ha -1 . The highest yield was obtained at the 150 kg ha -1 dose in each year studied. In several cases, the DSSAT-CERES Maize model accurately predicted yields, but it was sensitive to seasonal effects and estimated yields inaccurately. Based on the obtained results, the variance analysis significantly affected the year (2016-2020) and nitrogen doses. N fertilizer made a significant difference on yield, but the combination of both predicted and actual yield data did not show any significance.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Crop production is currently facing the challenge of meeting the increasing demand by using less fertilizers, water, and pesticides, while ensuring safety of food, including the presence of appropriate microelements. In order to clarify yield predictions, crop simulation models consider several factors, and they can also contribute to more precise, site-specific crop production . Thus, it is crucial to integrate agronomy and decision support systems. Databases of long-term experiments, linking with the possibilities provided by plant physiological models, can create an integrated system in agricultural research, which can play an important role in mapping the hypotheses of the yield gap. The performed field experiment has been pivotal in assessing the effects of single or multiple factors on crop productivity, because the crop yield prediction is based on soil, meteorological, crop, and Agronomy 2022, 12, 785 2 of 16 environmental variables. The purpose of this study is to evaluate the simulation model, based on big data and site-specific measurements. Through this, we can improve the decision support system of precision agriculture. Maize (Zea mays L.) is the most important crop in Hungary . Although, sustainability of high crop yield under intensive cultivation is possible only through the use of water, and the use of adequate chemical fertilizer, i.e., microelements.",
+          "table": []
+        },
+        {
+          "text": "The dataset of the Látókép long-term experiment (2016-2020) was used for the analysis of this study. By testing the model, the yield of maize was analyzed:",
+          "table": []
+        },
+        {
+          "text": "-Growth and yield of maize hybrids in a context of environmental conditions; -",
+          "table": []
+        },
+        {
+          "text": "The initial parameters for the model run were established (soil chemical variables, soil physical properties, soil mechanical structure, soil moisture, etc.); -Phenological and growth characteristics of individual maize hybrids.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Use of the DSSAT Software under Precision and Experimental Conditions",
+      "div": [
+        {
+          "text": "In addition to comparing models, DSSAT is considered to be suitable for demonstrating the effect of phenological and N-fertilizer, but it is less suitable for expressing water stress or soil moisture. Modelling has been the subject of numerous publications and studies, and continuous calibration and validation (temporal and spatial scaling) have been shown to be essential to achieve the goals of sustainable crop production. They also became important because of new scientific directions and hypotheses . Based on the database of the Látókép (Hungary) long-term experiment, maize hybrids were analyzed for the effects of irrigation, soil tillage, and crop number , taking into account different season effects. The sensitivity of the CERES-Maize model extends to extreme meteorological years and vegetation periods. The model over-or underestimates the grain yield in rainy and drier years. It overpredicted the yields systematically in extreme rainy years  and under irrigated conditions . For some treatments, the model overestimated corn grain yield and underestimated total N uptake as well as underestimated total leached nitrogen and soil moisture, which has an effect on yield . Grain yield increased with increasing nitrogen content; however, the model underpredicted grain yield with control treatment . Li et al.  observed a significant difference in two years, which were extremely dry. There is also a similar experience with Liu et al.  that, in a low-rainy year, the maize yields were undersimulated by the model. In the study , the average percentage error of maize predictions for the run environment ranged from 4.8% to 46.6%, with differences of 471 to 2407 kg/ha. Accurate, reliable yield estimates could be given by measurements taken during the vegetation period of the crop, as the inaccuracy of the prediction at sowing can reach 50% . According to Quiring and Legates , the model is partially sensitive to row spacing, seed, sowing depth, sowing, and harvesting time, hybrid, soil type and soil moisture, as well as temperature and global radiation. Specifically, the authors draw attention to the effect of the relationship between soil and precipitation, and the time that can be extremely sensitive to yield development. Li et al.  used the model to analyze a small plot experiment.",
+          "table": []
+        },
+        {
+          "text": "In addition to yield estimation, DSSAT can to run various dynamics, such as soil dynamics, simulation of the nitrogen cycle, and monitoring of changes in soil organic matter content . The crop simulation program contributes to decision making for environmental risks, this model is applied to the evolution of the climatic conditions . Provides crop simulation models for management decision making, risk management, and evaluation . The CERES-Maize model was applied under farm conditions , and embedded in the Apollo  decision support system. A 20.25 ha experimental parcel  was divided into nearly 100 management zones, based on which the current and future corn yield was validated in the Apollo framework. Based on his studies, he found that later larger treatment units also could be effective as yields show a smaller spatial distribution. Paz et al.  tested the optimum (141-160 kg/ha) application of N (between 60 and 220 kg/ha) on ~500 m 2 units of a 16 ha parcel. DSSAT and APSIM models were examined, and the most notable difference in treatment units was 6 tons based on a comparison of the three-year model estimates. Salmerón et al.  simulations in the La Violada watershed did not adequately estimate yield loss under high yield conditions under reduced nitrogen. Furthermore, under optimized water and nitrogen management N leaching (44-98 kg N ha -1 yr -1 ) would still be high. Zhu et al.  emphasizes that without the adaptation of precision crop cultivation techniques, or in the absence of these data, the development of models for plant physiology and agro-ecosystems and the use of newer model generations will fail. However, there is little information on modelling the combined effects of water and N limitations on water productivity responses of maize to irrigation.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": []
+    },
+    {
+      "title": "Experimental Site and Treatments",
+      "div": [
+        {
+          "text": "The Látókép Crop Production Experiment Site was established in 1983. The area of the Látókép experiment is 190 ha, most of which, i.e., a 125 ha site, can be irrigated. The experiment site is located in eastern Hungary in the Hajdúság region (47 • 33 27\" N, 21 • 26 52\" E.) (Figure 1.) The site is relatively isolated, which provided excellent conditions for establishing long-term experiments. Over the past 38 years, the experiment has remained unchanged in terms of location, nutrient replenishment rate, soil tillage, and agricultural elements. The field experiment is arranged in a randomized complete block design with 360 blocks (including 6 treatments, 15 hybrids in four replications). Size of one repetition: 1260 m 2 , for fertilizer plots: 210 m 2 . In this study we examined 1 hybrid including 6 treatments in four replications. There were 24 blocks in a year.",
+          "table": []
+        },
+        {
+          "text": "Paz et al.  tested the optimum (141-160 kg/ha) application of N (between 60 and 22 kg/ha) on ~500 m 2 units of a 16 ha parcel. DSSAT and APSIM models were examined, an the most notable difference in treatment units was 6 tons based on a comparison of th three-year model estimates. Salmerón et al.  simulations in the La Violada watershed did not adequately estimate yield loss under high yield conditions under reduced nitro gen. Furthermore, under optimized water and nitrogen management N leaching (44-9 kg N ha -1 yr -1 ) would still be high. Zhu et al.  emphasizes that without the adaptatio of precision crop cultivation techniques, or in the absence of these data, the developmen of models for plant physiology and agro-ecosystems and the use of newer model genera tions will fail. However, there is little information on modelling the combined effects o water and N limitations on water productivity responses of maize to irrigation.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": []
+    },
+    {
+      "title": "Experimental Site and Treatments",
+      "div": [
+        {
+          "text": "The Látókép Crop Production Experiment Site was established in 1983. The area o the Látókép experiment is 190 ha, most of which, i.e., a 125 ha site, can be irrigated. Th experiment site is located in eastern Hungary in the Hajdúság region (47°33′27″ N 21°26′52″ E.) (Figure 1.) The site is relatively isolated, which provided excellent condition for establishing long-term experiments. Over the past 38 years, the experiment has re mained unchanged in terms of location, nutrient replenishment rate, soil tillage, and ag ricultural elements. The field experiment is arranged in a randomized complete block de sign with 360 blocks (including 6 treatments, 15 hybrids in four replications). Size of on repetition: 1260 m 2 , for fertilizer plots: 210 m 2 . In this study we examined 1 hybrid includ ing 6 treatments in four replications. There were 24 blocks in a year The recommended fertilizer doses were 0: 0 kg ha -1 N, 1: 30 kg ha -1 N, 2: 60 kg ha N, 3: 90 kg ha -1 N, 4: 120 kg ha -1 N, and 5: 150 kg ha -1 N in the experimental treatments The application rates of chemical fertilizers are described in Fertilizer input of different treatments in our experiment, based on a soil anal ysis recommendation. In the experiment, 30% of the total nitrogen dose and 100% of th phosphorus and potassium doses were applied at the beginning, before plowing, and 70% of the nitrogen dose was applied as top-dressing in April. The recommended fertilizer doses were 0: 0 kg ha -1 N, 1: 30 kg ha -1 N, 2: 60 kg ha -1 N, 3: 90 kg ha -1 N, 4: 120 kg ha -1 N, and 5: 150 kg ha -1 N in the experimental treatments. The application rates of chemical fertilizers are described in Fertilizer input of different treatments in our experiment, based on a soil analysis recommendation. In the experiment, 30% of the total nitrogen dose and 100% of the phosphorus and potassium doses were applied at the beginning, before plowing, and 70% of the nitrogen dose was applied as top-dressing in April.",
+          "table": [
+            "Fertilizer input of different treatments in our experiment.",
+            "Fertilizer input of different treatments in our experiment."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Soil Data",
+      "div": [
+        {
+          "text": "The long-term experiment was set up to collect data for calibrating and validating the CERES-Maize model. It was conducted on silty clay loam soil as classified in USDA [22] (Soil physical properties in the experimental site (2020).). The collected soil samples were analyzed for texture, bulk density, pH, organic matter, total nitrogen, potassium (K), and phosphorus (P). The soil of the experiment site is calcareous chernozem formed on the Hajdúság loess ridge with 80-90 cm depth top soil, and the organic matter content is around 2.7%. The soil has a pH of 6.6 (slightly acidic). In terms of its physical variety, it is a clayey loam, with Arany's plasticity index number of 44 in 2017 and 2020. The soil input dataset was created by measuring soil properties such as soil texture, soil bulk density, pH, organic carbon, total N, and available phosphorus and nitrogen.",
+          "table": [
+            "Soil physical properties in the experimental site (2020)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Climatic Conditions of the Experimental Site (2016-2020)",
+      "div": [
+        {
+          "text": "The experiment data were obtained from Centre for Agricultural Sciences, Institute of Crop Sciences, at Látókép, and the daily weather data from the Meteorological Observatory Debrecen of the National Meteorological Service. It was performed on the basis of the data of an automatic weather station set up next to the experimental plots  (Tables 3 and4). The station provided the daily radiation, precipitation, wind speed, as well as minimum and maximum temperature data. This area has a typical continental climate with one growing season for maize production: from April to October. The mean annual rainfall is around 600 mm, the distribution of which causes strong atmospheric drought at times, resulting in low maize yield .",
+          "table": []
+        },
+        {
+          "text": "After the winter period of 2016, the considerably dry and warm April had a positive effect. In April, a total amount of 16 mm of rain fell on several occasions. The remaining part of the growing season was characterized by high rainfall and above-average temperatures. The ideal conditions were provided for maize growth and its yield. Precipitation was above average in each month. The total precipitation for the summer semester is 453 mm, of which the values of 146 mm in June and 87 mm in July should be highlighted. The temperature was mostly above average, but there was no long and extremely warm period. The months of September (+1.6 • C) and June (+1.8 • C) showed positive temperature anomalies. The average temperature in August conformed to the multi-year average.  Regarding the summer months (2017), precipitation (354 mm) is essentially the same as the multi-year average (+8 mm), and it was well balanced in terms of monthly precipitation. There was a significant difference from the multiple-year average in May (-37 mm) and September (+28 mm). Significant positive temperature anomalies occurred in June (+2.9 • C), July (+1.0 • C), and August (+2.4 • C).",
+          "table": []
+        },
+        {
+          "text": "In the year 2018, from the beginning of April, the nature of weather changed fundamentally and permanently, which is also well reflected in the monthly data. The growing season started with a very warm April, with an average temperature of 16.0 • C, almost 5 • C above the average value. Sunny, warm weather continued in May, again resulting in a record high average temperature (19.7 • C). These two significantly warm months contributed favorably to the emergence and initial development of maize.",
+          "table": []
+        },
+        {
+          "text": "The positive temperature anomaly in April 2019 (+1.2 • C) was followed by a significantly negative anomaly in May (-2.5 • C). The development of maize was slow, but the water supply was optimal. In the summer months, the temperatures in June (+3.5 • C) and August (+2.3 • C) were well above average. The positive anomaly continued into the fall. During the growing season, April (-20mm), June (-34 mm), and July (-34 mm) had significantly below average rainfall. The 99 mm rainfall in July was favorable during the silking and grain filling phase of maize.",
+          "table": []
+        },
+        {
+          "text": "In the initial growing season in 2020, the significant negative temperature anomaly (-0.4 • C in April; -2.6 • C in May) was associated with low precipitation. Spring precipitation was followed by particularly high monthly meteorological values during the three summer months. This weather negatively affected the development of the sown maize and its emergence. During the summer months, there was a significant surplus of precipitation compared to the multiple-year average (June +53 mm, July +122 mm, August +21 mm). This rainy weather continued into the fall months. The difference in the average monthly temperatures from the average continued even in August (+1.8 • C), September (+1.9 • C), and October (+1.1 • C) months.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Model Calibration and Evaluation/Data Requirements for Calibrating and Validating the Ceres-Maize Model",
+      "div": [
+        {
+          "text": "The CSM-CERES Maize model (v.4.7) is a deterministic model to simulate crop growth and development on a daily basis . The CERES-Maize model simulates conversion processes of soil water, carbon, and nitrogen balances and predicts maize yield and N uptake, as well as water use efficiency. Daily records of minimum and maximum temperature, total rainfall, and solar radiation are required for the model. The Weatherman utility also needs information from the weather station. Soil data tool (SBuild, Version 4.7.5, DSSAT Foundation, Gainesville, Florida, USA) was used to adapt site coordinates, soil profile, and classification. Measured soil characteristics were used to calculate soil physical and chemical parameters that are needed to run the model for yield prediction (Tables 5 andA1). For simulation options, initial conditions were reported for each year and location (hybrids). The Priestly-Taylor (Ritchie method) was selected for simulating evapotranspiration and the Soil Conservation Service method for infiltration. The Ritchie Water Balance model was set for soil evaporation. Photosynthesis was configured, while phosphorus and potassium were not modelled in all runs.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Weather Data",
+      "div": [
+        {
+          "text": "Daily records of solar radiation amount (SRAD), maximum temperature (T max ), minimum temperature (T min ), and precipitation (RAIN), wind speed, and the relative humidity (RHUM) are required for the CERES-Maize model. According to Banda (2005) , the most important factors are the intensity and distribution of precipitation during the growing season, which greatly influences the development of maize yield.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Examined Hybrid Parameters",
+      "div": [
+        {
+          "text": "In the field experiment (11 measuring points), hybrids were characterized in the vegetation period of 2018 on the basis of Hanway's scale, and values were used to determine genetic parameters [27]. To calibrate the genetic coefficients of the maize cultivar, dates of emergence, silking and physiological maturity, biomass, grain yield, and leaf area index were used. These phenological parameters include thermal time from seedling emergence to the end of the juvenile phase (P1), photoperiod-sensitivity (P2), thermal time from silking to physiological maturity above base temperature of 8 • C (P5), potential kernel number (G2), potential grain filling rate (G3), and interval in degree-days between successive leaf tip appearance (PHINT) (Genetic coefficients for the Sushi hybrid). In this study, we selected one hybrid Sushi (FAO 340). Crop development was assessed by observing the phenology of different maize varieties and recording the daily sum of heat required to reach each phenological phase (Hanway, 1963) [28]. Maize is a heat-demanding crop, but temperatures higher than 30 • C are not taken into account in the heat sum calculation. The total heat demand of the hybrids during the growing season is 1100-1400 • C [24]. Hanway (1963) [28] determined the growth stages before silking based on the number of leaves, the subsequent stages defined on kernel development, the growing season of maize was divided into eleven growth stages [24].  16 October 2019, and 24 October 2020. The sowing machine was set by 76 cm at intervals 18 cm in row with 70.000 ha -1 seedlings (Genetic coefficients for the Sushi hybrid). Initial conditions were based on those reported for each year and location (hybrids). The Priestly-Taylor (Ritchie method) was selected for simulating evapotranspiration and the Soil Conservation Service method for infiltration. The Ritchie Water Balance model was set for soil evaporation. Photosynthesis was configured and Phosphorus and Potassium were not modelled in all runs. In addition to the agrotechnological applications performed during the long-term experiment (tillage, sowing, fertilizer application, method, and dates of harvest), additional information was used to build the model. The objective of this study is to analyze the effect of fertilizer doses on yields and the differences between seasons.",
+          "table": [
+            "Genetic coefficients for the Sushi hybrid.",
+            "Sowing and harvest dates between 2016 and 2020 years."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statistical Analysis",
+      "div": [
+        {
+          "text": "Statistical assessment to judge the accuracy of CERES-Maize outputs included the root mean square error (RMSE), normalized-RMSE (n-RMSE). These indicators were measured as Yang and Huffman (2004) :",
+          "table": []
+        },
+        {
+          "text": "where n is the number of measured dataset, s i is simulated data, m i is measured data, and m is the mean of the measured data. In addition, because n-RMSE is unbounded, and it is unstable if m or n approaches zero, an index of agreement (d) statistic was used in this study .",
+          "table": []
+        },
+        {
+          "text": "In this study, the univariate statistical method was used (regression analysis and analysis of variance) to analyze hybrids and NPK treatment interactions. Regression examines the trend in the relations and describes the mode of the relation with a certain function, i.e., it quantifies the causal relations. The regression coefficient gives the average change in the \"explanatory\" variable per unit change in the \"response\" variable,",
+          "table": []
+        },
+        {
+          "text": "where β 1 represents the regression coefficient. Parameter β 0 can usually only be interpreted mathematically if the variable X is set to 0, then β 0 is the estimate given 0 in X.",
+          "table": []
+        },
+        {
+          "text": "The linear correlation coefficient is known as the coefficient of determination (R 2 ), and it shows the percentage of the variance of the response variable is explained by the factor variable, explain its reliability.",
+          "table": []
+        },
+        {
+          "text": "Comparing two or more groups observed by ANOVA (variance of analysis) shows if there are significant differences. The value of R 2 is between 0 and 1, and it expresses a percentage of the strength of the relations between the variables. The assay performs an F-test. The value can be used to determine if the test is statistically significant. The program determines the p-value from the F-value, which determines whether the treatments have produced significant results. If the results are significant, the model is predictably valid. All analyses were performed using Minitab.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results and Discussion",
+      "div": [
+        {
+          "text": "The weather variations from year to year in this study were significant. Examining the five years, 2016 and 2020 can be considered significantly rainy years. In 2018 and 2019, high average temperature values were associated with drought . The total rainfall in the experimental years was 817 mm (2016), 641 mm (2017), 552 mm (2018), 479 mm (2019), and 708 mm (2020).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "CERES-Maize Simulation Results",
+      "div": [
+        {
+          "text": "The CERES-Maize model was used to analyze the N-fertilization experiments conducted in Látókép during the given growing seasons (2016-2020). The hybrid Sushi (FAO 340) that we tested was calibrated from preliminary field and crop phenological measurements. From the long-term experiment field measurement results and according to the agrotechnical elements for the given year, simulation settings were determined. The performance of the CERES-Maize model was evaluated by comparison between simulated and observed grain yield under different N treatments (Measured and simulated yields of Sushi maize hybrid (2016-2020)). The observed yield ranged from 5016 to 14,920 kg ha -1 during the 2016-2020 growing season, respectively. Higher yields (at 150 kg ha -1 N dose) were measured in the rainy years: 13,858 kg ha -1 (2016), 13,400 kg ha -1 (2020), with the exception of the average rainfall year 2018 (14,920 kg ha -1 ). The simulated data of maize yield ranged between 6671-13,136 kg ha -1 . Simulated and observed maize yield results are similar to the results obtained by Bao et al. (2017) [32], and in other research works [9][10][11][12]. The aim of this evaluation was to investigate how the CERES-Maize model simulated the effects of different N treatments on the observed yield data in long-term experiments, in Hungarian conditions. In both years (2016 and 2017), the maximum yield of the Sushi hybrid was achieved at 150 kg ha -1 N [33].",
+          "table": [
+            "Measured and simulated yields of Sushi maize hybrid (2016-2020)."
+          ]
+        },
+        {
+          "text": "Based on the obtained results, the model most accurately predicted the yield of our test plant in 2016 and 2019. The agrotechnical settings were used according to the given year and the soil test results were also different only in 2020 due to the new sampling tests. Figures 23456show the comparisons of the measured and estimated yields by the simulation model. The good fit between predicted and measured yield data showed that the model could be relevant to simulate the performance of yield for the dissimilar N treatments. Maize grain yield is significantly affected by fertilization (N). In the examined years, the Sushi hybrid yields increased with increasing doses of N. In 2016, except for the N0 dose, the model underestimated the yield in all cases. Due to the year with favorable rainfall, the high yields are also reflected in the simulation results. The measured yield data were determined with R 2 = 0.88 (R 2 = coefficient of determination) and the simulated results with R 2 = 0.98. One unit increase in nitrogen dose increased the yield by 32.14 kg/ha for the measured data, while it was 28.68 kg/ha for the simulated data (Figure 2). with R 2 = 0.98. One unit increase in nitrogen dose increased the yield by 32.14 kg/ha for the measured data, while it was 28.68 kg/ha for the simulated data (Figure 2). An increase in the nitrogen dose per unit increases the yield by 45.26 kg/ha for the measured data, while it was 11.74 kg/ha for the simulated data. Up to the N60 dose, the model estimated yields at the top and then at the bottom (Figure 3) In 2018, the simulated results (R 2 = 0.87) followed the increase in yield in parallel with the increase in the fertilizer dose. However, the values lagged far behind the measured results (R 2 = 0.94). An increase measured data, while it was 11.74 kg/ha for the simulated data. Up to the N60 dose, the model estimated yields at the top and then at the bottom (Figure 3) In 2018, the simulated results (R 2 = 0.87) followed the increase in yield in parallel with the increase in the fertilizer dose. However, the values lagged far behind the measured results (R 2 = 0.94). An increase in the nitrogen dose per unit increases the yield by 51.51 kg/ha for the measured data, while it was 6.30 kg/ha for the simulated data (Figure 4)   In 2019, the measured yields were also below the average and the highest yield was 10 t/ha. An increase in the nitrogen dose per unit increases the yield by 18.19 kg/ha for the measured data, while it was 10.08 kg/ha for the simulated data. This trend was followed by the simulation yield, but underestimated the yields in all cases except for the N0 dose. The measured results were determined with R 2 = 0.65 and the estimated yields with R 2 = 0.76 (Figure 5) In the year 2020, the measured yield values are R 2 = 0.98 and the simulated R 2 = 0.77. An increase in the nitrogen dose per unit increases the yield by 49.96 kg/ha for the measured data, while it was 9.98 kg/ha for the simulated data. The model accurately estimated the yield of the N120 dose in 2020, but examining the other doses showed different results, maintaining the increasing trend (Figure 6).  In 2019, the measured yields were also below the average and the highest yield was 10 t/ha. An increase in the nitrogen dose per unit increases the yield by 18.19 kg/ha for the measured data, while it was 10.08 kg/ha for the simulated data. This trend was followed by the simulation yield, but underestimated the yields in all cases except for the N0 dose. The measured results were determined with R 2 = 0.65 and the estimated yields with R 2 = 0.76 (Figure 5) In the year 2020, the measured yield values are R 2 = 0.98 and the simulated R 2 = 0.77. An increase in the nitrogen dose per unit increases the yield by 49.96 kg/ha for the measured data, while it was 9.98 kg/ha for the simulated data. The model accurately estimated the yield of the N120 dose in 2020, but examining the other doses showed different results, maintaining the increasing trend (Figure 6).   According to similar studies , the CERES-Maize model was very sensitive to changes in climate factors. In summary, the model simulated the maize yields inaccurately in different N treatments and for the different growing season.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results of the Statistical Analysis",
+      "div": [
+        {
+          "text": "According the analysis variance had a significant effect on years (2016-2020) and nitrogen doses. N fertilizer had significant impact on yield but the simulated data and measurement data do not show any significance together (Component variance analysis on parameters). The Tukey analysis showed that there was a significant difference between the examined years. There was no difference between 2016 and 2020 (group A), in case of 2017, 2018, and 2019, but there was a significant difference compared to 2016 and 2020 (group B) (Component variance analysis on parameters). On average, over the examined years, the Tukey grouping analysis showed that there was a significant difference between the various nitrogen doses. There were similar values in the case of the 150 and 120 N doses, while the second group involved the 90 and 60 N doses, and the third group included the 30 N dose and the fourth group is 0 nitrogen (Component variance analysis on parameters). Based on the Tukey grouping analysis, there was no significant difference between measured and simulated values in the case of averaged years (Component variance analysis on parameters).  An increase in the nitrogen dose per unit increases the yield by 45.26 kg/ha for the measured data, while it was 11.74 kg/ha for the simulated data. Up to the N60 dose, the model estimated yields at the top and then at the bottom (Figure 3) In 2018, the simulated results (R 2 = 0.87) followed the increase in yield in parallel with the increase in the fertilizer dose. However, the values lagged far behind the measured results (R 2 = 0.94). An increase in the nitrogen dose per unit increases the yield by 51.51 kg/ha for the measured data, while it was 6.30 kg/ha for the simulated data (Figure 4).",
+          "table": [
+            "Component variance analysis on parameters.",
+            "Tukey Pairwise Comparisons on years.",
+            "Component variance analysis on parameters.",
+            "Tukey Pairwise Comparisons on years."
+          ]
+        },
+        {
+          "text": "In 2019, the measured yields were also below the average and the highest yield was 10 t/ha. An increase in the nitrogen dose per unit increases the yield by 18.19 kg/ha for the measured data, while it was 10.08 kg/ha for the simulated data. This trend was followed by the simulation yield, but underestimated the yields in all cases except for the N0 dose. The measured results were determined with R 2 = 0.65 and the estimated yields with R 2 = 0.76 (Figure 5) In the year 2020, the measured yield values are R 2 = 0.98 and the simulated R 2 = 0.77. An increase in the nitrogen dose per unit increases the yield by 49.96 kg/ha for the measured data, while it was 9.98 kg/ha for the simulated data. The model accurately estimated the yield of the N120 dose in 2020, but examining the other doses showed different results, maintaining the increasing trend (Figure 6).",
+          "table": []
+        },
+        {
+          "text": "According to similar studies , the CERES-Maize model was very sensitive to changes in climate factors. In summary, the model simulated the maize yields inaccurately in different N treatments and for the different growing season.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results of the Statistical Analysis",
+      "div": [
+        {
+          "text": "According the analysis variance had a significant effect on years (2016-2020) and nitrogen doses. N fertilizer had significant impact on yield but the simulated data and measurement data do not show any significance together (Component variance analysis on parameters). The Tukey analysis showed that there was a significant difference between the examined years. There was no difference between 2016 and 2020 (group A), in case of 2017, 2018, and 2019, but there was a significant difference compared to 2016 and 2020 (group B) (Component variance analysis on parameters). On average, over the examined years, the Tukey grouping analysis showed that there was a significant difference between the various nitrogen doses. There were similar values in the case of the 150 and 120 N doses, while the second group involved the 90 and 60 N doses, and the third group included the 30 N dose and the fourth group is 0 nitrogen (Component variance analysis on parameters). Based on the Tukey grouping analysis, there was no significant difference between measured and simulated values in the case of averaged years (Component variance analysis on parameters).   The analysis of variance had a significant effect on nitrogen, measured and simulated values. The Tukey grouping analysis showed that there was a significant difference between measured and predicted yields in 2016. The analysis of variance showed no significant effect on nitrogen and type. The Tukey grouping showed no significant difference between measured and simulated data in 2017. The analysis of variance showed no significant effect on nitrogen; however, the analysis of variance showed a significant effect on type factor. The Tukey grouping analysis showed significant difference between measured and simulated values in 2018. The analysis of variance had a significant effect on nitrogen; however, no significant effect was shown on measured and simulated values. The Tukey grouping analysis showed that there were not significantly difference between measured and simulated values in 2019. The analysis of variance did not have any significant effect on the examined parameters. The Tukey grouping analysis showed no significant difference between simulated and measured values in 2020 (Tables 13 and14).",
+          "table": [
+            "Component variance analysis on parameters.",
+            "Tukey Pairwise Comparisons on years.",
+            "Component variance analysis on parameters.",
+            "Tukey Pairwise Comparisons on years.",
+            "Tukey Pairwise Comparisons on N fertilizer.",
+            "Tukey Pairwise Comparisons on modeling."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "The CERES-Maize model was evaluated using a long-term experiment in Hungary. In summary, simulated maize yields were not associated with site-specific measured maize yields from experimental plots. Our long-term experiment indicated that, as a result of increasing fertilization, crop yields increase. In addition to fertilization, yields were also affected by the weather. The model did not simulate the annual Sushi yields precisely. The examined years in this study differed significantly depending on the seasonal conditions. In the rainy year (2016), the hybrid Sushi reached a yield of 13.858 kg ha -1 , while the obtained yield was 3 tons less (10,860 kg ha -1 ) even in the drought year (2019).",
+          "table": []
+        },
+        {
+          "text": "The simulated results of the model followed the increase in yields with increasing N dose. The measured and predicted yield during the years tracked the maize yields reasonably well for the 0N treatments. On specific treatment levels, the model accurately estimated yields for the Sushi hybrid, but in several cases, the model under-or overestimated yields. According the performed variance analysis, a significant effect was observed on crop year (2016-2020) and nitrogen doses. The Tukey analysis showed significant difference between each year. Even though the DSSAT-CERES Maize have showed some uncertainties associated in estimating the yields of different years, the increase in yield under the nitrogen dose was accurately modeled. The results of this study support the potential of using the model for the application of appropriate agrotechnics, including the determination of the nitrogen dose. Higher fertilizer doses resulted in higher yields each year.",
+          "table": []
+        },
+        {
+          "text": "In order to predict yields that meet the requirements of precision farming, care must be taken to collect data from experiments performed under optimal conditions. In addition, the data required for calibration should be collected from a location where detailed soil data are available. Analysis of varieties (hybrids) will help farmers to have more accurate decision support tools. Precision farming, which takes into account low spatial resolution management units, requires accurate, reliable crop yield models. Without validating these decision support systems for our growing conditions, we will not be able to make good agronomic decisions.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Fertilizer input of different treatments in our experiment.\", \"head\": [\"Fertilizer Amount\", \"N\", \"P 2 O 5\", \"K 2 O\", \"Sum\"], \"value\": [[\"0\", \"-\", \"-\", \"-\", \"-\"], [\"1\", \"30\", \"23\", \"27\", \"80\"], [\"2\", \"60\", \"46\", \"54\", \"160\"], [\"3\", \"90\", \"69\", \"81\", \"240\"], [\"4\", \"120\", \"92\", \"108\", \"320\"], [\"5\", \"150\", \"115\", \"135\", \"400\"]]}",
+    "{\"title\": \"Soil physical properties in the experimental site (2020).\", \"head\": [\"Depth (cm)\", \"Sand\", \"Silt\"], \"value\": []}",
+    "{\"title\": \"Mean monthly air temperature ( • C) in the growing season of maize at Debrecen-Látókép (2016-2020).\", \"head\": [\"\", \"2016\", \"2017\", \"2018\", \"2019\", \"2020\"], \"value\": [[\"April (1)\", \"13.3 (+2.1)\", \"10.7 (-0.5)\", \"16.0 (+4.8)\", \"12.4 (+1.2)\", \"10.8 (-0.4)\"], [\"May (2)\", \"16.5 (-0.1)\", \"17.2 (+0.6)\", \"19.7 (+3.1)\", \"14.1 (-2.5)\", \"14 (-2.6)\"], [\"June (3)\", \"21.1 (+1.8)\", \"22.2 (+2.9)\", \"20.2 (+0.9)\", \"22.8 (+3.5)\", \"19.6 (+0.3)\"], [\"July (4)\", \"22.3 (+1.0)\", \"22.3 (+1.0)\", \"21.7 (+0.4)\", \"21.1 (-0.2)\", \"20.9 (-0.4)\"], [\"August (5)\", \"20.8 (0)\", \"23.2 (+2.4)\", \"23.2 (+2.4)\", \"23.1 (+2.3)\", \"22.6 (+1.8)\"], [\"September (6)\", \"17.6 (+1.6)\", \"16.4 (+0.4)\", \"17.1 (+1.1)\", \"17.1 (+1.1)\", \"17.9 (+1.9)\"], [\"October (7)\", \"9.7 (-0.9)\", \"10.8 (+0.2)\", \"12.3 (+1.7)\", \"12.6 (+2.0)\", \"11.7 (+1.1)\"], [\"Summer period (IV-IX.) (8)\", \"18.6 (+1.1)\", \"18.7 (+1.2)\", \"19.7 (+2.2)\", \"18.4 (+0.9)\", \"17.6 (+0.1)\"], [\"Winter period (X-III.) (9)\", \"3.9 (-0.3)\", \"4.1 (-0.1)\", \"4.1 (-0.1)\", \"4.4 (+0.2)\", \"4.6 (+0.4)\"], [\"\", \"Note: Differences (in • C) from the climatic normal values of 1981-2010 are shown in brackets; (1) April, (2) May,\"], [\"\", \"(3) June, (4) July, (5) August, (6) September, (7) October, (8) Summer period (April-September), (9) Winter period\"], [\"\", \"(October-March).\", \"\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Monthly sum of precipitation (mm) in the growing season of maize at Debrecen-Látókép (2016-2020).\", \"head\": [\"\", \"2016\", \"2017\", \"2018\", \"2019\", \"2020\"], \"value\": [[\"April (1)\", \"16 (-37)\", \"51 (-2)\", \"37 (-16)\", \"33 (-20)\", \"17 (-36)\"], [\"May (2)\", \"68 (+4)\", \"27 (-37)\", \"57 (-7)\", \"76 (+12)\", \"45 (-19)\"], [\"June (3)\", \"146 (+80)\", \"67 (+1)\", \"64 (-2)\", \"32 (-34)\", \"119 (+53)\"], [\"July (4)\", \"87 (+21)\", \"73 (+7)\", \"55 (-11)\", \"99 (+33)\", \"188 (+122)\"], [\"August (5)\", \"72 (+23)\", \"61 (+12)\", \"92 (+43)\", \"15 (-34)\", \"70 (+21)\"], [\"September (6)\", \"64 (+16)\", \"76 (+28)\", \"14 (-34)\", \"35 (-13)\", \"44 (+4)\"], [\"October (7)\", \"98 (+60)\", \"38 (0)\", \"9 (-29)\", \"22 (-16)\", \"79 (+41)\"], [\"Summer period (IV-IX.) (8)\", \"453 (+107)\", \"354 (+8)\", \"318 (-28)\", \"290 (-56)\", \"483 (+137)\"]]}",
+    "{\"title\": \"The physical and chemical parameters of the soil in the experimental area in 2020.\", \"head\": [\"2020\"], \"value\": []}",
+    "{\"title\": \"Genetic coefficients for the Sushi hybrid.\", \"head\": [\"Hybrid\", \"P1\", \"P2\", \"P5\", \"G2\", \"G3\", \"PHINT\"], \"value\": [[\"Sushi\", \"118\", \"0.500\", \"926\", \"830\", \"7.1\", \"42\"], [\"The Sushi hybrid was sown on 19 April 2016, 25 April 2017, 24 April 2018, 16 April\"], [\"2019, and 17 April 2020. The harvesting dates were in 14 October 2016, 12 October 2017, 19\"], [\"September 2018,\", \"\", \"\", \"\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Sowing and harvest dates between 2016 and 2020 years.\", \"head\": [\"Years\", \"Sowing Date\", \"Harvest Date\"], \"value\": [[\"2016\", \"19 April\", \"14 October\"], [\"2017\", \"25 April\", \"12 October\"], [\"2018\", \"24 April\", \"19 September\"], [\"2019\", \"16 April\", \"16 October\"], [\"2020\", \"17 April\", \"24 October\"]]}",
+    "{\"title\": \"Measured and simulated yields of Sushi maize hybrid (2016-2020).\", \"head\": [\"Year\", \"N Rate (kg N ha -1 )\", \"Grain Yield (kg ha -1 ) Measured Simulated\"], \"value\": [[\"2016\", \"0\", \"8657\", \"8838\"], [\"\", \"30\", \"11,036\", \"10,010\"], [\"\", \"60\", \"12,318\", \"11,010\"], [\"\", \"90\", \"12,773\", \"11,792\"], [\"\", \"120\", \"13,467\", \"12,624\"], [\"\", \"150\", \"13,858\", \"13,136\"], [\"2017\", \"0\", \"5016\", \"8344\"], [\"\", \"30\", \"6629\", \"8638\"], [\"\", \"60\", \"8627\", \"9095\"], [\"\", \"90\", \"9652\", \"9438\"], [\"\", \"120\", \"11,011\", \"9866\"], [\"\", \"150\", \"11,688\", \"10,004\"], [\"2018\", \"0\", \"6995\", \"6671\"], [\"\", \"30\", \"9980\", \"6984\"], [\"\", \"60\", \"11,540\", \"7338\"], [\"\", \"90\", \"12,030\", \"7525\"], [\"\", \"120\", \"14,640\", \"7595\"], [\"\", \"150\", \"14,920\", \"7592\"], [\"2019\", \"0\", \"7200\", \"7740\"], [\"\", \"30\", \"9920\", \"8639\"], [\"\", \"60\", \"9940\", \"9181\"], [\"\", \"90\", \"9780\", \"9269\"], [\"\", \"120\", \"10,240\", \"9387\"], [\"\", \"150\", \"10,860\", \"9392\"], [\"2020\", \"0\", \"5488\", \"10,520\"], [\"\", \"30\", \"7999\", \"11,186\"], [\"\", \"60\", \"8629\", \"11,864\"], [\"\", \"90\", \"10,259\", \"12,056\"], [\"\", \"120\", \"11,757\", \"12,056\"], [\"\", \"150\", \"13,400\", \"12,056\"]]}",
+    "{\"title\": \"Component variance analysis on parameters.\", \"head\": [\"Source\", \"DF\", \"Adj SS\", \"Adj MS\", \"F-Value\", \"p-Value\"], \"value\": [[\"year\", \"4\", \"57283327\", \"14320832\", \"5.78\", \"0.001\"], [\"N\", \"5\", \"114917792\", \"22983558\", \"9.28\", \"<0.001\"], [\"type\", \"1\", \"2040570\", \"2040570\", \"0.82\", \"0.396\"], [\"Error\", \"49\", \"121361829\", \"2476772\", \"\", \"\"], [\"Total\", \"59\", \"295603519\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Tukey Pairwise Comparisons on years.\", \"head\": [\"Year\", \"N\", \"Mean\", \"Grouping\", \"\"], \"value\": [[\"2016\", \"12\", \"11,626.6\", \"A\", \"\"], [\"2020\", \"12\", \"10,605.8\", \"A\", \"B\"], [\"2018\", \"12\", \"9484.2\", \"\", \"B\"], [\"2019\", \"12\", \"9295.7\", \"\", \"B\"], [\"2017\", \"12\", \"9000.7\", \"\", \"B\"], [\"Means that do not share a letter are significantly different.\", \"\", \"\"]]}",
+    "{\"title\": \"Component variance analysis on parameters.\", \"head\": [\"Source\", \"DF\", \"Adj SS\", \"Adj MS\", \"F-Value\", \"p-Value\"], \"value\": [[\"year\", \"4\", \"57283327\", \"14320832\", \"5.78\", \"0.001\"], [\"N\", \"5\", \"114917792\", \"22983558\", \"9.28\", \"<0.001\"], [\"type\", \"1\", \"2040570\", \"2040570\", \"0.82\", \"0.396\"], [\"Error\", \"49\", \"121361829\", \"2476772\", \"\", \"\"], [\"Total\", \"59\", \"295603519\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Tukey Pairwise Comparisons on years.\", \"head\": [\"Year\", \"N\", \"Mean\", \"Grouping\", \"\"], \"value\": [[\"2016\", \"12\", \"11,626.6\", \"A\", \"\"], [\"2020\", \"12\", \"10,605.8\", \"A\", \"B\"], [\"2018\", \"12\", \"9484.2\", \"\", \"B\"], [\"2019\", \"12\", \"9295.7\", \"\", \"B\"], [\"2017\", \"12\", \"9000.7\", \"\", \"B\"]]}",
+    "{\"title\": \"Tukey Pairwise Comparisons on N fertilizer.\", \"head\": [\"N\", \"N\", \"Mean\", \"\", \"Grouping\"], \"value\": [[\"150\", \"10\", \"11,690.6\", \"A\", \"\"], [\"120\", \"10\", \"11,264.3\", \"A\", \"\"], [\"90\", \"10\", \"10,457.4\", \"A\", \"B\"], [\"60\", \"10\", \"9954.2\", \"A\", \"B\"], [\"30\", \"10\", \"9102.0\", \"\", \"B\", \"C\"], [\"0\", \"10\", \"7546.9\", \"\", \"\", \"C\"]]}",
+    "{\"title\": \"Tukey Pairwise Comparisons on modeling.\", \"head\": [\"Type\", \"N\", \"Mean\", \"Grouping\"], \"value\": [[\"M\", \"30\", \"10,187.0\", \"A\"], [\"S\", \"30\", \"9818.2\", \"A\"]]}",
+    "{\"title\": \"Simple variance analysis on yield.\", \"head\": [\"Year\", \"Source\", \"DF\", \"Adj SS\", \"Adj MS\", \"F-Value\", \"p-Value\"], \"value\": [[\"\", \"N\", \"5\", \"30900853\", \"6180171\", \"47.16\", \"<0.001\"], [\"2016\", \"type Error\", \"1 5\", \"1840050 655247\", \"1840050 131049\", \"14.04\", \"0.013\"], [\"\", \"Total\", \"11\", \"33396151\", \"\", \"\", \"\"], [\"\", \"N\", \"5\", \"26086128\", \"5217226\", \"2.86\", \"0.137\"], [\"2017\", \"type Error\", \"1 5\", \"635720 9125963\", \"635720 1825193\", \"0.35\", \"0.581\"], [\"\", \"Total\", \"11\", \"35847811\", \"\", \"\", \"\"], [\"\", \"N\", \"5\", \"27856557\", \"5571311\", \"1.63\", \"0.303\"], [\"2018\", \"type Error\", \"1 5\", \"58080000 17102215\", \"58080000 3420443\", \"16.98\", \"0.009\"], [\"\", \"Total\", \"11\", \"103038772\", \"\", \"\", \"\"], [\"\", \"N\", \"5\", \"8826853\", \"1765371\", \"6.99\", \"0.026\"], [\"2019\", \"type Error\", \"1 5\", \"1563852 1262346\", \"1563852 252469\", \"6.19\", \"0.055\"], [\"\", \"Total\", \"11\", \"11653051\", \"\", \"\", \"\"], [\"\", \"N\", \"5\", \"28850326\", \"5770065\", \"2.20\", \"0.204\"], [\"2020\", \"type Error\", \"1 5\", \"12415536 13118546\", \"12415536 2623709\", \"4.73\", \"0.082\"], [\"\", \"Total\", \"11\", \"54384408\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Tukey Pairwise Comparisons.\", \"head\": [\"Year\", \"Type\", \"N\", \"Mean\", \"Grouping\", \"\"], \"value\": [[\"2016\", \"S M\", \"6 6\", \"12,018.2 11,235.0\", \"A\", \"B\"], [\"2017\", \"S M\", \"6 6\", \"9230.83 8770.50\", \"A A\", \"\"], [\"2018\", \"M S\", \"6 6\", \"11,684.2 7284.2\", \"A\", \"B\"], [\"2019\", \"M S\", \"6 6\", \"9656.67 8934.67\", \"A A\", \"\"], [\"2020\", \"S M\", \"6 6\", \"11,623.0 9588.7\", \"A A\", \"\"]]}"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "Distribution of high-yield and high-yield-stability zones for maize yield potential in the main growing regions in China",
+    "author": "Jin Zhao, Xiaoguang Yang",
+    "journal": "Elsevier BV",
+    "date": "2018. 01."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Understanding the distribution of zones possessing both high yield and high yield stability (high-stable zones) for maize (Zea mays L.) yield potential is essential for optimized distribution and improvement of maize production with limited resources. In this study, the well-calibrated and validated Agricultural Production Systems sIMulator (APSIM-Maize) model with observed phenology and yield of widely planted hybrids, was applied to simulate three levels of yield potentials [radiation-temperature yield potential (Y p ), climatic yield potential (Y pw ) and soil-climatic yield potential (Y pws )] at 331 meteorology stations in the three main growing regions in China [the North China spring maize region (NCS), the Huanghuaihai summer maize region (HS) and the Southwest China mountain maize region (SCM)] during 1981-2010. According to the comprehensive analysis of both average and CVs for the three levels of yield potential, the high-stable zone for Y p was located in the southeastern and central portions of NCS, while both high-stable zones for Y pw and Y pws were located in eastern NCS, accounting for 16.4% and 20.0% of the area, respectively. In HS, the high-stable zone for Y p was located in the northern portions and accounted for 12.8% of the entire area in this region, while the percentages of highstable zones for Y pw and Y pws increased to 30.4% and 35.0%, respectively, and were mainly located in the southern and eastern portions. In SCM, the high-stable zone for Y p was located in the southwestern portions and occupied 24.5% of the areas; the high-stable zones for Y pw and Y pws were found in eastern portions and accounted for 17.1% and 20.1% of the land area in this region, respectively. Yield stability was more negatively affected by rain in NCS and HS (38.9% and 34.3%, respectively) than in SCM (8.2%), while yield level was reduced by rain in more areas in SCM (19.1%). Moreover, the effects of soil on yield level and stability were limited in all the three regions.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Maize (Zea mays L.) is an extremely important cereal crop and provides at least 30% of daily caloric intake to more than 4.5 billion people in 94 developing countries (CGIAR, 2016), where the demand for maize is projected to double between now and 2050 (CIMMYT, 2011). Improvement in maize productivity is critical to meet increasing demand with limited crop land (Chen et al., 2017;Licker et al., 2010;Wart et al., 2013). As the second largest producer and consumer of maize, this issue is more serious in China because of its large population and insufficient crop land. In China, maize yields have been affected by increasing temperature and uncertain precipitation (Lv et al., 2015;Tao et al., 2015;Wang et al., 2014) in the last 30 years. The recorded maize grain yield had increased in a nearly linear fashion since 1961, but the increasing trend has stagnated at approximately 5000 kg ha -1 since 1995 (FAO, 2014;Meng et al., 2013) and across 52% of the maizegrowing areas (Ray et al., 2012). Therefore, it is essential to elucidate the optimized distribution to improve maize production with different limited resources throughout China.",
+          "table": []
+        },
+        {
+          "text": "In China, maize is widely cultivated and growing areas are divided into six regions (Li and Wang, 2010). Among the six regions, the North China spring maize (NCS), Huanghuaihai summer maize (HS), and Southwest China mountain maize regions (SCM) accounted for ∼90% of the sowing areas and ∼96% of the total production in the whole country (Li and Wang, 2010); we selected these leading regions in this research (Fig. 1). Yield potential is the yield of a cultivar when grown in environments to which it is adapted, with nutrients and water (resources) non-limiting and with pests, diseases, and other stresses effectively controlled (Fischer, 2015;Grassini et al., 2011). Because of limiting factors, yield potential varies with location. The radiationtemperature yield potential (Y p , using the term 'yield potential' in a lot of studies directly) is the yield limited only by the solar radiation and temperature, with optimal resources and without stresses. Since it is difficult to control the solar radiation and temperature conditions in the field, Y p is considered as the maximum yield that could be reached in any given environment with optimal resources and management (Evans and Ficsher, 1999), and it can be referenced in the areas with irrigation conditions. However, most of the maize fields are rain-fed in the main growing regions in China (Liu et al., 2017). The yield potential under water-limited and optimal soil conditions [climatic yield potential (Y pw )] should be the maximum yield in most of the maize fields in the research regions. Additionally, since there are an abundance of soil types (Huang, 2005), yield potential under water-limited and actual soil conditions [soil-climatic yield potential (Y pws )] reflect the effects of water and soil on crop growth. Coupled with local agricultural conditions, spatial knowledge on Y p , Y pw and Y pws is essential to under the best distribution for higher yield (Liu et al., 2016a). While it may be challenging to determine the potential conditions for the optimal management of crop and soil factors (Lobell et al., 2009), it is important to understand the magnitudes of each level of yield potential in the different regions. Additionally, yield stability (consistently producing high yield across environments) influences food security. Disasters arising from increased probability, frequency, and severity of extreme events can cause major damage to crops and infrastructure, potentially threatening local and global food security (Lesk et al., 2016). It is important to know the effects of different factors on yield stability (Guan et al., 2017;Katz and Brown, 1992;Rosenzweig et al., 2001); however, few studies have researched this topic.",
+          "table": []
+        },
+        {
+          "text": "By comparing different levels of yield potential, we can determine the main limiting factors in each region. According to the definitions of the three yield potentials, the reduction in yield between Y p and Y pw was caused by insufficient water supply during the maize growing season (Fischer, 2015). Therefore, more consideration should be placed on the extreme drought events in the areas with a reduction in yield stability. Irrigation is the essential measure to increase Y pw to fully achieve Y p (Liu et al., 2017). However, because the rain-fed condition in most of the maize fields, the differences between Y pw and Y pws were selected to show the constraint of soil on the yield in the research regions, which could be improved with better agricultural management practices (Liu et al., 2016b).",
+          "table": []
+        },
+        {
+          "text": "Yield potential can be estimated in several ways including crop model simulation, field experiments and yield contests, and maximum farmer yields (Lobell et al., 2011). Compared with other methods, crop models reflect the integrated effects of limited factors and offset the space and time limitation. In this study, we used the Agricultural Production Systems sIMulator (APSIM-Maize) to estimate Y p , Y pw , and Y pws across the three primary maize growing regions in China from 1981 to 2010. The purpose of this study was to: (1) investigate the distribution of zones with high yield and high yield stability (high-stable zones) for maize Y p , Y pw , and Y pws and (2) find the areas in each region where both yield and stability were reduced by rain and soil. Coupled with different agricultural conditions, the results provide a scientific basis for optimal maize growing distribution, and elucidate ways to improve yield and yield stability with limited resources in the main growing regions in China.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Study areas and climatic data",
+      "div": [
+        {
+          "text": "Historical climate data from 331 meteorological stations in the three regions during the period of 1981-2010 were obtained from the China Meteorological Administration climate data-sharing service system. The observed daily weather conditions included: maximum temperature, minimum temperature, average relative humidity, minimum relative humidity, wind speed, precipitation, and sunshine duration. The fiveday moving averages method was used to define the period consecutively exceeding 10 °C (Qu, 1990) and accumulated temperature (ACT10) was calculated annually for each meteorological station. We used the inverse distance weighting (IDW) method in ArcGIS to interpolate the ACT10 within the 20th percentile for stations across the entire region. Based on the index for growing maize in previous studies (Liu et al., 2010), areas with an ACT10 greater than 2100 °C d in NCS, HS, and SCM were selected as the study areas (Fig. 1).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Data collection for model calibration",
+      "div": [
+        {
+          "text": "Maize trial data were collected from 14 Agrometeorological Experimental Stations (six in NCS, five in HS and three in SMC) (Fig. 1) operated by the China Meteorological Administration and 'Agricultural Statistical Yearbook' operated by the Ministry of Agriculture of China. The dataset includes phenological data (e.g., sowing, flowering, and physiological maturity dates), cultivars, soil properties in the trial fields, yields, and management practices. Coupled with the climate data from the nearest meteorological stations, these data were used to calibrate the crop model. Depending on the availability of data, one cultivar was selected and calibrated for one/two provinces to obtain province-specific crop coefficients for the subsequent model analysis (Description of calibration and validation dataset for the APSIM-Maize model).",
+          "table": [
+            "Description of calibration and validation dataset for the APSIM-Maize model."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Crop model and simulations",
+      "div": [
+        {
+          "text": "The APSIM-Maize model (http://www.apsim.info/apsim/), which captures the interaction between soil water, nutrients, crop growth, climate, and farmer management (Gaydon et al., 2017;Keating et al., 2003), was selected to simulate grain yield with the historical climate data  under three potential conditions as below: a) Y p : Water applications were set as non-limited to eliminate the effect of water on simulated maize yield. The optimal soil data were input into the soil module for all the stations in each region. b) Y pw : Water applications were set as precipitation (i.e., no irrigation) for the maize yield simulation. The optimal soil data were input into the soil module for all the stations in each region. c) Y pws : Water applications were set as precipitation (i.e., no irrigation), and the actual soil data were input into the soil module for all the stations in each region. The soil data from the China Soil Scientific Database included the soil bulk density (BD), drained upper limit (DUL), 15 bar lower limit(LL15), total nitrogen (N), soil organic carbon (SOC) and pH value (pH) in different soil layers (Range of soil profile properties in the primary maize growing regions in China).",
+          "table": [
+            "Range of soil profile properties in the primary maize growing regions in China."
+          ]
+        },
+        {
+          "text": "In NCS and SCM, 99% and 89% of the maize growing areas, respectively, were planted with spring maize that was sown in spring and harvested in autumn. As a thermophilic crop, sowing date was defined as the beginning of the period that was consistently above 10 °C in each year. The dominant cropping system in HS is winter wheatsummer maize, and the growing season for winter wheat had to be considered when determining the maize sowing dates. Therefore, the average observed planting date from the Agrometeorological Experimental Stations in HS was input into the model. Nutrient inputs were set as non-limited for all the yield simulations. Planting densities were set as optimal ones from Li and Wang, 2010. Planting depth was set as 50 mm and row spacing was 60 cm. For each station, Y p and Y pw were simulated under all the soil data from the 14 Agrometeorological Experimental Stations. The soil type that can produce the highest Y p or Y pw was selected as the optimal soil. To determine the amount of daily solar radiation, we used the Angstrom formula to generate appropriate estimates.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Data analysis",
+      "div": []
+    },
+    {
+      "title": "Evaluation of model performance",
+      "div": [
+        {
+          "text": "To evaluate model performance and accuracy, statistical indicators of correlation coefficient (R 2 ), normalized root mean square error (NRMSE), and Willmott's index of agreement (D value) (Cao et al., 2012;Willmott, 1982) were computed from observed and simulated variables (floweringdays after sowing, maturitydays after sowing, and grain yield. Willmott's D value was a better indicator of model performance, particularly relative to the 1:1 line. Values closer to 1 indicate low model bias while a D value of 0 indicates no relationship between observed and simulated variables (Willmott, 1982).",
+          "table": []
+        },
+        {
+          "text": "(2)",
+          "table": []
+        },
+        {
+          "text": "Where Obs i was the observed value; Sim i was the simulated values; was the mean value of the observed ones; was the mean value of the simulated values; n was the number of values.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Indices of high-stable zones for Y p , Y pw and Y pws",
+      "div": [
+        {
+          "text": "The averages of each level yield potential during 1981-2010 were used to evaluate the high/low zones for yield within the regions. The coefficient of variation (CV) during the study period, the ratio of the standard deviation to the arithmetic mean, was selected as the index for stable/unstable zones for yield stability. We used the cumulative frequency distribution (CFD) method to classify the averages and CVs of the three levels of yield potential into two categories:",
+          "table": []
+        },
+        {
+          "text": "where CFD is cumulative frequency distribution of yield potential, F is the number of the stations in each region and F i is the number of  2002, 2004 1993, 1995, 2001, 2003 locations with average/CV greater than the threshold. The threshold values for classification (high/stable and stable/unstable) were calculated when CFD was 50%. Because that the climatic environment and agricultural operation are different among these main maize growing regions in China, a shifting baseline was used for the high and low yield index. For spatial data, we used the IDW method in ArcGIS (cell size was 0.02) to interpolate the averages and CVs of yield potential based on the location data. Based on the grading values, each growing region was divided into high/low and stable/unstable zones. Comprehensive analysis of both the average and CV of three levels of yield potential, the geographical distribution and percentages of high-stable zones for each level were determined.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Effects of rain and soil on high-stable zones",
+      "div": [
+        {
+          "text": "According to the definitions of the three levels of yield potential, the differences in average yield and yield stability between Y p and Y pw , and Y pw and Y pws should be because of the effects of rain and soil, respectively. For each raster in the study region, if it belonged to a high zone for Y p but a low zone for Y pw , then it had a negative change in average yield due to rain; if it belonged to a stable zone for Y p but an unstable zone for Y pw , then it had a negative change in yield stability due to rain. Moreover, if it belonged to a high-stable zone for Y p but a low-unstable zone for Y pw , then it had a negative change in high-stable zone due to rain. The same analysis was used for the effects of soil on high-stable zones.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Model calibration and validation",
+      "div": [
+        {
+          "text": "The performance of the simulated model compared with regional observations is shown in Fig. 2. For the floweringand maturitydays after sowing, the R 2 values were 0.9983 and 0.9929, 0.9898 and 0.9833 for calibration and validation respectively. Meanwhile, the D-values were 0.999 and 0.998, 0.997 and 0.995, whereas the NRMSE values were 2.22% and 2.91%, 5.46% and 4.74%. These results stated that the APSIM-Maize model could predict maize growth stages for the three primary maize growing regions. In addition, simulated yields acceptably matched observed yields, although not as well as the growth-stage simulations.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Distribution of high-stable zones for three levels of yield potential",
+      "div": [
+        {
+          "text": "Based on CFD fitting curves of the average (Figs. S1 andS2) and CVs (Figs. S3 andS4) for Y p , Y pw and Y pws in the three main maize growing regions in China during 1981-2010, the corresponding values for cumulative probability 0.5 were selected as the grading standards for high/low and stable/unstable zones for the three levels of yield potential in each growing region, which were listed in Fig. S5. According to the comprehensive analysis of both average and CVs for the three levels of yield potential, geographical distribution and percentages of high-stable zones for each level are shown in Fig. 3.",
+          "table": []
+        },
+        {
+          "text": "In NCS, the high-stable zone for Y p was in the southeastern and central portions, while the low-unstable zone was mainly in northern portions, accounting for 46.4% of the area in this region. For Y pw and Y pws , more than 60% of the area belonged to low-unstable zones, mainly in western portions. Meanwhile, both high-stable zones for Y pw and Y pws were in eastern NCS, with 16.4% and 20.0%, respectively.",
+          "table": []
+        },
+        {
+          "text": "In HS, the high-stable zone for Y p was in the north and accounted for 12.8% of the entire area in this region. However, the percentages of the high-stable zones for Y pw and Y pws increased to 30.4% and 35.0%, respectively, and were mainly located in the south and east. The lowunstable zones for Y p were found in the central and western portions, occupying 24.6% of area in HS, while the zones for Y pw and Y pws expanded north and south, increasing to 46.8% and 32.9%, respectively.",
+          "table": []
+        },
+        {
+          "text": "In SMC, low-unstable zones accounted for most of the land area in  this region for all three levels of yield potential (45.8%, 38.3% and 46.9% for Y p , Y pw and Y pws , respectively), located in almost the entire northern half for Y p and the northern and southern portions for both Y pw and Y pws . The distributions of high-stable zones for three levels of yield potential were different. The high-stable zone for Y p was located in the southwest and occupied 24.5% of the area in SCM. In contrast, high-stable zones for Y pw and Y pws were found in the eastern portions and accounted for 17.1% and 20.1% of the area in this region, respectively.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Effects of rain and soil on high-stable zones",
+      "div": [
+        {
+          "text": "In NCS, the maize average yield was negatively affected by rain in 12.3% of the areas in the northeastern part of the region during the study period (Fig. 4 and Area percentages of negative changes in yield, stability and both (high-stable) affected by rain and soil in the main cropping regions inChina, 1981China,  -2010.   .    In other words, these dividing index values are relative to each region, and are not compatible among other regions;). Moreover, the yield stability in most of the western and southern portions of NCS was negatively affected and accounted for 38.9% of the region. Both average yield and yield stability were reduced by rain only in 0.3% of NCS. The areas where average yield or/and stability was negatively affected by soil were far less than those affected by rain. The areas where average yield, yield stability and both were reduced by soil were 7.0%, 3.2%, and 1.9% of the region, respectively.",
+          "table": [
+            "Area percentages of negative changes in yield, stability and both (high-stable) affected by rain and soil in the main cropping regions inChina, 1981China,  -2010.   .    In other words, these dividing index values are relative to each region, and are not compatible among other regions;"
+          ]
+        },
+        {
+          "text": "In HS, the maize average yield was reduced by rain in 8.5% of the areas in the central and southwestern portions of the region. However, the area where yield stability was reduced by rain accounted for 34.3% of the region and was in the northern and eastern portions. In the southern portion, both average yield and yield stability were negatively affected in 14.1% of the region's area. Similar to NCS, negative effects of soil on average yield, yield stability, and both were less (13.4%, 5.7%, and 5.1%, respectively) than those affected by rain.",
+          "table": []
+        },
+        {
+          "text": "In SCM, the total area percentages where maize average yield, yield stability and both were negatively affected by rain were lower than the two other regions. However, the area where the average yield was reduced by rain was 19.1% of the region located in the eastern portion, the greatest percentage among the three regions. Nevertheless, average yield was reduced by soil only in 0.4% area of SCM, while yield stability was reduced by soil in 17.2% of the region area. There was no reduction in both average yield and yield stability in this region.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Crop model is one of the most accurate tools to simulate crop yield potentials when information on spatial variation of model inputs is available (Lobell et al., 2011;Tao et al., 2015). APSIM, which captures interactions between soil water, nutrients, crop growth, climate, and farmer management, was evaluated as a useful tool for Asian agricultural system research based on the dataset from 12 countries, including China (Gaydon et al., 2017). Additionally, the APSIM-Maize model was also selected to simulate maize yield under changing climatic and environmental conditions in the maize growing regions in China (Chen et al., 2010;Liu et al., 2009Liu et al., , 2012)). In this research, the well-calibrated and validated APSIM-Maize model, with observed phenology and yield of widely planted hybrids, was applied to simulate three levels of yield potential at meteorology stations in the main growing regions in China during 1981-2010. Although there may be some uncertainty in the results due to model bias, upscale method, and limited observations, they still provide scientific reference for optimized growing distribution of maize under different agricultural condition.",
+          "table": []
+        },
+        {
+          "text": "Yield or productivity is the basic input for production analysis and impact assessments as well as vulnerabilities and adaptation estimation (Adejuwon, 2005). Y p is the highest yield that can be achieved in a given location for a certain hybrid without any biophysical limitations other than uncontrolled factors, such as solar radiation and air temperature (Evans and Ficsher, 1999;Li et al., 2014). In this study, the average Y p was 16.64, 15.59, and 10.51 t ha -1 in NCS, HS, andSMC, respectively, during 1981-2010 (Figs. S1 andS2). Although the values in our study were more than that from the previous study (Meng et al., 2013;Tao et al., 2015), the spatial patterns were almost the same. The differences may be caused by different crop models. Compared with Y p , fewer average decreases of both Y pw and Y pws in SCM were found than in NCS and HS, which may be due to the more precipitation during the maize growing season in SCM (Meng et al., 2016). In NCS, water shortage was the main agricultural problem in the western portion. Regional yield benefit more from warm temperature under non-limited water conditions and Y p increased in NCS during 1981-2010 (Supit et al., 2012). However, disasters arising from increased probability, frequency, and severity of possible extreme events can cause marked damage to crops and infrastructure, potentially destabilizing and threatening food security (Lesk et al., 2016). Therefore, it is important to consider yield stability when evaluating optimized growing distribution (Guan et al., 2017;Katz and Brown, 1992;Rosenzweig et al., 2001). Similar to average yield, lower CVs (i.e., higher stabilities) of Y pw and Y pws were found in SCM than the other two regions due to greater precipitation during the maize growing season (Figs. S3 and S4). In contrast to average yield, the CVs of Y p were similar among the three regions (average 0.15, 0.10, and 0.12 in NCS, HS, and SCM, respectively) because Y p was the grain yield under fully irrigated conditions.",
+          "table": []
+        },
+        {
+          "text": "According to the comprehensive analysis of both average and CVs of three levels of yield potential, the geographical distribution and percentages of high-stable zones for each level in the three regions were shown in this research. Since most of the maize fields are rain-fed in China, the geographical distributions of high-stable zones for Y pw and Y pws in this study were in accordance with the suitable zones given in 'Divisions of advantage maize cropping zones in China (2008China ( -2015))' according to reported areas and yield. Because of the different environmental and actual productive conditions among the three regions, shifting grading standards were used in this study. Moreover, based on the definitions of the three levels of yield potential, rain and soil were the causes of the differences between Y p and Y pw , Y pw and Y pws , respectively. Although Y pws may contain interactive effects between suboptimal water and suboptimal soil management, the gaps between Y pw and Y pws may still reflect the limitation of soil on maize yield in most areas because of the rain-fed condition in the research regions. In NCS and HS, yield stability was reduced by rain indicating that extreme drought events were the main causes for reduced maize yield in those two regions. Additionally, in SCM, yield was reduced due to drought. Irrigation is the essential measure to improve maize yield level and stability, when limited by rain (Liu et al., 2017). The reduction in yield level and stability that is limited by soil can be improved by agricultural management practices (Liu et al., 2016b), although the areas limited by soil were smaller than those limited by water. We studied the geophysical distribution of high-stable zones for three levels of maize yield potential in the main growing regions in China during 1981-2010, aiming to provide a scientific basis for the optimized distribution and improvement of maize production. Based on the results, farmers and advisors can understand high-stable distribution under different limiting conditions to develop short-and long-term adaptation strategies with limited resources (Araya et al., 2010;Benke and Pelizaro, 2010;Holzkämper et al., 2013). However, there were still some limitations of this research: consistent hybrids were used for each station when yield potential was simulated during the research period, but the positive contributions of hybrid turnover to yield improvements have been shown in many other studies (Challinor et al., 2017;Liu et al., 2013;Lv et al., 2015;Meng et al., 2016); not considering the different roles that average yield and stability might play in different regions, as well as the different agricultural production conditions; the stabilities of various yield potentials were considered equally as the average in this paper, which should be also an important aspect in the future with increased extreme climatic events (Gabaldón-Leal et al., 2016;Meehl et al., 2000;Rosenzweig et al., 2001); among these main maize growing regions in China, shifting grading standards for high and low yields were used because of the substantially different climate and  and Chinese government policies about agricultural production and the agricultural market that affect crop planting were not considered in this study.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "In this study, three levels of maize yield potential were simulated by the APSIM-Maize model in the three main growing regions in China during 1981-2010, and the high-stable zones for each yield potential were determined. According to the comprehensive analysis of both average and CVs of three levels of yield potential, the high-stable zone for Y p was located in the southeastern and central portions in NCS, while both high-stable zones for Y pw and Y pws were located in the eastern NCS, with 16.4% and 20.0%, respectively. In HS, the highstable zone for Y p was located in the northern portions and accounted for 12.8% of the area in this region, while the percentages of high-stable zones for Y pw and Y pws increased to 30.4% and 35.0%, respectively, and were mainly located the southern and eastern portions. In SCM, the high-stable zone for Y p was located in the southwestern portions and occupied 24.5% of the areas; the high-stable zones for Y pw and Y pws were found in eastern portions and accounted for 17.1% and 20.1% of the area in this region, respectively. Yield stability was more negatively affected by rain in NCS and HS (38.9% and 34.3%,respectively) than SCM (8.2%), while yield level was reduced by rain in more areas in SCM (19.1%). Moreover, the effects of soil on yield level and stability were limited in all three regions. Coupled with different agricultural production conditions, the results provide a scientific basis regarding the optimal maize growing distribution, and provide measures to improve the grain yield and yield stability with limited resources in the main growing regions in China.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Description of calibration and validation dataset for the APSIM-Maize model.\", \"head\": [\"Region Province\", \"Station\", \"Calibration Set\", \"Validation Set\"], \"value\": [[\"NCS\", \"Heilongjiang\", \"Qinggang\", \"1992, 1998,\", \"2003\"], [\"\", \"\", \"\", \"2004\", \"\"], [\"\", \"Jilin\", \"Yongji\", \"1992, 2004\", \"1993, 1999, 2003\"], [\"\", \"Liaoning\", \"Xinmin\", \"1998, 2000\", \"1999\"], [\"\", \"Inner Mongolia Tuquan\", \"1998, 2000\", \"2001\"], [\"\", \"Ningxia\", \"Pingluo\", \"2001, 2003\", \"2002, 2004\"], [\"\", \"Shaanxi\", \"Xunyi\", \"1998, 2000,\", \"2003\"], [\"\", \"\", \"\", \"2004\", \"\"], [\"HS\", \"Hebei\", \"Luancheng 2003, 2005\", \"2004\"], [\"\", \"Shandong\", \"Tai'an\", \"2003\", \"2002, 2004\"], [\"\", \"Shandong\", \"Linyi\", \"2003, 2005\", \"2004\"], [\"\", \"Henan\", \"Xinxiang\", \"2005\", \"2004\"], [\"\", \"Henan\", \"Shangqiu\", \"2005\", \"2004\"], [\"SMC\", \"Sichuan\", \"Mingshan\", \"2002, 2004\", \"2003\"], [\"\", \"Guizhou\", \"Guiyang\", \"2002, 2004\", \"1997, 2001\"], [\"\", \"Yunnan\", \"Guangnan\", \"\", \"\"]]}",
+    "{\"title\": \"Range of soil profile properties in the primary maize growing regions in China.\", \"head\": [\"Region\", \"Bulk density BD (g cm -3 )\", \"drained upper limit DUL (mm mm -1 )\", \"15Bar lower limit LL15 (mm mm -1 )\", \"Total N (%)\", \"pH value\", \"Soil organic carbon SOC (%)\"], \"value\": [[\"NCS\", \"0.04-1.78\", \"0.09-0.56\", \"0.04-0.48\", \"0.00-2.46\", \"4.0-10.4\", \"0.01-37.90\"], [\"HS\", \"0.04-1.83\", \"0.11-0.56\", \"0.04-0.48\", \"0.00-1.10\", \"4.0-10.1\", \"0.01-30.64\"], [\"SMC\", \"0.05-1.85\", \"0.14-0.60\", \"0.05-0.51\", \"0.00-1.86\", \"3.7-8.9\", \"0.02-26.82\"]]}",
+    "{\"title\": \"Area percentages of negative changes in yield, stability and both (high-stable) affected by rain and soil in the main cropping regions inChina, 1981China,  -2010.   .    In other words, these dividing index values are relative to each region, and are not compatible among other regions;\", \"head\": [\"\", \"Rain\", \"\", \"\", \"Soil\", \"\", \"\"], \"value\": [[\"\", \"Level Stability High-\", \"Level Stability High-\"], [\"\", \"\", \"\", \"stable\", \"\", \"\", \"stable\"], [\"North China Spring\", \"12.3\", \"38.9\", \"0.3\", \"7.0\", \"3.2\", \"1.9\"], [\"maize region\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"Huanghuaihai summer\", \"8.5\", \"34.3\", \"14.1\", \"13.4\", \"5.7\", \"5.1\"], [\"maize region\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"Southwest China\", \"19.1\", \"8.2\", \"2.8\", \"0.4\", \"17.2\", \"0\"], [\"Mountain maize\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"region\", \"\", \"\", \"\", \"\", \"\", \"\"]]}"
+  ]
+}

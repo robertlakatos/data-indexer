@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "title": "Data Mining and Machine Learning Algorithms for Optimizing Maize Yield Forecasting in Central Europe",
+    "author": "Endre Harsányi, Bashar Bashir, Sana Arshad, Akasairi Ocwa, Attila Vad, Abdullah Alsalman, István Bácskai, Tamás Rátonyi, Omar Hijazi, Adrienn Széles, Safwan Mohammed",
+    "journal": "MDPI AG",
+    "date": "2023. 05. 04."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Artificial intelligence, specifically machine learning (ML), serves as a valuable tool for decision support in crop management under ongoing climate change. However, ML implementation to predict maize yield is still limited in Central Europe, especially in Hungary. In this context, we assessed the performance of four ML algorithms (Bagging (BG), Decision Table (DT), Random Forest (RF) and Artificial Neural Network-Multi Layer Perceptron (ANN-MLP)) in predicting maize yield based on four different input scenarios. The collected data included both agricultural data (production (PROD) (ton) and maize cropped area (AREA) (ha)) and climate data (annual mean temperature • C (Tmean), precipitation (PRCP) (mm), rainy days (RD), frosty days (FD) and hot days (HD)). This research adopted four scenarios, as follows: SC1: AREA+ PROD+ Tmean+ PRCP+ RD+ FD+ HD; SC2: AREA+ PROD; SC3: Tmean+ PRCP+ RD+ FD+ HD; and SC4: AREA+ PROD+ Tmean+ PRCP. In the training stage, ANN-MLP-SC1 and ANN-MLP-SC4 outperformed other ML algorithms; the correlation coefficient (r) was 0.99 for both, while the root mean squared errors (RMSEs) were 107.9 (ANN-MLP-SC1 ) and 110.7 (ANN-MLP-SC4 ). In the testing phase, the ANN-MLP-SC4 had the highest r value (0.96), followed by ANN-MLP-SC1 (0.94) and RF-SC2 (0.94). The 10-fold cross validation also revealed that the ANN-MLP-SC4 and ANN-MLP-SC1 have the highest performance. We further evaluated the performance of the ANN-MLP-SC4 in predicting maize yield on a regional scale (Budapest). The ANN-MLP-SC4 succeeded in reaching a high-performance standard (r = 0.98, relative absolute error = 21.87%, root relative squared error = 20.4399% and RMSE = 423.23). This research promotes the use of ANN as an efficient tool for predicting maize yield, which could be highly beneficial for planners and decision makers in developing sustainable plans for crop management.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Cereal crops, mainly wheat, maize and rice, contribute to sustainable livelihoods and food security . In fact, staple cereal crops are projected to play an indispensable role for food security to ensure sufficient and affordable protein and calorie intakes in diets . Maize is the second most widely grown crop next to wheat and amounts to 197 million hectares of global land area with substantial sharing by Sub-Saharan Africa, Latin America and Asia . Unlike other cereal crops, maize is a versatile crop feeding both humans and livestock and it is also utilized in the bio-energy sector of industrial processing . The global annual maize production was recently (2016 to 2018) estimated at 1127 million tons . The global maize yield is increasing annually by 1.6%, but it is negatively impacted by climate change and is insufficient to meet the demands of a growing population . According to Okolie, et al. , the nexus between climate change and crop yields is crop and region-specific and contingent on variances in soil, management, time and length of crop exposure to numerous climate variables. It is reported that by 2050, maize production is expected to decline by 10% and 9-19% in sub-Saharan Africa and South Asia, respectively . Furthermore, it is expected that global climatic change will reduce maize yield by 60%, wheat by 20%, rice by 35% and sorghum by 50% .",
+          "table": []
+        },
+        {
+          "text": "Europe contributes around 35% of global wheat production  and 11% of the world's maize . Several biotic (diseases and insects) and abiotic (droughts and heatwaves) stresses have led to a shift in maize mega-environments and the introduction of new breeding varieties . Climatic extremes, such as high temperatures, increase the respiration rate and reduce the grain filling in cereal crops, causing a rapid decline in yield , depending on the intensity and frequency of the changes in the meteorological variables . Due to the uncertainty of potential losses in crop yields caused by climate change, it is essential to forecast future changes and develop strategies to prevent such losses . Pant, et al.  highlighted that predicting crop yield is a critical challenge in crop production because it relies on various weather factors, including rainfall, humidity and temperature, which are subject to fluctuations. To address this, data mining and the application of artificial intelligence is widely adopted.",
+          "table": []
+        },
+        {
+          "text": "Data mining accumulates undetected evidence from vast databases and assists in the detailed analysis of prospective patterns, facilitating informed decisions. Artificial intelligence, specifically ML, serves as a valuable tool for decision support in crop management. By analyzing vast amounts of data on crop growth, weather patterns, soil conditions and other relevant factors, \"ML\" algorithms can identify patterns and make predictions that can inform crop management decisions [16]. Machine learning has higher flexibility and provides sound, faster predictions compared to simulation crop modelling [17]. Several machine and deep learning algorithms such as Random Forest (RF), Support Vector Machines (SVM) and Neural Networks (NN), are used for crop yield predictions in varying environmental conditions [18][19][20][21]. Support Vector Machines have the ability to make robust predictions if data sets have several attributes, but their functionality may have hardware restrictions. On the other hand, random forest algorithms have high classifier and superior predictions compared to multiple linear regression models [22]. According to [23], simple linear and generalized linear (GLM) models have restrictive assumptions with the normal distribution trained on the value of predictors with a constant variance. Generally, decision tree ensemble learning methods-the Random Forest Regressor and Gradient Boosting Regressor-have higher accuracy [15,24]. In China, ref. [25] revealed that the highest estimation accuracy was in the Random Forest Regression. In India, the decision tree produced the highest (96%) accuracy of crop yield prediction [15]. The prediction effectiveness of machine learning algorithms is assessed based on the models' abilities to reduce the bias, the variance or both; hence, informing the basis for recommending the use of a particular algorithm. For instance, if prediction with a low error is the aim, then weighted ensemble models are selected; if detecting the correct forecast direction is required, then a stacked LASSO regression is chosen [18,26]. An overview of ML algorithms used in crop production in previous studies are presented in The application of machine learning in predicting the growth and yield of maize and other crops.",
+          "table": [
+            "The application of machine learning in predicting the growth and yield of maize and other crops."
+          ]
+        },
+        {
+          "text": "The non-unidirectional performance of different algorithms in The application of machine learning in predicting the growth and yield of maize and other crops above raises this question: which algorithm will provide the precise prediction of maize yields in Central Europe? Providing answers to this question requires testing the performance of different models. In this study, we used the following climate elements to predict the yield of maize: the mean temperature, precipitation, number of frosty days, number of hot days and number of rainy days were incorporated into the model hyper parameterization. The specific objectives of this study were to: (I) analyze the changes in chosen climate parameters along with maize production elements across Hungary between 1921 to 2018;",
+          "table": [
+            "The application of machine learning in predicting the growth and yield of maize and other crops."
+          ]
+        },
+        {
+          "text": "(II) to assess the performance of four ML algorithms (Bagging (BG), Decision Table (DT), Random Forest (RF) and Artificial Neural Network-Multi Layer Perceptron (ANN-MLP)) in predicting maize yield depending on four scenarios; and (III) to test the performance of the best combination of ML algorithms and scenarios for predicting maize yield in a regional scale across Hungary.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": []
+    },
+    {
+      "title": "Study Area",
+      "div": [
+        {
+          "text": "The study was conducted in a significant agricultural country of Central Europe lying between 45 • 55 N-48 • 60 N and 16 • 10 E-22 • 50 E and occupying a total area of 93,000 km 2 . The country's landscape is dominated by the Carpathian Mountains in the north and the Great Hungarian Plain in the east. The Danube River flows through the country, dividing it into two main regions: Transdanubia to the west and the Great Hungarian Plain to the east. The country has a mild continental climate with warm summers and cold winters , and its primary land use consists of forests, grasslands, cropland, built-up areas and water bodies (Figure 1). The land-use structure of the country follows a specific pattern imposed Agronomy 2023, 13, 1297 4 of 22 by the natural landscape, e.g., the forest area is predominantly occupied in mountainous and hilly terrains, while great plains of the country are mostly cultivated with winter wheat, maize, sunflower and rapeseed, which approximates 67% of the arable land . Among the major crops, the area of maize ranks second after wheat, with a significant rise in yield in recent decades. The phenological stages of maize include sowing-canopy expansion (April-June), flowering-grain filling (July-August) and ripening-harvesting (September-October) .",
+          "table": []
+        },
+        {
+          "text": "viding it into two main regions: Transdanubia to the west and the Great Hu to the east. The country has a mild continental climate with warm summers ters , and its primary land use consists of forests, grasslands, cropland, b and water bodies (Figure 1). The land-use structure of the country follows tern imposed by the natural landscape, e.g., the forest area is predominantl mountainous and hilly terrains, while great plains of the country are mos with winter wheat, maize, sunflower and rapeseed, which approximates 67% land . Among the major crops, the area of maize ranks second after w significant rise in yield in recent decades. The phenological stages of maize ing-canopy expansion (April-June), flowering-grain filling (July-August) a harvesting (September-October) .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "The Data Set",
+      "div": [
+        {
+          "text": "A historical time-series of 98 years (1921-2018) was used for maize yie in Hungary using multisource data. Our study utilized two types of datase tory variables for maize yield prediction (response variable). First, the agr",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "The Data Set",
+      "div": [
+        {
+          "text": "A historical time-series of 98 years (1921-2018) was used for maize yield prediction in Hungary using multisource data. Our study utilized two types of datasets as explanatory variables for maize yield prediction (response variable). First, the agriculture data: this included maize production (PROD) (ton) and the maize cropped area (AREA) (ha). Second, climate data: this was employed for yield predictions and comprised the annual mean temperature • C (Tmean), precipitation (PRCP), rainy days (RD), frosty days (FD) and hot days (HD). Due to the limited availability of all climatic variables on a seasonal scale, data was collected for Hungary as a sample station on a mean annual basis from the website, Meteorological data of Hungary (ksh.hu), (accessed on 1 April 2021) published and updated by the Hungarian central statistical office. The agricultural input variables were also obtained from the Hungarian central statistical office (Data sets used in the study (accessed on 1 April 2021)). The climatic variables selected for the yield forecasting have a strong impact on crop yields causing yield gains or losses associated with precipitation, high mean temperatures and drought conditions [30,31,33]. Furthermore, technological improvements have facilitated an increase in the cropped area and in production. Hence, the selected parameters in our study are significant for historical maize yield forecasting, which employs ML methods. All input variables for yield forecasting were collected on the same temporal scale with no missing data, which provided a homogeneity with limited uncertainties in prediction modelling.",
+          "table": [
+            "Data sets used in the study (accessed on 1 April 2021)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Trend (Mann-Kendall, Sen's Slope and Sequential Mann-Kendall) and Correlation Analysis",
+      "div": [
+        {
+          "text": "The temporal and linear relationships between predictors (climatic and agricultural input variables) of the maize crop yield are examined using a trend analysis and Pearson correlation. The widely used non-parametric Mann-Kendall trend test , along with Sen's slope (assuming no autocorrelation in time-series), examines the long-term monotonic trends in the explanatory and response variables. The trend is analyzed based on the null hypothesis Ho (assuming no significant trend) and alternate hypothesis H1 (assuming a significant trend) at a significance level of α = 0.05. Moreover, to investigate the trend changing points (in current years), also called the intersection of breaking points, the Sequential Mann-Kendall (SQMK) is also applied . To support the findings of the trend analysis, a polynomial fit is developed on a historical time-series of all input variables in Origin Pro 2022.",
+          "table": []
+        },
+        {
+          "text": "Moreover, before predicting the maize yield employing non-linear ML algorithms, it is important to examine the linear relationship between explanatory and response variables. The Pearson correlation is also employed in various ML studies as an exploratory data analysis of predictors and response variables . Hence, we applied the Pearson correlation to examine the significance (p < 0.001) of the linear relationships between all climatic predictors (mean temperature (Tmean), precipitation (PRCP), hot days (HD), frosty days (FD) and rainy days (RD)), crop-related predictors (maize cropped area (AREA) and maize production (PROD)) and the response variable, i.e., yield. Overall, the trend and correlation analyses also supported a more accurate interpretation of the findings of the ML methods.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "The Methodology and Machine Learning Models Used for Maize Yield Prediction",
+      "div": [
+        {
+          "text": "We predict maize yield in Hungary from input data based on four scenarios (Different scenarios based on different input variables for predicting maize yield) by employing four significant machine learning approaches including Bagging (BG), Decision Table (DT), Random Forest (RF) and Artificial Neural Network-Multi Layer Perceptron (ANN-MLP). Algorithms are employed in an open-source data mining GUI, i.e., WEKA, which provides various data mining and machine learning opportunities to solve classification and regression problems [39]. For better optimization of yield forecasting, four scenarios (SC1-SC4) are developed with different combinations of explanatory variables. SC1 utilizes all climatic (Tmean+ PRCP+ RD+ FD+ HD) and agricultural (AREA+ PROD) variables, while SC2 utilizes only the agricultural (AREA+ PROD) input variables to predict maize yield. SC3 utilizes only climatic (Tmean+ PRCP+ RD+ FD+ HD) variables and SC4 utilizes agricultural (AREA+ PROD) and two climatic (Tmean+ PRCP) input variables for predicting maize yield (Different scenarios based on different input variables for predicting maize yield). The main reason for developing four scenarios to forecast maize yield was to explore and identify the most significant climatic predictors in combination with the agricultural inputs. All the ML algorithms are applied in every scenario to find the optimum model and scenario combinations. To perform ML, the dataset (n = 98) is randomly split into 80% (n = 78) for training and 20% (n = 20) for testing. Furthermore, a 10-fold cross validation was used on the entire dataset with the batch size and iteration equaling 100. This provides a robust estimate of the model's performance, with accurate estimation and generalization, and helped to reduce the impact of random sampling variation, therefore ensuring the better performance of the ML model. The details of each ML algorithm with the specified hyperparameters are presented in Different scenarios based on different input variables for predicting maize yield.   The Bagging (BG) algorithm, also called Bootstrap aggregation, is a non-parametric and powerful machine learning technique that generates multiple (B) separate training datasets using the bootstrap sampling method and trains a separate regression model on each subset [40]. Each subset is created by randomly selecting data instances with replacements. The model is trained on the bth bootstrapped training set to obtain f * b(x), and finally average all the predictions. It is presented by: fbag",
+          "table": [
+            "Different scenarios based on different input variables for predicting maize yield.",
+            "Different scenarios based on different input variables for predicting maize yield.",
+            "Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables."
+          ]
+        },
+        {
+          "text": "where fbag (x) is the final prediction obtained by averaging the predictions of B models trained on the different bootstrap samples of the data.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "The Decision Table Algorithm",
+      "div": [
+        {
+          "text": "The Decision Table (DT) algorithm is a precise method for predicting numerical outcomes using a sequence of \"If-Then\" rules. To create a decision table, all possible combinations of input variables are mapped to find the best set of input attributes that provide the most accurate prediction output [41]. When a new data item is presented, the algorithm assigns it to a category by matching its non-class values with the corresponding line in the decision table. These are computationally efficient for solving both classification and regression problems [42,43]. However, building a decision table requires careful selection of the most suitable attributes. This is typically carried out by measuring the table's cross-validation performance for various attribute subsets and selecting the bestperforming subset. Currently, to search the attribute space, the \"forward\" search selection method is used, and \"leave one out\" cross-validation is employed for evaluating the accuracy of the selected attribute subset (Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables).",
+          "table": [
+            "Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Random Forest Algorithm",
+      "div": [
+        {
+          "text": "The Random Forest (RF) algorithm is an ensemble non-parametric machine learning algorithm employed to solve classification and regression problems [44]. Bagging and bootstrap sampling are key components of the Random Forest algorithm. Bootstrap sampling helps to introduce randomness and reduce overfitting. Bagging is used to create an ensemble of decision trees, which helps to reduce the variance and improve the accuracy of the model [40]. It works by creating multiple decision trees, where each tree is trained on a different subset of the input data [45]. The trees are created using bootstrap sampling, where each subset is created by randomly selecting data instances from the input data set with replacements. Once the subsets are created, a decision tree is trained on each subset using a random subset of the features. When a new data point is presented to the model, each decision tree makes a prediction, and the final prediction is computed by averaging the predictions of all the decision trees [46,47]. Currently, the Random Tree classifier is used to produce a decision tree that has no depth limit, requires at least one instance in each leaf node and only performs splits that significantly reduce the variance of the target class. The seed for the random number generator is set to 1 for reproducibility, and the capability checking is disabled to speed up the computation. Bagging with 100 iterations is used here (Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables).",
+          "table": [
+            "Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Artificial Neural Network-Multi Layer Perceptron (ANN-MLP)",
+      "div": [
+        {
+          "text": "The Multi-Layer Perceptron (MLP) is a supervised learning algorithm and popular network architecture of an artificial neural network (ANN). It consists of multiple layers of interconnected nodes, with each node performing a simple computation using a weighted sum of its inputs and an activation function . The input layer receives the input data, which is then processed through one or more hidden layers before reaching the output layer. MLP is a feed-forward neural network that is trained using the BackPropagation (BP) algorithm. The BP algorithm trains the MLP by adjusting the weights of the connections between the neurons in the network. During training, the algorithm iteratively adjusts the weights to minimize the difference between the predicted output and the actual output, using a method called gradient descent. Moreover, the Sigmoid activation function is commonly used in feed-forward neural networks to introduce non-linearity in the networks typically presented by :",
+          "table": []
+        },
+        {
+          "text": "where w i is the weight associated with the ith input, x j is the jth input value and n is the number of inputs to the neuron. Hence, MLP is a powerful machine learning algorithm that can be used for both regression and classification tasks. It is capable of learning complex, non-linear relationships between input and output variables, making it suitable for a wide range of applications [51]. Currently, to employ MLP, a dataset will have been pre-processed with the unsupervised attribute normalization filter to scale the attributes and the unsupervised instance removal filter, which randomly removes 20% of the instances (Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables).",
+          "table": [
+            "Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ML Performance",
+      "div": [
+        {
+          "text": "To evaluate the performance of ML algorithms based on the selected scenarios (Different scenarios based on different input variables for predicting maize yield), five indicators were employed, as shown in Different scenarios based on different input variables for predicting maize yield, and the Taylor diagram was used.",
+          "table": [
+            "Different scenarios based on different input variables for predicting maize yield."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Indicator Equation * Range",
+      "div": [
+        {
+          "text": "Relative absolute error RAE =",
+          "table": []
+        },
+        {
+          "text": "* y i A : recorded maize yield, y i P : predicted maize yield, y: mean of recorded maize yield, and N is the total number of recorded maize yield.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Trend Analysis of Variables",
+      "div": [
+        {
+          "text": "Pearson correlation reveals the significance of the linear relationships between climatic and crop-related variables. A significant (p < 0.01) positive correlation of 0.3 is observed between the maize yield and Tmean, which explains the increasing mean temperature favoring crop production and yield (Figure 3).  Moreover, no significant correlation is observed between precipitation and maize yield, but a negative significant (p < 0.05, p < 0.01) correlation of 0.24-0.32 is observed between maize yield and rainy and frosty days. A zero or negative correlation between maize area and yield reveals that an increase in maize yield is more associated with other factors such as fertilization or improvement in seed varieties (Figure 3). Hence, the trend and correlation analyses more effectively revealed the positive and negative relationships between all predictors and response variables in the ML analysis. Precipitation does not seem to have a significant linear relationship with maize yield; however, in order to explore the hidden, complex and non-linear relationships with maize yield, we did not remove it from the ML analysis. Moreover, no significant correlation is observed between precipitation and maize yield, but a negative significant (p < 0.05, p < 0.01) correlation of 0.24-0.32 is observed between maize yield and rainy and frosty days. A zero or negative correlation between maize area and yield reveals that an increase in maize yield is more associated with other factors such as fertilization or improvement in seed varieties (Figure 3). Hence, the trend and correlation analyses more effectively revealed the positive and negative relationships between all predictors and response variables in the ML analysis. Precipitation does not seem to have a significant linear relationship with maize yield; however, in order to explore the hidden, complex and non-linear relationships with maize yield, we did not remove it from the ML analysis.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "ML Performance in the Training and Testing Stage",
+      "div": [
+        {
+          "text": "The performance evaluation metrics (Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables) of all machine learning algorithms in the training stage revealed that ANN-MLP outperformed RF, BG and DT with the highest correlation of r = 0.999 and 0.998 in SC1 and SC4, respectively. The lowest RMSE and RAE were 107.9 and 4.53%, respectively, for ANN-MLP-SC1 , followed by 110 and 4.46%, respectively, in ANN-MLP-SC4. The ANN-MLP was also the optimum model machine learning algorithm for maize yield prediction in Hungary. Along with MLP, RF also performed competitively for maize yield prediction, with a high correlation of r = 0.998 in both the RF-SC4 and RF-SC2 , followed by 0.997 and 0.975 in the RF-SC1 and RF-SC3 , respectively. Other evaluation metrics also revealed the lowest RMSE and RAE values of 122.1 and 4.7%, respectively, for RF-SC2 ; 135 and 5.1%, respectively, for RF-SC4 ; 192 and 8.2%, respectively, for RF-SC1 and 745.3 and 36.9%, respectively, for RF-SC3 (Figures 4 and5).   The Taylor diagram (Figure 6) also revealed that the optimum model for maize prediction was ANN-MLP followed by RF, BG and DT in different scenarios. The DT proved to be the least applicable model in the training stage of yield prediction, with a high RMSE of 467.6 in DT-SC1, DT-SC2 and DT-SC4 and 520.2 in DT-SC3. Hence, at the training stage, the optimum ML algorithm with the highest accuracy of yield prediction was ANN-MLP for the optimum scenarios of SC1 and SC4 (Figures 4 and5), which are further evaluated at the testing and cross validation stages. The Taylor diagram (Figure 6) also revealed that the optimum model for maize prediction was ANN-MLP followed by RF, BG and DT in different scenarios. The DT proved to be the least applicable model in the training stage of yield prediction, with a high RMSE of 467.6 in DT-SC1 , DT-SC2 and DT-SC4 and 520.2 in DT-S C3 . Hence, at the training stage, the optimum ML algorithm with the highest accuracy of yield prediction was ANN-MLP for the optimum scenarios of SC1 and SC4 (Figures 4 and5), which are further evaluated at the testing and cross validation stages.",
+          "table": [
+            "Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables."
+          ]
+        },
+        {
+          "text": "Following the training stage, the performance evaluation metrics at the testing stage also revealed the outperformance of the ANN-MLP algorithm over other ML algorithms, and it was selected as an optimum model for yield prediction at the regional level. The highest correlation r = 0.96, RMSE = 120 and RAE = 3.6% was recorded for ANN-MLP-SC4 , which was followed by r = 0.94, RMSE = 118.9 and RAE= 3.98% for ANN-MLP-SC1 . The relative values for RF-SC2 were r = 0.94, RMSE = 141 and RAE = 4.2%, followed by RF-SC4 , where r = 0.82, RMSE = 246.8 and RAE = 6.27% (Figure 5). Furthermore, SC3 was found to perform poorly at the testing stage for optimum maize yield prediction (Figure 7), with the lowest correlation and highest RMSE in all the ML algorithms. BG also performed with a good accuracy of r = 0.92, and an RMSE = 167.4 and 168.9 for SC2 and SC4, respectively, and SC1 with the least r = 0.3, and the highest RMSE and RAE = 2359 and 88%, respectively, for SC3. The Taylor diagram in the testing stage (Figure 8) also revealed the outperformance of ANN-MLP over the other ML algorithms, with the highest correlation and accurate prediction for SC4 and SC1, followed by BG for SC4, SC1 and SC2 and RF for SC2 and SC4. Hence, the overall performance of the ML algorithms for yield prediction is sequenced as ANN-MLP > BG > RF > DT and the scenarios are sequenced as SC4 > SC1 > SC2 > SC3. Following the training stage, the performance evaluation metrics at the testing stage also revealed the outperformance of the ANN-MLP algorithm over other ML algorithms, and it was selected as an optimum model for yield prediction at the regional level. The highest correlation r = 0.96, RMSE = 120 and RAE = 3.6% was recorded for ANN-MLP-SC4, which was followed by r = 0.94, RMSE = 118.9 and RAE= 3.98% for ANN-MLP-SC1. The relative values for RF-SC2 were r = 0.94, RMSE = 141 and RAE = 4.2%, followed by RF-SC4, where r = 0.82, RMSE = 246.8 and RAE = 6.27% (Figure 5). Furthermore, SC3 was found to perform poorly at the testing stage for optimum maize yield prediction (Figure 7), with the lowest correlation and highest RMSE in all the ML algorithms. BG also performed with a good accuracy of r = 0.92, and an RMSE = 167.4 and 168.9 for SC2 and SC4, respectively, and SC1 with the least r = 0.3, and the highest RMSE and RAE = 2359 and 88%, respectively, for SC3. The Taylor diagram in the testing stage (Figure 8) also revealed the outperformance of ANN-MLP over the other ML algorithms, with the highest correlation and accurate prediction for SC4 and SC1, followed by BG for SC4, SC1 and SC2 and RF for SC2 and SC4. Hence, the overall performance of the ML algorithms for yield prediction is sequenced as ANN-MLP > BG > RF > DT and the scenarios are sequenced as SC4 > SC1 > SC2 > SC3.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "ML Performance in the Cross-Validation Stage",
+      "div": [
+        {
+          "text": "Cross validation revealed strong competition between all ML algorithms for accurate yield prediction. However, the highest correlation of r = 0.997, with a low RMSE and RAE = 158 and 6.5%, respectively, was for the ANN-MLP-SC4, followed by the ANN-MLP-SC1 with r = 0.997 and a low RMSE and RAE = 153 and 6.4%, respectively, and ANN-MLP-SC2 with r = 0.990 and RMSE and RAE = 293 and 12.4%, respectively (Figure 5). Subsequently, RF outperformed with the highest r = 0.987, RMSE = 330.3 and RAE = 12.9% for RF-SC2, followed by r = 0.985, RMSE = 366.4 and RAE = 14.7% for RF-SC4 and r = 0.965, RMSE = 634.4 and RAE = 27.1% for RF-SC1. BG performed with the highest r = 0.976, RMSE = 440 and RAE = 16.6% for BG-SC2, followed by r = 0.975, RMSE = 447 and RAE = 17% for BG-SC4. Overall, the model performance in accurate yield prediction from cross-validation is sequenced as ANN-MLP > RF > BG > DT (Figure 5).",
+          "table": []
+        },
+        {
+          "text": "Application of all the ML algorithms revealed that ANN-MLP outperformed the other algorithms, proving to be the optimum model for maize yield prediction. Among the four tested scenarios, SC4 and SC1 were found to be more accurate for maize yield prediction in training, testing and cross-validation. Hence, considering the competition between all climatic and agricultural factors in the different scenarios, the explanatory factors of SC4 (AREA, PROD, Tmean and PRCP) are the most significant predictors for maize yield in Hungary.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "ML Performance in the Cross-Validation Stage",
+      "div": [
+        {
+          "text": "Cross validation revealed strong competition between all ML algorithms for accurate yield prediction. However, the highest correlation of r = 0.997, with a low RMSE and RAE = 158 and 6.5%, respectively, was for the ANN-MLP-SC4 , followed by the ANN-MLP-SC1 with r = 0.997 and a low RMSE and RAE = 153 and 6.4%, respectively, and ANN-MLP-SC2 with r = 0.990 and RMSE and RAE = 293 and 12.4%, respectively (Figure 5). Subsequently, RF outperformed with the highest r = 0.987, RMSE = 330.3 and RAE = 12.9% for RF-SC2 , followed by r = 0.985, RMSE = 366.4 and RAE = 14.7% for RF-SC4 and r = 0.965, RMSE = 634.4 and RAE = 27.1% for RF-SC1 . BG performed with the highest r = 0.976, RMSE = 440 and RAE = 16.6% for BG-SC2 , followed by r = 0.975, RMSE = 447 and RAE = 17% for BG-SC4 . Overall, the model performance in accurate yield prediction from crossvalidation is sequenced as ANN-MLP > RF > BG > DT (Figure 5).",
+          "table": []
+        },
+        {
+          "text": "Application of all the ML algorithms revealed that ANN-MLP outperformed the other algorithms, proving to be the optimum model for maize yield prediction. Among the four tested scenarios, SC4 and SC1 were found to be more accurate for maize yield prediction in training, testing and cross-validation. Hence, considering the competition between all climatic and agricultural factors in the different scenarios, the explanatory factors of SC4 (AREA, PROD, Tmean and PRCP) are the most significant predictors for maize yield in Hungary.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Exploring the Flexibility of Machine Learning Algorithms for Predicting Maize Yield at a Regional Scale in Hungary",
+      "div": [
+        {
+          "text": "The ANN-MLP-SC4 was the most powerful optimum algorithm/scenario among the other tested algorithms/scenarios in Data sets used in the study (accessed on 1 April 2021). It was used to validate its own performance in predicting maize yield at a regional scale, where Budapest County was chosen as a test region. The ANN-MLP-SC4 reached a high-performance standard (r = 0.98, relative absolute error = 21.87%, root relative squared error = 20.45% and RMSE = 423.23) as shown in Figure 9. The Taylor diagram exhibited an excellent performance of ANN-MLP-SC4 for predicting maize yield (Figure 9d). In this sense, Figure 10 shows the timeline changes among different input variables for SC4 from 2000 to 2021, where each year is assigned to a different color. Through this we can track the changes in the variables and evaluate the margin between the observed and predicted values. In this context, the relationship between the actual and predicted maize yields are similar in most years. However, instances of over prediction were identified in 2008 and 2014.",
+          "table": [
+            "Data sets used in the study (accessed on 1 April 2021)."
+          ]
+        },
+        {
+          "text": "Agronomy 2023, 13, x FOR PEER REVIEW 16 of 26",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Exploring the Flexibility of Machine Learning Algorithms for Predicting Maize Yield at a Regional Scale in Hungary",
+      "div": [
+        {
+          "text": "The ANN-MLP-SC4 was the most powerful optimum algorithm/scenario among the other tested algorithms/scenarios in Data sets used in the study (accessed on 1 April 2021). It was used to validate its own performance in predicting maize yield at a regional scale, where Budapest County was chosen as a test region. The ANN-MLP-SC4 reached a high-performance standard (r = 0.98, relative absolute error = 21.87%, root relative squared error = 20.45% and RMSE = 423.23) as shown in Figure 9. The Taylor diagram exhibited an excellent performance of ANN-MLP-SC4 for predicting maize yield (Figure 9d). In this sense, Figure 10 shows the timeline changes among different input variables for SC4 from 2000 to 2021, where each year is assigned to a different color. Through this we can track the changes in the variables and evaluate the margin between the observed and predicted values. In this context, the relationship between the actual and predicted maize yields are similar in most years. However, instances of over prediction were identified in 2008 and 2014.",
+          "table": [
+            "Data sets used in the study (accessed on 1 April 2021)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": []
+    },
+    {
+      "title": "Climatic Influence on Maize Yield Prediction",
+      "div": [
+        {
+          "text": "Climatic changes characterized by extreme events such as droughts and heat stress are projected to intensify. These affect the growth cycles and development of the many cereal crops such as maize . Climate variability is reported to explain over 60% of crop yield variability in the substantial 'global breadbasket' areas .",
+          "table": []
+        },
+        {
+          "text": "Our study explored the climatic factors in different scenarios for yield prediction modelling at a regional scale in Central Europe. Among five climatic input variables, i.e., Tmean, PRCP, HD, RD and FD, the Tmean was found to have the most significant influence on maize yield, with a positive correlation, and was also found to be a good predictor, in tandem with PRCP, for yield prediction modelling in SC4 (Figures 3, 4 and7). For instance, Shahhosseini, Martinez-Feria, Hu and Archontoulis [18] employed ML methods and also identified temperature and rainfall as significant predictors of maize yield. Another study conducted by Meng, et al. [54] used random forest regression and reported maximum temperature and rainfall as relatively important climatic predictors of maize yield at the farm level. The significant (p < 0.001) rising trend of Tmean and maize yield (Different scenarios based on different input variables for predicting maize yield), as well as their positive correlation (Figure 3), affirms the findings that the increase in temperature favors the growth of maize in Europe and other regions [55]. Overall, maize requires a moderately high temperature to grow, but an optimal temperature above 35 °C increases the rate of transpiration and causes yield loss [56]. Furthermore, another study by Bussay, van der Velde, Fumagalli and Seguini [32] also showed that the",
+          "table": [
+            "Different scenarios based on different input variables for predicting maize yield."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": []
+    },
+    {
+      "title": "Climatic Influence on Maize Yield Prediction",
+      "div": [
+        {
+          "text": "Climatic changes characterized by extreme events such as droughts and heat stress are projected to intensify. These affect the growth cycles and development of the many cereal crops such as maize . Climate variability is reported to explain over 60% of crop yield variability in the substantial 'global breadbasket' areas .",
+          "table": []
+        },
+        {
+          "text": "Our study explored the climatic factors in different scenarios for yield prediction modelling at a regional scale in Central Europe. Among five climatic input variables, i.e., Tmean, PRCP, HD, RD and FD, the Tmean was found to have the most significant influence on maize yield, with a positive correlation, and was also found to be a good predictor, in tandem with PRCP, for yield prediction modelling in SC4 (Figures 3, 4 and7). For instance, Shahhosseini, Martinez-Feria, Hu and Archontoulis [18] employed ML methods and also identified temperature and rainfall as significant predictors of maize yield. Another study conducted by Meng, et al. [54] used random forest regression and reported maximum temperature and rainfall as relatively important climatic predictors of maize yield at the farm level. The significant (p < 0.001) rising trend of Tmean and maize yield (Different scenarios based on different input variables for predicting maize yield), as well as their positive correlation (Figure 3), affirms the findings that the increase in temperature favors the growth of maize in Europe and other regions [55]. Overall, maize requires a moderately high temperature to grow, but an optimal temperature above 35 • C increases the rate of transpiration and causes yield loss [56]. Furthermore, another study by Bussay, van der Velde, Fumagalli and Seguini [32] also showed that the favorable agroclimatic conditions of Hungary have made maize the most widely grown crop at the national level. However, temperature-related climatic factors may not always favor the growth of this crop, e.g., ref. [57] reported that climatically derived growing degree days (GDD) were negatively correlated with maize yield in China. Furthermore, Hatfield [58] noted that higher night temperatures increased the senescence rate, which shortened the grain-filling period. Accordingly, kernel number reduction occurs if plants are exposed to over 30 • C during the pollination stage. Similarly, elevated temperatures cause block tassels and ears, elongate the anthesis and silking interval, damage anther structure, reduce pollen activity and grain number and consequently reduce yield [56]. Hence, our findings clearly reveal that mean temperature is the significant predictor of maize yield at the country level, which can be explored further by combining the minimum and maximum temperature input at different stages of maize growth. Among the four tested scenarios, the variables of SC1 were found to be the second-most significant for maize yield prediction (Figure 8). Hence, other than temperature, HD also explains the variability of maize yield in a non-linear relationship employing machine learning methods. In terms of heat stress, Edreira, et al. [59] noted that the heat effect on the kernel weight of temperate maize hybrids occurred in the first half of the effective grain filling period, rather than around flowering, by improving the availability of assimilates to each kernel and to the carbohydrate reserves in the stem at physiological maturity. An investigation by Lizaso, et al. [60] revealed that heat stress ranging from 42.9-52.5 • C did not extend the anthesis-silking interval, though it shortened the vegetative and reproductive phases (with a whole cycle of 30 days). A reduction in yield mainly occurred due to the reduced pollen viability.",
+          "table": [
+            "Different scenarios based on different input variables for predicting maize yield."
+          ]
+        },
+        {
+          "text": "Other than the temperature and hot days, the precipitation characteristics, such as the number of rainy days and the annual amount (mm) and timing of rain, also affect the maize yield and were found to be significant predictors in the different scenarios (Figure 3). The decline in rainfall shortens the growing season, which limits water and nutrients, causing a decline in yield of 15 to 20% , especially in rain-fed systems. Omoyo, et al.  explains that variability in the time to the onset and cessation of rainfall influences the maize growth cycle. The findings in our study suggest no linear correlation between PRCP and maize yield (Figure 3); however, the ML identified that in scenarios SC4 and SC1, PRCP was a significant non-linear predictor of maize yield (Figure 8). This concurs with other studies on ML-based maize yield prediction . The impacts of PRCP, or rain, in predicting the maize yield can be discussed in either way. A strong positive correlation between the quantity of rainfall with maize yield was reported in Nigeria, with the rainfall characteristics conjointly accounting for 67.4% of the yield . Additionally, Kern, Barcza, Marjanović, Árendás, Fodor, Bónis, Bognár and Lichtenberger  reported the positive correlation between PRCP and maize yield in Hungary, in that there was sufficient soil moisture for improving or enhancing the yield.",
+          "table": []
+        },
+        {
+          "text": "However, the Mann-Kendall trend analysis of climatic predictors in our study reported a slight decline in precipitation (Different scenarios based on different input variables for predicting maize yield), which affirmed the occurrence of intense, frequent drought events affecting the maize and wheat yields in Hungary in recent decades [30]. Despite frequent droughts in recent years, improvements in maize yields are associated with several non-climatic factors, including planned land use adaptation, appropriate irrigation scheduling, improved fertilization and the adaptation of precision farming methods [64][65][66]. Frost is another climate element that affects plant structure and reproduction. Severe frosts cause the loss of leaves and disrupt active physiological processes, such as the translocation of assimilates to ears and the conversion of sugars to starch in the kernels, hence inhibiting kernel filling [67]. Overall, the dominance of the effect of climate change on maize growth and yield is not unidirectional. For example, in the U.S., the effect of extreme temperatures on controlling the soil water demand and transpiration rate in rainfed maize made temperature a more effective predictor of grain yield [53,68]. There is clearly the need for further investigation into the prediction of maize growth in relation to the growth cycle and yield response to climate change.",
+          "table": [
+            "Different scenarios based on different input variables for predicting maize yield."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Algorithms for Better Optimization of Maize Yield",
+      "div": [
+        {
+          "text": "Crop yield prediction is a critical task for farmers and policymakers, supporting them to make informed decisions on planting, harvesting and food security. In recent years, data mining techniques and machine learning (ML) algorithms have shown great promise in predicting maize yield. Accurate yield prediction employing various machine and deep learning algorithms is widely reported by researchers . In this context, we tested the performance of four ML algorithms including BG, DT, RF and ANN-MLP (Figures 4567). The random forest algorithm is often preferentially applied in data mining and yield prediction studies due to its robustness to noisy data, high accuracy and its utilization of the bagging technique . Bagging creates an ensemble of decision trees, which reduces the variance and provides a more accurate predicted model . The results of our study proposed a high performance of RF over BG and DT, with a high correlation and low RMSE in the training and cross validation stages (Figure 5). Keerthana, et al.  also reported that the performance of ensemble algorithms was superior for crop yield prediction. Similar high performance results of RF over linear regressions are reported by Jeong, et al.  for the accurate crop yield predictions of several crops (wheat, maize and potato) from climatic and biophysical variables at regional and global scales. Another study  demonstrated RF to be an optimized algorithm for maize yield prediction at the county level, combining multisource variables. However, several hyperparameters of ANN-MLP, e.g., the number of hidden layers, number of neurons per layer, the activation function and learning rate, make it more capable and flexible in exploring the hidden non-linear relationships between variables . A recent study by Ahmed  proposed a modified MLP with Spider Monkey Optimization, which provided a promising performance in maize yield prediction. The results of our study report ANN-MLP as the optimum algorithm with a high accuracy of yield prediction in SC4, followed by SC1 (Figure 5). However, a strong competition existed between the performance of RF and ANN-MLP, with a slight difference in the correlation for SC4 and SC1 (Figures 6 and8), proving them to be optimal for maize yield prediction. ANN-MLP has proven superior for exploring the non-linear relationships between variables and capturing the complex relationships between predictors and response variables, which otherwise needed classical statistical approaches to be understood . The outperformance of ANN-MLP over other ML algorithms in our study also concurs with other studies reporting accurate yield predictions from ANN over other ML methods . For instance, Bhojani and Bhatt , in their study of wheat yield prediction, described MLP as the optimum algorithm, with new modifications in its activation functions in the WEKA environment. Another study by Hara,et al.  also preferred to use ANNs for crop yield prediction from climatic and remote sensing data. Hence, the machine and deep learning algorithms proved to be efficient techniques for yield forecasting at a regional scale in Europe.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Research Limitations and Model Uncertainties",
+      "div": [
+        {
+          "text": "Overall, machine learning provides a more robust and optimistic approach for accurate yield prediction and other agriculture management studies. Our study also provided the meaningful application of ML algorithms in a Central European region with fewer similar studies. The results of our study provided a baseline for local stakeholders and policy makers to ensure better mitigation and adaptation strategies to cope with the negative impacts of future climatic change. ANN-MLP was proven to be the optimum model for accurate yield prediction at a regional level, followed by RF. Uncertainties in model implementation and explanatory variables created certain limitations. Our study evaluated maize yield forecasting in a sample of 98 observations from a historical time-series between 1921 and 2018. Overall, the 10-fold cross validation approach gave robust and accurate predictions, producing reliable results. Previous studies have also forecast crop yield prediction from a historical time-series ; however, including time-series observations at the county or state level can enhance the sample size and improve the performance accuracy . Furthermore, we employed the predictors in different scenarios (SC1 to SC4) to examine their significance in yield prediction and identified temperature and precipitation as the most significant climatic predictors in combination with the agricultural inputs. However, for a more detailed analysis of the predictors, a sensitivity analysis of relative importance can be conducted by increasing the number of predictors or the explanatory variables. For example, the utilization of several other climatic variables such as minimum temperature, maximum temperature, vapor pressure and the active and shortwave radiations can provide more detailed explanations for maize yield prediction, as well as sensitivity analyses, partial correlations or measuring the relative importance . The further addition of non-climatic factors such as fertilization, irrigation scheduling and land management practices could also be incorporated in future research to better explain the yield variability on a specific time scale. Moreover, several remote sensing variables such as the normalized difference vegetation index (NDVI) could also be considered in combination with climatic response variables for better yield estimation . In the context of ML applicability, model uncertainties can be improved by feature selection in big data, hyperparameter tuning, regularization and the ensemble model approach (combining multiple ML algorithms) to achieve accuracy in yield prediction.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "Machine learning (ML) algorithms are a flexible tool for predicting crop yield by compiling specific data related to crop characteristics, agricultural practices, climate and soil. Compared with classical crop modeling programs, the ML algorithms can identify patterns and make predictions more easily and accurately, thus enhancing the crop management system. In this research, four ML algorithms (BG, DT, RF and ANN-MLP) and four scenarios were employed to select the optimum combination to facilitate accurate decision making. The output of the research is summarized as follows:",
+          "table": []
+        },
+        {
+          "text": "1.",
+          "table": []
+        },
+        {
+          "text": "Maize production and area were significantly increased across Hungary between 1921 and 2018, as shown by Sen's slopes of 1.78 and 10.35 (p < 0.05), respectively. Similar positive rising trends were observed for the Tmean and HD (Sen's slopes: of 0.01 and 0.094, respectively). In contrast, PRCP, RD and FD exhibited declining trends with negative Sen's slopes of -0.24, -0.18 and -0.191, respectively. 2.",
+          "table": []
+        },
+        {
+          "text": "In the training stage, the majority of the algorithms showed a high flexibility in predicting maize yield regardless of the applied scenario, where the r value ranged between 0.99 (ANN-MLP-SC4 , ANN-MLP-SC1 , RF-SC1 , RF-SC2 , RF-SC3 and RF-SC4 ) and 0.54 (ANN-MLP-SC3 ), and the RMSE ranged between 107.9 (ANN-MLP-SC1 ) and 1704.8 (BG-SC3 ); 3.",
+          "table": []
+        },
+        {
+          "text": "In the testing stage, the performance of the ML in predicting maize yield varied significantly. The highest performance was recorded in ANN-MLP-SC4 (r = 0.96, RMSE = 120 and RAE = 3.6%), followed by ANN-MLP-SC1 (r = 0.94, RMSE = 118.9 and RAE = 3.98%) and RF-SC2 (r = 0.94, RMSE = 141 and RAE = 4.2%); 4.",
+          "table": []
+        },
+        {
+          "text": "Based on the 10-fold cross validation, the ANN-MLP-SC4 showed a high ability to predict maize yield with the values r = 0.99, RMSE = 158 and RAE = 6.5%.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "5.",
+      "div": [
+        {
+          "text": "The implementation of ANN-MLP-SC4 at a regional scale (Budapest region) was highly successful with the values r =0.98, RMSE = 423 and RAE = 21.5%.",
+          "table": []
+        },
+        {
+          "text": "Overall, the output of this research recommends ANN-MLP as an optimum model for maize yield prediction at a regional level combining climate (Tmean, PRCP) and agricultural/crop data (AREA, PROD). Hence, this research identifies an effective tool for developing sustainable agricultural management strategies against climate change. Furthermore, precision agriculture technology could benefit from this research by adopting ANN-MLP for field-level studies. This study also contributed to predicting wheat yield using ML algorithms based on different data sources, such as remote sensing data, climate data and crop management data.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"The application of machine learning in predicting the growth and yield of maize and other crops.\", \"head\": [\"Country\", \"Reference Crop\", \"Method\", \"Comment\"], \"value\": [[\"\", \"\", \"\", \"GLM algorithm, Support\", \"Yield predicted with low error.\"], [\"Spain\", \"[21]\", \"Olive crop\", \"Vector Machines (SVM),\", \"Parameters that introduce noise\"], [\"\", \"\", \"\", \"Gaussian and Linear Kernel\", \"in the model must be discarded.\"], [\"India\", \"[27]\", \"\", \"Random Forest Algorithm\", \"Superior prediction compared to Decision Tree.\"], [\"\", \"\", \"\", \"Random forest, XGBoost and\", \"Models could not predict better\"], [\"USA\", \"[17]\", \"Corn\", \"LightGBM, Stacked\", \"than base learners due to blocked\"], [\"\", \"\", \"\", \"Generalization\", \"sequential procedure.\"], [\"\", \"\", \"\", \"Decision Tree Regressor,\", \"\"], [\"India\", \"[15]\", \"Maize, wheat, rice, potatoes\", \"Gradient Boosting Regressor, Random Forest Regressor,\", \"Decision Tree Regressor had the highest (96%) prediction accuracy.\"], [\"\", \"\", \"\", \"SVM\", \"\"], [\"\", \"\", \"\", \"Linear Algorithms (Logistic\", \"\"], [\"\", \"\", \"\", \"Regression (LR)) and Linear\", \"\"], [\"\", \"\", \"\", \"Discriminant Analysis (LDA).\", \"\"], [\"Ethiopia, Kenya, Tanzania, Malawi and Mozambique.\", \"[28]\", \"Maize\", \"Nonlinear algorithms [K-Nearest Neighbor (KNN), Classification and Regression\", \"Support Vector Machine was the worst algorithm.\"], [\"\", \"\", \"\", \"Trees (CART), Gaussian Naive\", \"\"], [\"\", \"\", \"\", \"Bayes (NB) and Support\", \"\"], [\"\", \"\", \"\", \"Vector Machine (SVM)].\", \"\"], [\"China\", \"[25]\", \"Maize\", \"Random Forest Regression (RFR), Gradient Boosting Decision Tree (GBDT)\", \"RFR had high yield estimation accuracy.\"], [\"\", \"\", \"\", \"Random Forest, XGBoost,\", \"\"], [\"USA\", \"[18]\", \"Maize\", \"Optimal Ensemble, Benchmark Ensemble, Linear\", \"Had high accuracy.\"], [\"\", \"\", \"\", \"and Ridge Regression\", \"\"], [\"\", \"\", \"\", \"Ridge Regression, K-Nearest\", \"\"], [\"Bulgaria, Germany, Spain, France, Hungary Italy, the Netherlands, Poland, Romania\", \"[29]\", \"Wheat, barley, sunflower, grain, maize, sugar beets, potato\", \"Neighbors (KNN) Regression, Support Vector Machines Regression (SVR), Gradient Boosted Decision Trees\", \"Machine learning forecasts had lower uncertainty than a trend model.\"], [\"\", \"\", \"\", \"(GBDT)\", \"\"]]}",
+    "{\"title\": \"Data sets used in the study (accessed on 1 April 2021).\", \"head\": [\"Input Data\", \"Variables Selected\", \"Time Period\", \"Source\"], \"value\": [[\"Agriculture\", \"Cropped area (hectares), Crop production (tons), Crop yield (tons/ha)\", \"1921-2018\", \"https://www.ksh.hu/agricultural_ census_long_time_series\"], [\"\", \"Mean temperature • C (Tmean), precipitation\", \"\", \"\"], [\"Climate\", \"mm (PRCP), Rainy days (RD), frosty days (FD), heat days\", \"1921-2018\", \"https://www.ksh.hu/stadat_files/kor/ en/kor0037.html\"], [\"\", \"(HD)\", \"\", \"\"]]}",
+    "{\"title\": \"Different scenarios based on different input variables for predicting maize yield.\", \"head\": [\"Scenario\", \"Input *\", \"Output\", \"Photoprint of the Scenario\"], \"value\": [[\"SC1\", \"AREA+ PROD+ Tmean+ PRCP+ RD+ FD+ HD\", \"Maize yield\", \"Agricultural data+ climate data\"], [\"SC2\", \"AREA+ PROD\", \"Maize yield\", \"Agricultural data\"], [\"SC3\", \"Tmean+ PRCP+ RD+ FD+ HD\", \"Maize yield\", \"Climate data\"], [\"SC4\", \"AREA+ PROD+ Tmean+ PRCP\", \"Maize yield\", \"Agricultural data+ climate data\"], [\"\", \"* Tmean: mean temperature, PRCP: precipitation, HD: hot days, FD: frosty days, RD: rainy days, AREA: maize\"], [\"\", \"cropped area, PROD: maize production.\", \"\", \"\"]]}",
+    "{\"title\": \"Trend test (Mann-Kendall, Sen's slope and SQMK) statistics of all variables.\", \"head\": [\"Variables\", \"Area (hectares)\", \"Production (tons)\", \"Yield (kg/ha)\", \"Mean ( • C) Temperature\", \"Precipitation\", \"Rainy Days\", \"Frosty Days\", \"Heat Days\"], \"value\": [[\"Tau\", \"0.122 (0.07)\", \"0.710 *** (<0.001)\", \"0.726 *** (<0.001)\", \"0.263 *** (<0.001)\", \"-0.041 (0.54)\", \"-0.233 *** (<0.001)\", \"-0.228 *** (<0.001)\", \"0.155 *** (0.02)\"], [\"z-score\", \"1.78\", \"10.35\", \"10.59\", \"3.77\", \"-0.601\", \"-3.37\", \"-3.31\", \"2.23\"], [\"Sen's slope\", \"817.32\", \"74,620\", \"65.48\", \"0.01\", \"-0.24\", \"-0.18\", \"-0.191\", \"0.094\"], [\"\", \"\", \"\", \"\", \"\", \"1932-1934,\", \"\", \"\", \"\"], [\"Breaking point\", \"1923\", \"1964\", \"1968\", \"2007, 2009, 2011\", \"1946, 1948, 1967, 1961, 1963,\", \"1951-1953\", \"2000\", \"2011\"], [\"\", \"\", \"\", \"\", \"\", \"2014-2016\", \"\", \"\", \"\"]]}"
+  ]
+}

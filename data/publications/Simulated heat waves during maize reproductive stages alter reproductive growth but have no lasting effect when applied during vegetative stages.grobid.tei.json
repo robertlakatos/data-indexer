@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Simulated heat waves during maize reproductive stages alter reproductive growth but have no lasting effect when applied during vegetative stages",
+    "author": "Matthew Siebers H Siebers, Rebecca Slattery A Slattery, Craig Yendrek R Yendrek, Anna Locke M Locke, David Drag, Elizabeth Ainsworth A Ainsworth, Carl Bernacchi J Bernacchi, Donald Ort R Ort",
+    "journal": "Elsevier BV",
+    "date": "2017. 02. 24."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Due to climate change, heat waves are predicted to become more frequent and severe. While long-term studies on temperature stress have been conducted on important crops such as maize (Zea mays), the immediate or long-term effects of short duration but extreme high temperature events during key developmental periods on physiological and yield parameters are unknown. Therefore, heat waves were applied to field-grown maize in east central Illinois using infrared heating technology. The heat waves warmed the canopy approximately 6 C above ambient canopy temperatures for three consecutive days during vegetative development (Wv1) and during an early reproductive stage (silking; Wv2). Neither treatment affected aboveground vegetative biomass, and Wv1 did not significantly reduce reproductive biomass. However, Wv2 significantly reduced total reproductive biomass by 16% (p < 0.1) due to significant reductions in cob length (p < 0.1), cob mass (p < 0.05), and husk mass (p < 0.05). Although not statistically significant, seed yield was also reduced by 13% (p = 0.15) and kernel number by 10% (p = 0.16) in the Wv2 treatment. Soil water status was unaffected in both treatments, and leaf water potential and midday photosynthesis were only transiently reduced by heating with complete recovery after the treatment period. Therefore, the reduction in Wv2 reproductive biomass was most likely due to greater sensitivity of reproductive structures to direct effects of high temperature stress.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "To meet future global food demand without large changes in land use, it is projected that per hectare crop productivity must double by 2050 (Foley et al., 2011). The rate of yield increase for some major crops like rice and wheat, however, has slowed since the 1960's (Long and Ort, 2010), and current yield trends will not meet the projected goal (Ray et al., 2013). Furthermore, improvements to the rate of yield increase must be accomplished in a more variable climate. The IPCC's fifth assessment report forecasts increasing mean global temperatures (Kirtman et al., 2013) with an increase in the frequency, intensity, and duration of heat waves (IPCC, 2013a;Meehl and Tebaldi, 2004;Seneviratne et al., 2012). Although there is no consensus heat wave definition (Stefanon et al., 2012), heat waves are often referred to as periods of abnormally and uncomfortably hot weather (IPCC, 2013b;NOAA-NWS, 2009). Many definitions are also characterized by regional weather patterns and the social and physiological impact they have on human health and comfort (Bowles, 2009;Robinson, 2001).",
+          "table": []
+        },
+        {
+          "text": "Maize (Zea mays) is the world's most highly produced crop with almost 14 billion bushels (340 million metric tons) of grain produced in the United States in 2015 (USDA-NASS, 2015). Several recent time-series studies suggest that in the most productive regions in the United States, maize is grown near or even above its temperature optimum. At current average growing season temperatures in the United States Corn Belt, a 1 C increase in mean seasonal temperature is predicted to decrease maize grain yield from 3 (Hatfield et al., 2011) to 13% (Kucharik and Serbin, 2008;Lobell and Field, 2007). Maize is especially sensitive to temperatures above 30 C as there is a precipitous decrease in yield as maize accumulates growing days above this threshold (Lobell et al., 2011;Schlenker and Roberts, 2009). Under climate conditions projected for the year 2050, 45% of the world's maize is expected to annually experience five days during reproductive growth where the maximum temperature is above 35 C (Gourdji et al., 2013). While there have been a number of modeled and historical analyses describing how heat waves affect crop productivity (Battisti and Naylor, 2009;Ciais et al., 2005; van der Velde et al., 2010) there are virtually no field-based experimental studies that explore the physiological effects of heat waves on maize. Thus, there is a clear need to quantify the impact and understand the mechanisms by which warmer growing conditions, specifically short and intense heat waves, impact maize physiology and yield to help guide adaptation strategies.",
+          "table": []
+        },
+        {
+          "text": "Maize reproductive growth is highly sensitive to temperature (Barnabás et al., 2008;Hatfield et al., 2011). Although yield and yield components (kernel mass and number of kernels per cob) can be determined over a broad period of time, silking and anthesis (tasseling) are two of the most temperature-sensitive processes in maize (Sánchez et al., 2014). Heat waves can potentially affect yield during reproductive growth by reducing the amount of time that male (tasseling) and female (silking) flowering periods overlap (Bolaños and Edmeades, 1996;Cantarero et al., 1999) or by decreasing reproductive tissue viability. Increased temperatures affect tissue viability by slowing transfer of photosynthate to the ear during ovule fertilization (Suwa et al., 2010), leading to lower kernel sugar content and greater kernel abortion rates (Cerrudo et al., 2013;Hiyane et al., 2010). Additionally, exposure to temperatures above 32 C can decrease pollen viability (Herrero and Johnson, 1980). High atmospheric vapor pressure deficit (VPD), which is characteristic of heat waves, can also directly dehydrate reproductive tissues (Lobell et al., 2013).",
+          "table": []
+        },
+        {
+          "text": "Vegetative stages of maize development are less sensitive to high temperature than reproductive stages (Hatfield et al., 2011). However, heat waves during vegetative stages-especially longer heat waves-still have the potential to decrease maize yield. Stresses that depress photosynthesis (A) as early as vegetative stage V5, or when the collar of the fifth leaf is visible, can affect ear initiation and lead to fewer kernels per cob, which is responsible for 85% of the variation in yield (Strachan, 2015). Because maize is a C 4 crop, increased temperatures are expected to have a relatively small direct effect on A until temperatures exceed $38 C (Crafts-Brandner and Salvucci, 2002). However, heat waves may indirectly affect A, growth, and yield by increasing leaf temperature (T leaf ) and therefore VPD between the atmosphere and leaf interior (VPD L ). Higher VPD L increases evapotranspiration (ET), which can potentially deplete soil moisture reserves (Zaitchik et al., 2006). Reduced soil water availability decreases leaf water potential (LWP), which is shown to decrease A (Boyer, 1970). Despite current predictions that relative humidity (RH) will not significantly change with global warming, the exponential relationship between saturation water vapor pressure and temperature predicts that even at a constant RH, higher temperatures will lead to increased VPD. The VPD in the Midwestern United States has already begun to increase and is projected to increase by an additional $20% by the year 2050 (Lobell et al., 2014). Prolonged exposure to increased VPD L and soil moisture deficits lead to reduced stomatal conductance (g s ), A (Markelz et al., 2011), growth, and yield (Lobell et al., 2013); however, it is unclear whether short duration but high intensity heat waves will induce similar responses that have been observed for less severe but longer-duration events.",
+          "table": []
+        },
+        {
+          "text": "The objective of this experiment was to determine the immediate impacts of heat waves on maize physiological properties and their subsequent effects in determining yield response.",
+          "table": []
+        },
+        {
+          "text": "Intense, short-duration heat waves were applied to field-grown maize during vegetative or reproductive stages using infrared (IR) heating technology. The primary effects of heat waves on phenology, leaf gas exchange, and plant and soil water status were quantified and compared in relation to heat wave timing. Although temperature stress during vegetative stages can affect maize A and growth, we hypothesized that short, intense heat treatments during the more sensitive reproductive stage would have greater negative impacts, resulting in more pronounced reductions in yield parameters.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Experimental design",
+      "div": [
+        {
+          "text": "The experiment was performed in 2011 at the University of Illinois South Farms; Savoy, IL, USA (40 02 0 N, 88 14 0 W, 228 m above sea level). The 32 ha field is rotated annually between soybean and corn, and crops are grown under standard agronomic practices for the region. Two heat waves were applied to separate plots of maize (Pioneer cv. 34B43), which were planted on 8 June in 0.38 m rows. The experimental design was a randomized complete block with four replications. Each block was 15 m wide and 25 m long and contained a 5 m by 5 m subplot for each of the treatment levels (one control and two different heat waves) surrounded by a 5 m wide buffer of maize. The position of the three subplots was randomized within each block.",
+          "table": []
+        },
+        {
+          "text": "The heat waves were produced by mounting six infrared heaters 1.2 m above the plant canopy in a hexagonal arrangement after Kimball (2005) in the exact same manner as described in Ruiz-Vera et al. (2015). The hexagonal heating array heated 7 m 2 of the maize canopy. Each heater (Salamander Aluminum Extrusion Reflector Assembly Housing for Ceramic Infrared Heaters; Mor Electric Heating Association, Inc., Comstock Park, MI, USA) housed four ceramic heating elements (Mor-FTE 1000-W, 240-V heaters; Mor Electric Heating Association, Inc., Comstock Park, MI, USA) and was tilted at a 45 angle into the heat wave subplot. The canopy temperatures were measured continuously in the control and heat wave subplots with infrared radiometers (IRRs; SI-121; Apogee Instruments, Inc., Logan, UT, USA). The IRRs were connected to a data logger (CR1000 Micrologger; Campbell Scientific, Inc., Logan, UT, USA) equipped with a voltage output module (Model CV-04; Campbell Scientific, Inc., Logan, UT, USA). Based on the canopy temperature reading between the control and the heat wave plot within a block, voltage to the heaters was modulated by a dimmer system (model LCED-2484, 240 V, 35 A; Kalglo Electronics Co. Inc., Bethlehem, PA, USA) to maintain canopy temperatures within the heat wave plots 6 C above ambient for 72 continuous hours.",
+          "table": []
+        },
+        {
+          "text": "Heat waves were defined as described in Siebers et al. (2015) and meant to be historically extreme but plausible events. Climate data from east central Illinois were analyzed to determine the frequency of consecutive days that were 2-8 C above the 30 year mean for that month (http://www7.ncdc.noaa.gov/CDO/cdo). Each heat wave was three days long, and plant canopy temperatures were maintained 6 C above ambient with two exceptions: first, if canopy temperatures dropped below the Fourier transformed 30 year daily mean during the heat wave treatment, heat wave subplots were heated 6 C above the 30-year mean instead of ambient conditions; second, canopy temperatures were not heated beyond 40 C. Two fully replicated heat waves were applied. The first heat wave (Wv1) was applied during vegetative stage V7, or when the collar of the seventh leaf was fully visible (Ritchie et al., 1993), which began on 28 June [day of year (DOY) 179], and the second heat wave (Wv2) was imposed during reproductive stage R1, or silking (Ritchie et al., 1993), which began on 21 July (DOY 202).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Ear husk temperatures, development, and growing degree days",
+      "div": [
+        {
+          "text": "Ear husk temperatures were determined during Wv2 using an infrared thermometer (Fluke 572; Everett, WA, USA). Three ears were measured within each subplot, and each ear measured was 135 AE 10 cm from the ground. On all three days, ear temperature measurements were taken at midday between noon and 1 p.m. On the second and third days of Wv2, ear temperatures were also measured between 5 and 6 p.m.",
+          "table": []
+        },
+        {
+          "text": "Five plants in each subplot were flagged, and their vegetative and reproductive developmental stages were tracked over the growing season from emergence to final harvest. Plants were revisited every two days, and growth stages were classified according to Ritchie et al. (1993).",
+          "table": []
+        },
+        {
+          "text": "Extreme growing degree days (EDD) were calculated as described in Lobell et al. (2013) where:",
+          "table": []
+        },
+        {
+          "text": "When hourly measures of air temperature (T t ) at the field site were greater than 30 C, the degree days for hour t (DD 30+,t ) were calculated. EDDs were summed over the months of June, July and August. EDDs for Wv1 and Wv2 were calculated by adding the average hourly temperature differential between the control and the heated canopy temperature onto the ambient air temperature during the times when heat waves were applied.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Soil moisture and calculated ET",
+      "div": [
+        {
+          "text": "Soil moisture was measured in the upper 20 cm of the soil profile using a time domain reflectometry soil moisture probe (ScoutPro 300; Spectrum Technologies, Inc., Plainfield, IL, USA). Measurements were made at midday the day before the heat wave started and at midday on the third day of each heat wave. Four locations were measured in each plot: two between rows and two within rows.",
+          "table": []
+        },
+        {
+          "text": "The amount of crop ET in June, July, and August of 2011 was calculated using the standardized equation for reference ET described by ASCE-EWRI (2005):",
+          "table": []
+        },
+        {
+          "text": "ET sz is the crop ET (mm h À1 ) standardized for alfalfa, R n is the amount of incoming net radiation (MJ m À2 h À1 ), and G is soil heat",
+          "table": []
+        },
+        {
+          "text": "C n is a numerator constant, and C d is a denominator constant that changes with calculation time step. Values for C n (K mm s 3 Mg À1 h À1 ) and C d (s m À1 ) varied depending on time of day and the height of the canopy. For short canopies (canopy height < 0.5 m, considered to be vegetative stage V8, or when the collar was visible on the eighth leaf), the daytime value of C d was 0.24 and the nighttime value was 0.96. For tall canopies (canopy height > 0.5 m, considered to be vegetative stage > V8) the daytime value of C d was 0.25, and the nighttime value was 1.7. The daytime and nighttime values of C n were the same for short (C n = 37) and tall (C n = 66) canopies. U 2 is the mean hourly wind speed at two meters above the ground (m s À1 ). D is the slope of the saturation vapor pressure-temperature curve (kPa C À1 ). T is the hourly mean temperature ( C). The saturating vapor pressure is e s (kPa) and the actual vapor pressure is e a (kPa). Meteorological data were collected hourly using equipment described in Leakey et al. (2004). Measurements used to calculate ET sz included relative humidity (RH), R n , and U 2 . The ET rate inside the heated plots was calculated as described by Kimball (2005). ET for crops other than alfalfa is calculated using a crop specific coefficient (K c ). The calculated crop specific rate of ET (ET c ) is equal to the ET sz multiplied by K c . Calculated ET sz from 2010 weather data was compared to actual ET measured in 2010 (Hussain et al., 2013) at the same field site and using the same maize cultivar as in this study to create a site-and cultivar-specific K c .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Midday and diurnal photosynthetic measurements",
+      "div": [
+        {
+          "text": "Diurnal and midday gas exchange data were collected on the youngest fully expanded leaf of two plants per plot using an open path gas exchange system equipped with a leaf chamber fluorometer (LI-6400; LI-COR Biosciences, Lincoln, NE, USA). Diurnal measurements were made five times throughout the final day (day 3) of each heat wave as well as the day after the heaters were turned off (day 4). The heaters were turned off at 4 a.m. on day 4 and the first measurements of post-heat wave A were taken at 9 a.m. During Wv1, diurnal gas exchange measurements were taken on July 1 and 2 (DOY 182 and 183). During Wv2, diurnals were on July 23 and 24 (DOY 204 and 205). Before each time point, leaf chamber settings were adjusted to match ambient incident photosynthetic photon flux density (mmol m À2 s À1 ) measured from the field site's weather station. Block temperatures were also adjusted before measuring leaves in the heat wave subplots to maintain target leaf temperatures. Daily photosynthetic carbon uptake (A 0 ) was calculated by fitting a 5th or 6th order polynomial to diurnal data and assuming that photosynthetic rates were zero one hour before sunrise and one hour after sunset. Curves were fit and the area under the curve was calculated using graphing software (Origin Pro 8.6; OriginLab Corporation, Northampton, MA, USA).",
+          "table": []
+        },
+        {
+          "text": "Midday photosynthetic measurements were made between 11 a.m. and 1 p.m. on the day preceding the heat wave (day 0), on days 1 and 3 of the heat wave, and on the day following the end of the heat wave treatment (day 4).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Leaf tissue sampling and analysis",
+      "div": [
+        {
+          "text": "During midday photosynthetic measurements, leaf material was collected from the youngest fully expanded leaf. For LWP, 0.5 cm 2 leaf discs were collected and sealed in thermocouple psychrometers (C-30; Wescor Inc., Logan, UT, USA). Five plants were subsampled in each heat wave and control plot. Water potential was measured with an integrated dew point microvoltmeter (HR-33T; Wescor, Inc., Logan, UT, USA) as described in Leakey et al. (2006). Leaf tissue was also sampled to determine specific leaf weight (SLW; g m À2 ) and the amount of total leaf nonstructural carbohydrates (TNC; mmol cm À2 ). For calculating SLW, three leaf disks (1.82 cm 2 ) from the center of the leaf, avoiding the leaf tip and base, were collected per plant, dried in an oven at 50 C for one week, and then weighed. For analysis of TNC, one leaf was collected from five plants per subplot. The five subsamples were combined and ground in liquid nitrogen. Approximately 30 mg of tissue was used to determine foliar contents of soluble carbohydrates. Carbohydrates were extracted in 80% (v/v) ethanol extracts, and glucose, fructose and sucrose were determined using a continuous enzymatic substrate assay (Jones et al., 1977). To determine starch content, pellets from the ethanol extract were solubilized by heating to 95 C in 0.1 M NaOH. The NaOH solution was then acidified to pH 4.9, and starch content was determined from glucose equivalents.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Final harvest",
+      "div": [
+        {
+          "text": "Half of each subplot was untouched by destructive sampling during the growing season and reserved to determine aboveground biomass and yield. Once the plants reached physiological maturity, a 0.8 m 2 area containing 14-17 plants was harvested from each subplot. The tissues were divided into stem (stem + senesced leaf material) and cobs (cobs + husks + kernels). All tissues were dried for one week at 65 C. Before removing kernels from the cob, the length of each cob was measured. Once kernels were removed, cobs and kernels were weighed separately. Total kernel mass was considered the yield. Two hundred kernels from each subplot were selected at random and weighed to provide an estimate of individual kernel mass. The individual kernel mass was divided into the total kernel mass to produce an estimate of the number of seeds per plot. The number of cobs was then divided into the estimated number of seeds per plot to yield the number of kernels per cob.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical analyses",
+      "div": [
+        {
+          "text": "Analyses of variance were performed on subplot means (n = 4) for biomass and yield measurements using the MIXED procedure (SAS 9.4; SAS Institute, Cary, NC, USA). In all cases, block was considered a random effect and the effect of a heat wave was fixed. For development and midday gas exchange data, DOY was included in the model as a repeated measure. A 0 and temperature data were analyzed separately for each DOY. T-tests were performed on SLW and TNC measurements. An alpha of 0.1 was used to determine significance.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Heat waves, while varied in magnitude, increased EDDs but did not affect development",
+      "div": [
+        {
+          "text": "Early in Wv1, target heat wave temperatures were more than 6 C above ambient because nighttime temperatures fell below the 30 year average (Fig. 1). During that time the canopy was heated 6 C above the 30 year mean (see Methods), which was 11 C above ambient canopy temperatures (Fig. 1). Due to high ambient temperatures during Wv2, target temperatures were often less than 6 C above ambient conditions to avoid potentially lethal canopy temperatures of >40 C, including at midday during all three days of Wv2 (Fig. 1). When present, ear husks were consistently 2.6 C warmer in the heat wave plots compared to control during Wv2 (p < 0.001, Fig. 1). The heat treatments added 11% more EDDs than the control in Wv1 and 27% more EDDs than the control in Wv2 (and summed for the months of June, July and August. Rainfall was monitored on site). However, there was no significant effect of Wv1 or Wv2 on the rate of progression through reproductive (p = 0.99) or vegetative (p = 0.54) development (Supplemental Fig. S1).",
+          "table": [
+            "and summed for the months of June, July and August. Rainfall was monitored on site."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reproductive biomass and yield parameters were reduced by wv2",
+      "div": [
+        {
+          "text": "Neither heat wave affected end-of-season total aboveground biomass (stem + attached senesced leaves; Fig. 2). Wv1 did not significantly affect reproductive biomass (kernel + cob + husk mass; p = 0.22; Fig. 2), but Wv2 significantly decreased overall reproductive biomass by 16% (p < 0.1; Fig. 2). This was due to significant reductions in cob mass (20%, p < 0.05), cob length (30%, p < 0.1), and husk mass (15%, p < 0.05; Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses). Reductions in Wv2 seed yield (13%, p = 0.15), kernels per cob (10%, p = 0.16), and Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses Calculated evapotranspiration (ET c ) and extreme growing degree days (EDDs) in control (C) and heat wave plots during vegetative (Wv1) and reproductive (Wv2) stages. ET c was calculated using the reference evapotranspiration equation and measured evapotranspiration from the preceding year in the same location and on the same cultivar. EDDs were calculated as described in Lobell et al. (2013)  individual kernel mass (0.2%, p = 0.8) also occurred but were not statistically resolvable at p < 0.1 (Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses).",
+          "table": [
+            "Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses.",
+            "and summed for the months of June, July and August. Rainfall was monitored on site.",
+            "Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heat waves increased water use and reduced LWP but did not affect soil moisture",
+      "div": [
+        {
+          "text": "Crop coefficients (K c ) were derived from measured ET and weather data from the previous growing season at the same location and using the same maize cultivar (Supplemental Fig. S2). Daily values of ET c from this experiment correlated well with measured ET in 2010 (R 2 = 0.83; Supplemental Fig. S3). Monthly values of ET c in June, July and August of 2010 were within 3% of the measured values of ET (data not shown). In 2011, Wv1 increased ET c by 9 mm relative to the control in June, and Wv2 increased ET c by 5 mm relative to the control in July (and summed for the months of June, July and August. Rainfall was monitored on site). LWP was reduced on the third day of Wv1 and Wv2 (p < 0.1) but recovered to the level of the control on the day following either heat wave (Fig. 3). Soil temperatures were slightly warmer (p < 0.1) in the heated plots (30.1 AE1.4 C) compared to the control during Wv2 (26.6 AE 1.4 C), and there was an experiment-wide decrease in soil moisture between day 0 and day 3 of Wv1 (Fig. 3). However, soil moisture content was never statistically different from the control in either Wv1 or Wv2 (Fig. 3).",
+          "table": [
+            "and summed for the months of June, July and August. Rainfall was monitored on site."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heat treatments transiently decreased midday A but not g s",
+      "div": [
+        {
+          "text": "Both heat waves resulted in significant transient reductions in midday A. In Wv1, the reduction occurred on day 3 (Fig. 4) but did not lead to a significant difference in A 0 for that day (Fig. 5). Although midday A recovered almost to control values in the heated plot on day 4 of Wv1 (Fig. 4), A 0 was significantly lower in the heated plot compared to the control on day 4 (Fig. 5). In Wv2, a significant reduction in midday A occurred on day 1 of the heatwave (Fig. 4), but there were no differences between control and heated A or A 0 in the following days of the heatwave or recovery period (Fig. 5). g s was never significantly affected by the heatwave treatments (Fig. 4).",
+          "table": []
+        },
+        {
+          "text": "3.5. T leaf , VPD L , TNC, and SLW were significantly altered during heat waves but recovered within 24 h T leaf and VPD L were significantly increased by the heat treatments in both heat waves but fully recovered the day after heating ended (Fig. 4). SLW significantly increased in the heated plots on day 3 during both heat waves but also recovered within 24 h in both treatments (Fig. 6). TNC was not significantly affected by Wv1 but was significantly greater in the heated plots on day 3 of Wv2 (Fig. 6).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Heat waves were applied during vegetative and reproductive phases of maize development to assess the effects of intense, short duration temperature stress on physiological properties and their subsequent effects on yield. The treatments increased temperature in each plot, but only the heat wave during silking (R1) significantly reduced reproductive biomass and yield parameters. Despite greater evaporative demand in the heated plots, soil water availability was not affected by heat waves. Therefore, transient reductions in A that occurred during both heat waves were most likely due to direct and indirect effects of increased T leaf and VPD L . However, since these reductions in A were relatively small in proportion to diurnally and seasonally integrated carbon assimilation, decreases in yield were likely the result of direct heat stress and greater evaporative demand on reproductive tissues.",
+          "table": []
+        },
+        {
+          "text": "Due to variation in ambient conditions, the temperature difference between heat wave treatments and control varied between the two developmental stages in which they were applied. A priori specifications dictated that the heat waves increase canopy temperature by 6 C compared to ambient temperatures. However, based on the predetermined guidelines/ thresholds in relation to 30 year mean temperature data, the canopy was heated by more than 6 C during the relatively cool vegetative stage (Fig. 1). This resulted in ambient/foliage temperatures of approximately 35 C, which was still below the photosynthetic temperature optimum of $38 C (Crafts-Brandner and Salvucci, 2002) and may not have been as \"abnormally and uncomfortably hot\" (NOAA-NWS, 2009) as intended for an east central Illinois summer. During the second wave, the canopy was heated less than 6 C due to the hotter days encompassing silking to avoid potentially lethal damage by temperatures exceeding 40 C (Fig. 1). The result was a relatively small overall treatment, and stressful conditions very likely occurred in the control plots in  addition to the heated plots. Therefore, a relatively cool first heat wave and a fairly small increase in temperature during the second heat wave may have ultimately lessened treatment effects on the measured parameters, including A, water status, and yield, or rendered any small differences statistically unresolvable.",
+          "table": []
+        },
+        {
+          "text": "Reproductive biomass was only affected by extreme heat applications during early reproductive stages. Wv2 increased EDD by 27% (and summed for the months of June, July and August. Rainfall was monitored on site), but the increase in EDD was not substantial enough to alter phenology (Supplemental Fig. S1). Therefore, reproductive timing, a factor that often accounts for yield changes with temperature (Barnabás et al., 2008;Bolaños and Edmeades, 1996), was not affected and did not cause the significant 16% reduction in Wv2 reproductive biomass (and summed for the months of June, July and August. Rainfall was monitored on site). In comparison, maize yields were reduced during the 2003 European heat wave by 36% in some areas of Italy and by 30% compared to 2002 in France (Ciais et al., 2005). However, the 2003 heat wave occurred between June and mid-August and raised mean monthly temperatures by 6-7 C in June, 1-3 C in July, and >7 C in early August (Fink et al., 2004). While the 2003 maize yield losses were 2-3 fold greater than the yield reduction in this study, Wv2 only lasted three days and occurred during an already hot control period, which likely underestimated yield loss estimates, thus demonstrating the detrimental impact of excess heat during key stages in maize development.",
+          "table": [
+            "and summed for the months of June, July and August. Rainfall was monitored on site.",
+            "Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses."
+          ]
+        },
+        {
+          "text": "The short-duration yet high-intensity heat waves applied to maize in this study impacted water demand relative to the control plots, but these effects appeared to be limited to the period of active heating. The Wv1 treatment increased ET by 12% compared to control, and the Wv2 increased ET by 3% versus the control (and summed for the months of June, July and August. Rainfall was monitored on site). Scaled to the season, the increase of ET due to the heat waves was only $2% for Wv1 and $1% for Wv2. Although the increase in ET was small, increased evaporative demand could lead to enhanced soil moisture depletion (Zaitchik et al., 2006), which would interact with higher temperatures to further decrease yields in maize (Hatfield and Prueger, 2015). Although overall soil moisture was lower during Wv2 compared to Wv1, increased ET in the heat wave plots did not alter soil moisture between the treatment and control in either developmental stage (Fig. 3). Therefore, lower A in both plots during silking compared to during vegetative stages (Fig. 4) may have been a result of lower soil moisture as the season progressed, but the transient reductions in A during heat waves were not due to a water shortage in the soil as was seen in long term temperature stress studies (Markelz et al., 2011;Ruiz-Vera et al., 2015). Water relations are undoubtedly more broadly affected during longer heat waves (Fischer et al., 2007). Compared to the 2002 growing season, an extra 1.7 million m 3 of water was used to irrigate crops in France during the 2003 extended heat wave (van der Velde et al., 2010). Thus, a longer period of heating may add a water limitation effect that was not evident in this three-day experiment.",
+          "table": [
+            "and summed for the months of June, July and August. Rainfall was monitored on site."
+          ]
+        },
+        {
+          "text": "Heat waves had pronounced effects on T leaf , VPD L , and LWP, which likely caused the transient reductions in A. A was predicted to decrease when temperature surpassed 38 C (Crafts-Brandner and Salvucci, 2002). Although A was reduced on day 3 of Wv1, T leaf was only $35 C (Fig. 4) and therefore was not likely the cause of the reduction in A at that time. However, T leaf during Wv2 reached 40 C (Fig. 4), which surpassed the 38 C threshold and likely contributed to reductions in A during the reproductive stage heat wave. Despite efforts to maintain similar conditions within the leaf chamber during gas exchange measurements, changes in VPD L due to heat waves may have been exacerbated by reductions in leaf chamber RH in the heated plots (data not shown). However, increases in T leaf and VPD L were expected since IR heating technology directly warms the plants, which may create a steeper vapor pressure gradient from inside the leaves to the air (Kimball, 2005). Both heat waves increased VPD L , but g s was not affected in the heated plants (Fig. 4). In isohydric species such as maize (Tardieu and Simonneau, 1998), increased VPD L and limited water conditions often result in stomatal closure due to a combination of signals from the roots and leaves which helps maintain a constant LWP (Jones, 2007). g s was not lowered by heating, which was likely because soil water was not significantly reduced by the treatment (Tardieu et al., 1993). The lack of stomatal regulation likely contributed to the significant reduction in LWP on day 3 of both treatments, when evaporative demand was greater in the heated plots (Fig. 3). In high temperature and high VPD L situations, maize leaf expansion rate (LER) is reduced and can lead to increases in SLW if A is not reduced to the same degree as LER (Haj et al., 1996). Greater SLW can contribute to lower osmotic potential, which would have affected LWP and A but not necessarily TNC, as was seen in Wv1 (Fig. 6). While an explanation for reduced A during Wv1 is not certain, reductions in midday A did not translate to decreases in A' during the heat waves (Fig. 5), and midday A recovered hours after heating ended (Fig. 4). Therefore, any effects of reduced A on yield would likely be minimal in this study but might play a larger role in heat waves of longer duration.",
+          "table": []
+        },
+        {
+          "text": "The observed impacts of the imposed heat waves on water and carbon relations suggest that the subsequent reductions in yield were driven by direct effects of heat and greater VPD on reproductive tissues. Midday canopy temperatures reached or exceeded 36 C all three days in the Wv2 treatment, and husk temperatures were only slightly lower (Fig. 1). In vitro fertilization rates are significantly reduced when pollen and pollinated spikelets experience temperatures >36 C for four hours (Dupuis and Dumas, 1990). Although it was not measured, pollen viability would be expected to be highly vulnerable during Wv2, as tassels and pollen were the closest tissues to the heaters with upper leaf temperatures near 40 C. Pollen subjected to high air temperatures loses viability more rapidly due to the exponential increase in VPD with temperature, and a 50% loss in viability can occur in less than 30 min in conditions that are typical in the Midwestern US during maize silking (Fonseca and Westgate, 2005). Low reproductive tissue water potential, high VPD, and high temperature inhibit metabolic activity on sugars, which consequently reduces available assimilated carbon for kernel growth, therefore lowering kernel number (Schussler and Westgate, 1995;Zinselmeier et al., 1995). Although reproductive tissue water potential was not measured, a reduction in silk water potential often accompanies lowered LWP (Zinselmeier et al., 1995), and while not significant, Wv2 reduced kernel number by 10% (p = 0.16) in this experiment (Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses). In addition, the inhibitory effect of low sink water potential on sucrose invertase in the ear increases sucrose concentration in the sink (Schussler and Westgate, 1995;Zinselmeier et al., 1995). This would reduce photosynthate translocation to the ear, which would in turn be expected to increase leaf TNC and inhibit A, as was seen during Wv2 (Figs. 4 and6).",
+          "table": [
+            "Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses."
+          ]
+        },
+        {
+          "text": "A greater effect of heat waves on yield might have been evident in larger plots. Since the heat wave plots were small and circular and the heat treatment was discrete (Kimball et al., 2008), small plot area may have led to overestimated pollination rates. Because of the spatially discrete treatment the IR heaters produce, the small size of each plot, and the fact that the heated plots were surrounded by untreated corn of the same genotype, pollination   could occur within the heated plots using viable pollen from the surrounding plants (Klein et al., 2003). It is possible that pollen from outside the plots might also lose viability upon entering the heated plots since the rate at which pollen loses viability is a function of its moisture content and is strongly dependent on VPD (Fonseca and Westgate, 2005). However, pollen release typically occurs in the morning and at dusk (Nielsen, 2010); thus, the pollen from plants surrounding the heated plots would have developed in cooler conditions and would enter the heated plots when temperatures and VPD would be lower. Since real-world heat waves are not limited in spatial scale to the plots used in this study, it is possible that the impacts observed here are conservative relative to what would occur with a large-scale heat wave of similar duration and intensity.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "These findings support the hypothesis that early reproductive development is more sensitive than vegetative development to transient high temperature events. The effects of heat waves on photosynthetic and non-photosynthetic parameters were minimal in comparison to long-term high temperature stress, but the treatment variability, short duration, and small plot size may have underestimated any significant effects on these parameters. However, this study reveals that the greatest sensitivity of yield parameters to heat waves was likely direct heat stress on reproductive tissues during silking. Several strategies for improving reproductive tissue resilience to temperature stress have been discussed (Barnabás et al., 2008) and deserve further attention when engineering greater tolerance to heat wave events.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"and summed for the months of June, July and August. Rainfall was monitored on site.\", \"head\": [\"Treatment\", \"ET c (mm month À1 )\", \"\", \"EDD (degree days)\"], \"value\": [[\"\", \"June\", \"July\", \"August\", \"\"], [\"C\", \"72.4\", \"199.7\", \"163.6\", \"23.3\"], [\"Wv1\", \"81.0\", \"-\", \"-\", \"25.8\"], [\"Wv2\", \"-\", \"204.7\", \"-\", \"29.5\"], [\"Rain (mm)\", \"106.2\", \"40.1\", \"43.1\", \"\"]]}",
+    "{\"title\": \"Effects of heat waves during vegetative (Wv1) and reproductive (Wv2) stages on yield parameters compared to control (C). Means and standard errors were based on n = 4. Pvalues are included in parentheses.\", \"head\": [\"Treatment\", \"Seed yield (g m À2 )\", \"Kernels per cob (No.)\", \"200 kernel mass (g)\", \"Cob length (cm)\", \"Cob mass (g m À2 )\", \"Husk mass (g m À2 )\"], \"value\": [[\"C\", \"1343.1\", \"461.0\", \"53.6\", \"20.8\", \"319.9\", \"71.52\"], [\"Wv1\", \"1276.7\", \"449.3\", \"52.7\", \"16.9\", \"267.9\", \"74.3\"], [\"(Wv1 vs. C)\", \"(0.55)\", \"(0.69)\", \"(0.76)\", \"(0.30)\", \"(0.04)\", \"(0.42)\"], [\"Wv2\", \"1170.7\", \"417.1\", \"53.5\", \"14.3\", \"257.2\", \"60.6\"], [\"(Wv2 vs. C)\", \"(0.15)\", \"(0.16)\", \"(0.76)\", \"(0.09)\", \"(0.02)\", \"(0.01)\"], [\"Standard error\", \"AE89.3\", \"AE20.3\", \"AE2.5\", \"AE2.7\", \"AE15.2\", \"AE5.1\"]]}"
+  ]
+}
