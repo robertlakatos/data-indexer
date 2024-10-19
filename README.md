@@ -9,7 +9,7 @@
 ## Fejlesztő
 
 - Név: Solymosi Attila
-- E-mail: ***
+- E-mail: mr.solymi@mailbox.unideb.hu
 
 - Név: Lakatos Róbert
 - E-mail: lakatos.robert@inf.unideb.hu
