@@ -51,7 +51,8 @@ Ezek az értékek azt vizsgálták, hogy a visszaadott kontextushalmaz mennyire 
 Az új mérési rendszerben a Hugging Face `evaluate` könyvtárát használtuk, amely:
 - **ROUGE**
 - **METEOR**
-- **BLEU**
+- **BLEU** 
+
 mérőszámokat biztosított. Ezek az új metrikák informatívabb és feldolgozhatóbb eredményeket adtak.
 
 ## Eredmények
@@ -84,7 +85,7 @@ A 128 tokenalapú technikát keresztvalidáltuk 5 másik 1000 kérdéses halmazo
 
 ## Felhasználás
 1. Klónold a repót: `git clone https://github.com/robertlakatos/data-indexer.git`
-2. Telepítsd a szükséges csomagokat: `codes/setup.ipynb` notebook
+2. Telepítsd a szükséges csomagokat: [`setup.ipynb`](codes/setup.ipynb) notebook
 3. A használata:
    - [`indexer.ipynb`](codes/indexer.ipynb) - vektoradatbázisok létrehozása
    - [`validation-v3.ipynb`](codes/validation-v3.ipynb) - a mérések és .csv fájlok létrehozása
