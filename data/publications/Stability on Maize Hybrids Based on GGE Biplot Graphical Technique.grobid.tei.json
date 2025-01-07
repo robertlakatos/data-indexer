@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "Stability on Maize Hybrids Based on GGE Biplot Graphical Technique",
+    "author": "Seyed Shojaei Habib Shojaei, Khodadad Mostafavi, Mohammad Bihamta Reza Bihamta, Ali Omrani, Seyed Mousavi Mohammad Nasir Mousavi, Árpád Illés, Csaba Bojtor, Janos Nagy",
+    "journal": "MDPI AG",
+    "date": "2022. 02. 04."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "In this study, 12 maize hybrids were planted and evaluated to determine the effect of genotype and genotype-environment interaction (GEI) base GGE (genotype plus genotype-byenvironment) using a Graphical biplot technique in four research stations (Arak, Birjand, Shiraz and Karaj) within two years using a Randomized Complete Blocks Design (RCBD). The combined analysis of variance showed that the effects of the environment, genotype and genotype-environment interaction (GEI) were significant in the one percent probability level. GGE biplot results indicated that the first and second principal components (PC1 and PC2) explained more than 83% of the grain performance variation. Simultaneous study of grain performance and hybrid stability using the biplot of average environment coordinates showed that the KSC705 genotype had the highest yield and stability. Polygon view divided the studied areas into two mega-environments (MEs) and identified the best genotypes in each mega-environment (ME). In the first mega-environment (ME1), the Karaj and Shiraz with KSC706 and KSC400 genotypes were detected, and were the best; and in the second mega-environment (ME2), Arak and Birjand with KSC704 and KSC707 genotypes performed better. The biplot graph for the correlation between the genotypes categorized the studied hybrids into four groups positively related to each other based on the angles between vectors. The KSC704 and KSC707 genotypes were desirable in the yield in Shiraz and Karaj and KSC706 were in Arak and Birjand. Additionally, Arak-Birjand, Karaj-Shiraz showed a positive and significant correlation. Birjand and Karaj had most genotype interaction with each other.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Maize is globally cultivated as one of the most important cereal crops ranking third after wheat and rice. In the 2017 cropping season, the total maize-producing area worldwide was 187 million hectares with a total production of 106 million tons . Breeding highperformance and stable genotypes appropriate for environmental situations in different fields is essential for high and stable corn performance. In the modern grain industry, the combined regional trial of crop diversity is a significant and rising national and provincial regional problem that has emerged recently. The combined restricted test of corn genotypes is a comprehensive evaluation of a newly cultivated genotype's performance, adaptability, stress resistance, quality, and representativeness according to official specifications . Phenotypic attributes were supported as a preliminary evaluation of corn genetic diversity and given practical and essential information to characterize genetic support. As the cultivation area of maize has expanded within recent years, high performance has been achieved in the area. It is important to investigate the reactions of hybrids in various regions and years. The best genotypes are identified and introduced as cultivars with high production potential . To determine the reliability and consistency of genotypes and the qualities of the G and E effect, scientists have presented various techniques, each of which has advantages and disadvantages.",
+          "table": []
+        },
+        {
+          "text": "The so-called GGE biplot technique is used for showing the genotype effect (G) and genotype-environment interaction (GEI) of data obtained from the multi-zone experiments . Dissecting genotype × environment (G × E) interaction is one of the most critical plant-breeding issues because it is based on figures from multi-environment experiments. The G × E interaction is recorded in the most significant trials and then modelled statistically and clarified. GEI modifies the hybrids' good seed performance in various environments so that choosing the correct genotype is very important . In meta-environments, Modeling G × E interaction facilitates explaining the stability of breeding materials. This has been well described in various forms, and using several stability parameters. Selection processes in plant breeding depend critically on phenotype predictions' quality . This technique combines the performance average and stability and converts them to a graphically assessed criterion. G × E affects the purpose of the exact contribution of improved hybrids and the environment or the enhanced technology . The GGE bi-plot method provides a more efficient technique for analyzing the interaction of genotype and environment because it can provide biplots and information about genotypes, environments and interactions between them, in addition to a visual description of the interactions while other methods of analysis such as Eberhart and Russell may provide only information about genotype evaluation . Through the graphical display of genotype in the environment interaction effect, this method helps the breeder to evaluate the stability of hybrids in various environments in a simpler manner. It makes it possible to examine the relationships between the environments and identify the target environments in breeding plans . This model was applied when studying the genotype interacting with the environment in wheat , barley , and maize . In a study during two years for 10 regions on the stability of Chinese maize hybrids grain performance, Fan et al.  used the GGE biplot and other stability statistics. Finally, they introduced only a single hybrid as the most stable genotype. The present research aimed to evaluate the GEI in the graphical method of GGE biplot in maize genotypes, and to identify the genotypes with high-performance and stability as well as the mega-environments (MEs).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": [
+        {
+          "text": "In this study, 12 maize hybrids were planted and evaluated in four (Karaj, Birjand, Shiraz, and Arak) research stations for two years using randomized complete block design (RCBD) with three replications. In this experiment, the sites were at a long-distance from one another, the environments were far apart and had different weather and soil quality. The geographical properties of the experimental environments and the names of studied genotypes are provided in Tables 1 and2, respectively.",
+          "table": []
+        },
+        {
+          "text": "The preparation include deep ploughing, disking and creating planting rows and plots. During the agricultural season, all agricultural practices, including irrigation, weeding and thinning, were performed regularly, different agricultural properties were registered, and after harvesting, the grain yield was calculated. The hybrids were planted in four lines with a length of two meters and culture lines with a distance of 75 cm from each other. The plant density per hectare was 80,000. Planting, holding, and harvesting were generally carried out without adding fertilizer to the soil. Sampling and taking notes were performed from the middle two rows to eliminate marginal effects (Soil specifications of Performed the experiment areas). To conduct Bartlett's test and a combined analysis of variance SAS.v9.1 was used [23,24]. The GGE biplot model does not separate the genotype effect (G) from the effect of the genotype x environment (GE) interaction, keeping them together in two multiplicative terms, represented in the following equation: Y ijµβ j = g 1i e 1j + g i2 e 2j + e ij , where Y ij is the performance expected of genotype i in environment j; µ is the overall constant from the observations; β j is the main effect of environment j; g 1i and e 1j are the main scores for the ith genotype in the jth environment, respectively; g i2 and e 2j are the secondary scores for the ith genotype in the jth environment, respectively; and e ij is the residual not explained by either of the effects (\"noise\"). To analyze the experimental data, a GGE biplot and Genstat.v12 software were used based on the following five patterns: 1. Coordinates of the average environment; 2. Determining the best cultivar in each location; 3. Rating the genotypes based on the ideal genotypes; 4. Rating the environments based on the ideal environment; and 5. Investigating the relationships among the genotypes.",
+          "table": [
+            "Soil specifications of Performed the experiment areas."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Results and Discussion",
+      "div": [
+        {
+          "text": "A homogeneity test of variance for the experiment errors was conducted to investigate the uniformity of error variance in various experiments. As the uniformity of experimental errors was confirmed, a combined analysis of variance was performed for the data obtained from the experiments, and the results are given in Combined analysis of variance for grain yield of 12 maize hybrids in 4 locations and 2 years. The environmental effect, genotype effect and genotype × environment interaction were significant (in a one percent probability level). The significance of the environmental effect indicated that environments varied in terms of genotype performance. The significance of GEI showed that the genotypes' performance varies from one place to another. As a result, grain performance stability should be examined. The hybrids with specific adaptability to each environment and hybrids with general adaptability were investigated and identified. The significance of the effect of GEI showed that the environments can be grouped based on the interac-tion [25,26]. Additionally, Luo et al. [27] reported that the factors of genotype, location, year, and all of the interactions between them were found to be statistically significant. To examine the variation between genotypes and environments and study the genotype in the environmental interaction, the GGE biplot graphical technique was used. The sum of the first two and second main components (PC1 = 53.80 and PC2 = 29.90%) was responsible for 83.70% of the maize grain performance variation, indicating the high relative validity of the biplot graph obtained from this study in explaining the G + GE changes. Yan and Tinker [28] indicated that suitable maize genotypes could be selected for direct production or breeding and can be used in mega-environments (MEs). Yan and Tinker [28] reported that the seed yield increases in the arrow's direction (in GGE biplot figure) and genotypes closer to the arrow line are more stable. The different genotypes' performance and interaction with several environments were obtained using a GGE biplot analysis by PC1 and PC2 factors [29]. If the biplot diagram accounts for as little as 60% of the data variance, a GGE biplot can be used in mega-environments (MEs) [30]. If both the first and second components cannot explain the variation, this is indicative of the complicated nature of genotype and environment interaction (GGE) [29]. However, this does not imply the invalidity of the biplot [29]. Taking into account the simultaneous study of genotypes performance and stability can benefit the biplot graph of average environment coordinates. This figure is used for investigating the performance and stability of genotypes. A biplot figure of average environment coordinates in the biplot GGE technique is among the suitable methods in stability analysis [31]. The solid horizontal axis represents the average of environments, and the origin indicates the stability. Each genotype close to this axis will be more stable [32]. The solid vertical axis indicates the average grain performance of genotypes; therefore, genotypes with grain performance higher than the average are on the right side of the axis, and the ones with lower performance are on the left side. On that basis, genotype KSC705 had the highest grain stability and performance and is characterized as the best genotype. Furthermore, KSC703 was the most unstable genotype due to its distance from the horizontal line, while the SC301 genotype had the lowest grain performance and was characterized as undesired. The order of hybrids in terms of performance in descending order is as follows:",
+          "table": [
+            "Combined analysis of variance for grain yield of 12 maize hybrids in 4 locations and 2 years."
+          ]
+        },
+        {
+          "text": "KSC705 > KSC704 > KSC707 > KSC706 > KSC400 > SC647 > KSC703 > SC604 > DC370 > KSC260 > SC302 > SC301 (Figure 1).",
+          "table": []
+        },
+        {
+          "text": "A polygon figure was used to specify the top hybrids in various environments and to recognize the mega-environments (MEs) (Figure 2). In this figure, the best hybrids with the most significant distance to the origin were connected and form a polygon. Genotypes located on the joint show desirable performance in that environment. Based on this figure, KSC706, KSC705, KSC704, KSC703, SC301 and DC370 genotypes are on this polygon's vertices and were identified as the top genotypes. In identifying the mega-environments (MEs), two regions of Arak and Birjand are in the exact location and KSC706 and DC370 genotypes, due to their location on the vertices, and were two highly desired cultivars for these two environments. Two regions of Karaj and Shiraz are in the exact location identified as the second mega-environment (ME). Furthermore, KSC704, due to its location on the vertex, is specified as the desired cultivar for these two locations. In the polygon view, following KSC704, KSC707 is the proper cultivar for cultivation in Karaj and Shiraz. The SC647 Genotype is located nearly on the biplot origin, confirming its similar reaction to most studied environments, and it is among the weakest genotypes in most environments. No environment in the sectors located KSC705, KSC703, KSC260, SC604, SC302, SC301 and DC370 genotypes; i.e., these genotypes were not superior and were categorized as the poor genotypes in environments.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "of 10",
+      "div": [
+        {
+          "text": "KSC705 > KSC704 > KSC707 > KSC706 > KSC400 > SC647 > KSC703 > SC604 > DC370 > KSC260 > SC302 > SC301 (Figure 1). A polygon figure was used to specify the top hybrids in various environments and to recognize the mega-environments (MEs) (Figure 2). In this figure, the best hybrids with the most significant distance to the origin were connected and form a polygon. Genotypes located on the joint show desirable performance in that environment. Based on this figure, KSC706, KSC705, KSC704, KSC703, SC301 and DC370 genotypes are on this polygon's vertices and were identified as the top genotypes. In identifying the mega-environments (MEs), two regions of Arak and Birjand are in the exact location and KSC706 and DC370 genotypes, due to their location on the vertices, and were two highly desired cultivars for these two environments. Two regions of Karaj and Shiraz are in the exact location identi-  The ideal hybrid is the genotype with the best mean performance and stability in all test environments. The ideal hybrids are presented at the center of a multilayered concentric circle, and the genotype under evaluation is judged based on its distance from the ideal hybrid. Genotypes near the center of the concentric circle have a good yield, and those far from the circle's center have lower yields . According to the findings, the method of hybrids arrangement in descending order is as follows: KSC705 > KSC707 > KSC704 > KSC706 > KSC400 > SC647 > SC604 > DC370 > KSC260 > SC302 > SC301 (Figure 3).",
+          "table": []
+        },
+        {
+          "text": "The GGE biplot can be applied to visualize the position of an ideal hybrid. In this diagram, the desirability of a genotype depends on its distance from the assumed ideal hybrids. In other words, the hybrids closest to the assumptive ideal hybrids are the most desired hybrids. Thus, the KSC705 genotype is the most desired, and SC301 is the most undesired hybrid. The ideal hybrid is the genotype with the best mean performance and stability in all test environments. The ideal hybrids are presented at the center of a multilayered concentric circle, and the genotype under evaluation is judged based on its distance from the ideal hybrid. Genotypes near the center of the concentric circle have a good yield, and those far from the circle's center have lower yields . According to the findings, the method of hybrids arrangement in descending order is as follows: KSC705 > KSC707 > KSC704 > KSC706 > KSC400 > SC647 > SC604 > DC370 > KSC260 > SC302 > SC301 (Figure 3). The assumptive ideal environment was drawn according to the average data for two years of an experiment to highlight the most appropriate and most inappropriate environment (Figure 4). Based on this diagram, each environment close to the assumptive ideal environment is more desired than other environments. The main characteristic of correlation among the environments is the environment vector's length, which estimates the standard deviation inside each environment and indicates environments' discrimination. A greater length indicates high standard deviation, and more discriminability. Based on Figure 4, the Karaj and Birjand locations are closest to the ideal environment and are The GGE biplot can be applied to visualize the position of an ideal hybrid. In this diagram, the desirability of a genotype depends on its distance from the assumed ideal hybrids. In other words, the hybrids closest to the assumptive ideal hybrids are the most desired hybrids. Thus, the KSC705 genotype is the most desired, and SC301 is the most undesired hybrid.",
+          "table": []
+        },
+        {
+          "text": "The assumptive ideal environment was drawn according to the average data for two years of an experiment to highlight the most appropriate and most inappropriate environment (Figure 4). Based on this diagram, each environment close to the assumptive ideal environment is more desired than other environments. The main characteristic of correlation among the environments is the environment vector's length, which estimates the standard deviation inside each environment and indicates environments' discrimination. A greater length indicates high standard deviation, and more discriminability. Based on Figure 4, the Karaj and Birjand locations are closest to the ideal environment and are the most desired, whereas Shiraz and Arak's locations were considered the most undesirable environments. Discriminability is a critical characteristic since environments without discriminability cannot present relevant information on cultivars . Based on the angle between vectors, the environments of Arak-Birjand, Karaj-Shiraz are correlated positively and significantly. However, since the angle between the two vectors of Arak and Shiraz is 90, the correlation is zero, indicating these two locations' dissimilarity in terms of maize grain production. If two or more environments are correlated, experiments can be conducted in just one environment to reduce costs and save time . The cosine of the angle between environments' vectors indicates the type of correlation among the environments. If the vectors' angle is less than 90, the existing correlation among the vectors is positive, and if it is 90, there exists a correlation among the vectors. If it equals zero, and if it is higher than 90, the correlation is negative. Similar to the figure correlated to the correlation among environments, the biplot diagram presenting the correlation among the genotypes indicates the amount of correlation among the genotypes and genotypes' grouping based on the angels of their vectors. The relative length of vectors represents the relative proportion of variability in each variable represented on the biplot. If the angle between vectors of two traits is <90 • , both are positively correlated, whereas if the angle is >90 • , there is a negative correlation and both vectors show no correlation if the angle is 90 • .  Based on Figure 5, genotypes are grouped in four categories in terms of the correlation existing among them. The first group included SC647, KSC705, KSC706 and KSC400, the second group included DC370 and SC301, the third group included SC302, KSC260 and SC604 and the fourth group included KSC707, KSC704 and KSC703. Based on Figure 5, genotypes are grouped in four categories in terms of the correlation existing among them. The first group included SC647, KSC705, KSC706 and KSC400, the second group included DC370 and SC301, the third group included SC302, KSC260 and SC604 and the fourth group included KSC707, KSC704 and KSC703.",
+          "table": []
+        },
+        {
+          "text": "Figure 4. GGE-biplot for comparing the environments with the ideal environment. (G1: KSC703, G2: KSC260, G3: KSC705, G4: KSC400, G5: KSC706, G6: KSC704, G7: KSC707, G8:DC370, G9: SC647, G10: SC302, G11: SC604, G12: SC301). (The arrow is the best point that the software determines to identify the best genotype and environments).",
+          "table": []
+        },
+        {
+          "text": "Based on Figure 5, genotypes are grouped in four categories in terms of the correlation existing among them. The first group included SC647, KSC705, KSC706 and KSC400, the second group included DC370 and SC301, the third group included SC302, KSC260 and SC604 and the fourth group included KSC707, KSC704 and KSC703.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "Twelve maize hybrids were planted and evaluated according to the GEI-based GGE Graphical biplot technique in four research stations. A significant variation was observed among the hybrids for seed performance, indicating that the biplot method facilitated the discrimination of genotypes in different environments in this research. Both PC1 and PC2 explained more than 83% of the grain performance variation. GGe biplot analysis showed that:",
+          "table": []
+        },
+        {
+          "text": "1.",
+          "table": []
+        },
+        {
+          "text": "A study of grain yield and stability of hybrids using the biplot of average environment coordinates showed that the KSC705 genotype has higher stability and grain yield than other genotypes.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "2.",
+      "div": [
+        {
+          "text": "Both SC302 and SC301 genotypes had minimum stability on grain yield in this study.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "3.",
+      "div": [
+        {
+          "text": "The KSC704 and KSC707 genotypes were desirable for yield in Shiraz and Karaj, and KSC706 were desirable in Arak and Birjand. 4.",
+          "table": []
+        },
+        {
+          "text": "Additionally, Arak-Birjand, Karaj-Shiraz showed a positive and significant correlation. 5.",
+          "table": []
+        },
+        {
+          "text": "Birjand and Karaj showed the highest genotype interactions with each other.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Geographical specifications of Performed the experiment areas.\", \"head\": [\"Area\", \"Longitude\", \"Latitude\", \"Elevation AMSL (m)\", \"Average Rainfall (mm)\"], \"value\": [[\"Karaj\", \"50 • 54 E\", \"35 • 55 N\", \"1312\", \"247.3\"], [\"Birjand\", \"59 • 12 E\", \"32 • 52 N\", \"1491\", \"171\"], [\"Shiraz\", \"52 • 36 E\", \"29 • 32 N\", \"1484\", \"324.2\"], [\"Arak\", \"49 • 46 E\", \"34 • 06 N\", \"1708\", \"341.7\"]]}",
+    "{\"title\": \"Names and code of corn varieties studied in the experiment.\", \"head\": [\"Genotype No.\", \"Genotype\", \"Genotype No.\", \"Genotype\"], \"value\": []}",
+    "{\"title\": \"Soil specifications of Performed the experiment areas.\", \"head\": [\"Region\", \"EC(ds/m)\", \"Acidity\", \"Lime (%)\", \"Organic Carbon (%)\", \"Organic Materials (%)\", \"Clay (%)\", \"Silt (%)\", \"Sand (%)\"], \"value\": [[\"Karaj\", \"0.20\", \"8.2\", \"7\", \"32\", \"45\", \"32\", \"25\", \"22\"], [\"Birjand\", \"0.46\", \"7.08\", \"15\", \"17\", \"29\", \"10\", \"42\", \"42\"], [\"Shiraz\", \"0.75\", \"7.8\", \"4\", \"21\", \"25\", \"41\", \"31\", \"46.1\"], [\"Arak\", \"2.9\", \"8\", \"9\", \"23\", \"12\", \"23\", \"21\", \"38\"]]}",
+    "{\"title\": \"Combined analysis of variance for grain yield of 12 maize hybrids in 4 locations and 2 years.\", \"head\": [\"Source of Variation\", \"DF\", \"Sum of Square\", \"Mean Square\", \"Percent of Total Variation\"], \"value\": [[\"Environment (E)\", \"3\", \"98.7251194\", \"32.9083731\", \"<0.0001\"], [\"Year (Y)\", \"1\", \"24.4766722\", \"24.4766722\", \"<0.0001\"], [\"Environment × Year\", \"3\", \"8.1064361\", \"2.7021454\", \"0.0164\"], [\"Genotype (G)\", \"11\", \"172.2179778\", \"15.6561798\", \"<0.0001\"], [\"Error1\", \"16\", \"105.436131\", \"3.195034\", \"-\"], [\"Genotype × Environment (GE)\", \"33\", \"145.5750139\", \"4.4113641\", \"<0.0001\"], [\"Year × Genotype\", \"11\", \"59.2709611\", \"5.3882692\", \"<0.0001\"], [\"Location × Year × Genotype\", \"33\", \"105.4361306\", \"3.1950343\", \"<0.0001\"], [\"Error\", \"176\", \"146.396370\", \"0.770507\", \"-\"], [\"CV (%)\", \"\", \"\", \"18.24\", \"\"]]}"
+  ]
+}

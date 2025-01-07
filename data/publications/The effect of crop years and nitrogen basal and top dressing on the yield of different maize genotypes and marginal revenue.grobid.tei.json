@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "The effect of crop years and nitrogen basal and top dressing on the yield of different maize genotypes and marginal revenue",
+    "author": "Adrienn Széles, Kálmán Kovács, Sándor Ferencsik",
+    "journal": "Idojaras",
+    "date": "2019."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "The effect of the amount and application date of nitrogen fertilizer on maize productivity and profitability was examined in a field experiment established on calcareous chernozem soil at the University of Debrecen in Hungary (47 o 33' N, 21 o 26' E, 111 m) under different environmental conditions in the wet crop year of 2016 and the average crop year of 2017. In addition to the non-fertilized treatment, N fertilizer doses were applied in the form of basal and top dressing. The 60 and 120 kg N ha -1 treatments applied as spring basal dressing were followed by two occasions of 30 kg N ha -1 top dressing at the V6 and V12 phenophases each. The longer maturity hybrid Armagnac (FAO 490) had a better conversion ratio concerning the precipitation during the growing season of 2016 (which was higher than the 30-year average), as well as the basal and top dressing (averaged over the different treatments) in comparison with the shorter maturity hybrid Renfor (FAO 320). In the wet crop year, the yield of Armagnac was 21.7% higher, while that of Renfor was 10.4% higher. The 60 kg N ha -1 basal dressing and the +30 kg N ha -1 top dressing at the V6 phenophase (V6 90 ) resulted in more efficient uptake and better conversion rate in the rainy crop year (2016) in the case of both examined hybrids. In the average crop year (2017), a difference was observed in the successfulness of top dressing. In the case of the Armagnac hybrid (FAO 490), top dressing did not cause any significant yield surplus and the 120 kg N ha -1 basal dressing was shown to be successful. In the case of the Renfor hybrid (FAO 320), the early top dressing (V6 150 ) applied on the basal dressing of 120 kg N ha -1 was favorable. The most favorable income of nutrient management (N) was provided by the basal dressing of 120 kg N ha -1 and the +30 kg N ha -1 (V6 150 ) top dressing applied at the early V6 phenophase, averaged over the examined hybrids and years. In the case of the Renfor hybrid (FAO 320), the highest profitability was reached with the V6 150 treatment, independently of the prevailing environmental factors. However, as regards the Armagnac (FAO 490) hybrid, the top dressing applied at the V12 phenophase provided the highest profitability, which could be achieved with the lowest dose of V12 120 treatment in the wet year ( 2016) and the highest dose of V12 180 in the average crop year (2017). Altogether, based on the results of yield and marginal revenue analysis, the recommended fertilization technology is basal dressing of 120 kg N ha -1 and basal dressing of +30 kg N ha -1 (V6 150 ) applied at the early V6 phenophase. The obtained findings also show that the effect of N is greatly affected by crop year, genotype, and other elements of the applied technology. Also, marginal efficiency has to be defined for each hybrid, considering the given crop year, too.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Climate change, including changes in temperature as well as precipitation and its distribution, and the increase in atmospheric CO 2 concentration -which can increase the productivity of crops through carbon dioxide fertilization, but it may even reduce it, depending on temperature, precipitation, and nutrient levels -poses a major challenge to crop production (Tuba, 2005;Wheeler and von Braun, 2013;Jolánkai et al., 2016). Especially the rise in temperature will have a negative effect on yields (Ottman et al., 2012). It is estimated that the increase in global mean temperature for each Celsius degree reduces the global yield of maize by 7.4% on average (Lobell, 2007). However, food production should increase by 70% by 2050 in order to keep pace with the growth of the world's population (FAO, 2011). To this end, production and production efficiency should be increased with respect to environmental protection (Fernandez et al., 2009;Nielsen, 2013).",
+          "table": []
+        },
+        {
+          "text": "Fertilizer use plays an important role in increasing the yield of maize (Árendás, 2006;Sárvári and Pepó, 2014;Pepó, 2017). In particular, nitrogen fertilizer is a key element (Evenson and Gollin, 2003;Szulc et al., 2016) as it greatly influences the biomass and grain yield due to the development and durability of the leaf area (Muchow, 1998;Miao et al., 2006). In the course of maize production, the efficiency of nitrogen fertilization can be enhanced in the proper form, in the required dose, and with a timely application (Fageria and Baligar, 2005;Fernandez et al., 2009;Wortmann et al., 2011). This makes it possible to maximize the profitability of maize, but it is/may be modified by the nitrogen demand of the production site and the current hybrid (Rashid et al., 2004;Nagy, 2008).",
+          "table": []
+        },
+        {
+          "text": "Nitrogen uptake is the lowest at the time of maize germination and it becomes intensive from the 6-7-leaf stage reaching its peak during silking (Ciampitti and Vyn, 2013). Nitrogen uptake and incorporation are significant also during the grain filling process (Blackmer and Schepers, 1996;Ciampitti and Vyn 2013). 60% of the total nitrogen uptake is incorporated into the grain (Berzsenyi, 2013).",
+          "table": []
+        },
+        {
+          "text": "Optimally, basal nitrogen dressing is performed in the spring (Timmons and Cruse, 1990), but some of the active substances of N applied before sowing may evaporate or leach into groundwater. The reason for this phenomenon is that in the early stages of plant development, poorly developed root systems are less able to access reserves in the soil (Alley et al., 2009). Applying the proper amount of spring basal and top dressing reduces nitrogen deficiency, increases the efficiency of nitrogen supply, improves the economicalness of nutrient supply, yield and production efficiency as a whole (Tóth, 2002;Csathó, 2003;Muthukumar et al., 2007;Sitthaphanit et al., 2010).",
+          "table": []
+        },
+        {
+          "text": "The uptake and accessibility of nitrogen are greatly influenced by climatic conditions (Bragagnolo et al., 2013). The warmed soil ensures more intense nutrient dissolution, higher nutrient concentration in the soil solution, and better nutrition uptake through the root system.",
+          "table": []
+        },
+        {
+          "text": "N farming poses a challenge in maize production for agronomic, environmental, and economic reasons (Guo et al., 2010;Ma and Biswas, 2016). For this reason, it is necessary to develop a N fertilization strategy for the growing season (Singh et al., 2006). This study intends to contribute to this effort.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": [
+        {
+          "text": "Our experiments were carried out in a small plot long-term field experiment at the Látókép Crop Production Experiment Site of the University of Debrecen on loess-based calcareous chernozem soil with deep humus layer with a split-stripplot design and two replications. The main plots are the examined hybrids, while the subplots represent the different irrigation treatments (irrigated and nonirrigated), and the sub-subplots represent the different fertilizer doses. This study focuses on the evaluation of the above described experiment in two different crop years (2016 and 2017) under natural precipitation supply, involving hybrids Armagnac (FAO 490) and Renfor (FAO 320).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Soil properties",
+      "div": [
+        {
+          "text": "Based on the soil analysis results of 2012, the average pH KCl of the soil is 6.6 (slightly acidic), which is optimal from the aspect of crops' nutrient uptake. In the upper (20 cm) layer of the soil, the Arany's plasticity index is 39, the total amount of water-soluble salts (anions and cations) is 0.04%, i.e., the soil is salt deficient. The calcareous chalk content is around 0% in the upper 80 cm of the soil (i.e., chalk deficient), but it is 12% from 100 cm down (moderately calcareous). The organic matter content in the upper 20 cm layer of the soil does not exceed 2.3%, while it does not exceed 1.0% at the 120 cm depth. The potassium supply of the soil is appropriate, and its P supply is moderate.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Characteristics of the experiment site",
+      "div": [
+        {
+          "text": "In the field experiment, in addition to the non-fertilized (control) treatment, different fertilizer doses were applied in the form of basal and top dressing as follows:",
+          "table": []
+        },
+        {
+          "text": "-Basal dressing: A (0) = non-fertilised control, A 60 = 60 kg N ha -1 ;",
+          "table": []
+        },
+        {
+          "text": "A 120 = 120 kg N ha -1 ;",
+          "table": []
+        },
+        {
+          "text": "-Top dressing at the V6 phenophase: V6 90 = A 60 +30 kg N ha -1 , V6 150 = A 120 +30 kg N ha -1 ;",
+          "table": []
+        },
+        {
+          "text": "-Top dressing at the V12 phenophase: V12 120 = V6 90 +30 kg N ha -1 , V12 180 = V6 150 +30 kg N ha -1 .",
+          "table": []
+        },
+        {
+          "text": "In each crop year, the applied fertilizer was 27% CAN (Genezis Pétisó). Crop density was 73 thousand crops per ha and the previous crop was maize in both years. Maize was sown on April 19, 2016 and April 25, 2017 and it was harvested on October12, 2016 and October18, 2017. The harvested grain yield was corrected to a moisture content of 14%.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Climatic parameters of the examined crop years",
+      "div": [
+        {
+          "text": "Weather was evaluated based on the data measured and logged by the automatic weather station installed on the experiment site. The obtained values were compared to the means of the period between 1985 and 2015 (30-year average). The method of Szász (1973) was used, as it provides a highly accurate estimation:",
+          "table": []
+        },
+        {
+          "text": "where PET is the potential evapotranspiration [mm day -1 ], T is the daily mean temperature [°C], R is the relative humidity, ƒ(ν) is the effect function wind speed, and β is a factor of expressing the oasis effect. The oasis effect is the ratio of environment and evaporating water.",
+          "table": []
+        },
+        {
+          "text": "The growing season of 2016 was rich in precipitation (Fig. 1). The sum of precipitation (450 mm) was 110 mm higher than the 30-year average (340 mm). April was dry, less than 15 mm of rain fell, well below the multiple-year average of 45 mm. In May, 69 mm of precipitation fell, which was 17% higher than the average for many years. The amount of rainfall in June (146 mm) was more than twice as high as the average precipitation sum (69 mm). Unfortunately, more than a third (45 mm) of this amount came in a single day. Significant rainfall was seen in July, August and September. Compared to the average, precipitation was 39% higher in July, 20% higher in August, and 37% higher in September. In August and September, more than half of the total rainfall arrived in one day -on August 21 and September 21. The potential evapotranspiration (PET) was 140 mm higher than the amount of precipitation. The average temperature of the growing season was 16.5 °C, which was only a few tenths (+ 0.3 °C) above the multiple-year average. The month of sowing was significantly warmer than the average (+ 1.8 °C), while May was colder by 0.9 °C. June was more than 1 °C warmer than the 30-year average, while the temperature in July was average. In August, the average temperature decrease was 0.5 °C, while September was warmer than the average by 1.3 °C.",
+          "table": []
+        },
+        {
+          "text": "In the first month of the 2017 growing season, the amount of rainfall was 18% higher than the average, however, the precipitation in May was 85% lower and that of June was 11% lower than the average (Fig. 1). In July, the amount of precipitation was 11 mm higher, while in August, there was 13 mm less rain compared to the average. August was significantly drier (26%) than the average, while in September, the amount of rain was nearly twice as much (79.8%) as the multiple-year average. 63.4% of the precipitation in August and 39.9% of rain in September arrived in only one day. The growing season ended with a total precipitation of 349 mm. The PET value was significantly higher (+325 mm) than the amount of precipitation. The temperature of April, May, July, and September was only a few tenths lower than the average, but June and August were 1.7-1.8 °C above the average. The amount of precipitation and average temperature of the growing season were in accordance with the average.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Economic data and statistical evaluation",
+      "div": [
+        {
+          "text": "In 2016, the buying-in price of maize was 40 400 HUF per ton, while in 2017 it was 43 500 HUF per ton. The purchase price of fertilizer (CAN) was 74 600 HUF in 2016, while it was significantly lower (66 200 HUF per ton) in 2017. Cultivator use showed differences between the V6 and V12 phenophase in terms of the number of turns taken on the field. As a consequence, the cost of cultivator use was 3 650 HUF per ha in 2016 and 3720 HUF per ha in 2017. Additional revenue resulted from fertilization was represented by the amount of production value (yield x unit price) reduced by the cost of fertilization and machine work. The marginal revenue of fertilization was determined on the basis of the amount of applied fertilizer and revenue.",
+          "table": []
+        },
+        {
+          "text": "The relationship between the dependent variable (yield) and the production factor (fertilizer) was evaluated using a general linear model (GLM). Yield and its mean values were compared to each other using the Duncan's test. Evaluation was performed with SPSS for Windows 21.0.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results and conclusions",
+      "div": []
+    },
+    {
+      "title": "The effect of basal and top dressing on the yield of maize hybrids",
+      "div": [
+        {
+          "text": "In the wet year of 2016, both hybrids reached outstanding yield. The yield of the Armagnac (FAO 490) hybrid was 11.652 t ha -1 without fertilization. Compared to the control treatment, the lowest basal dressing of 60 kg N ha -1 (A 60 ) increased yield by 16.2% significantly, at the significance level of P<0.05. The 0.970 t ha -1 increase between basal dressing treatments A 60 and A 120 was not significant. The basal dressing of 60 kg N ha -1 was further increased by applying 30 kg N ha -1 at the V6 phenophase, resulting in a yield increase of 4.042 t ha -1 (P<0.05). Compared to the V6 90 treatment, the effect of the V12 120 treatment was 1.030 t ha -1 , but this difference was not significant. There was a notable increase as a result of the V6 150 treatment (3.787 t/ha; P<0.05) in comparison with the 120 kg N ha -1 basal dressing (A 120 ), but the extra 30 kg N ha -1 applied at the V12 phenophase resulted in a decrease of 2.313 t ha -1 . The highest yield was provided by the V12 120 treatment (18.611 t ha -1 ). However, based on the Duncan's test, the 17.581 t ha -1 result of the V6 90 treatment was shown to be the most favorable.",
+          "table": []
+        },
+        {
+          "text": "The yield of the Renfor (FAO 320) maize hybrid without fertilization (control) (10.469 t/ha) showed the outstanding nutrient conversion ability of the hybrid. Despite this fact, the yield of Renfor was 11.3% below (P<0.05) the yield of Armagnac (FAO 490) obtained without fertilization. In the case of Renfor (FAO 320), compared to the control treatment, the basal dressing of 60 kg N ha -1 (A 60 ) increased yield by 1.489 t ha -1 , but this increase was not significant. The difference between basal dressings A 60 and A 120 was 543 kg ha -1 , and the higher basal dressing dose did not result in any significant increase. However, a significant difference was observed as a result of applying 30 kg N ha -1 as top dressing at the V6 phenophase in addition to the A 60 basal dressing, with the increase being 2.552 t/ha (P<0.05). However, the extra 30 kg N ha -1 applied at the V12 phenophase resulted in a decrease of 2.649 t ha -1 . There was a significant difference between the yields of A 120 and V6 150 , i.e., the combination of the 120 kg N ha -1 basal dressing and 30 kg N ha -1 top dressing provided a yield increase of 2.598 t ha -1 (P<0.05). When further increasing the fertilizer dose by 30 kg N ha -1 at the 12-leaf stage (V12 180 ), the yield increased in comparison with the V6 150 treatment. However, the extent of this increase was not significant. Again, the highest yield and the highest significant yield was not the same in this case either. The V12 180 treatment (15.225 t ha -1 ) provided the highest yield, but it did not significantly differ from the yield resulting from the V6 90 treatment (Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2016)).",
+          "table": [
+            "Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2016)"
+          ]
+        },
+        {
+          "text": "In the average crop year of 2017, the yield obtained in the case of the Armagnac (FAO 490) maize hybrid as a result of the 60 kg N ha -1 basal dressing showed a 19.4% increase in comparison with the non-fertilized treatment (P<0.05). There was a significant yield difference (2.932; P<0.05) between the 60 and 120 kg N ha -1 basal dressing treatments. The Armagnac (FAO 490) hybrid responded well to the extra 30 kg N ha -1 applied at the V6 phenophase (V6 90 ) in addition to the basal dressing of 60 kg N ha -1 , resulting in a yield increase of 2.073 t ha -1 (P<0.05). Applying an extra dose of 30 kg N ha -1 at the V12 phenophase resulted in more yield increase (1.635 t ha -1 ; P<0.05). Compared to the A 120 basal treatment, the top dressing treatments applied either at the V6 or the V12 phenophase did not result in any significant difference. The highest yield increase was provided by the V12 180 treatment, but the A 120 treatment showed the highest significance. The yield of the Renfor (FAO 320) hybrid without fertilization (8.174 t ha -1 ) was increased by the 60 kg N ha fertilizer treatment by 34.8% (P<0.05). There was no significant difference between treatments A 60 and A 120 . The increase of the 60 kg N ha -1 basal dressing resulted in a yield increase with two top dressings. Increasing the 120 kg N ha -1 basal treatment by 30 kg N ha -1 at the V6 phenophase was shown to be efficient, resulting in a yield increase of 2.621 t ha -1 (P<0.05). However, the second occasion of top dressing (V12 180 ) did not increase yield (Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2017)). Note: based on the Duncan's test, yields indicated with different letters show significant differences from each other at the probability level of P≤0.05; ***P=0.001%, *P=0.05%, ns=the difference between hybrids is not significant, based on the paired t-test",
+          "table": [
+            "Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2017)"
+          ]
+        },
+        {
+          "text": "In 2016, no significant difference was observed between the yields of the Armagnac (FAO 490) and Renfor (FAO 320) hybrids in terms of the 60 kg N ha -1 basal dressing (A 60 ) and the V12 180 treatment. The Armagnac (FAO 490) hybrid had a better yield than Renfor (FAO 320) in all other treatments at the significance level of 0.1. The smallest difference (11.3%, P<0.05) was observed in the non-fertilized treatment, while the biggest difference (56.9%, P<0.001) was shown in the case of the V12 120 treatment. In 2017, a smaller difference was observed between the examined hybrids. Armagnac (FAO 490) provided higher yields in the case of the 120 kg N ha -1 basal dressing (22.7%; P<0.05), as well as the V12 120 (15.9%; P<0.001) and in the case of V12 180 (9.3%; P<0.01) treatments (Tables 1 and2).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "The effect of climatic factors on the yield of maize hybrids",
+      "div": [
+        {
+          "text": "2016 was rich in precipitation and the mean temperature was in accordance with the multiple-year average, while the temperature in 2017 was also in accordance with the average. These two years provided different conditions in the growing season for the production of the long maturity hybrid Armagnac (FAO 490) and the short maturity hybrid Renfor (FAO 320).",
+          "table": []
+        },
+        {
+          "text": "The natural nutrient conversion ability of the Armagnac (FAO 490) hybrid was 29.6% better (P<0.001) and that of the Renfor (FAO 320) hybrid was 28.1% better (P<0.001) in the wet year of 2016 than in the average crop year of 2017. Averaged over the different fertilizer treatments, both hybrids had higher yields in 2016. In the case of the Armagnac (FAO 490) hybrid, the difference between the two examined years was more significant (2.891 t ha -1 ), this index was 1.424 t ha -1 in the case of the Renfor (FAO 320) hybrid.",
+          "table": []
+        },
+        {
+          "text": "The modifying effect of crop year was not significant in the case of the Armagnac (FAO 490) hybrid as a result of the 120 kg N ha -1 basal dressing and the V12 180 treatment. The weather of 2016 had a significant positive effect in the case of all other treatments -at a significance level of 0.1 in all cases -, especially in the V6 90 treatment, which resulted in a yield increase of 37.3%. In the case of the Renfor (FAO 320) hybrid, no significant difference was found between the examined crop years in the A 60 and V12 120 treatments. As a result of the growing season of the wet crop year of 2016, the V6 90 treatment resulted in the biggest yield surplus (3.032 t ha -1 ; P<0.001) compared to 2017.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Revenue analysis of nitrogen supply",
+      "div": [
+        {
+          "text": "In 2017, due to the decrease in fertilizer prices, nutrient replenishment could be achieved at a lower cost level than in 2016. In all examined cases, fertilization at all cost levels resulted in extra yields and additional revenue compared to the non-fertilized control plot. The highest surplus revenue for the longer maturity hybrid Armagnac (FAO 490) in the rainy year (2016) was provided by the 60 kg N ha -1 basal dressing + 30 + 30 kg N ha -1 (V12 120 ) top dressing combination, while in 2017, the maximum yield compared to the control treatment was observed at the highest fertilizer level (120 kg N ha -1 basal dressing + 30 + 30 kg N ha -1 top dressing) (Marginal revenue analysis of the N level of basal and top dressing -Armagnac (FAO 490) maize hybrid(Debrecen, 2016(Debrecen,  -2017)   )). The difference between these treatments was 34 048 HUF per ha in 2016.",
+          "table": [
+            "Marginal revenue analysis of the N level of basal and top dressing -Armagnac (FAO 490) maize hybrid(Debrecen, 2016(Debrecen,  -2017)   )"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Summary",
+      "div": [
+        {
+          "text": "Based on a multivariate analysis of variance (ANOVA), the effect of the main factors (crop year, N fertilization, date of application, genotype) on yield is significant at the level of 0.1. Based on the MQ value, the crop year had a significant yield modifying effect, followed by genotype and fertilization. The date of application had the smallest effect on yield. The interactions between year and genotype (P<0.001), year and fertilization (P<0.001) and genotype and fertilization (P<0.05) were significant.",
+          "table": []
+        },
+        {
+          "text": "In the rainy year of 2016, the top dressing applied at the V6 and V12 phenophases in addition to the 60 kg N ha -1 basal dressing had a significant effect in the case of the Armagnac (FAO 490) hybrid, exceeding the yield resulting from the 120 kg N ha basal dressing. The application of an extra dose of 30 kg N ha -1 as top dressing at the V6 phenophase in addition to the 120 kg N ha -1 basal dressing increased yield. However, the second occasion of applying 30 kg N ha -1 resulted in yield decrease. Significant yield surplus was observed in the case of the Renfor (FAO 320) hybrid, when applying an extra dose of 30 kg N ha -1 at the V6 phenophase in addition to the 120 kg N ha -1 basal dressing. However, any further top dressing treatment applied at the 12-leaf stage, i.e., treatments V12 120 (P<0.05) and V12 180 resulted in (non-significant) decrease.",
+          "table": []
+        },
+        {
+          "text": "In the average crop year of 2017, significant yield increase was observed in the case of the Armagnac (FAO 490) maize hybrid as a result of the extra 30-30 kg N ha -1 applied both at the 6-and 12-leaf stages as top dressing in addition to the 60 kg N ha -1 basal dressing. The 120 kg N ha -1 basal dressing was not efficient even when two doses of top dressing were applied. No favorable effect was observed on the yield of the Renfor (FAO 320) hybrid when applying further N fertilizer doses at the V6 and V12 phenophases in addition to the 60 kg N ha -1 basal dressing. However, significant yield increase (P<0.05) was shown as a result of the first 30 kg N ha -1 as top dressing (V6) in addition to the basal dressing of 120 kg N ha -1 .",
+          "table": []
+        },
+        {
+          "text": "In the case of the Armagnac (FAO 490) hybrid, the yield modifying effect of crop year was shown, with the exception of treatments A 120 and V12 180 . The yield increasing effect of the rainy year (2016) ranged between 26.2-37.3% (A 60 -V6 90 ). As for the Renfor (FAO 320) hybrid, climatic factors did not affect yield in the case of treatments A 60 and V12 120 . The higher amount of rainfall in 2016 had a yield modifying effect ranging between 9.8-28.1% (V6 150 -control).",
+          "table": []
+        },
+        {
+          "text": "Compared to the control plot, the additional nutrients applied to all fertilized plots resulted in an increase in revenue. The obtained results confirmed the principle of diminishing returns, according to which, if the resources used were increased, the revenue that could be realized with one kilogram of fertilizer would also increase to a given value, followed by a decreasing tendency, i.e., an additional unit of fertilizer expenditure would cause smaller and smaller increase of revenue.",
+          "table": []
+        },
+        {
+          "text": "Altogether, the top dressing technology applied at the early V6 phenophase in addition to the basal dressing applied in the spring provided the maximum yield at the most favorable fertilizer application costs, averaged over the different crop years and hybrids.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2016)\", \"head\": [\"\", \"\", \"\", \"Treatments\", \"\", \"\", \"\"], \"value\": [[\"Hybrids\", \"Non-\", \"A 60\", \"A 120\", \"V6 90\", \"V6 150\", \"V12 120\", \"V12 180\"], [\"\", \"fertilised\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"Armagnac\", \"11.652a\", \"13.538b\", \"14.509b\", \"17.581d\", \"18.296e\", \"18.611e\", \"15.982cd\"], [\"(FAO 490)\", \"*\", \"ns\", \"c\", \"e\", \"***\", \"***\", \"ns\"], [\"\", \"\", \"\", \"***\", \"***\", \"\", \"\", \"\"], [\"Renfor\", \"10.469a\", \"11.958a\", \"12.501b 14.510c 15.099c 11.861a\", \"15.225c\"], [\"(FAO 320)\", \"\", \"b\", \"\", \"\", \"\", \"b\", \"\"], [\"Note: based on the Duncan's test, yields indicated with different letters (b, c, e) show significant\"], [\"differences from each other at the significance level of P≤0.05; ***: P=0.001%, *: P=0.05%, ns:\"], [\"the difference between hybrids is not significant, based on the paired t-test.\", \"\", \"\"]]}",
+    "{\"title\": \"Effect of the N basal and top dressing on the yield of maize hybrids (t ha -1 )(Debrecen, 2017)\", \"head\": [\"\", \"\", \"\", \"Treatments\", \"\", \"\", \"\"], \"value\": [[\"Hybrids\", \"Non-\", \"A 60\", \"A 120\", \"V6 90\", \"V6 150\", \"V12 120\", \"V12 180\"], [\"\", \"fertilised\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"Armagnac\", \"8.988a\", \"10.730b\", \"13.662c\", \"12.803c\", \"14.389d\", \"14.438d\", \"14.922d\"], [\"(FAO 490)\", \"ns\", \"ns\", \"d\", \"ns\", \"ns\", \"***\", \"**\"], [\"\", \"\", \"\", \"*\", \"\", \"\", \"\", \"\"], [\"Renfor\", \"8.174a\", \"11.017b\", \"11.133b 11.479b\", \"13.754d 12.454c 13.648d\"], [\"(FAO 320)\", \"\", \"\", \"\", \"c\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Marginal revenue analysis of the N level of basal and top dressing -Armagnac (FAO 490) maize hybrid(Debrecen, 2016(Debrecen,  -2017)   )\", \"head\": [\"\", \"\", \"2016\", \"\", \"\"], \"value\": [[\"\", \"Fertilizer\", \"Total cost\", \"Additional\", \"Marginal\"], [\"\", \"(kg)\", \"(HUF ha -1 )\", \"revenue\", \"revenue\"], [\"\", \"\", \"\", \"(HUF ha -1 )\", \"(HUF kg ha -1 )\"], [\"Non-fertilised\", \"0\", \"0\", \"-\", \"-\"], [\"A 60\", \"222\", \"16 561\", \"59 633\", \"2 120\"], [\"A 120\", \"444\", \"33 122\", \"82 300\", \"1 232\"], [\"V6 90\", \"333\", \"24 842\", \"211 040\", \"1 760\"], [\"V6 150\", \"556\", \"41 478\", \"223 290\", \"1 277\"], [\"V12 120\", \"444\", \"33 122\", \"240 721\", \"1 693\"], [\"V12 180\", \"667\", \"49 758\", \"117 874\", \"968\"], [\"\", \"\", \"2017\", \"\", \"\"], [\"\", \"Fertilizer\", \"\", \"\", \"\"], [\"\", \"(kg)\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"\", \"head\": [\"Non-fertilised\", \"0\", \"0\", \"-\", \"-\"], \"value\": [[\"A 60\", \"222\", \"14 696\", \"61 081\", \"1 761\"], [\"A 120\", \"444\", \"29 393\", \"173 926\", \"1 051\"], [\"V6 90\", \"333\", \"22 045\", \"140 258\", \"1 785\"], [\"V6 150\", \"556\", \"36 807\", \"194 486\", \"1 002\"], [\"V12 120\", \"444\", \"29 393\", \"200 382\", \"1 415\"], [\"V12 180\", \"667\", \"44 155\", \"206 674\", \"973\"]]}"
+  ]
+}

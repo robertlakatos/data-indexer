@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Evaluation of the Nutrient Composition of Maize in Different NPK Fertilizer Levels Based on Multivariate Method Analysis",
+    "author": "Csaba Bojtor, Árpád Illés, Seyed Nasir Mousavi Mohammad Nasir Mousavi, Adrienn Széles, Brigitta Tóth, János Nagy, Csaba Marton L Marton",
+    "journal": "Hindawi Limited",
+    "date": "2021. 04. 02."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "One of the critical issues in using micronutrient fertilisers is the comparison of methods and amounts of fertiliser use, which is very important from the aspect of increasing production and economic viewpoint. e aim of this research was to analyse the nutrient composition of different parts of the maize (Zea mays L. FAO 490) during the growing season with six-level nitrogen fertilisation supplies at five phenological stages. e study included essential nutrients as nitrogen (N), phosphorus (P), potassium (K), and sulphur (S) (in first cluster) and calcium (Ca) and magnesium (Mg) (in second cluster) in treatments on different leaf stage. Growth stages have different nutrient demands based on their actual demand. e first cluster included nitrogen and sulphur and the second included calcium and zinc in the NPK treatments on the stalk of plants. Nitrogen and potassium had their maximum effect on the stalk of maize during the growing season. Magnesium and copper were the second most important and desirable factors during the different growth stages and treatments in relation to the stalk. Nitrogen and calcium had their maximum impact during the yield formation stage and nitrogen and phosphorus had their most desirable effect during the grain filling stage. e effect of nitrogen on the quantitative and qualitative properties of maize showed that nitrogen increases the production of dry matter, grain yield, and its components. e maximum amount of absorption in the plants occurs before the accumulation of applied fertiliser, which is the prelude to the production of maximum biomass.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Maize (Zea mays L.) is one of the most important crops as both human food and livestock feed. Its primary cultivation goal is to maximize productivity and yield while maintaining crop quality .",
+          "table": []
+        },
+        {
+          "text": "e biology of nutrient uptake and distribution in maize shows no change compared to previous years. Higher yields and biomass production of the hybrids with the latest genetic stock can be associated with increased plant nutrient uptake and higher utilisation of soil nutrient content . Optimal nitrogen supply has a significant role in the growth characteristics of plants, as it is the main factor for plant cell components, primarily due to its role played in the photosynthetic apparatus .",
+          "table": []
+        },
+        {
+          "text": "e nitrogen use efficiency (NUE) of maize is estimated at 33% globally, which is negatively affected by fertiliser leaching under the root zone and denitrification . According to Surendran et al. , maize absorbs about 10-20% of its total nitrogen requirements up to the V4 stage, whereas during 6 weeks of growth from V4 to VT, N accumulation approaches 60-70% of total N uptake.",
+          "table": []
+        },
+        {
+          "text": "In agronomy research, two different methods have been used to assess the adequate nutrient supply of maize. e first one is the analysis of the whole plant in the early vegetative stage (V4-V6) after the depletion of the seed's nutrient reserves . e second one is the ear-leaf analysis at the tasseling stage (VT). e early whole plant sampling method allows for supplemental nutrient replenishment if the analysis shows nutrient deficiencies . In the VTperiod, the ear-leaf sampling is too late to determine an additional nutrient application for nutrient corrections of the plants . Nutrient concentrations can be redetermined during the ripening stage and those values provide reliable information on the uptake of each nutrient and on the nutrient balance among the different plant organs and between the soil-plant systems .",
+          "table": []
+        },
+        {
+          "text": "Nitrogen supply plays an important role in plant senescence and can greatly affect the remobilisation of different nutrients from vegetative to generative organs .",
+          "table": []
+        },
+        {
+          "text": "e remobilisation and transport of many micronutrients (such as Fe, Mn, Cu, and Zn) depend mainly on different organic acids and nicotianamine-based chelates . e N excess or deficiency can be a modifying factor of this process affecting the regulation of the synthesis of these nitrogenous chelates . An optimized, balanced nutrition system with focus on every essential nutrient must be implemented to maximize maize productivity and yield quality. A better understanding of nutrient balances may be achieved by exploring physiological characteristics (macroand micronutrient uptake and partitioning in different crop growth stages among the different plant organs) .",
+          "table": []
+        },
+        {
+          "text": "e aim of this research was to analyse the essential nutrient composition of different parts of the maize plant during the growing season with 6-level nitrogen fertilisation supply. Determination of the nitrogen fertilisation effect on the nutritional status and partitioning of modern maize hybrids analysed with different multivariate statistical methods can provide a basis for the farmers to implement hybrid and site-specific nutrient management systems with the goal of reducing the environmental impact of overfertilisation.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and Methods",
+      "div": [
+        {
+          "text": "e experiment was performed at the Látókép Experiment Site at the University of Debrecen, Hungary (47 °33′ N, 21 °26′ E, 111 m asl). A mid-ripening maize hybrid (Zea mays L. FAO 490) with favourable phenometric characteristics was used in this experiment. e effects of different nitrogen supplies as a variable rate abiotic stress and the interrelationship among the essential nutrients were examined through the nutrient composition and partitioning of the different plant organs.",
+          "table": []
+        },
+        {
+          "text": "e soil type of experimental field area is calcareous chernozem, the liquid limit (LL) is 43-45, humus content (Hu %) is 2.7-2.8, and the thickness of the humus layer is around 80 cm [15]. e investigated plots are part of a 35year long-term multifactorial nitrogen fertilisation experiment in a maize monoculture field, which allows studying and evaluating the long-term effects of different nitrogen supply doses (NPK fertilisation doses applied in the long-term multifactorial experiment).",
+          "table": [
+            "NPK fertilisation doses applied in the long-term multifactorial experiment."
+          ]
+        },
+        {
+          "text": "e sowing date was 20/04/2019, using 7.6 m 2 experimental plot size with a density of 73,000 plant ha -1 . During the growing season, five different phenological stages were used to analyse the nutrient composition of the vegetative and generative plant organs, two-leaf stage (V2), four-leaf stage (V4), eight-leaf stage (V8), tasseling stage (VT), and physiological maturity (R6). Four representative plants were collected at each sampling time in each of the six different N levels, in all 120 whole plants during the growing season. All plant samples were separated into leaf, stalk, and at the R6 stage cob and grain, dried at 60 °C to a constant weight, weighed to obtain the dry matter of the plants (DM), and ground into fine powder. e complex mineral profile of the different plant organs obtained at the five sampling stages (leaves, stalk, grain, and cob, respectively) was determined in an accredited laboratory using microwave-assisted multielement analysis .",
+          "table": []
+        },
+        {
+          "text": "Sample preparation for the laboratory analysis was as follows: two parallel measurements were made from each sample. 0.4 g sample was weighed, and then 2 ml of high purity water and 4 ml of cc. nitric acid were added to the samples.",
+          "table": []
+        },
+        {
+          "text": "e adequate digestion program was chosen according to the Milestone Ultrawave microwave system manual (Milestone Inc., USA). Sample extraction with microwave digestion was performed at 200 °C, with a holding time of 10 minutes. ICP-OES analysis was used for the determination of phosphorus, potassium, magnesium, calcium, sulphur, iron, and manganese concentration. Sample of 5 ml was pipetted into a plastic test tube, and 5 ml of deionized water, 0.2 ml of the acid mixture, and 0.2 ml of 100 ppm Y-containing ISTD (internal standard) were added to the sample. e mixture was homogenized, and then it was put into the 5900 ICP-OES (Agilent Technologies Inc., USA). e zinc, copper, molybdenum, and nickel concentration of the samples were determined from the homogenized mixture with 7900 ICP-MS (Agilent Technologies Inc., USA). Extracted sample of 5 ml, 1 ml of the acid mixture, and 4 ml of deionized water were added to the test  tube for the analysis. A sample of each matrix type was prepared twice. Blank samples were prepared in each series of measurements by measuring water of the same quantity instead of a sample. Due to possible inhomogeneity, two parallel digests were made from each sample and the final result was calculated from the average of these. Nitrogen concentration was measured using the Dumas combustion method . Samples were subjected to oxidative digestion at a high temperature (900 °C) with a controlled oxygen supply. e resulting flue gases passed through a copper oxide-platinum catalyst using a CO 2 carrier gas, thus ensuring complete oxidation. After the subsequent reduction processes and the purification of the carrier gas, the nitrogen content remaining in the CO 2 carrier gas was detected in a thermal conductivity detector (VELP NDA 702, Velp Scientific, Italy).",
+          "table": []
+        },
+        {
+          "text": "e N 2 volume provided an electrical measurement signal, from which the nitrogen content of the various burned samples was measured and calculated based on a preprepared calibration curve.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical Analysis.",
+      "div": [
+        {
+          "text": "e experimental design is twofactor strip-plot type with four replicates, providing the adequate layout for the statistical evaluation of the results. Analysis of variance, correlation, cluster, and AMMI analysis were used in the statistical analysis. e clustering purpose is to divide the observations into similar groups so that each cluster's data have the most similarity and the observations of different clusters have the least similarity.",
+          "table": []
+        },
+        {
+          "text": "e summable component of the AMMI model was used, without considering the interaction, to justify the variance of experiments. is model is called AMMI, and if the multiplicative component of AMMI also takes into account the interaction, it is called model F, depending on which component is used.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": [
+        {
+          "text": "e analysis of variance showed that the sampling time effect was significant on all nutrients at the level of one percent on stalk and leaves. e treatment effect was significant on dry matter, nitrogen, potassium, zinc, manganese, and nickel.",
+          "table": []
+        },
+        {
+          "text": "e interaction between sampling times in treatments was significant on dry matter, zinc, iron, copper, manganese, molybdenum, and nickel in the stalk. e treatment effect was significant on dry matter, nitrogen, phosphorus, potassium, magnesium, sulphur, and copper on the leaves section. Sampling times and treatment interactions were significant on dry matter, phosphorus, zinc, iron, and copper on the leaves section. Variance analysis indicated that the treatment effect was significant on the dry matter in the cob and dry matter of grain, zinc, and iron in the grain (F values of the variance analysis of the nutrients).",
+          "table": [
+            "F values of the variance analysis of the nutrients."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Correlation Analysis.",
+      "div": [
+        {
+          "text": "Correlation analysis showed that nitrogen has a significantly positive correlation with phosphorus, potassium, magnesium, calcium, sulphur, zinc, iron, copper, manganese, and molybdenum. Phosphorus had a significant positive correlation with potassium, magnesium, calcium, sulphur, zinc, iron, copper, manganese, and molybdenum. Potassium had a significant positive correlation with sulphur and manganese. Magnesium had a significant positive correlation with calcium, sulphur, zinc, iron, and manganese. Calcium had a significant positive correlation with sulphur, zinc, iron, copper, and manganese. Sulphur had a significant and positive correlation with zinc, iron, copper, manganese, molybdenum, and nickel. Among the micronutrients, zinc had a significant positive correlation with iron and manganese, iron had a significant positive correlation with copper and manganese, copper with manganese, manganese with molybdenum, and molybdenum with nickel in the stalk part. Nitrogen had a significant positive correlation with phosphorus, potassium, sulphur, zinc, iron, and manganese, phosphorus had a significant positive correlation with potassium, magnesium, sulphur, zinc, iron, and manganese, potassium with sulphur, zinc, iron, and manganese, magnesium with calcium, zinc, and iron, sulphur with zinc and manganese, calcium with zinc, zinc with iron, iron with manganese, and nickel with molybdenum on leaves. Phosphorus had a significant positive correlation with magnesium, calcium, sulphur, and molybdenum, magnesium with calcium and sulphur, calcium with sulphur and zinc, sulphur with copper and  molybdenum, iron with molybdenum and nickel, and molybdenum with nickel in the cobs. Phosphorus significantly correlated with potassium, magnesium, zinc, and iron, potassium with magnesium, and magnesium with zinc and iron in grains (Correlation analysis between nutrients).",
+          "table": [
+            "Correlation analysis between nutrients."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nutrient Composition of Leaves.",
+      "div": [
+        {
+          "text": "e cluster analysis showed that the first cluster includes nitrogen, potassium, manganese, phosphorus, sulphur, iron, and molybdenum, while the second cluster includes nickel, and the third cluster includes magnesium, calcium, zinc, and copper in the control treatment (N0). Cluster analysis on the second treatment (N1) showed that the first cluster includes nitrogen, phosphorus, zinc, iron, manganese, potassium, and sulphur, while the second cluster includes magnesium, calcium, and copper, and the third cluster includes molybdenum and nickel.",
+          "table": []
+        },
+        {
+          "text": "e first cluster includes nitrogen, phosphorus, zinc, iron, potassium, sulphur, and manganese, the second cluster includes molybdenum and nickel, and the third cluster includes manganese, calcium, and copper in the third treatment (N2). e fourth treatment (N3) first cluster includes nitrogen, sulphur, phosphorus, zinc, iron, potassium, magnesium, and calcium, the second cluster includes manganese, molybdenum, and nickel, and the third cluster includes copper. Cluster analysis on the fifth treatment (N4) showed that the first cluster includes nitrogen, potassium, phosphorus, zinc, iron, sulphur, manganese, and nickel, the second cluster includes molybdenum, and the third cluster includes magnesium, calcium, and copper. In the sixth treatment (N5), the first cluster includes nitrogen, potassium, sulphur, phosphorus, zinc, iron, manganese, molybdenum, and nickel, the second cluster includes magnesium and calcium, and the third cluster includes copper on the leaves parameter (Figure 1). Cluster analysis showed that the first cluster includes nitrogen, magnesium, iron, and copper, the second cluster includes phosphorus, sulphur, zinc, potassium, and calcium, and the third cluster includes manganese, nickel, and molybdenum in the V2 stage (V2). Cluster analysis on the V4 stage (V4) showed that the first cluster includes nitrogen and potassium, and the second cluster includes phosphorus, copper, iron, manganese, magnesium, and zinc, while the third cluster includes calcium, sulphur, molybdenum, and nickel. e first cluster includes nitrogen, copper, potassium, sulphur, phosphorus, and nickel, while the second cluster includes calcium, manganese, iron, and molybdenum, and the third cluster includes magnesium and zinc in the V8 stage (V8).",
+          "table": []
+        },
+        {
+          "text": "e VT stage (VT) first cluster includes nitrogen, sulphur, iron, and manganese, the second cluster includes phosphorus, potassium, calcium, and copper, and the third cluster includes magnesium, zinc, molybdenum, and nickel. Cluster analysis on the R6 stage (R6) showed that the first cluster includes nitrogen, potassium, sulphur, copper, iron, and manganese, the second cluster includes phosphorus, zinc, magnesium, manganese, and calcium, and the third cluster includes nickel on the leaves parameter (Figure 2).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Nutrient Composition of Stalk.",
+      "div": [
+        {
+          "text": "e cluster analysis showed that the first cluster includes nitrogen, sulphur, copper, nickel, phosphorus, calcium, iron, and manganese, the second cluster includes molybdenum, and the third cluster includes potassium, magnesium, and zinc in the control treatment (N0). Cluster analysis on the second treatment (N1) showed that the first cluster includes nitrogen, sulphur, manganese, phosphorus, magnesium, zinc, calcium, and iron, the second cluster includes potassium, and the third cluster includes copper, molybdenum, and nickel. e first cluster includes nitrogen, sulphur, manganese, magnesium, and potassium, the second cluster includes phosphorus, calcium, zinc, iron, and calcium, and the third cluster includes molybdenum and nickel in the third treatment (N2). e fourth treatment (N3) first cluster includes nitrogen, sulphur, magnesium, manganese, phosphorus, zinc, calcium, and iron, the second cluster includes copper, and the third cluster includes potassium, molybdenum, and nickel. Cluster analysis on the fifth treatment (N4) showed that the first cluster includes nitrogen, manganese, molybdenum, and nickel, the second cluster includes phosphorus, sulphur, iron, calcium, zinc, and copper, and the third cluster includes potassium and magnesium. In the sixth treatment (N5), the first cluster includes nitrogen, sulphur, phosphorus, manganese, magnesium, calcium, zinc, and iron, the second cluster includes potassium, molybdenum, and nickel, and the third cluster includes copper on stalk parameter (Figure 3). Cluster analysis showed that the first cluster includes nitrogen, molybdenum, iron, copper, magnesium, and nickel, the second cluster includes phosphorus and calcium, and the third cluster includes potassium, zinc, and sulphur in the V2 stage (V2). Cluster analysis on the V4 stage (V4) showed that the first cluster includes nitrogen, potassium, sulphur, and iron, the second cluster includes magnesium, zinc, and calcium, and the third cluster includes copper, manganese, molybdenum, and nickel.",
+          "table": []
+        },
+        {
+          "text": "e first cluster includes nitrogen, copper, phosphorus, potassium, and sulphur, the second cluster includes iron, molybdenum, and nickel, and the third cluster includes magnesium, zinc, calcium, and manganese in the V8 stage (V8).",
+          "table": []
+        },
+        {
+          "text": "e VT stage (VT) first cluster includes nitrogen, potassium, molybdenum, and nickel, the second cluster includes phosphorus, zinc, and magnesium, and the third cluster includes calcium, sulphur, copper, iron, and manganese. Cluster analysis on the R6 stage (R6) showed that the first cluster includes nitrogen, molybdenum, nickel, phosphorus, sulphur, potassium, magnesium, and iron, the second cluster includes zinc and manganese, and the third cluster includes calcium and copper on stalk parameter (Figure 4). e AMMI analysis showed significant interaction of the principal component analysis on nutrient in NPK on leaves with 50.35% of total data, on nutrient in sampling times on leaves with 49.98 % of total data, on nutrient in NPK on stalk with 48.54 % of total data, and on nutrient in sampling times on stalk with 68.17 % of total data. e impact of nutrients was significant on the interaction of nutrient in NPK and nutrient in sampling times in the stalk (AMMI variance analysis on leaves and stalk). AMMI biplot showed that sampling time V2 and R6 with manganese, copper, and phosphorus have favourable stability or maximum effect of yield on interaction sampling times nutrient on the stalk. In addition, R6 with nitrogen, iron, magnesium, and manganese has sustainability on interaction sampling times nutrient on leaves stage. Maximum effect or sustainability exists in N5, N4, and N2 with copper, magnesium, and manganese on interaction NPK in nutrients on the stalk. Also, N4 with nitrogen, molybdenum, sulphur, potassium, and iron had maximum effect on performance and favourable stability on interaction NPK in nutrients in the leaves stage (Figure 5).",
+          "table": [
+            "AMMI variance analysis on leaves and stalk."
+          ]
+        },
+        {
+          "text": "Cluster analysis showed that the first cluster includes nitrogen and copper, the second cluster includes phosphorus, magnesium, and manganese, and the third cluster includes potassium, molybdenum, calcium, zinc, sulphur, iron, and nickel in the control treatment (N0). Cluster analysis on the second treatment (N1) showed that the first cluster includes nitrogen, calcium, and potassium, the second cluster includes phosphorus, magnesium, and zinc, and the third cluster includes sulphur, copper, iron, nickel, molybdenum, and manganese. e first cluster includes nitrogen and manganese, the second cluster includes phosphorus, magnesium, sulphur, iron, nickel, molybdenum, potassium, calcium, and zinc, and the third cluster includes copper in the third treatment (N2).",
+          "table": []
+        },
+        {
+          "text": "e fourth treatment (N3) first cluster includes nitrogen, the second cluster includes phosphorus, sulphur, potassium, and manganese, and the third cluster includes magnesium, copper, calcium, iron, nickel, molybdenum, and zinc. Cluster analysis on the fifth treatment (N4) showed that the first cluster includes nitrogen, phosphorus, molybdenum, nickel, potassium, sulphur, and iron, the second cluster includes magnesium, calcium, and copper, and the third cluster includes zinc and manganese. In the sixth treatment (N5), the first cluster includes nitrogen, potassium, and manganese, the second cluster includes phosphorus, zinc, magnesium, calcium, sulphur, and copper, and the third cluster includes iron, molybdenum, and nickel on cob parameter (Figure 6). Cluster analysis showed that the first cluster includes nitrogen, calcium, molybdenum, and sulphur, the second cluster includes phosphorus, magnesium, potassium, zinc, manganese, and iron, and the third cluster includes copper and nickel in the control treatment (N0). Cluster analysis on the second treatment (N1) showed that the first cluster includes nitrogen, potassium, copper, calcium, phosphorus, zinc, and magnesium, the second cluster includes sulphur, molybdenum, and iron, and the third cluster includes manganese and nickel. e first cluster includes nitrogen, nickel, and copper, the second cluster includes phosphorus, calcium, manganese, magnesium, molybdenum, potassium, and iron, and the third cluster includes sulphur and zinc in the third treatment (N2).",
+          "table": []
+        },
+        {
+          "text": "e fourth treatment (N3) first cluster includes nitrogen and calcium, the second cluster includes phosphorus, magnesium, potassium, iron, and molybdenum, and the third cluster includes sulphur, zinc, nickel, copper, and manganese. Cluster analysis on the fifth treatment (N4) showed that the first cluster includes nitrogen, zinc, phosphorus, manganese, magnesium, potassium, and Ni, the second cluster includes sulphur and molybdenum, and the third cluster includes calcium, iron, and copper. In the sixth treatment (N5), the first cluster includes nitrogen, copper, molybdenum, calcium, and nickel, the second cluster includes iron and manganese, and the third cluster includes phosphorus, magnesium, potassium, sulphur, and zinc on the grain parameters (Figure 7).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Total nitrogen was an essential factor of maize in all growth stages. Increased nitrogen fertiliser leads to more dry matter production and grain yield. Also, increasing nitrogen accelerates green growth, increases the above-ground mass of the plant, and increases the evaporation of plants and causes the roots to expand and bulk up . Numerous reports recorded the positive effect of nitrogen on grain growth per grain, grain weight, and grain yield of maize, with a tendency to use higher amounts of nitrogen fertiliser .",
+          "table": []
+        },
+        {
+          "text": "is study shows that essential nutrients include nitrogen, phosphorus, potassium, sulphur (in first cluster) and calcium and magnesium (in second cluster) in the different leaf stages. e growth stages of maize have different nutrient demands. Phosphorus and nitrogen should be provided to the plant immediately after germination to start growing stems, leaves, and shoots. Insufficient nitrogen supply after one or two weeks of planting to the sixth week reduces the plant's potential yield . Current results indicate that sulphur, potassium, molybdenum, and nitrogen had maximum effect on NPK treatments, and molybdenum, potassium, and iron had maximum effect on growth stage on leaves. e highest uptake of phosphorus occurs in the sowing stage, but phosphorus uptake in the whole plant decreases in the ripening stage .",
+          "table": []
+        },
+        {
+          "text": "Iron is a useful element in photosynthesis and has a special role in plant nutrition. However, the high percentage of bicarbonate and carbonate in the soil causes iron deficiency in plants . Some research studies indicate the effect of iron and manganese fertilisers on quantitative and qualitative traits and the positive role of these elements in increasing maize protein. Also, the lack of these elements has a negative effect on the percentage of protein and other quality characteristics of corn .",
+          "table": []
+        },
+        {
+          "text": "e first cluster includes nitrogen and sulphur and the second includes calcium and zinc in the NPK treatments on stalk. Nitrogen and potassium had their maximum effect on the stalk during the vegetative growth period. Manganese and copper were important and favourable for the different growth stages and treatments on the stalk. Adding iron and manganese fertiliser is recommended if the amount of these elements is less than optimal, causing discoloration other than chlorophyll in leaves and the reduction of growth regulator factors in the plant.",
+          "table": []
+        },
+        {
+          "text": "is study indicated that increasing nitrogen negatively correlates with zinc and cooper; that is, increasing amount of nitrogen causes decreasing zinc and copper. Also, an increasing amount of potassium caused decreasing iron and manganese concentration. Phosphorous correlated negatively with nickel and copper.",
+          "table": []
+        },
+        {
+          "text": "e iron and manganese fertiliser use increases photosynthesis and transfers photosynthetic materials to different parts of the plant, thereby growing the stem. Improving nutritional conditions and the positive role of iron can be useful in photosynthesis and optical photosystems' performance in increasing growth indices such as stem diameter . Nitrogen and calcium had a maximum impact for grain stage and nitrogen and phosphorus had a favourable effect during the cob-corn stage. e nitrogen effect on the quantitative and qualitative properties of maize  showed that nitrogen increases the production of dry matter, grain yield, and its components. If there is adequate nitrogen in the soil, crops will have vegetative growth, larger leaf area, and significant yield [29,.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "div": [
+        {
+          "text": "Identifying different stages of plant growth and determining its absorption pattern according to growth stages is one of the best ways to properly manage input consumption, which is essential in achieving proper management and determining the amount and time of consumption that helps to prevent the effects of deficiency. e maximum amount of absorption in the plant occurs before the accumulation of maximum nutrients, which is the prelude to the production of maximum biomass of the plant. erefore, the use of fertiliser before the maximum stage of plant needs is essential and vital, which leads to reducing the risk of nutrient deficiencies and preventing a reduction in crop yield. is type of management reduces fertiliser waste, increases nutrient efficiency, and is an environmentally sensitive strategy. Using soil test and plant nutrient uptake curves will help farmers achieve the desired amount and time of inputs. It should be noted that more accurate inputs based on plant needs at different stages of growth require long-term research in each region.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"NPK fertilisation doses applied in the long-term multifactorial experiment.\", \"head\": [\"2\", \"\", \"\", \"International Journal of Agronomy\"], \"value\": [[\"Fertilisation level\", \"N (kg ha -1 )\", \"P 2 O 5 (kg ha -1 )\", \"K 2 O (kg ha -1 )\", \"Total (kg ha -1 )\"], [\"N0\", \"0\", \"0\", \"0\", \"0\"], [\"N1\", \"60\", \"184\", \"216\", \"460\"], [\"N2\", \"120\", \"184\", \"216\", \"520\"], [\"N3\", \"180\", \"184\", \"216\", \"580\"], [\"N4\", \"240\", \"184\", \"216\", \"640\"], [\"N5\", \"300\", \"184\", \"216\", \"700\"]]}",
+    "{\"title\": \"F values of the variance analysis of the nutrients.\", \"head\": [\"DM N P K Mg Ca S Zn Fe Cu Mn Mo Ni\", \"ST times 1383.48  *  *  Sampling 436.48  *  *  412.76  *  *  131.14  *  *  26.22  *  *  475.99  *  *  399.10  *  *  212.57  *  *  245.94  *  *  151.87  *  *  212.03  *  *  40.04  *  *  32.34  *  *  Treatments 4.84  *  *  3.36  *  *  1.97 7.76  *  *  1.40 1.24 2.15 2.75  *  1.10 1.33 2.35  *  1.76 2.32  *\", \"ST x TR 1.92  *  1.22 1.10 1.11 1.34 1.03 1.17 2.25  *  *  2.28  *  *  3.56  *  *  2.53  *  *  1.18 0.86\", \"L times 2935.72  *  *  Sampling 183.42  *  *  466.78  *  *  100.93  *  *  64.08  *  *  294.32  *  *  125.65  *  *  212.32  *  *  192.00  *  *  57.77  *  *  28.28  *  *  4.11  *  *  7.42  *  *  Treatments 19.05  *  *  3.10  *  5.93  *  *  4.57  *  *  3.45  *  *  1.65 6.80  *  *  1.67 1.45 10.04  *  *  0.35 1.33 1.49\", \"ST x TR 5.09  *  *  0.37 2.27  *  0.72 0.87 0.81 1.22 2.90  *  *  2.50  *  *  5.16  *  *  1.11 1.67 1.09\", \"C Treatments 7.82  *  *  0.76 0.76 0.21 0.54 0.45 1.56 2.59 0.84 1.56 0.49 1.54 0.85\", \"G Treatments 32.23  *  *  0.54 2.47 2.44 2.28 0.74 2.09 3.64  *  4.46  *  0.22 0.49 0.79 0.85\", \"ST: stalk, L: leaves, C: cob, G: grain, DM: dry matter, nitrogen (N), potassium (K), phosphorus (P), magnesium (Mg), calcium (Ca), sulphur (S), zinc (Zn), iron (Fe), copper (Cu), manganese (Mn), nickel (Ni),\", \"molybdenum (Mo).  *  *  ,  *  significant on 0.01 and 0.05.\"], \"value\": []}",
+    "{\"title\": \"Correlation analysis between nutrients.\", \"head\": [\"\", \"\", \"N\", \"P\", \"K\", \"Mg\", \"Ca\", \"S\", \"Zn\", \"Fe\", \"Cu\", \"Mn\", \"Mo\"], \"value\": [[\"\", \"P\", \"0.852  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"K\", \"0.563  *\", \"0.600  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Mg\", \"0.721  *  *\", \"0.782  *  *\", \"0.498\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Ca\", \"0.784  *  *\", \"0.826  *  *\", \"0.220\", \"0.659  *  *\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"S\", \"0.942  *  *\", \"0.871  *  *\", \"0.566  *\", \"0.739  *  *\", \"0.808  *  *\", \"\", \"\", \"\", \"\", \"\"], [\"Stalk\", \"Zn\", \"0.719  *  *\", \"0.878  *  *\", \"0.333\", \"0.786  *  *\", \"0.842  *  *\", \"0.752  *  *\", \"\", \"\", \"\", \"\"], [\"\", \"Fe\", \"0.835  *  *\", \"0.802  *  *\", \"0.269\", \"0.684  *  *\", \"0.870  *  *\", \"0.821  *  *\", \"0.793  *  *\", \"\", \"\", \"\"], [\"\", \"Cu\", \"0.608  *  *\", \"0.439\", \"0.082\", \"0.293\", \"0.681  *  *\", \"0.617  *  *\", \"0.418\", \"0.639  *  *\", \"\", \"\"], [\"\", \"Mn\", \"0.859  *  *\", \"0.820  *  *\", \"0.519  *\", \"0.747  *  *\", \"0.723  *  *\", \"0.883  *  *\", \"0.742  *  *\", \"0.720  *  *\", \"0.526  *\", \"\"], [\"\", \"Mo\", \"0.628  *  *\", \"0.426\", \"0.345\", \"0.462\", \"0.352\", \"0.593  *\", \"0.331\", \"0.449\", \"0.362\", \"0.598  *\"], [\"\", \"Ni\", \"0.664  *  *\", \"0.473\", \"0.371\", \"0.451\", \"0.401\", \"0.642  *  *\", \"0.325\", \"0.492\", \"0.387\", \"0.567  *\", \"0.852  *  *\"], [\"\", \"P\", \"0.794  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"K\", \"0.787  *  *\", \"0.713  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Mg\", \"0.485\", \"0.516  *\", \"0.266\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Ca\", \"0.192\", \"0.361\", \"0.005\", \"0.748  *  *\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"S\", \"0.808  *  *\", \"0.834  *  *\", \"0.808  *  *\", \"0.343\", \"0.180\", \"\", \"\", \"\", \"\", \"\"], [\"Leaves\", \"Zn\", \"0.670  *  *\", \"0.878  *  *\", \"0.563  *\", \"0.687  *  *\", \"0.573  *\", \"0.639  *  *\", \"\", \"\", \"\", \"\"], [\"\", \"Fe\", \"0.806  *  *\", \"0.829  *  *\", \"0.639  *  *\", \"0.629  *  *\", \"0.453\", \"0.729  *  *\", \"0.803  *  *\", \"\", \"\", \"\"], [\"\", \"Cu\", \"-0.196\", \"-0.243\", \"-0.283\", \"0.119\", \"0.413\", \"-0.136\", \"-0.170\", \"-0.133\", \"\", \"\"], [\"\", \"Mn\", \"0.636  *  *\", \"0.554  *\", \"0.600  *\", \"0.196\", \"-0.038\", \"0.584  *\", \"0.390\", \"0.554  *\", \"-0.112\", \"\"], [\"\", \"Mo\", \"0.120\", \"0.081\", \"0.150\", \"-0.109\", \"-0.184\", \"0.055\", \"0.049\", \"0.108\", \"-0.200\", \"0.202\"], [\"\", \"Ni\", \"0.171\", \"0.095\", \"0.184\", \"-0.027\", \"-0.183\", \"0.113\", \"0.094\", \"0.160\", \"-0.214\", \"0.127\", \"0.609  *  *\"], [\"\", \"P\", \"0.093\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"K\", \"0.076\", \"0.230\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Mg\", \"0.180\", \"0.759  *  *\", \"0.002\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Ca\", \"-0.025\", \"0.617  *  *\", \"0.476\", \"0.603  *  *\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"S\", \"0.368\", \"0.771  *  *\", \"0.431\", \"0.668  *  *\", \"0.587  *\", \"\", \"\", \"\", \"\", \"\"], [\"Cob\", \"Zn\", \"-0.334\", \"0.366\", \"0.248\", \"0.273\", \"0.533  *\", \"0.012\", \"\", \"\", \"\", \"\"], [\"\", \"Fe\", \"0.027\", \"0.361\", \"-0.005\", \"0.276\", \"0.173\", \"0.427\", \"0.025\", \"\", \"\", \"\"], [\"\", \"Cu\", \"0.323\", \"0.476\", \"-0.009\", \"0.362\", \"0.256\", \"0.711  *  *\", \"-0.370\", \"0.308\", \"\", \"\"], [\"\", \"Mn\", \"-0.102\", \"-0.022\", \"0.061\", \"0.076\", \"0.087\", \"0.162\", \"-0.185\", \"0.420\", \"0.045\", \"\"], [\"\", \"Mo\", \"0.006\", \"0.606  *  *\", \"0.075\", \"0.439\", \"0.273\", \"0.571  *\", \"0.093\", \"0.605  *  *\", \"0.420\", \"0.118\"], [\"\", \"Ni\", \"-0.031\", \"0.322\", \"-0.030\", \"0.189\", \"0.120\", \"0.341\", \"0.053\", \"0.989  *  *\", \"0.253\", \"0.394\", \"0.616  *  *\"], [\"\", \"P\", \"0.130\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"K\", \"-0.006\", \"0.908  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Mg\", \"0.139\", \"0.974  *  *\", \"0.834  *  *\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"Ca\", \"-0.045\", \"0.007\", \"-0.030\", \"-0.015\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"S\", \"0.015\", \"0.370\", \"0.191\", \"0.428\", \"0.066\", \"\", \"\", \"\", \"\", \"\"], [\"Grain\", \"Zn\", \"-0.154\", \"0.570  *\", \"0.677  *  *\", \"0.525  *\", \"0.055\", \"0.265\", \"\", \"\", \"\", \"\"], [\"\", \"Fe\", \"0.225\", \"0.509  *\", \"0.379\", \"0.556  *\", \"-0.017\", \"0.448\", \"-0.058\", \"\", \"\", \"\"], [\"\", \"Cu\", \"-0.289\", \"-0.007\", \"0.149\", \"-0.010\", \"0.111\", \"-0.174\", \"0.055\", \"0.313\", \"\", \"\"], [\"\", \"Mn\", \"0.069\", \"0.318\", \"0.337\", \"0.314\", \"-0.161\", \"0.232\", \"0.103\", \"0.220\", \"-0.108\", \"\"], [\"\", \"Mo\", \"-0.193\", \"-0.294\", \"-0.354\", \"-0.326\", \"0.298\", \"0.014\", \"-0.298\", \"-0.020\", \"0.143\", \"-0.185\"], [\"\", \"Ni\", \"-0.157\", \"0.100\", \"0.122\", \"0.054\", \"-0.255\", \"-0.247\", \"0.245\", \"-0.073\", \"0.112\", \"0.106\", \"0.070\"]]}",
+    "{\"title\": \"AMMI variance analysis on leaves and stalk.\", \"head\": [\"\", \"Source\", \"Degrees of freedom Sum of squares Mean of squares F value Variance explained\"], \"value\": [[\"\", \"Total\", \"1559\", \"224897\", \"144.3\", \"*\"], [\"\", \"Treatments\", \"77\", \"10046\", \"130.5\", \"0.89\"], [\"\", \"NPK\", \"5\", \"613\", \"122.6\", \"0.84\"], [\"\", \"Nutrients\", \"12\", \"867\", \"72.2\", \"0.65\"], [\"Nutrients in NPK on leaves\", \"Block Interactions\", \"39 60\", \"4333 8567\", \"111.1 142.8\", \"0.76 0.98\"], [\"\", \"IPCA1\", \"16\", \"4314\", \"269.6\", \"1.85  *\", \"50.35%\"], [\"\", \"IPCA2\", \"14\", \"2892\", \"206.5\", \"1.42\", \"33.76%\"], [\"\", \"Residuals\", \"30\", \"1361\", \"45.4\", \"0.31\", \"15.89%\"], [\"\", \"Error\", \"1443\", \"210518\", \"145.9\", \"*\"], [\"\", \"Total\", \"1559\", \"224897\", \"144.3\", \"*\"], [\"\", \"Treatments\", \"64\", \"7754\", \"121.2\", \"0.83\"], [\"\", \"Sampling times\", \"4\", \"945\", \"236.3\", \"1.62\"], [\"\", \"Nutrients\", \"12\", \"867\", \"72.2\", \"0.65\"], [\"Nutrients in sampling on leaves\", \"Block Interactions\", \"39 48\", \"4333 5942\", \"111.1 123.8\", \"0.76 0.85\"], [\"\", \"IPCA1\", \"15\", \"2970\", \"198.0\", \"1.35  *\", \"49.98%\"], [\"\", \"IPCA2\", \"13\", \"1897\", \"145.9\", \"1.00\", \"31.92%\"], [\"\", \"Residuals\", \"20\", \"1076\", \"53.8\", \"0.37\", \"18.10%\"], [\"\", \"Error\", \"1456\", \"212810\", \"146.2\", \"*\"], [\"\", \"Total\", \"1559\", \"231325\", \"148.4\", \"*\"], [\"\", \"Treatments\", \"77\", \"12519\", \"162.6\", \"1.09\"], [\"\", \"NPK\", \"5\", \"285\", \"57.0\", \"0.38\"], [\"\", \"Nutrients\", \"12\", \"2330\", \"194.2\", \"1.79  *\"], [\"Nutrients in NPK on stalk\", \"Block Interactions\", \"39 60\", \"4232 9904\", \"108.5 165.1\", \"0.73 1.11\"], [\"\", \"IPCA1\", \"16\", \"4807\", \"300.5\", \"2.02  *  *\", \"48.54%\"], [\"\", \"IPCA2\", \"14\", \"3657\", \"261.2\", \"1.76\", \"36.93%\"], [\"\", \"Residuals\", \"30\", \"1439\", \"48.0\", \"0.32\", \"14.53%\"], [\"\", \"Error\", \"1443\", \"214574\", \"148.7\", \"*\"], [\"\", \"Total\", \"1559\", \"231325\", \"148.4\", \"*\"], [\"\", \"Treatments\", \"64\", \"10418\", \"162.8\", \"1.09\"], [\"\", \"Sampling times\", \"4\", \"383\", \"95.8\", \"0.64\"], [\"\", \"Nutrients\", \"12\", \"2330\", \"194.2\", \"1.79  *\"], [\"Nutrients in sampling on stalk\", \"Block Interactions\", \"39 48\", \"4232 7704\", \"108.5 160.5\", \"0.73 1.08\"], [\"\", \"IPCA1\", \"15\", \"5252\", \"350.1\", \"2.35  *  *\", \"68.17%\"], [\"\", \"IPCA2\", \"13\", \"1601\", \"123.2\", \"0.83\", \"20.78%\"], [\"\", \"Residuals\", \"20\", \"851\", \"42.6\", \"0.29\", \"11.05%\"], [\"\", \"Error\", \"1456\", \"216675\", \"148.8\", \"\"]]}"
+  ]
+}

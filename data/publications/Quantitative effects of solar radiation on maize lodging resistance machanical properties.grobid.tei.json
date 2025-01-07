@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "title": "Quantitative effects of solar radiation on maize lodging resistance mechanical properties",
+    "author": "Yunshan Yang, Xiaoxia Guo, Peng Hou, Jun Xue, Guangzhou Liu, Wanmao Liu, Yonghong Wang, Rulang Zhao, Bo Ming, Ruizhi Xie, Keru Wang, Shaokun Li",
+    "journal": "Elsevier BV",
+    "date": "2020. 09."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Lodging adversely affects maize (Zea mays L.) yields and quality, especially under low sunlight conditions. Here, we investigated the effects of different levels of solar radiation on maize lodging. To study the quantitative effects of different solar radiation on the lodging resistant mechanism of maize stalks, we chose two maize cultivars, Xianyu 335 (XY335) and Zhengdan 958 (ZD958), and grew them in two regions that receive the most abundant solar radiation in Xinjiang and Ningxia China in 2018 and 2019. Maize plants were exposed to different shade levels (15 % (S1), 30 % (S2), 50 % (S3), and natural light as the control (CK)) and different planting densities (4.5 × 10 4 (D1), 7.5 × 10 4 (D2), 9 × 10 4 (D3), 10.5 × 10 4 (D4), and 12 × 10 4 (D5) plants ha -1 ) to create different solar radiation conditions. The results showed that lodging percentage was significantly negatively correlated with the stalk bending strength (SBS), rind penetration strength (RPS), vertical root pulling resistance (VRPR), dry weight per unit length (DWUL), the cellulose and lignin content and grain yield which significantly decreased with decreasing total intercepted photosynthetically active radiation (TIPAR). Quantitative analysis showed that for every 1 MJ m -2 reduction in TIPAR, the SBS and RPS decreased by 0.0667 N and 0.075 N, DWUL and the content of cellulose and lignin of maize stalk significantly decreased with decreasing TIPAR, by 0.88 mg cm -1 , 0.3 mg g -1 and 0.06 mg g -1 , respectively. Lodging percentage was significantly negatively correlated with TIPAR, the lodging percentage increased by 0.17 % with a decrease in TIPAR of 1 MJ m -2 . Comparison of cultivars revealed that the rate of decrease in SBS, RPS, VRPR, DWUL and the cellulose and lignin content were greater for XY335 than for ZD958, indicating that the stalk strength of XY335 was more sensitive than ZD958 to decreasing levels of TIPAR. However, SBS, RPS, DWUL and the cellulose and lignin content of XY335 were higher than ZD938 and the lodging percentage of XY335 was lower than ZD958 which meant that XY335 had a stronger stalk strength to resistance to lodging. This is important for understanding lodging resistance and developing cultivars suited to different solar radiation conditions in different regions, as well as to changing solar radiation conditions induced by global climate change.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Maize is the most widely grown crop with the highest total grain yield globally and is therefore important for food security. Lodging is a major obstacle to maize production and to efforts to increase maize planting densities on a large scale (Gou et al., 2010), occurring any time between stalk elongation and maturity stage and causing significant losses (Chao Hai et al., 2005;Zhang et al., 2006;Liu et al., 2011;Zuber and Loesch, 1966;Kang et al., 1999). Crop lodging refers to partial or complete damage to plant stems and in maize it can occur in either stalks or roots (Esechie et al., 2004;Shrestha et al., 2018). With stalk lodging the base and middle part of the stalk cannot support the weight of the aboveground part of the plant (Xu et al., 2012(Xu et al., , 2017)). In contrast, root lodging refers to plants that lean greater than a certain angle https://doi.org/10.1016/j.fcr.2020.107906 Received 29 November 2019; Received in revised form 29 June 2020; Accepted 2 July 2020 (typically 30°or 45°) from vertical due to poor root growth or partial or total rooting out (Xue et al., 2017b;Ahmad et al., 2018). There are several indicators of stalk lodging, including rind penetration strength (RPS), vertical root pulling resistance (VRPR), stalk bending strength (SBS), and dry weight per unit length (DWUL) (Gou et al., 2007(Gou et al., , 2010;;Wang et al., 2012;Proulx et al., 2015;Bian et al., 2016;Xue et al., 2016Xue et al., , 2017b;;Xue et al., 2018a,b). Lignin and cellulose are the main components of cell walls and play important roles in the RPS and SBS of maize. As a result, their contents are useful indicators of lodging resistance (Chen et al., 2011;Peng et al., 2014;Wang et al., 2015). Maize lodging risk is affected by many factors, including cultivar genotype, cultivation practices, and environmental conditions. Previous studies have shown that crop cultivation and management practices such as planting densities, row spacing, and water and fertilizer application affect maize lodging (Kratochvil and Taylor, 2005;van Heerden et al., 2015). Furthermore, environmental conditions, including high speed winds and temperatures, excessive rain, and low solar radiation contribute to stalk lodging (Zuber and Loesch, 1966). Among them, solar radiation is the most critical to maize lodging (Cui et al., 2012).",
+          "table": []
+        },
+        {
+          "text": "Solar radiation has been decreasing over the past 40-50 years in China due to climate change and environmental pollution (Zhang et al., 2003;Che, 2005;Abakumova et al., 2008;Shi et al., 2008;Ma et al., 2011;Zhang et al., 2019). In some maize growing regions of China prolonged rainy weather and insufficient sunshine result in low solar radiation (Zhang et al., 2006;Hou et al., 2020). In addition, high planting densities lead to upper canopy closure and insufficient light reaching the bottom of the canopy (Sun et al., 1989;Yuan et al., 1999;Liu et al., 2011;Liu et al., 2019;Mi et al., 2011;Xue et al., 2017b). This causes weakening of basal internodes, leading to elongated and fragile stems, decreased strength and toughness of mechanical tissues, and a higher probability of lodging (Zhang et al., 2006;Jia et al., 2007;Liu et al., 2011). Shading is the most common method used to study the effects of different solar radiation levels on crop growth (Zhang et al., 2006;Cui et al., 2012;Chen et al., 2016). In studies that did examine lodging, they found that shading decreased basal internode length, the penetration strength of the 4th internode above the ground, and the compression strength of the 3rd internode above the ground, which reduced stalk lodging resistance (Pinthus, 1974;Zhang et al., 2006;Wang, 2008;Liu et al., 2011;Cui et al., 2012;Peng et al., 2014). However, these studies were conducted in low solar radiation regions where shading resulted in levels of radiation significantly lower than those normally encountered in maize production environments. Furthermore, few studies have analyzed the comprehensive and quantitative effects of different solar radiation levels on maize lodging. Therefore, our hypotheses were: 1) quantitative relationships existed between solar radiation level and indexes of maize lodging resistance and 2) different maize genotypes exhibited different lodging risks in response to solar radiation levels. This study provides a better understanding of how solar radiation influences maize lodging resistance, which can be used to improve efforts to cultivate lodging resistant maize in regions with different levels of solar radiation as well as in regions experiencing decreased solar radiation due to global climate change.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Experimental design",
+      "div": [
+        {
+          "text": "The experiments were conducted in 2018 and 2019 at Qitai (Xinjiang Uygur Autonomous Region, China.) and Yinchuan (Ningxia Hui Autonomous Region, China.) where the solar radiations are the highest to ensure different solar radiation conditions could be created. Refer to Yang et. al (2019) for details of the sites. A split block design was used and all plots were arranged in a completely randomized design with three replications. Two maize cultivars that are widely grown in China were used: Zhengdan 958 (ZD958) and Xianyu 335 (XY335).",
+          "table": []
+        },
+        {
+          "text": "In this experiment, four shading levels and five planting densities were established to create different solar radiation levels (-1 ) at Qitai and Yinchuan in 2018 and 2019). As shown in -1 ) at Qitai and Yinchuan in 2018 and 2019, the effect of planting density on solar radiation was far less than the effect of shading. Maize was planted at five densities: 4.5 × 10 4 (D1), 7.5 × 10 4 (D2), 9 × 10 4 (D3), 10.5 × 10 4 (D4) and 12 × 10 4 (D5) plants ha -1 . Shading levels were 50 % (S3), 30 % (S2) and 15 % (S1) of natural light, and no shading (CK). The shading was imposed at the seeding stage and lasted until maturity. The experimental plots were 11 m × 10 m, with 14 rows.",
+          "table": [
+            "-1 ) at Qitai and Yinchuan in 2018 and 2019.",
+            "-1 ) at Qitai and Yinchuan in 2018 and 2019."
+          ]
+        },
+        {
+          "text": "Shading was found to not affect the quality of incident light in the maize canopy (Yang et al., 2019). Different shading nets suitable to the required shading levels were used. Meteorological data for the 2018 and 2019 maize growing seasons were obtained from meteorological stations located near the experimental sites. The shading sheds were fixed in place about 1.5 m above the maize canopy in order to maintain the same microclimate conditions except for solar radiation as in the unshaded portions of the field. The amount of solar radiation at the top and bottom of the canopy was measured with a Sunscan (SUNSCAN, Delta-T, UK). The total intercepted photosynthetically active radiation (TIPAR) was calculated according to the following formula:",
+          "table": []
+        },
+        {
+          "text": "where A is photosynthetic active radiation above the canopy, B is transmitted photosynthetically active radiation at the bottom of the canopy, and it was measured with a diagonal orientation across the rows at the bottom (below the lowest green leaves) above the ground with six replications for every 10 days from elongation to silking, and C is total accumulated photosynthetically active radiation from the elongation stage to the silking stage, and morphological formation, dry matter accumulation and mechanical strength of maize stem were mainly concentrated in this period (Dudley, 1994;Gou et al., 2010). Sufficient water and fertilizers were applied to follow local agronomic guidance, and prevent water and nutrient stress. Base fertilizers were applied with 75, 150 kg N ha -1 as urea, 188, 225 kg P 2 O 5 ha -1 (super phosphate), and 53, 75 kg K 2 O ha -1 (potassium sulfate) prior to",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Table 1",
+      "div": [
+        {
+          "text": "The total intercepted photosynthetically active radiation (MJ m -2 )from the elongation to the silking stage under different planting densities of D1 (4.5 × 10 4 plants ha -1 ), D2 (7.5 × 10 4 plants ha -1 ), D3 (9 × 10 4 plants ha -1 ), D4 (10.5 × 10 4 plants ha -1 ), and D5 (12 × 10 4 plants ha -1 ) and different shading levels (CK = natural light; S1 = 85 % of natural light; S2 = 70 % of natural light; S3 = 50 % of natural light). sowing at Yinchuan and Qitai respectively. An additional 300 kg N ha - 1 was applied at both Yinchuan and Qitai during the growing season to prevent nutrient stress. Weeds, diseases, and pests were controlled following the methods of Yang et al. (2019).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Measurements of lodging resistance",
+      "div": [
+        {
+          "text": "Stalk lodging occurs most frequently at the third or fourth basal internode above the soil surface between the 12-leaf (V12) and grainfilling stages (Martin and Russell, 1984;Gou et al., 2010;Xue et al., 2016). SBS, RPS, and DWUL were used as the indicators of maize lodging resistance (Gou et al., 2007;Robertson et al., 2017;Yang et al., 2017). VRPR directly reflects the ability of roots to support a plant (Kamara et al., 2010;Wang et al., 2012;Bian et al., 2016).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Stalk bending strength (SBS)",
+      "div": [
+        {
+          "text": "Under natural growing conditions in the field the SBS was measured using a stalk strength tester at the 30th day after silking (the data of 2019 was not measured due to severe lodging at Qitai), five maize plants were randomly selected from each plot. The stalk strength tester (YYD-1, Zhejiang Top Instrument Co Ltd., Hangzhou, China) (Ahmad et al., 2018) comprises a supporting structure, a force gauge with a digital display screen, and a test probe with a 1 cm 2 cross-sectional area to apply force in the direction perpendicular to each stalk at the ear node until the stalks broke or bent greater than 45°, as shown in Fig. 1. The peak force required to bend or break the stalk was defined as the SBS.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Rind penetration strength (RPS)",
+      "div": [
+        {
+          "text": "The RPS of the third basal internode (force required to puncture an internode) was measured with the same stalk strength tester as described above (YYD-1, Zhejiang Top Instrument Co Ltd., Hangzhou, China) (Ahmad et al., 2018). Five maize plants were randomly selected from each plot during the grain-filling stage and the probe of the stalk strength tester was inserted into the stalk between the third and fourth internodes at a slow, uniform speed perpendicular to the stalk, as shown in Fig. 1. The maximum value required to penetrate the stalk epidermis was read three times and the average value calculated. The data of 2019 was not measured due to severe lodging at Qitai.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Vertical root pulling resistance (VRPR)",
+      "div": [
+        {
+          "text": "Root pulling resistance (VRPR) was measured according to the method of Bian et al. (2016) using a maize uprooting dynamometer. It was measured by the uprooting dynamometer as plant roots were pulled out from the soil at a constant speed. For 2019 it was not measured due to severe lodging at the two sites.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Dry weight per unit length (DWUL) and the cellulose and lignin content of basal internodes",
+      "div": [
+        {
+          "text": "The lengths of the third and fourth internodes above the ground were measured with a ruler from the midpoint of adjacent internodes. After measuring RPS, the basal internodes were immediately excised from each plant and placed into paper bags. Internodes were subjected to enzyme deactivation at 105 °C for 30 min followed by drying at 80 °C to a constant weight. The DWUL of the third and fourth internodes was calculated by dividing the dry weight of the internode by its length. The content of cellulose was determined by the Van Soest (Van Soest et al., 1991) washing method, and lignin was measured according to Ahmad et al. (2018). The DWUL was conducted at Yinchuan and Qitai in 2018 and the cellulose and lignin content of basal internodes were conducted at Qitai in 2018.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Grain yield",
+      "div": [
+        {
+          "text": "At the physiological maturity stage, an area of 16.5 m 2 was harvested manually from the center of each plot (central three rows, 5 m long) and grain weight was measured. The grain moisture content was determined using a portable moisture meter (PM8188, Kett Electric Laboratory, Tokyo, Japan). Grain yield was determined at 14 % moisture content.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Lodging survey",
+      "div": [
+        {
+          "text": "When maize lodging occurred in the plots, all plants in the plot were examined and the number of broken plants was recorded.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Responses of stalk bending strength (SBS) and rind penetration strength (RPS) to total intercepted photosynthetically active radiation (TIPAR)",
+      "div": [
+        {
+          "text": "As shown in Fig. 2, changes in TIPAR between the elongation stage and the silking stage were different for different solar radiation treatments, which caused different effects on SBS and RPS. The SBS and RPS of XY335 and ZD958 were significantly positively correlated with TIPAR. With 1 MJ m -2 decrease in TIPAR, SBS decreased by 0.0689 N for XY335 and by 0.0644 N for ZD958. There was a similar significant linear relationship between RPS and TIPAR. With 1 MJ m -2 decrease in TIPAR, RPS decreased by 0.0822 N for XY335 and by 0.0678 N for ZD958. For average of the two cultivars with 1 MJ m -2 decrease in TIPAR, SBS and RPS decreased by 0.0667 N and by 0.075 N. As suggested by the value of slope of the regression equation, XY335 showed stronger decline in SBS and RPS with decrease of TIPAR than ZD958, indicating that the stalk strength of XY335 was more sensitive to solar radiation than ZD958.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Effects of total intercepted photosynthetically active radiation (TIPAR) on vertical root pulling resistance (VRPR)",
+      "div": [
+        {
+          "text": "As shown in Fig. 3, VRPR was positively correlated with TIPAR between the elongation stage and the silking stage. As TIPAR decreased, VRPR decreased. With every 1 MJ m -2 decrease in TIPAR, the VRPR of XY335 decreased by 1.5943 N while ZD958 showed no significant change trend.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Effect of total intercepted photosynthetically active radiation (TIPAR) on dry weight per unit length (DWUL) and the cellulose and lignin content of basal internodes",
+      "div": [
+        {
+          "text": "As shown in Fig. 4, the DWUL and cellulose and lignin content of basal internodes were significantly positively correlated with the TIPAR between the elongation stage and the silking stage. As the TIPAR decreased, the DWUL and the cellulose and lignin content of XY335 and ZD958 significantly decreased. With every 1 MJ m -2 decrease in the TIPAR, the DWUL of XY335 and ZD958 decreased by 1.06 mg cm -1 and 0.7 mg cm -1 , respectively, while for XY335, the cellulose and lignin content decreased by 0.35 and 0.06 mg g -1 , respectively. And for ZD958, their content decreased by 0.25 and 0.05 mg g -1 , respectively. On average of the two cultivars, with every 1 MJ m -2 decrease in the TIPAR, the DWUL and the cellulose and lignin content decreased by 0.88 mg cm -1 , 0.3 mg g -1 and 0.06 mg g -1 . Between the two cultivars, XY335 experienced greater decreases in DWUL and the cellulose and lignin content with reduction in solar radiation than ZD958.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Effect of shading on lodging percentage and yield",
+      "div": [
+        {
+          "text": "The S1, S2, and S3 shading treatments significantly increased the lodging percentage by 2.5 %, 9.7 % and 17.5 % for XY335, and by 4.1 %, 5.3 % and 8.4 % for ZD958, on average over means two years and two sites, and five planting densities, respectively, compared with CK (no shading). On average of the two cultivars, the lodging percentage increased by 3.3 %, 7.5 % and 12.9 % (-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05). The grain yields of both cultivars decreased as shading increased. The S1, S2, and S3 shading treatments significantly decreased the grain yield by 11.8 %, 30 % and 74.7 % for XY335 and by 12.5 %, 20.1 % and 76.6 % for ZD958, (means based on two years and sites, and five planting densities), respectively, compared with CK (-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05).",
+          "table": [
+            "-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05.",
+            "Relationships among total intercepted photosynthetically active radiation (TIPAR), stalk bending strength (SBS), rind penetration strength (RPS), vertical root pulling resistance (VRPR), the dry weight per unit length (DWUL), the content of cellulose and lignin, yield and lodging percentage (LP). * and ** are significant correlation at P < 0.05 and P < 0.01. The data is means of two years and sites."
+          ]
+        },
+        {
+          "text": "As showed in Fig. 5, maize lodging percentage was significantly negatively correlated with TIPAR between the elongation stage and the silking stage. As the TIPAR decreased, the lodging percentage of XY335 and ZD958 significantly decreased. With every 1 MJ m -2 decrease in TIPAR, the lodging percentage increased by 0.17 % for XY335 and by 0.16 % for ZD958, and the increase in lodging percentage was greater for XY335 than for ZD958. On average of the two cultivars, the lodging percentage increased by 0.17 % with 1 MJ m -2 decrease in TIPAR.",
+          "table": []
+        },
+        {
+          "text": "In ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively, lodging percentage was significantly negatively correlated with the TIPAR, SBS, RPS, VRPR, DWUL, cellulose and lignin content and grain yield of XY335 and ZD958. DWUL and the cellulose and lignin content significantly affected the SBS and RPS. As shown in ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively, the lodging percentage of maize was different under the different years, sites, cultivars, planting densities, shading levels and the interaction between planting densities and shading levels and years, cultivars and shading levels had significant effects on lodging percentage.",
+          "table": [
+            "ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively.",
+            "The independent sample T test and basic statistics of SBS (stalk bending strength), RPS (rind penetration strength), VRPR (vertical root pulling resistance), DWUL (dry weight per unit length), the cellulose and lignin content and grain yield of cultivars XY335 and ZD958. * and ** are significant correlation at P < 0.05 and P < 0.01, ns indicates no significance. Means based on two years and two sites."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The difference in mechanical properties and chemical composition between two cultivars",
+      "div": [
+        {
+          "text": "A comparison of the two cultivars showed that XY335 had greater SBS and RPS than ZD958, whereas ZD958 had higher VRPR than XY335. XY335 had higher DWUL, the content of cellulose and lignin, and grain yield than ZD958. On lodging percentage, XY335 was lower -1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05 Lodging percentage(%) of cultivars XY335 and ZD958 at different shading levels (CK = natural light; S1 = 85 % of natural light; S2 = 70 % of natural light; S3 = 50 % of natural light) and different planting densities of D1 (4.5 × 10 4 plants ha -1 ), D2 (7.5 × 10 4 plants ha -1 ), D3 (9 × 10 4 plants ha -1 ), D4 (10.5 × 10 4 plants ha -1 ), and D5 (12 × 10 4 plants ha -1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05 Maize yield of cultivars XY335 and ZD958 at different shading levels (CK = natural light; S1 = 85 % of natural light; S2 = 70 % of natural light; S3 = 50 % of natural light) and different planting densities of D1 (4.5 × 10 4 plants ha -1 ), D2 (7.5 × 10 4 plants ha -1 ), D3 (9 × 10 4 plants ha -1 ), D4 (10.5 × 10 4 plants ha -1 ), and D5 (12 × 10 4 plants ha than ZD958. As a result, XY335 had higher breaking resistance and stiffness than ZD958 (-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05).",
+          "table": [
+            "-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05.",
+            "Relationships among total intercepted photosynthetically active radiation (TIPAR), stalk bending strength (SBS), rind penetration strength (RPS), vertical root pulling resistance (VRPR), the dry weight per unit length (DWUL), the content of cellulose and lignin, yield and lodging percentage (LP). * and ** are significant correlation at P < 0.05 and P < 0.01. The data is means of two years and sites."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "Many environmental factors lead to maize lodging, including high temperatures, excessive rainfall, and insufficient sunlight, which inhibit the formation of strong stalks (Sun et al., 1989;Yuan et al., 1999;Liu et al., 2011;Mi et al., 2011;Xue et al., 2016;Xue et al., 2017b). Among these, solar radiation is one of the most critical factors (Liu et al., 2011;Cui et al., 2012). Planting density is another key factor that affects maize lodging, with increasing planting densities reducing the amount of solar radiation that reaches growing plants (Gou et al., 2007;Liu et al., 2013;Hou et al., 2014). Previous studies have shown that the mechanical strength of maize stalks significantly decreased with decreasing solar radiation, leading to increased lodging percentages (Xue et al., 2016). Findings in our study were in accordance with previous reports (Figs. 2 & 5). However, previous studies lacked quantitative relationships between solar radiation and maize lodging resistance. In this study, we quantified these relationships and found that for every 1 MJ m -2 decrease in TIPAR, SBS and RPS decreased by 0.0667 N and 0.075 N, respectively. Using these quantitative relationships, the mechanical properties of maize stalks under different light conditions can be defined, which provides theoretical support for lodging resistant cultivation in different regions and under different cultivation conditions (i.e., density).",
+          "table": []
+        },
+        {
+          "text": "Stalk lodging often occurs at or below ears, so stalk strength of the lower internodes has been used as a means of evaluating stalk lodging resistance (Ma et al., 2014). Previous studies have shown that increasing light intensity level and the degree of light interception can significantly increase DWUL of the basal internodes, content of structural carbohydrates, and penetration strength, leading to reductions in field lodging (Liu et al., 2011;Xue et al., 2016). Previous study showed that stalk breaking force was a comprehensive index to evaluate lodging resistance and was significantly positively correlated with RPS of the basal internode (Xue et al., 2018a,b). Maize stalk DWUL was found to positively correlate with mechanical strength (Xue et al., 2016). Lignin provides mechanical strength to reduce lodging stress in plants (Ahmad et al., 2018). Wang et al. (2014Wang et al. ( ,2015) ) showed that lodging resistance of buckwheat was positively correlated with lignin content. Shading significantly reduces cellulose accumulation and the stem breaking strength of the soybean, which significantly negatively affect lodging rate (Liu et al., 2016). The results of our study showed that the DWUL and the cellulose and lignin content of basal internodes all decreased with decreasing TIPAR. As TIPAR decreased, and with every 1 MJ m -2 decrease, DWUL and the cellulose and lignin content significantly decreased by 0.88 mg cm -1 , 0.3 mg g -1 and 0.06 mg g -1 , respectively. Correlation analysis showed that RPS and SBS were positively significantly correlated with dry weight per unit length and the cellulose and lignin content (ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively). DWUL and the cellulose and lignin content significantly decreased with decreasing TIPAR and affected the SBS and RPS, leading to a decline in stalk mechanical strength and increase of lodging percentage.",
+          "table": [
+            "ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively."
+          ]
+        },
+        {
+          "text": "It was reported previously that light intensity was the main factor  affecting maize lodging and lodging reduce annual maize grain yield (Xue et al., 2016;Guo et al., 2018). Yield losses due to lodging stress are 5-20 % in maize (Ahmad et al., 2018). In this study, there was a significant negative correlation between maize yield and lodging percentage, the lodging percentage increased by 0.17 % with 1 MJ m -2 decrease in TIPAR. Under different shade levels, the percentage of lodging of S1, S2, and S3 increased significantly compared with CK, which increased on average by 3.3 %, 7.5 % and 12.9 %, the yield decreased by 12.1 %, 25.1 % and 75.7 %, respectively. As was shown in -1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05, under each shading condition, the lodging percentage increased as planting density increased, and the higher the planting density the higher lodging risk especially under low solar radiation condition of S2 and S3. However, increasing planting density can increase maize grain yield (Liu et al., 2017;Hou et al., 2020). Maize grain yield showed different change trends under different solar radiations in this study.",
+          "table": [
+            "-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05."
+          ]
+        },
+        {
+          "text": "Under high solar radiation condition of CK the yield increased in the order D5 > D4 > D3 > D2 > D1 which meant that the highest yield was achieved under the highest planting density. The highest yield of S1, S2 and S3 were achieved under D4, D2 and D1 densities which meant that lower planting density was more suitable to lower solar radiation condition. This indicated that the high yields could be obtained by increasing planting density in areas with abundant solar radiation and the planting density should be reduced under low solar radiation conditions to increase the yield and lodging resistance. Therefore, optimizing planting densities to match solar radiation will be of great significance for increasing maize yield and reducing the lodging risk in different regions of China and other countries of the world.",
+          "table": []
+        },
+        {
+          "text": "In addition to solar radiation, genotype is another important factor that determines the lodging resistance of maize (Bänziger et al., 2006;Wu et al., 2017). Previous research has shown that genetic factors influence the lodging resistance of different maize cultivars (Xu et al., 2012). In this study, the rate of decrease in SBS and RPS were faster for XY335 than for ZD958, indicating that the stalk mechanical strength of XY335 was more sensitive than ZD958 to decreasing TIPAR. There were significant negative correlations among SBS, RPS, VRPR, the DWUL, the content of cellulose and lignin and lodging percentage, and the performances of the two cultivars were different (Gao et al., 2012;Wang et al., 2012;Ahmad et al., 2018). In this study, DWUL and the cellulose and lignin content of XY335 were greater than those of ZD958 although the DWUL and the cellulose and lignin content of XY335 decreased more rapidly than ZD958 with decreasing TIPAR, indicating that the SBS and RPS of XY335 were higher than those of ZD958. The mean value of SBS and RPS of XY335 were greater for XY335 than for ZD958, and the main reason for these differences are the DWUL, and the cellulose and lignin content of XY335 were significantly higher than ZD958, indicating that XY335 was more resistant to stalk lodging. It is similar with previous studies that due to insufficient penetration of solar radiation through the leaf canopy to the bottom of plants, the carbohydrate composition of the basal internodes was reduced and the mechanical strength of the stalk was weakened, ultimately leading to decreased lodging resistance (Liu et al., 2011;Ma et al., 2014;Xue et al., 2017a). Bian et al. (2016) reported that lignin content was closely related to stalk lodging and a high stalk lignin content was found in cultivars with strong lodging resistance. Wang et al. (2015) also showed that the contribution of cellulose content per unit length of the third internode to the mechanical strength of maize stalks has been estimated at about 85 % (Appenzeller et al., 2004), which is in accordance with our observations. This further suggests that XY335 had a stronger lodging resistance than ZD958 under the same solar radiation conditions.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "div": [
+        {
+          "text": "This study clarified the quantitative relationship between solar radiation and the lodging resistance of different maize genotypes, and showed that DWUL and the cellulose and lignin content significantly affected the SBS and RPS, resulting in a decline in stalk mechanical strength and grain yield, and increase lodging percentage. The findings could be used to provide a theoretical basis for improving the grain yield and lodging resistance of maize under different solar radiation conditions.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"-1 ) at Qitai and Yinchuan in 2018 and 2019.\", \"head\": [\"\", \"\", \"2018\", \"\", \"\", \"\", \"2019\", \"\", \"\"], \"value\": [[\"\", \"\", \"Qitai\", \"\", \"Qitai\", \"\", \"Yinchuan\", \"\", \"\"], [\"\", \"\", \"XY335\", \"ZD958\", \"XY335\", \"XY335\", \"ZD958\", \"XY335\", \"ZD958\"], [\"D1\", \"CK\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\"], [\"\", \"S1\", \"0\", \"0\", \"0\", \"4.5\", \"0\", \"3.4\", \"0\"], [\"\", \"S2\", \"0\", \"0\", \"2.9\", \"17.5\", \"30\", \"18.1\", \"22.5\"], [\"\", \"S3\", \"40\", \"11.3\", \"13.3\", \"56\", \"100\", \"45\", \"75\"], [\"D2\", \"CK\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\"], [\"\", \"S1\", \"7.6\", \"8.7\", \"5.1\", \"10\", \"15\", \"7.5\", \"17.3\"], [\"\", \"S2\", \"24.2\", \"45\", \"3.3\", \"15.2\", \"62\", \"17.9\", \"46.5\"], [\"\", \"S3\", \"62.5\", \"68.6\", \"24.3\", \"30\", \"100\", \"32.1\", \"100\"], [\"D3\", \"CK\", \"0\", \"0\", \"0\", \"0\", \"8.8\", \"0\", \"0\"], [\"\", \"S1\", \"9\", \"12.5\", \"3.3\", \"8.3\", \"15\", \"0\", \"11.3\"], [\"\", \"S2\", \"10.5\", \"11\", \"26.7\", \"12\", \"20\", \"11\", \"15\"], [\"\", \"S3\", \"44.5\", \"64.1\", \"50.8\", \"65\", \"100\", \"30\", \"66.7\"], [\"D4\", \"CK\", \"0\", \"0\", \"13.3\", \"0\", \"12\", \"15\", \"0\"], [\"\", \"S1\", \"10\", \"37\", \"28.6\", \"30.7\", \"60\", \"45\", \"0\"], [\"\", \"S2\", \"34\", \"48\", \"36.7\", \"47.5\", \"75.7\", \"52.5\", \"20\"], [\"\", \"S3\", \"56\", \"67\", \"86.7\", \"91.7\", \"100\", \"70.9\", \"87.5\"], [\"D5\", \"CK\", \"5\", \"15\", \"1.3\", \"5\", \"4.2\", \"0\", \"0\"], [\"\", \"S1\", \"24\", \"76\", \"8.7\", \"8\", \"30\", \"13\", \"0\"], [\"\", \"S2\", \"40\", \"82\", \"33.3\", \"85\", \"43\", \"50\", \"40\"], [\"\", \"S3\", \"77\", \"95\", \"92.3\", \"76\", \"100\", \"85\", \"25\"]]}",
+    "{\"title\": \"-1 ) at Qitai and Yingchuan in 2018 and 2019. Different lowercase letters indicate significant differences at P < 0.05.\", \"head\": [\"\", \"\", \"2018\", \"\", \"\", \"\", \"2019\", \"\", \"\", \"\"], \"value\": [[\"\", \"\", \"Qitai\", \"\", \"Yinchuan\", \"\", \"Qitai\", \"\", \"Yinchuan\", \"\"], [\"\", \"\", \"XY335\", \"ZD958\", \"XY335\", \"ZD958\", \"XY335\", \"ZD958\", \"XY335\", \"ZD958\"], [\"D1\", \"CK\", \"16.81 a\", \"14.81 a\", \"12.02 a\", \"9.84 a\", \"18.58 a\", \"17.26 a\", \"16.09 a\", \"14.41 a\"], [\"\", \"S1\", \"16.68 a\", \"13.47 b\", \"10.72 a\", \"8.5 a\", \"15.32 b\", \"16.63 a\", \"15.79 a\", \"13.94 a\"], [\"\", \"S2\", \"14 b\", \"12.6 b\", \"8.96 b\", \"8.69 a\", \"14.94 b\", \"14.19 b\", \"13.14 a\", \"12.63 b\"], [\"\", \"S3\", \"6.02 c\", \"6.95 c\", \"5.53 c\", \"5.76 b\", \"3 c\", \"2.07 c\", \"6.07 b\", \"4.32 c\"], [\"D2\", \"CK\", \"18.72 a\", \"17.04 a\", \"13.27 a\", \"12.24 a\", \"19.1 a\", \"18.44 a\", \"18.11 a\", \"16.34 a\"], [\"\", \"S1\", \"16.99 a\", \"16.89 a\", \"12.49 a\", \"10.54 b\", \"15.03 b\", \"18.13 ab\", \"15.72 b\", \"15.35 a\"], [\"\", \"S2\", \"14.25 b\", \"16.09 a\", \"9.31 b\", \"9.98 b\", \"15.64 b\", \"16.52 b\", \"14.26 b\", \"14.92 a\"], [\"\", \"S3\", \"6.04 c\", \"5.54 b\", \"4.43 c\", \"4.81 c\", \"3.4 c\", \"2.8 c\", \"5.76 c\", \"3.48 b\"], [\"D3\", \"CK\", \"18.77 a\", \"17.77 a\", \"14.24 a\", \"12.86 a\", \"20.7 a\", \"18.65 a\", \"18.75 a\", \"16.43 a\"], [\"\", \"S1\", \"17.92 a\", \"15.65 ab\", \"12.97 b\", \"11.3 ab\", \"16.43 b\", \"17.48 a\", \"16.52 b\", \"15.38 a\"], [\"\", \"S2\", \"11.91 b\", \"13.37 b\", \"8.89 c\", \"9.15 b\", \"16.25 b\", \"16.57 a\", \"13.91 c\", \"14.5 a\"], [\"\", \"S3\", \"3.19 c\", \"4.6 c\", \"4.67 d\", \"3.19 c\", \"3.24 c\", \"1.18 b\", \"5.35 d\", \"3.69 b\"], [\"D4\", \"CK\", \"20.06 a\", \"18.16 a\", \"14.46 a\", \"13.47 a\", \"20.57 a\", \"19.1 a\", \"19.15 a\", \"17.28 a\"], [\"\", \"S1\", \"18.77 a\", \"15.01 ab\", \"14.33 a\", \"10.38 b\", \"17.14 b\", \"18.94 a\", \"15.83 b\", \"14.91b\"], [\"\", \"S2\", \"10.28 b\", \"13.86 b\", \"8.28 b\", \"9.41 b\", \"13.58 c\", \"15.99 b\", \"14.27 c\", \"14.34 b\"], [\"\", \"S3\", \"3.56 c\", \"4.73 c\", \"3.71 c\", \"2.89 c\", \"1.63 d\", \"2.07 c\", \"5.09 d\", \"3.31 c\"], [\"D5\", \"CK\", \"21.27 a\", \"18.99 a\", \"15.01a\", \"14.13 a\", \"21.57 a\", \"18.62 a\", \"17.35 a\", \"18.43 a\"], [\"\", \"S1\", \"15.74 b\", \"12.07b\", \"11.89 b\", \"9.27 b\", \"19.25 b\", \"15.83 ab\", \"15.71 ab\", \"14.82 b\"], [\"\", \"S2\", \"9.1 c\", \"10.89 b\", \"7.07 c\", \"7.56 c\", \"15.87 c\", \"15.15 b\", \"14.28 c\", \"12.69 c\"], [\"\", \"S3\", \"3.35 d\", \"4.32 c\", \"3.15 d\", \"2.36 d\", \"3.02 d\", \"1.03 c\", \"5.64 d\", \"1.88 d\"]]}",
+    "{\"title\": \"Relationships among total intercepted photosynthetically active radiation (TIPAR), stalk bending strength (SBS), rind penetration strength (RPS), vertical root pulling resistance (VRPR), the dry weight per unit length (DWUL), the content of cellulose and lignin, yield and lodging percentage (LP). * and ** are significant correlation at P < 0.05 and P < 0.01. The data is means of two years and sites.\", \"head\": [\"Item\", \"TIPAR\", \"SBS\", \"RPS\", \"VRPR\", \"DWUL\", \"Cellulose\", \"Lignin\", \"Yield\", \"LP\"], \"value\": [[\"TIPAR (MJ m -2 )\", \"1\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"SBS (N)\", \"0.589 **\", \"1\", \"\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"RPS (N)\", \"0.607 **\", \"0.948 **\", \"1\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"VRPR (N)\", \"0.500 **\", \"0.889 **\", \"0.936 **\", \"1\", \"\", \"\", \"\", \"\", \"\"], [\"DWUL (mg cm -1 )\", \"0.398 *\", \"0.903 **\", \"0.821 **\", \"0.814 **\", \"1\", \"\", \"\", \"\", \"\"], [\"Content of cellulose (mg g -1 )\", \"0.509 **\", \"0.804 **\", \"0.705 **\", \"0.628 **\", \"0.897 **\", \"1\", \"\", \"\", \"\"], [\"Content of lignin (mg g -1 )\", \"0.426 **\", \"0.824 **\", \"0.768 **\", \"0.725 **\", \"0.936 **\", \"0.931 **\", \"1\", \"\", \"\"], [\"Yield (t ha -1 )\", \"0.915 **\", \"0.669 **\", \"0.721 **\", \"0.597 **\", \"0.503 **\", \"0.59 **\", \"0.549 **\", \"1\", \"\"], [\"LP (%)\", \"-0.687 **\", \"-0.83 **\", \"-0.869 **\", \"-0.814 **\", \"-0.78 **\", \"-0.768 **\", \"-0.771 **\", \"-0.822 **\", \"1\"]]}",
+    "{\"title\": \"ANOVA analysis for the effects of year, site, cultivar, planting density and shading level on the lodging percentage. Note: * and ** indicate significant differences at P < 0.05 and P < 0.01 probability levels, ns indicates no significance, respectively.\", \"head\": [\"Source\", \"Type III Sum of Squares\", \"df\", \"Mean Square\", \"F-value\"], \"value\": [[\"Corrected Model\", \"144567.5 a\", \"119\", \"1214.85\", \"5.86**\"], [\"Intercept\", \"121666.01\", \"1\", \"121666.01\", \"586.46**\"], [\"Years\", \"1643.91\", \"1\", \"1643.91\", \"7.92**\"], [\"Site\", \"483.88\", \"1\", \"483.88\", \"2.33 ns\"], [\"Cultivar\", \"2722.96\", \"1\", \"2722.96\", \"13.13**\"], [\"Density\", \"1855.12\", \"4\", \"463.78\", \"2.24*\"], [\"Shading level\", \"68324.7\", \"3\", \"22774.90\", \"109.78**\"], [\"Years ×Site\", \"358.49\", \"1\", \"358.49\", \"1.73 ns\"], [\"Years ×Cultivar\", \"0.5\", \"1\", \"0.50\", \"0.00 ns\"], [\"Years ×Density\", \"946.7\", \"4\", \"236.67\", \"1.14 ns\"], [\"Years ×Shading level\", \"752.71\", \"3\", \"250.90\", \"1.21 ns\"], [\"Site ×Cultivar\", \"0\", \"0\", \"\", \"\"], [\"Site ×Density\", \"811.83\", \"4\", \"202.96\", \"0.98 ns\"], [\"Site ×Shading level\", \"79.68\", \"3\", \"26.56\", \"0.13 ns\"], [\"Cultivar ×Density\", \"1847.9\", \"4\", \"461.98\", \"2.23 ns\"], [\"Cultivar ×Shading level\", \"1128.31\", \"3\", \"376.10\", \"1.81 ns\"], [\"Density ×Shading level\", \"24737.32\", \"12\", \"2061.44\", \"9.94**\"], [\"Years ×Site ×Cultivar\", \"0\", \"0\", \"\", \"\"], [\"Years ×Site ×Density\", \"231.53\", \"4\", \"57.88\", \"0.28 ns\"], [\"Years ×Site ×Shading level\", \"36.34\", \"3\", \"12.11\", \"0.06 ns\"], [\"Years ×Cultivar ×Density\", \"829.14\", \"4\", \"207.29\", \"1 ns\"], [\"Years ×Cultivar ×Shading level\", \"1952.56\", \"3\", \"650.85\", \"3.14*\"], [\"Years ×Density ×Shading level\", \"3019.89\", \"12\", \"251.66\", \"1.21 ns\"], [\"Site ×Cultivar ×Density\", \"0\", \"0\", \"\", \"\"], [\"Site ×Cultivar ×Shading level\", \"0\", \"0\", \"\", \"\"], [\"Site ×Density ×Shading level\", \"3217.39\", \"12\", \"268.12\", \"1.29 ns\"], [\"Cultivar ×Density ×Shading level\", \"4294.77\", \"12\", \"357.90\", \"1.73 ns\"], [\"Years ×Site ×Cultivar ×Density\", \"0\", \"0\", \"\", \"\"], [\"Years ×Site ×Cultivar ×Shading level\", \"0\", \"0\", \"\", \"\"], [\"Years ×Site ×Density ×Shading level\", \"2569.51\", \"12\", \"214.13\", \"1.03 ns\"], [\"Years ×Cultivar ×Density ×Shading level\", \"2881.26\", \"12\", \"240.10\", \"1.16 ns\"], [\"Site ×Cultivar ×Density ×Shading level\", \"0\", \"0\", \"\", \"\"], [\"Years ×Site ×Cultivar ×Density ×Shading level\", \"0\", \"0\", \"\", \"\"], [\"Error\", \"8298.32\", \"40\", \"207.46\", \"\"], [\"Total\", \"291690.19\", \"160\", \"\", \"\"], [\"Corrected Total\", \"152865.83\", \"159\", \"\", \"\"]]}",
+    "{\"title\": \"The independent sample T test and basic statistics of SBS (stalk bending strength), RPS (rind penetration strength), VRPR (vertical root pulling resistance), DWUL (dry weight per unit length), the cellulose and lignin content and grain yield of cultivars XY335 and ZD958. * and ** are significant correlation at P < 0.05 and P < 0.01, ns indicates no significance. Means based on two years and two sites.\", \"head\": [\"Item\", \"Cultivar\", \"Mean\", \"Std. Deviation\", \"Std. Error Mean\", \"t\", \"df\", \"Sig. (2-tailed)\"], \"value\": [[\"SBS(N)\", \"XY335\", \"16.64\", \"7.637\", \"1.707\", \"1.385\", \"38\", \"0.174 ns\"], [\"\", \"ZD958\", \"13.52\", \"6.276\", \"1.47\", \"\", \"\", \"\"], [\"RPS(N)\", \"XY335\", \"39.275\", \"8.772\", \"1.961\", \"0.204\", \"37.855\", \"0.839 ns\"], [\"\", \"ZD958\", \"38.725\", \"8.246\", \"1.844\", \"\", \"\", \"\"], [\"VRPR(N)\", \"XY335\", \"990.820\", \"303.569\", \"67.88\", \"-0.455\", \"37.891\", \"0.652 ns\"], [\"\", \"ZD958\", \"1035.735\", \"320.315\", \"71.625\", \"\", \"\", \"\"], [\"DWUL(mg cm -1 )\", \"XY335\", \"398.878\", \"163.277\", \"36.51\", \"2.226\", \"34.673\", \"0.032 *\"], [\"\", \"ZD958\", \"298.434\", \"118.528\", \"26.504\", \"\", \"\", \"\"], [\"Cellulose(mg g -1 )\", \"XY335\", \"22.872\", \"7.416\", \"1.658\", \"3.916\", \"35.156\", \"0.000 **\"], [\"\", \"ZD958\", \"14.767\", \"5.536\", \"1.238\", \"\", \"\", \"\"], [\"Lignin(mg g -1 )\", \"XY335\", \"147.869\", \"56.815\", \"12.704\", \"2.389\", \"33.082\", \"0.023 *\"], [\"\", \"ZD958\", \"111.411\", \"37.835\", \"8.46\", \"\", \"\", \"\"], [\"Yield\", \"XY335\", \"12.499\", \"5.296\", \"1.184\", \"0.455\", \"37.948\", \"0.652 ns\"], [\"(t ha -1 )\", \"ZD958\", \"11.751\", \"5.103\", \"1.141\", \"\", \"\", \"\"], [\"Lodging percentage (%)\", \"XY335\", \"24.67\", \"24.98\", \"5.586\", \"-0.881\", \"36.959\", \"0.384 ns\"], [\"\", \"ZD958\", \"33.28\", \"29.592\", \"6.617\", \"\", \"\", \"\"]]}"
+  ]
+}

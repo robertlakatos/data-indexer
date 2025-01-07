@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "title": "Application of spatio-temporal data in site-specific maize yield prediction with machine learning methods",
+    "author": "A Nyéki, C Kerepesi, B Daróczy, A Benczúr, G Milics, J Nagy, E Harsányi, A Kovács J Kovács, M Neményi",
+    "journal": "Springer Science and Business Media LLC",
+    "date": "2021. 08. 06."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "In order to meet the requirements of sustainability and to determine yield drivers and limiting factors, it is now more likely that traditional yield modelling will be carried out using artificial intelligence (AI). The aim of this study was to predict maize yields using AI that uses spatio-temporal training data. The paper has advanced a new method of maize yield prediction, which is based on spatio-temporal data mining. To find the best solution, various models were used: counter-propagation artificial neural networks (CP-ANNs), XYfused Querynetworks (XY-Fs), supervised Kohonen networks (SKNs), neural networks with Rectangular Linear Activations (ReLU), extreme gradient boosting (XGBoost), support-vector machine (SVM), and different subsets of the independent variables in five vegetation periods. Input variables for modelling included: soil parameters (pH, P 2 O 5 , K 2 O, Zn, clay content, ECa, draught force, Cone index), micro-relief averages, and meteorological parameters for the 63 treatment units in a 15.3 ha research field. The best performing method (XGBoost) reached 92.1% and 95.3% accuracy on the training and the test sets. Additionally, a novel method was introduced to treat individual units in a lattice system. The lattice-based smoothing performed an additional increase in Area under the curve (AUC) to 97.5% over the individual predictions of the XGBoost model. The models were developed using 48 different subsets of variables to determine which variables consistently contributed to prediction accuracy. By comparing the resulting models, it was shown that the best regression model was Extreme Gradient Boosting Trees, with 92.1% accuracy (on the training set). In addition, the method calculates the influence of the spatial distribution of site-specific soil fertility on maize grain yields. This paper provides a new method of spatio-temporal data analyses, taking the most important influencing factors on maize yields into account.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "The current undesirable effects of agriculture (greenhouse gas emission, groundwater pollution or nitrification) on the biosphere cannot be reduced using traditional experiments (Longchamps et al., 2018). The gap between environmentally adverse impacts and the slowly expanding knowledge base is growing. Yield prediction is nowadays an essential research field, as it has an equally important point of reference for farm management during planning, agrotechnological intervention and preharvest processes. Farm and in-situ observations together with existing databases provide the opportunity to not only predict yields using \"simpler\" statistical methods or decision support systems that are already used as an extension, but they also enable the potential for machine learning (ML) to be used. The latter has the advantage of being able to handle many parameters indefinitely in time and space, i.e., big data databases created using precision management tools and data collection capabilities can be used mostly in the area of meteorological, technological or soilrelated information, including characteristics of different plant species.",
+          "table": []
+        },
+        {
+          "text": "One viable solution for this problem is site-specific data collection, i.e., obtaining as much information about events as possible during the vegetation period, as it is possible to determine the processes and their causes, and to find solutions to prevent negative effects on the environment after precise intervention. This approach will result in a controlled, monitored environment in space and time. Furthermore, it also paves the way for a new decision support system that will be much more complex than currently used systems. In earlier studies (Nyéki et al., 2013(Nyéki et al., , 2017)), it was concluded that increasing input data for plant physiological models could increase the accuracy of prediction only to a limited extent. Consequently, there has to be a change in scientific methods and the potential of big data needs to be better exploited than before, which will result in the need to use artificial intelligence (AI), particularly ML methods.",
+          "table": []
+        },
+        {
+          "text": "Therefore, one of the requirements of precision farming and crop production is to use on-line and on-the-go systems that are capable of logging a large amount of data and soil parameters in a relatively short period of time. This representative data collection results in mean cost-effectiveness, but it could also refine current knowledge by analysing the data, and repeating measurements. Vis-NIR spectroscopy can be used to determine soil moisture content, pH and soil organic matter content (Mouazen et al., 2007). Furthermore the total nitrogen content, the total carbon content, magnesium, calcium, cation exchange capacity and the available phosphorus content determination tests have been performed successfully in Europe (Mouazen et al., 2009). Looking into the sources of data used to make deep learning models, mainly large data sets of images are used; in some cases, they contain thousands of images (Dyrmann et al., 2016;Mohanty et al., 2016). In general, the more complicated the problem to be solved, the more data is required (Kamilaris & Prenafeta-Boldú, 2018).",
+          "table": []
+        },
+        {
+          "text": "The most successful yield prediction ML techniques have been artificial neural networks (Fortin et al., 2011;Liu et al., 2001;Safa et al., 2004), support vector machines (Ruß, 2009), M5-Prime Regression Trees (Frausto-Solis et al., 2009;Ruß & Kruse, 2010;Wang & Witten, 1997) and k-nearest neighbour methods (Zhang et al., 2010). Cao et al. (2013) calculated the influence of the spatial distribution of adjacent-area soil fertility on maize yields by using neural networks.",
+          "table": []
+        },
+        {
+          "text": "AI is used by an increasing number of researchers to model a wide range of tasks in agriculture. According to the available technical literature sources, various methods are used for precision agriculture decision support. There are a large number of studies focusing on the relationship between soil properties and yield (Miao et al., 2006;Mike-Hegedűs, 2006). CP-ANN, SKN and XY-F models were utilized with high resolution data on soil and crop with isofrequency classes of wheat yield productivity (Pantazi et al., 2016). The best results were obtained from the SKN network for prediction of the low category of wheat yield with a correct classification reached 91.3% for both cross and independent validation. Climate effects have also been analysed by AI (Elgaali & Garcia, 2004;Iizumi et al., 2018).",
+          "table": []
+        },
+        {
+          "text": "The gradient boosting machine (GBM) is a very effective state-of-the-art ML method ML (Chen & Guestrin, 2016;Friedman, 2001). XGBoost has been used to determine rice yields using weather data, cultivation data and location information (Maeda et al., 2018). The best accuracy was estimated to be 74.4%. Laacouri et al. (2018) assessed maize nitrogen deficiency levels comparing ML and vegetation indices. Hyperspectral images were collected using a hexacopter UAV platform. Eight ML algorithms were compared for their accuracy, among other gradient boosting models. The authors concluded that hyperspectral imagery combined with ML improved the assessment of maize N stress status at the V5 growth stage (Abendroth et al., 2011), and achieved more than 90% classification accuracy when the entire spectrum was mined. GBM achieved an overall classification accuracy of 89%. SVM, logistic regression (LR), Multi-Layer Perceptron (MLP) and GBM showed promising results. Folberth et al. (2019) explored two ML approaches: XGBoost and random forests. ML was trained on a global scale maize simulation of a GGCM (Global Gridded Crop Model). This method provided a very high accuracy (R 2 > 0.96) for predictions of maize yields, evapotranspiration and crop available water. ML algorithms were trained on a global scale maize yield simulation. Extreme gradient boosting showed moderately better results especially for inter-annual yield variability (Folberth et al., 2019). Fan et al. (2018) proposed two ML methods, SVM and XGBoost. Overall, the XGBoost model had comparable prediction accuracy with the SVM model to estimate daily solar radiation. Khanal et al. (2018) integrated high resolution remotely sensed data and ML techniques for spatial prediction of soil properties and maize yields. High spatial resolution (< 1 m) was used for the capturing of soil properties (SOM, CEC, K, Mg, and pH) and maize yields. The accuracies of seven statistical methods (LM-linear regression, RF-random forest, SVM with linear and radial kernel function, GBM, NN-neural network, and CUB-cubist) were compared for their ability to predict soil properties and maize yields. For pH and maize yield prediction, the GBM and the RF model performed better than other models. These analyses showed that the XGBoost ML seems to be a favourable method. However, XGBoost has not been applied to spatio-temporal maize yield prediction.",
+          "table": []
+        },
+        {
+          "text": "The aim of the study was to increase the accuracy of maize yield prediction. The above literature methods confirm that the XGBoost gives more accurate yield prediction than ANNs. However, further studies are needed to prove the advantages of the XGBoost method and to overcome the limitations of individual unit predictions. Among these, spatio-temporal studies may be highlighted, as conclusions can be drawn from several years of experiments in agronomy. The goal of this study was to improve a model that highlights decision making in crop production. This aim was achieved by applying ML methods comprising of soil data, meteorological data and satellite-based data.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Experimental site",
+      "div": [
+        {
+          "text": "Field experiments were carried out in a 23.52 ha experimental field (Fig. 1) belonging to Széchenyi István University in the vicinity of Mosonmagyaróvár, Hungary [47°54′20.00′′N; 17°15′10.00′′E]. The experimental field-with 63 management units (Mike-Hegedűs, 2006)-is an alluvial plain of the Leitha River on which precision agriculture has been applied since 2001. The soil textures according to the USDA (ND) 2020 indicated the soil types of loam, silty loam and sandy loam. The terrain has a slight slope of 5% with elevation varying between 133 and 138 m.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Data sources",
+      "div": [
+        {
+          "text": "Data from various sources were integrated into this research.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Crop and soil parameters affecting maize yield",
+      "div": [
+        {
+          "text": "Soil samples were collected from each management zone in order to be subjected to standard methods of laboratory analysis. Clay, silt, sand content (%), pH, phosphorous (P 2 O 5 ), potassium (K 2 O) and zinc (Zn) were measured.",
+          "table": []
+        },
+        {
+          "text": "The relative elevation (microrelief parameter, m) was determined by a Sokkia-Radian-IS GSR-2600 (Sokkia BV, Essebaan, The Netherlands) differential global navigation satellite system.",
+          "table": []
+        },
+        {
+          "text": "Crop and yield parameters were diagnosed in order to estimate crop characteristics. NDVI was calculated from satellite data by Landsat on 26 July 2006, 5 July 2010, 29 July 2013 and 9 August 2017. The satellite images were collected under high quality (maximum cloud coverage was under 5%) atmospheric conditions during the maize flowering period.",
+          "table": []
+        },
+        {
+          "text": "The apparent soil electrical conductivity (EC a ) was measured by a Veris Soil EC-3100 (Salina, KS, USA) instrument at two depths, shallow (less than 0.3 m below the surface) and deep (between 0.3 and 0.9 m below the surface). In total, data was collected from 63 management zones (~ 0.25 ha) of the research field, covering approximately 15 ha.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Meteorological data",
+      "div": [
+        {
+          "text": "Of the 35 meteorology features observed, the following five values were measured in each month from April to October during the vegetation period of maize: precipitation sum, average temperature, average relative precipitation, evapotranspiration, aridity index (evapotranspiration/precipitation). Monthly averages were estimated using daily databases including the sum of precipitation, average temperature, average relative precipitation, evapotranspiration and aridity index in each month. The observed field was 1.78 km from the weather station of the university.",
+          "table": []
+        },
+        {
+          "text": "On-the-go soil draft measurements were carried out by a self-developed system (Neményi et al., 2006). A conventional tillage system after cereal harvest consists of stubble tillage (~ 15 cm) using cultivator and tooth harrows, mouldboard ploughing (~ 20 cm) and disking in the end of summer, and tooth harrow to prepare seedbed for winter crops. Ploughing is applied for spring cereals in late fall and the same tillage system are prepared in spring for maize sowing. A Trimble AgGPS 542 RTK base system (Trimble Ltd., Sunnyvale, CA, USA) was used in order to find the correct position of the location of measurements. Yield data was measured with a Deutz Fahr grain harvester until 2010, which was equipped with an Agrocom ACT 260 (Class GmbH., Harsewinkel, Germany) yield sensor. From 2011, an AgLeader InCommand™ 1200 (AgLeader Technology Inc., Ames, IA, USA) yield mapping system was used, which was mounted on a CLAAS Medion 340 grain harvester. Impact based mass flow measurement was used on both machines. A sitespecific penetrometer measurement was carried out by means of a 3 T system (Szőllősi, 2003). The soil measurements were done at 20-25 points across the management units in the topsoil (upper 30 cm). All of the site-specific measurements were carried out before the maize vegetation seasons.",
+          "table": []
+        },
+        {
+          "text": "The obtained yield, electrical conductivity and soil draft measurements were averaged in each management zone.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Feature table for supervised machine learning/dataset definition",
+      "div": [
+        {
+          "text": "Prior to supervised ML, a feature table was created from the measured parameters (Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index). The dataset combined data from sources mentioned above.",
+          "table": [
+            "Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index."
+          ]
+        },
+        {
+          "text": "The feature table consists of 315 (63 × 5) rows for each treatment unit and year, and also 48 columns for each parameter (11 soil parameters, 35 meteorology parameters and one crop parameter) and maize yield. In summary, four types of parameters were used:",
+          "table": []
+        },
+        {
+          "text": "(i) Soil parameters measured over five years (2002, 2006, 2010, 2013 and 2017)",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Machine learning methods",
+      "div": [
+        {
+          "text": "Various ML methods were utilized in this research, including neural networks, tree ensembles and a kernel method to predict maize yields. Previous research and results were driven by the analysis and unknown correlations in the feature space as traditional neural networks and tree ensembles are more suitable for different problems. Self-organizing maps (SOM, Kohonen, 1982) were trained as an unsupervised latent representation method in a comparison to Pantazi et al. (2016). The results of low dimensional feature representation were used in a supervised manner as in Kohonen (2001) networks, where classification was trained with the maps. Additionally, two modified versions of self-organizing maps, counter-propagation artificial neural networks (CP-ANN, Gasteiger & Zupan, 1993) together with XY-fused networks (XY-F, Melssen et al., 2006), were used in a similar fashion but with a different structure. For more details, see Ballabio and Vasighi (2012). Additionally, fully connected deep networks with ANN were trained using rectangular linear units (ReLU, Montufar et al., 2014) as activations and the parameters were optimized with adaptive momentum (Kingma & Ba, 2015). In comparison to SOMs and ReLU networks, tree ensemble methods are less powerful as a function approximation while the smaller capacity helps in the case of small datasets or non-spatio-temporal structural variables. Tree ensembles build a set of \"weak\" classifiers from small, almost random decision trees. There are several methods to determine the set of decision trees and their importance e.g., random forest (Breiman, 2001), adaptive boosting (Freund & Schapire, 1997) or GBM (Friedman, 2001). A recent implementation of gradient boosted trees was used in the experiments because these outperform other methods. Additionally, the support vector machine (Cortes & Vapnik, 1995) models were trained with various kernel functions. As the current dataset describes a single site with 63 treatment units, the units are connected and therefore form a lattice. Besag (1974) suggested practical methods over botanical lattice systems, e.g., Plantago lanceolata, and showed that typical systems act as a Markov random field (MRF). The idea was examined based on the individual previously-performed predictions per unit by smoothing and predictions with the neighbouring predictions of the best methods (spatial smoothing) in a simple setup.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Prediction of maize yields",
+      "div": []
+    },
+    {
+      "title": "Cross-validation and train-test split",
+      "div": [
+        {
+          "text": "The structure of the dataset for model training and testing was defined. Before training, the feature table was split into two parts: a training set of 50 and a testing set of 13 randomly selected treatment units. 5 years of measurements were used and 250 training and 65 testing samples were obtained. The best parameters of the ML models were selected by a fivefold cross-validation method over the training set. The final models were trained on the entire training set and tested on the independent testing set. For experiments over the site structure, the units in the study site were split into three smaller sub-sites according to their position.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Binary classification",
+      "div": [
+        {
+          "text": "Maize yield values varied between 2.46 t/ha and 15.05 t/ha, and the upper limit of the first third of the lowest values of yield was 8.42 t/ha. The maize yield values obtained were divided into two classes: low yield (< = 8.42 t/ha) and medium-high yield (> 8.42 t/ha).",
+          "table": []
+        },
+        {
+          "text": "Several types of state-of-the-art supervised ML methods were used for classification: counter-propagation artificial neural networks (CP-ANNs), XY-fused networks (XY-Fs), supervised Kohonen networks (SKNs), extreme gradient boosting (XGBoost) and support-vector machine (SVM). CP-ANNs, SKNs and XY-Fs are supervised neural networks derived from hierarchical self-organizing maps (SOMs) (Ballabio et al., 2012), and have been used for wheat yield prediction in a recent study (Pantazi et al., 2016). XGBoost is an efficient implementation of the GBM (Friedman, 2001). XGBoost has been applied successfully in a wide variety of classification problems (Chen & Guestrin, 2016). The raw predictions by the best XGBoost model were used for spatial smoothing and were trained on a sub-site. The best neighbourhood model was determined on a separate site.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Evaluation measures for binary classification",
+      "div": [
+        {
+          "text": "Sensitivity, specificity, accuracy and ROC AUC (area under the receiver operating characteristic curve) were calculated to evaluate the classification models. Sensitivity means the proportion of actual positives (low yield samples) and specificity means the proportion of actual negatives (middle-high yield samples). Accuracy is the proportion of the total number of samples that are correctly identified. The ROC curve is defined by the point pairs of true positive rates (sensitivity) and false positive rates (1-specificity) at different threshold settings. The AUC can be interpreted as the probability of classifying a positive sample with higher confidence than a negative sample.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Regression",
+      "div": [
+        {
+          "text": "Additionally, regression methods were experimented with for continuous maize yield prediction. The main difference is the target variable, thus the same ML methods were applied as in binary classification without the underperforming SOM methods since, besides XGBoost, the best performing models were ReLU networks and SVM.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Evaluation measures for regression",
+      "div": [
+        {
+          "text": "Model performance was evaluated following Tan et al. ( 2016) using models with mean absolute error (MAE, the mean absolute difference between the predicted value and the ground truth), relative error (RE, the mean ratio of absolute error and the ground truth) and fraction of unexplained variance (FVU, the ratio of error deviation and target deviation).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Accuracy of yield prediction with supervised models",
+      "div": [
+        {
+          "text": "Four neural networks models (CP-ANN, XY-F, SKN, SVM) and a GBM (XGBoost) were trained on a feature table of 47 measurements of 63 treatment units in 5 years, resulting in 315 samples altogether. 50 randomly chosen treatment units (80%) were used for training and 13 for testing (20%). The statistics of the training and testing datasets are shown in Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index. Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index summarises the performance of linear regression models, showing the minimum, maximum, mean and standard deviation for each parameter for the training and the test datasets.",
+          "table": [
+            "Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index.",
+            "Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index."
+          ]
+        },
+        {
+          "text": "The distributions of features that influence maize yields are shown in Fig. 2 and the yield distribution by year in Fig. 3 in a boxplot.",
+          "table": []
+        },
+        {
+          "text": "Results of the predictions on the independent test dataset for the counter-propagation artificial neural network (CP-ANN), XY-fused networks (XY-Fs), supervised Kohonen network (SKN), extreme gradient machine (XGBoost) and support-vector machine (SVM), trained on the whole training set with the same parameter settings as described in the legend of Table2Accuracy, sensitivity, specificity and ROC AUC values were calculated Results of independent validation are shown in Table3for the same models. XGBoost reached the highest performance in 3 of the 4 evaluation measures in the validation set: 95.38% of accuracy, 91.3% of sensitivity, and 97.62 of specificity shows the results of the fivefold cross-validation to find the optimal parameters of CP-ANN, XY-F, SKN, XGBoost and SVM. Sensitivity, specificity, accuracy and ROC AUC were calculated to evaluate the classification models. Mean and standard deviation of each evaluation measure were generated by repeating the fivefold cross-validation ten times. XGBoost reached the highest performance in 3 of the 4 evaluation measures on the calibration set using cross-validations: 92.1% of accuracy, 87.9% of sensitivity, and 96.7%   Gradient boosted tree algorithms are capable of selecting the most important uncorrelated features by building small decision trees of a few of the most important features and gradually refining the small models by adding new trees (Kerepesi et al., 2018). The positive and negative influencing factors for maize yields were divided. In this study, NDVI was identified as the overall most important positive factor in every year. The following influencing parameters were K 2 O and soil electrical conductivity measurements (Veris N3).",
+          "table": [
+            "Results of the predictions on the independent test dataset for the counter-propagation artificial neural network (CP-ANN), XY-fused networks (XY-Fs), supervised Kohonen network (SKN), extreme gradient machine (XGBoost) and support-vector machine (SVM), trained on the whole training set with the same parameter settings as described in the legend of Table2Accuracy, sensitivity, specificity and ROC AUC values were calculated Results of independent validation are shown in Table3for the same models. XGBoost reached the highest performance in 3 of the 4 evaluation measures in the validation set: 95.38% of accuracy, 91.3% of sensitivity, and 97.62 of specificity."
+          ]
+        },
+        {
+          "text": "However, soil draught force had the second largest impact (negative correlation) on yields. The additional influencing variables, i.e., ECa (Veris N4), relative elevation, P 2 O 5 , Zn and pH (H 2 O) were, in general, negative for yields in every year.",
+          "table": []
+        },
+        {
+          "text": "Generally speaking, the XGBoost model yielded the minimum prediction errors and generated equitable results compared to the other four models.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Extreme gradient boosted trees",
+      "div": [
+        {
+          "text": "In this study, the classified low and moderately high maize yields were examined, based on the field results from 5 years: 315 data points, involving 250 training data.",
+          "table": []
+        },
+        {
+          "text": "Twelve gradient boosted models were trained on the feature set, defined in Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index. Each dataset was randomly divided into training and test sets. The training set consisted of 80% of the samples obtained. The performance of gradient boosted models can be seen in Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index. Various maximal depth and number of ensembles were used in this project. The least complex model, a single decision tree, reached 87% accuracy with a maximal depth of ten. The label \"mean ACC\" denotes the prediction accuracy of a yield. The order is set to mean ACC. Gradient boosted models achieved results between 92.2 and 87.2%, although the prediction model with 100 trees and a maximal depth of 2 performed best in this experiment.",
+          "table": [
+            "Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index.",
+            ""
+          ]
+        },
+        {
+          "text": "The decision to train eleven combinations was made mainly based on field experiments, database limitations and the test dataset, so the models (trees), parameters and analysis results are not necessarily optimal in other cases. For more details see Tan et al. (2016).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Important influencing factors on maize yields",
+      "div": [
+        {
+          "text": "Using the trees of the XGBoost model, it is possible to rank the features based on their position in the trees. Even a simple count of occurrence may yield a generously good ranking of the features but modern XGBoost implementations rank the features upon their positions in the trees too and, most importantly, based on how their split gained better separation, (for more details see Chen & Guestrin, 2016). 13 influencing factors were selected (Fig. 4) as the additional features had low score in the ranking list. Over  5 years, precipitation in May was identified as the most important influencing factor for yields. Other important factors among the top five included pH, clay content of soil, electrical conductivity in upper layer and normalized difference vegetation index. Thus, yields were strongly affected by both soil physical properties and pH. These parameters have similar results to electrical conductivity in this field, as well. The potassium content in soil was the sixth most important factor. Soil Zn content, relative elevation and amount of precipitation in June (Effect of spatial smoothingThe results show increased results on both XGBoost and SVM) were also important for grain yields. Miao et al. (2006) also found that the relative elevation and Zn content have significant effect on maize yields. Since the amount of precipitation in May was identified as the most important influencing factor, it is necessary to compare the different meteorological parameters during the different vegetation seasons. The \"Sum_precipitation_V\" indicates the water demand in the juvenile phase in maize vegetation.",
+          "table": [
+            "Effect of spatial smoothingThe results show increased results on both XGBoost and SVM"
+          ]
+        },
+        {
+          "text": "Figure 5 shows the site-specific maize yield distribution in management zones over the 5 years examined. The maps show similar patterns in different years, where low yield values appeared in the middle part of the field. In this part, the sand content of the soil is higher than in other treatment units.  In 2002, the growing season (April-October) was very dry, having 358 mm rainfall (Effect of spatial smoothingThe results show increased results on both XGBoost and SVM). In 2017, rainfall was lower than normal. These results show the Run 0 booster model results. If the precipitation in May is relatively low (under 58 mm) and the management zone has lower clay content (< 14.65%), the model predicts a lower yield.",
+          "table": [
+            "Effect of spatial smoothingThe results show increased results on both XGBoost and SVM"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Experiments with important features",
+      "div": [
+        {
+          "text": "From the trees of the XGBoost model, analysis can identify a subset of the original feature space, the features of which were selected by any of the trees (\"important\" features) in the model without changing the output. The \"important\" features were selected and experimented on using ReLU networks and SVM because the new feature space is more likely to be less noisy than a vector space due to the tree building method in XGBoost. The new ReLU networks and SVM models were trained in the new feature space and evaluated the models in the independent test set. In Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31 the results suggest that there were some features which were not selected by XGBoost but it was necessary for SVM; however ReLU results stayed generally the same, as shown in Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31.",
+          "table": [
+            "Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31",
+            "Statistical values of twelve models"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Spatial smoothing",
+      "div": [
+        {
+          "text": "The study site was split into three separate sub-sites to measure the correlation between adjacent sites and form a lattice system similar to Besag (1974). Treatment units 1-31 were used for training and treatment units 32-45 for validation, and units 46-63 for test sets (see Fig. 1). The prior models, XGBoost (100 trees with a maximal depth of 2) and SVM (radial basis function, RBF) kernel with a cost of 32 over standard, power and l2 normalized features (Daróczy et al., 2015) with the best parameters and normalization, were trained over the training set, while the best linear combination of adjacent unit confidence scores was determined for a single unit based on the validation set and evaluated the findings on the test units. It is worth mentioning that as the training set is a significantly smaller set of treatment units than in previous experiments, the baseline results for XGBoost and SVM were lower in the test set in Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31. Since the only aspect was how adjacent predictions can be used to smooth predictions of individual units, the results show measurable gain over the performance of individual models. Interestingly, the best linear combination was a simple addition with a uniform 0.1 weight for the confidence score of neighbouring units (see Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31).",
+          "table": [
+            "Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Continuous maize yield prediction",
+      "div": [
+        {
+          "text": "In the previous section, various ML methods were tested in a binary, above threshold, maize yield setting. This section investigated further on how linear regression and the best performing methods [XGBoost and SVM or as usually referenced support vector regression (SVR)] and the spatial smoothing performed in the case of actual yield prediction in comparison to classification. Since, the problem can be treated as a traditional regression problem where the model output is continuous and the models were evaluated with MAE, relative error (RE, the mean ratio of absolute error and the ground truth) and FVU. It is worth mentioning that outliers and subset errors may shift these measures.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "The aim of this study Querywas to compare different models and to develop a model that predicts maize yield according to a spatio-temporal database. The dataset captured weather features, soil parameters and a crop vegetation index. Five ML analysis methods, namely, CP-ANN, XY-F, SKN, XGBoost and SVM were presented. ML was applied to adapt to site-specific data on soil and crop with two classifications of maize yields. In this paper, site-specific maize yields in different years were presented with the yield prediction model. CP-ANN, XY-F, SKN, XGBoost and SVM were used to define the ML models between the maize yield and the influencing factors of yield. The results obtained showed that XGBoost was the best prediction method (in terms of accuracy). The prediction accuracy obtained on the test set was 95.38% for accuracy, 91.3% for sensitivity and 97.62% for specificity. The results obtained showed that XGBoost was very effective in medium-high maize yield prediction. In addition, the XGBoost model was improved at different levels (amount of trees and leaves). The validation results of this study demonstrated that the proposed ML method of the XGBoost model could accurately estimate the spatio-temporal distribution of maize yields by combining soil parameters and environmental variables. Contrary to the available research papers and simulations about XGBoost, this study provided a new predicting method for sitespecific maize yield changes in the field. Additionally, a simple method was suggested to increase the quality of the individual unit predictions by smoothing the confidence scores based on the position of the units. In order to adopt the effect of weather information, soil and others parameters, these variables were ranked for prediction accuracy.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"Descriptive statistics of the selected soil and crop parameters and the maize yields for the training (80% of samples) and test datasets (20% of samples) Non-yearly-changing soil parameters [clay content (%), relative elevation (m) measured over one year (2010) but used in every year]; (iv) Out of the 35 meteorology features observed, the following six values were measured in each month from April to October during the growing season of maize: sum of precipitation, average temperature, average relative precipitation, vaporization, evapotranspiration, aridity index.\", \"head\": [\"\", \"CV\", \"0.31\", \"0.01\", \"0.02\", \"0.23\", \"0.62\", \"0.19\", \"0.26\", \"0.38\", \"0\", \"0.3\", \"0.48\", \"0.43\", \"0.24\", \"\"], \"value\": [[\"\", \"SD\", \"2.84\", \"0.06\", \"0.14\", \"57.84\", \"91.4\", \"0.57\", \"3.45\", \"1.31\", \"0.36\", \"0.14\", \"6.18\", \"7.17\", \"10.55\", \"\"], [\"Test dataset (n = 65)\", \"SD CV Min Max Mean\", \"2.62 0.28 2.46 15.05 9.23\", \"0.04 0.01 7.7 7.93 7.78\", \"0.14 0.02 7.14 7.71 7.4\", \"55.67 0.24 151 380 250.95\", \"102.06 0.67 60.1 400 148.6\", \"0.66 0.23 1.74 4.1 2.95\", \"3.07 0.23 7.9 18.4 13.14\", \"0.72 0.23 1.9 6.12 3.4\", \"0.34 0 121.96 123.11 122.62\", \"0.14 0.31 0.22 0.68 0.46\", \"6.58 0.49 5.51 26.6 12.82\", \"6.81 0.4 6.94 33.26 16.58\", \"6.85 0.15 22.47 58.38 43.88\", \"coefficient of variation (the ratio of the standard deviation to the mean)\"], [\"Training dataset (n = 250)\", \"Min Max Mean\", \"3.25 15 9.39\", \"7.62 7.82 7.75\", \"7.09 7.83 7.39\", \"123 415 234.24\", \"22.6 518 153.05\", \"1.21 4.7 2.91\", \"8.4 21 13.28\", \"1.52 4.72 3.1\", \"122.18 123.6 122.74\", \"0.2 0.69 0.45\", \"5.5 39.12 13.37\", \"7.16 37.83 17.06\", \"30.27 58.74 44.88\", \"mean (average), SD standard deviation, CV\"], [\"Years\", \"\", \"Maize yield (t/ha) 5\", \"pH (water) 1\", \"pH (KCl) 5\", \"P2O5 (mg/kg) 5\", \"K2O (mg/kg) 5\", \"Zn (mg/kg) 5\", \"Clay content % 5\", \"Draught force (kN) 1\", \"Relative elevation (m) 5\", \"NDVI 4\", \"VERIS N3 3\", \"VERIS N4 3\", \"Cone index (MPa) 1\", \"Min minimum, Max maximum, Mean\"]]}",
+    "{\"title\": \"Results of the predictions on the independent test dataset for the counter-propagation artificial neural network (CP-ANN), XY-fused networks (XY-Fs), supervised Kohonen network (SKN), extreme gradient machine (XGBoost) and support-vector machine (SVM), trained on the whole training set with the same parameter settings as described in the legend of Table2Accuracy, sensitivity, specificity and ROC AUC values were calculated Results of independent validation are shown in Table3for the same models. XGBoost reached the highest performance in 3 of the 4 evaluation measures in the validation set: 95.38% of accuracy, 91.3% of sensitivity, and 97.62 of specificity.\", \"head\": [\"\", \"Exps\", \"Accuracy\", \"\", \"Sensitivity\", \"Specificity\", \"ROC AUC\"], \"value\": [[\"\", \"\", \"Mean\", \"SD\", \"Mean\", \"SD\", \"Mean\", \"SD\", \"Mean\", \"SD\"], [\"CP-ANN\", \"10\", \"0.9076\", \"0.0097\", \"0.8159\", \"0.0272\", \"0.9524\", \"0.0097\", \"NA\", \"NA\"], [\"XY-F\", \"10\", \"0.916\", \"0.0078\", \"0.8549\", \"0.0272\", \"0.9458\", \"0.0082\", \"NA\", \"NA\"], [\"SKN\", \"10\", \"0.9144\", \"0.0091\", \"0.8634\", \"0.0138\", \"0.9393\", \"0.0115\", \"NA\", \"NA\"], [\"ReLU\", \"10\", \"0.9001\", \"0.0162\", \"0.9495\", \"0.0137\", \"0.6452\", \"0.0439\", \"0.8785\", \"0.0156\"], [\"XGBoost\", \"10\", \"0.921\", \"0.007\", \"0.879\", \"0.016\", \"0.941\", \"0.007\", \"0.967\", \"0.008\"], [\"SVM\", \"10\", \"0.9001\", \"0.0065\", \"0.8595\", \"0.0205\", \"0.9205\", \"0.0079\", \"0.9405\", \"0.0060\"], [\"\", \"\", \"Accuracy\", \"\", \"Sensitivity\", \"\", \"Specificity\", \"ROC AUC\"], [\"CP-ANN\", \"\", \"0.8923\", \"\", \"0.8261\", \"\", \"0.9286\", \"\", \"NA\", \"\"], [\"XY-F\", \"\", \"0.8615\", \"\", \"0.7826\", \"\", \"0.9048\", \"\", \"NA\", \"\"], [\"SKN\", \"\", \"0.8923\", \"\", \"0.8261\", \"\", \"0.9286\", \"\", \"NA\", \"\"], [\"ReLU\", \"\", \"0.8951\", \"\", \"0.9762\", \"\", \"0.7794\", \"\", \"0.9398\"], [\"XGBoost\", \"\", \"0.9538\", \"\", \"0.9130\", \"\", \"0.9762\", \"\", \"0.9829\"], [\"SVM\", \"\", \"0.9538\", \"\", \"0.9565\", \"\", \"0.9524\", \"\", \"0.9917\"]]}",
+    "{\"title\": \"Statistical values of twelve models\", \"head\": [\"Number of\", \"trees\"], \"value\": []}",
+    "{\"title\": \"\", \"head\": [\"Experiments on \\\"important\\\" features (imp. Feat.)\", \"Accuracy Sensitivity Specificity ROC AUC\"], \"value\": [[\"selected by XGBoost\", \"ReLU with imp. feat 0.9024\", \"0.9737\", \"0.8007\", \"0.9340\"], [\"\", \"SVM with imp. feat 0.9451\", \"0.9793\", \"0.8529\", \"0.9451\"]]}",
+    "{\"title\": \"Effect of spatial smoothingThe results show increased results on both XGBoost and SVM\", \"head\": [\"\", \"Accuracy\", \"Sensitivity\", \"Specificity\", \"ROC AUC\"], \"value\": [[\"XGBoost\", \"0.8533\", \"0.9828\", \"0.6216\", \"0.9235\"], [\"SVM\", \"0.9263\", \"0.9828\", \"0.8378\", \"0.9101\"], [\"Spatial smooth. + XGB\", \"0.9263\", \"0.9655\", \"0.8649\", \"0.9748\"], [\"Spatial smooth. + SVM\", \"0.8947\", \"0.9828\", \"0.7568\", \"0.9739\"]]}",
+    "{\"title\": \"Regression performance of XGBoost and SVM with and without spatial smoothing evaluated in management zones number 32-63The models were trained on the management zones number 0-31\", \"head\": [\"\", \"Mean absolute\", \"Relative error\", \"Fraction of\"], \"value\": [[\"\", \"error\", \"\", \"variance of unex-\"], [\"\", \"\", \"\", \"plained\"], [\"XGBoost\", \"1.0277\", \"0.1528\", \"0.3741\"], [\"Spatial smooth. + XGBopt. for MAE\", \"1.0277\", \"0.1528\", \"0.3741\"], [\"Opt. for RE\", \"1.0410\", \"0.1523\", \"0.3716\"], [\"Opt. for FVU\", \"1.1772\", \"0.1584\", \"0.3626\"], [\"SVR\", \"1.2168\", \"0.2044\", \"0.4094\"], [\"Spatial smooth. + SVR opt. for MAE\", \"1.2037\", \"0.1977\", \"0.3876\"], [\"Opt. for RE\", \"1.282\", \"0.1900\", \"0.3397\"], [\"Opt. for FVU\", \"1.425\", \"0.1945\", \"0.3227\"]]}"
+  ]
+}

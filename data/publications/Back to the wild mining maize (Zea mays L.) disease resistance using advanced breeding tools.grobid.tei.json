@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "title": "Back to the wild: mining maize (Zea mays L.) disease resistance using advanced breeding tools",
+    "author": "Shabir Wani Hussain Wani, Kajal Samantara, Ali Razzaq, Grihalakshmi Kakani, Pardeep Kumar",
+    "journal": "Springer Science and Business Media LLC",
+    "date": "2022. 01. 22."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Cultivated modern maize (Zea mays L.) originated through the continuous process of domestication from its wild progenitors. Today, maize is considered as the most important cereal crop which is extensively cultivated in all parts of the world. Maize shows remarkable genotypic and phenotypic diversity which makes it an ideal model species for crop genetic research. However, intensive breeding and artificial selection of desired agronomic traits greatly narrow down the genetic bases of maize. This reduction in genetic diversity among cultivated maize led to increase the chance of more attack of biotic stress as climate changes hampering the maize grain production globally. Maize germplasm requires to integrate both durable multiple-diseases and multiple insect-pathogen resistance through tapping the unexplored resources of maize landraces. Revisiting the landraces seed banks will provide effective opportunities to transfer the resistant genes into the modern cultivars. Here, we describe the maize domestication process and discuss the unique genes from wild progenitors which potentially can be utilized for disease resistant in maize. We also focus on the genetics and disease resistance mechanism of various genes against maize biotic stresses and then considered the different molecular breeding tools for gene transfer and advanced high resolution mapping for gene pyramiding in maize lines. At last, we provide an insight for targeting identified key genes through CRISPR/Cas9 genome editing system to enhance the maize resilience towards biotic stress.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "About 8700 years ago, maize is originated from the highlands of Mexico and now has become a widely grown crop globally . Among cereals, maize ranked first followed by wheat and rice with an annual production of over 1 billion tons . Maize is considered as one of the major crops to meet the food and energy requirements of increasing population . Production of high-yielding maize cultivars has always the main objective of breeding programs since the initiation of the maize domestication process from its ancestors/progenitors. Also, several types of maize varieties have been developed for particular uses, including sweet corn, popcorn, high-quality-protein corn, high-oil corn, 1 3 high-amylose corn, waxy corn and silage corn. The growing regions for these special types of maize have significantly expanded since the last century. For example, in 1900 the waxy corn was identified in China which is now cultivated on an area of ∼800000 hm 2 . Besides, in the United States, 40% of maize has been utilized for making ethanol for fuel purposes . These two reports show the huge demands for genetic diversity of maize breeding to cope with the challenges of twenty-first century which including climate changes and food security.",
+          "table": []
+        },
+        {
+          "text": "Most of recent breeding efforts have resulted in increased applications of pesticides and fertilizers to attain the high yield and rigorous domestication to develop climate resilient genotypes . As elite maize genotypes for improved yields are selected on the basis of several traits including their ability to mitigate abiotic/biotic stresses. So genetic diversity holds the key component to balance the trade-offs between desired traits and sustainable maize production .",
+          "table": []
+        },
+        {
+          "text": "However, loss of genetic diversity due to intensive selection of desired traits adversely affected the sustainability of maize breeding programs. It was reported that cultivated maize varieties hold 83% of allelic variation from their wild ancestors which is a considerably high rate than any other major crop , mainly because of its outcrossing nature. Even though, maize wild progenitors such as Zea mexicana, Tripsacum dactyloides, Zea diploperennisand Zea parviglumis commonly known as teosinte contain the unique genetic diversity for climate resilience that have been lost in cultivated maize genotypes during artificial selection . Therefore, cultivated germplasm of maize is highly susceptible to climate stresses due to narrow genetic bases and loss of resistant genes . Maize regions spread from latitude 40° to latitude 58° north, and crop is harvested almost 12 months of the year. Expectedly, maize is more prone to environmental stresses due to temperature fluctuations and uneven rainfall spells which led to the increase attack of pathogens including viruses, bacteria and fungi. These biotic stresses are more damaging and are historically significant as compared to abiotic stresses. As there have been many historical events reported when biotic stresses caused extremely destructive diseases which resulted in the complete failure of crop and led to famines in those countries. For example, maize lead blight is one of the historically significant diseases that has been reported in USA in 1970s . Some damaging diseases like northern leaf blight, rough dwarf disease and ear/stalk rot are the most prevalent and diseases and cause severe loss to maize grain production. Nearly 10% of maize crop is wasted worldwide because of biotic stresses . For example, northern leaf blight cause approximately 50% yield loss in the northern area of China , while in the USA, European corn borer damage about 2000 million dollars maize crop annually . There is a need to improve the genetic diversity of maize crop to make it more resilient towards biotic stresses. Among various stresses, biotic stress severely impacts upon plant lives and causes several variations at manifold levels of the organism. So, now one of major research focus is upon the plants adaptation towards the stress causing biological factors because these variations provides essential evidences about how the crop species do persist under such extreme stresses . For this, we need to explore the hidden treasures of genetic diversity in wild progenitors of maize. Substantial efforts have been carried out in the recent past to collect the diverse and exotic germplasm of maize around the globe. These seed banks contain a large number of landraces with rich sources of natural untapped genetic diversity that could be utilized in maize breeding programs . Such diversified allelic variation can be introduced into modern maize cultivars through different genomics approaches in order to fast-track crop improvement.",
+          "table": []
+        },
+        {
+          "text": "In this review, we give a brief overview of the maize domestication process involving the wild ancestors that could be the potential target for disease-resistant alleles. Then we provide a brief about some of the important maize diseases and its symptoms and then elaborated the genetic mechanism underlying the disease-resistant in maize. Then we showcase some molecular gene transfer approaches including marker assisted-selection and QTL mapping methods along with advanced QTL mapping strategies for detecting desirable resistance genes from maize landraces. We present some key resistant genes in landraces that can be harnessed to improve the disease in maize. Finally, we also give the perspective view about the potential use of CRISPR/ Cas9 mediated genome editing in maize for disease resistance and propose a future outlook.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Domestication and genetic diversity-CWR",
+      "div": [
+        {
+          "text": "The first domestication of maize (Zea mays subsp. mays) was started in Southern Mexico around 9000 years ago . Further, Zea mays subsp. parviglumis Iltis & Doebley also known as teosinte is the direct ancestor/progenitor of modern maize . Eventually, there were different hypothesis regarding the origin of modern maize. The theory given by  indicated that maize originated from Tripsacum, which is a maize-like plant and expected crossing partner. Another theory that modern maize originated through the crossing between Tripsacum and Zea diploperennis . , believed that cultivated maize originated from teosinte (Zea parviglumis) which was further confirmed through microsatellite markers by . Teosinte is a commonly used word for wild species of maize which represent all the taxa that include genus Zea except domesticated maize . It's having huge genetic and phenotypic diversity and is distributed from Chihuahua, Mexico, to western Nicaragua and Costa Rica . A total of nine taxa have been reported in genus Zea which were classified into two sections (Zea and Luxuriantes) and further these two sections involve six species . The section Luxuriantes includes perennial and diploid species Z. diploperennis and perennial with tetraploid species Z. perennis. The annuals-diploid species Z. luxurians, diploid species Z. nicaraguensis and Z. vespertilio. Other sections Zea involves one species only and having four subspecies, viz., the annual subsp. mexicana, subsp. parviglumis, subsp. huehuetenangensis and subsp. mays for cultivated maize . Tripsacum is another important genus of maize wild species which includes 24 different species and all are perennial with different ploidy (2n = 18-108) levels . Among the 24 species Tripsacum dactyloides is commonly used to generate the interspecific hybrids with maize . Harlan and de vet classify the species in different gene pools based on their crossability. All wild species of maize are classified into three gene pools based on their crossability with normal maize and depicted in Fig. 1.",
+          "table": []
+        },
+        {
+          "text": "There is a huge morphological difference between teosinte and cultivated maize at the morphological level. Teosinte having profuse tillering with many tassels and small ears while maize having a single stalk with one tassel and large cob . Further, small ears of teosinte having 10-12 kernels with hard seed coat and easily dispersed at maturity while modern maize cob bears around 500 kernels and attached to the central axis which are not easy to shed or dispersed . The various traits in teosinte make it unsuitable for cultivation and consumption and during the domestication process, various genetic modifications occurred in those traits to convert into modern maize for economic use, . Among these traits, two traits play an important role and are known as domesticated genes, viz., teosinte branched1 (tb1) and teosinte glume architecture1 (tga1). The tb1 gene is responsible for branches while tga1 for the hard protecting coat and both were lost in modern maize .",
+          "table": []
+        },
+        {
+          "text": "Crop wild relatives (CWRs) represent the primary and largest source of adaptive diversity in plant  breeding to incorporate genes for disease and pest resistance as well as abiotic stress tolerance . Further, continuous narrowing down the genetic base of modern maize is the major limiting factor for yield and resistance against diseases .",
+          "table": []
+        },
+        {
+          "text": "Hence, modern maize may be improved through the introgression of pre-domesticated alleles from maize wild relatives or teosinte [3,4,37,38]. Two wild relatives of maize namely teosinte and Tripsacum widely used to introgress the disease resistance into modern cultivated maize (List of important wild species as source of maize disease resistance). [39] mapped the qtls for fungal disease gray leaf spot in a NILs population developed through Zea parviglumis and B73 crossing, and then using the same population [40], identified Qgls8 qtl for gray leaf spot at a ~ 130 kb region on chromosome 8. Similarly, maize × Zea diploperennis cross generated lines having a wild genome segment confirmed the resistance for northern and southern corn blight [41]. Further, Zea diploperennis may serve the resistance source of various viral diseases like maize chlorotic dwarf virus, maize chlorotic mottle virus and maize streak virus [42]. Tripsacum also providing the important disease resistance for common rust [43] and northern corn blight [8,44], also used the genetic diversity of teosinte to increase maize yield. There is still more untouched genetic diversity available in wild species that can contribute to enhancing the disease resistance but modern tools like molecular markers, genomic selection, genome sequencing and genome editing should integrate [45] to diversify modern maize for food security. Joshi and colleagues used teosinte maize species to develop backcross inbred lines and mapped novel genomic regions/QTLs on chromosome 1 and 3 which provide resistance against red floor beetle [46]. Introgressed maize lines derived from Tripsacum were found to be source of resistant genes against maize weevil [47]. Shaibu et al. [48] developed maize inbred lines from the maize wild relative (Zea diploperennis) and identified several wild genes/alleles for resistance against Striga hermonthica and can be a promising source for maize improvement [48]. Wild maize relatives were used to develop near isogenic lines to identify superior lines for gray leaf spot. Phenotypic analysis led to the selection of most of the resistant lines derived from Zea maxicana [49]. Recently, Teosinte-derived maize population analyzed using QTL mapping approach and identified one novel QTL on chromosome 5 and 4 minor QTLs that provide resistance against banded leaf and sheath blight [50].",
+          "table": [
+            "List of important wild species as source of maize disease resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Significant maize diseases, their causal organism and symptoms",
+      "div": []
+    },
+    {
+      "title": "Northern corn leaf blight (NCLB)",
+      "div": [
+        {
+          "text": "In maize Northern corn leaf blight (NCLB) is referred as the most destructive foliar disease and the causal organism responsible for this disease is a hemibiotrophic ascomycete fungus Exserohilum turcicum (teleomorph Setosphaeria turcica) .Initially this pathogen disseminates biotrophically and then shifts into a necrotrophic culture. At the infection stage local lesions and necrosis are formed due to which the active photosynthetic leaf area gets reduced. Climatic conditions possessing higher humid along with moderate temperature is conducive for the disease prevalence  and .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Southern corn leaf blight (SCLB)",
+      "div": [
+        {
+          "text": "The causative factor of SCLB Cochliobolus heterostrophus and is otherwise known as Bipolaris maydis (ascomycetes) is a necrotroph and causes foliar disease of maizeand becomes most catastrophic in hot and humid tropical and temperate regions worldwide . B. maydis has several races viz., Race T, Race O and Race C. Being saprophyte Race O is most successful and is predominantly occurs at global level . Based on disease incidence Race T comes second  while Race C has merely been recorded in China  and . Due to attack of Race O, tan colored lesions with brown borders are formed. Initialy they appear as small diamond shaped lesion and lengthen across the vein to turnlarger and rectangular.Race T creates lesions of tan with yellow-green or chlorotic halos along with red to dark brown borders of elliptical to spindle shape. Lesions formed through Race C pathogens are necrotic as well they also tend to induce wilt (CIMMYT 2012).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Gray leaf spot (GLS)",
+      "div": [
+        {
+          "text": "Gray leaf spot (GLS) of maize is a foliar disease arises by the polycyclic pathogens Cercospora zeae-maydis and Cercospora zeina  and it infects and grows predominantly in moist, humid, and warm climates. The symptom initiates with small, dark, moist spots surrounded by a thin yellow lesions. Though in the beginning they appear as brownish to yellow in color but later on due to grey fungal spores, the characteristic grey color appears . During infection these pathogens secrets a light activated plant toxin named cercosporin. After getting activated upon light these toxins reacts with oxygen to elicit single oxygen radicals  which affects the lipids, proteins and nucleic acids of the affected plant cell and feeds upon the nutrients released during the cell destruction and death.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Head smut",
+      "div": [
+        {
+          "text": "Sphacelotheca reiliana (Ku¨hn) Clint (S. reiliana) is a systemic fungus which is responsible for causing head smut of maize . This fungus is soil-borne in nature and spread through infected seeds. It invades at seedling stage and via vegetative stage grows up to flowering period and shows prominent symptoms by switching into reproductive sporulation and forms black sori that replace the infected inflorescence. This infection may as well induce ear and tassel phyllody and stunting .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Maize ear/stalk rot",
+      "div": [
+        {
+          "text": "A plant pathogenic fungus Stenocarpella maydisbelongs to the family Diaporthaceae is the causal organism responsible for ear/stalk rot in Maize. It causes mycelial growth on corn ears that typically starts at the base of the ear and then it give rise to lightweight mummified ears attributed to the release of extracellular hydrolytic activities of acid protease, xylanases, and cellulases. When stalk is getting infected the injury to the vascular system interrupts translocation and hence diminish the grain size.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Genetics of disease resistance in maize",
+      "div": [
+        {
+          "text": "Diseases caused by pathogens cause a significant reduction in the maize crop yields and, grain produced is of inferior quality. Breeding methods aim at incorporating Multiple Disease Resistance (MDR) in a single locus . Disease resistance in plants is broadly classified into two types. Quantitative Disease Resistance (QDR), which is controlled by several genes, non-specific, and has a very minimal effect , and Qualitative disease resistance is facilitated by very few specific genes referred to as R genes . Loci associated with variation in the quantitative traits are referred to as Quantitative Trait Loci (QTL), and QDR, in general, is considered to provide resistance for a long duration .",
+          "table": []
+        },
+        {
+          "text": "The Ht genes are generally known to confer qualitative resistance that is race specific, dominant, and inherited by single genes. The expression of Ht genes is dependent on the environmental conditions with intensity of the light and temperature generating short durable resistance that is unstable . Qualitative resistance typically confers higher level of resistance in presence of avirulent races in the fungal population, and Ht genes in presence of virulent strains become ineffective. In contrast, dQTL's (quantitative disease resistance loci) confer resistance with low effects and usually not affected by the evolution of new pathogen .",
+          "table": []
+        },
+        {
+          "text": "Linkage mapping is generally used for understanding polygenic forms of resistance to disease [74]. Several QTL studies have indicated definite chromosomal sites on chromosomal bins 1.03-06, 4.04-06, 5.04-07, 8.02-03, 8.05-06, and 9.02-04 for Northern Corn Leaf Blight (NCLB). Resistance to multiple foliar diseases, NCLB, Southern Leaf Blight (SLB), and Gray Leaf Spot (GLS) are identified by multiple QTL studies (mQTL), and are located on 3.04-08, 5.04-07, 8.05-06 bins [58,[75][76][77]. Chromosome bin 8.05/8.06 with genes Ht2, and Htn1 is found to be an important region conferring resistance to GLS, common smut, and common rust diseases [78]. Significant Single Nucleotide Polymorphism (SNPs) on chromosomes 2.5.6. and 7 were identified for NCLB resistance, and about 208 SNPs related to NCLB resistance are associated with 10 chromosomes along with 29 QTLs with multiple loci [73]. An important QTL conferring resistance to maize streak disease is located on chromosome 1 and about 19 SNPs are identified in between 82 and 93 Mb region on chromosome 1. The SNPs associated are Snp ZM0020-PZE-101093951, SnpZM0021-PZE-0186065237, and SnpZM0021-PZE0186365075 [79] (See Bin locations on the maize chromosome for disease resistance genes/QTL Locations on the bin are represented by an X.Y code, where X is the linkage group containing the bin and Y is the bin location Ref: Genomic organization of disease and insect resistance genes in maize, Mc Mullen, 1995).",
+          "table": [
+            "Bin locations on the maize chromosome for disease resistance genes/QTL Locations on the bin are represented by an X.Y code, where X is the linkage group containing the bin and Y is the bin location Ref: Genomic organization of disease and insect resistance genes in maize, Mc Mullen, 1995"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Genes/QTLs cloned for disease resistance",
+      "div": [
+        {
+          "text": "The first dominant disease resistance gene in plants identified in maize is Hm1, located on chromosome 1 associated with conferring resistance to leaf blight, and ear mold caused by Cochliobolus carbonum race 1 (CCR1; . The rp1 complex located on chromosome 10 has 14 genes (Rp1-A to Rp1-N) resistant to specific races of common rust (P. sorghi) . The gene, Rp1-D was isolated from a haploid consisting of a cluster of nine homologous genes . Another complex that confers resistance to P. sorghi is rp3, with six alleles (Rp3-A to Rp3-F) mapped on chromosome 3  in this complex. The locus qHSR1 present on chromosome 2 confers resistance to head smut caused by Sphacelotheca reiliana . It consists of the gene ZmWAK that encodes for a protein, and contains a domain similar to that of wallassociated kinase (WAK). The locus Htn1 introgressed from Peptilla (Mexican land race) and mapped on chromosome 8 is associated with conferring resistance to Nothern Leaf Blight (NLB) races . This locus consists of three important genes, ZmWAK-RLK1, ZmWAK-RLK2 (these genes encode for receptor like kinases), and ZmWAK-RLP1 (wall associated receptor like protein).",
+          "table": []
+        },
+        {
+          "text": "Two genes Scmv1, Scmv2, on chromosomes 6S and 3L were associated with conferring resistance to sugarcane mosaic virus (SCMV) [84,85]. The region Scmv1 had one gene ZmTrxh, encoding for atypical h-type thioredoxin [86]. ZmTrxh is unique to maize, dispersed in the cytoplasm with a sturdy molecular chaperone activity subduing the viral build-up in the cytoplasm without stimulating the SA or JA mediated responses [87]. The locus Rcg1, a key QR locus is associated with the resistance to anthracnose stalk rot caused by Colletotrichum graminicola [88]. An inbred line MP305 was highly resistant to the fungus [89]. The disease resistance genes are given in Genes (cloned/implicated) associated with disease resistance in maize.",
+          "table": [
+            "Genes (cloned/implicated) associated with disease resistance in maize"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Disease resistance mechanisms",
+      "div": [
+        {
+          "text": "Resistance response in plants is classified into-QDR that confers partial immunity to diseases, and R proteins (qualitative resistance) conferring complete resistance. The molecules released by the microbes (elicitors), and the response of the host receptors is recognized as \"microbial triggered immunity\" (MTI). The R proteins together with MIT interact, wherein the elicitor molecules released by the microbes such as flagellin (microbe associated molecular patterns (MAMPS) are recognized by the receptors on the host (pattern recognition receptors PRR) at the surface of the cell, initiating a cell signaling process conferring a weak resistance . The \"effector triggered immunity\" (ETI) includes R proteins (effectors) belonging to a class of Nucleotide Binding Site Leucine Rich Receptors (NBS-LRRS) that confer resistance to specific pathogens by initiating a hypersensitive response (HR)  causing localized cell death. Several compounds associated with the plant resistance are produced by phenylpropanoid pathway. The HR response is related with the generation of lignin or other phenolic compounds that are involved in the phenylpropanoid pathway . Lignin is a hetero polymer that is primarily threedimensional derived by the polymerization of H, S, and G monolignols with H 2 O 2 . Genes encoding for enzymes hydroxylcinnammoyltransferase (HCT), and caffeoyl CoA O-methyltransferase (CCoAOMT) are involved in the lignin biosynthesis and are primarily associated with the differences in the intensity of HR response in nucleotide binding leucine repeat (NLR-Rp1-D) (NLR allele conferring resistance to rust) .",
+          "table": []
+        },
+        {
+          "text": "The C-terminal of the protein contains the LRR domain, and this class of genes have a leucine zipper at the N-terminal . Genes conferring resistance to P. sorghi cluster on chromosome 10, and this segment contains the disease resistance locus rp1. About 14 dominant genes mapped in this locus provide for biotype-specific resistance . The recombination of flanking markers at this locus are associated with resistance phenotypes . Hm1 locus with resistance genes is related to the resistance to C. carbonum and acts by inactivating the HC toxin . However, other resistant R genes are known to confer resistance by signal transduction proteins (Ellis 1998).",
+          "table": []
+        },
+        {
+          "text": "The fungal diseases (SLB, GLS, and NLB) are foliar diseases, and resistance to these diseases is primarily due to MDR QTL. The QTL qMdr 9.02 on chromosome 9 is known to confer resistance and, the gene ZmCCoAOMT2 is responsible for resistance at qMdr 9.02. . This qMdr 9.02 consists of  . The ZmC-CoAOMT2 is thought to function downstream and appears to be involved in lignin biosynthesis. Metabolites produced in the lipoxygenase pathway referred to as oxylipins, confer resistance as hormone signals or act as antimicrobials . The enzyme CCoAOMT is essential for lignin biosynthesis, is a primary component of the cell wall and associated with disease resistance. The expression of ZmCCoAOMT2 is induced after the pathogen attack on the host, and the allele conferring resistance expresses early compared to the susceptible allele. ZmCCoAOMT2 mRNA accumulation is associated with the 3′-UTR variation (regulates mRNA stability), and significant increase of lignin and lignin precursor coniferin, in resistant varieties. ZmCCoAOMT2 suppresses HR (a process that confers resistance to biotrophic pathogens) and favours the growth of necrotrophic pathogens.",
+          "table": []
+        },
+        {
+          "text": "Other molecular pathways causing cell death may confer resistance to necrotrophic pathogens, especially those causing SLB and GLS. Other genes associated with qMdr 9.02 (ZmFBXL, ZmRLK, ZmPIF) are also associated with conferring resistance based on their location in the locus. Previous research suggests that resistance is associated with variation in the alleles both at the levels of gene expression and in the sequence of the amino acids resulting in the differences in the lignin and other metabolite levels in the phenylpropanoid pathway and the regulation of the programmed cell death. The locus may also confer resistance to other diseases .",
+          "table": []
+        },
+        {
+          "text": "The bacterial pathogen Pantoea stewartii causes Stewart's wilt leaf blight in maize and WtsE is a type III effector secreted by the pathogen. The effector molecules cause cell death of the leaves, and in the process elicit several pathways, including the expression of the genes associated with the phenylpropanoid pathway and increased accumulation of coumaroyl tyramine . Rp1-D21 induced expression of the majority of the genes involved in the lignin biosynthesis pathway resulting in increased production of the metabolites (p-coumaroyl quinate, and p-coumaroyl shikimate). The phenylpropanoid and lignin synthesis pathways have an essential role in Rp1-D21 mediated HR and disease resistance . Several genes and mechanisms underly the resistance conferred by QDR. Genes controlling QDR include kinases, transporters, metabolic enzymes, and altered NBS-LRR's. Further research is warranted for a better understanding of the genes involved in QTL, and this requires the production of near-isogenic lines (NIL) for resolving mechanisms associated with disease resistance.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conventional and molecular gene transfer technologies in maize",
+      "div": [
+        {
+          "text": "Most of the desirable traits including disease pest resistance genes are polygenic and are under the major influence of genotype × environment (G × E) interactions and hence exhibit a complex genetic inheritance . Admittedly, the key source of resistance alleles are the innate genetic variation found in the wilder species but a vast portion of which is still uncovered. The foremost aim of resistance breeding is to utilize conventional or advanced breeding techniques to derive stress resistant or tolerant cultivars. The exploration of efficient resources for resistance or tolerance towards adverse stress factors facilitates the immune culture development . Resistant plants can be obtained through resistance gene pyramiding from various sources viz., wild relatives, local races and land races etc. and permits for a comprehensive resistance to several biotic stress factors. Most of the stress breeding approaches are based on single gene stacking which is capable of overcoming by new pathogen races and hence sustains for only a short while . Therefore, now emphasize is putting onto stacking multiple effective genes from different sources into a single cultivar to make it durable and stable against the novel virulent races of previously resistant lines . Plant land races being high genetically variable in nature shares one of the important sources for resistance genes and can meet the need for current challenges of breeding under stressful environments . To develop resistant lines, following screening of effective genes, gene transfer is the next basic step through which introduction of a desirable gene into the target plant cell from any source can be facilitated. Gene transfer technologies aid in manipulating plant cells into achieving traits of interest .",
+          "table": []
+        },
+        {
+          "text": "Definitely conventional breeding methods have largely contributed towards various crop improvement programmes through resistance gene transfer to desirable varieties. The various conventional breeding methods used for this purpose, viz., introduction of exotic lines includes introduction of Texas cytoplasm cause mitochondrial sterility was resistant against maize leaf blight . Further, the traditional gene introgression method includes, hybridization and cultivar development which is used to develop high yielding disease resistance hybrids. One of the Ug-99 stem rust resistance cultivar Lasani-99 was developed through hybridization. Another conventional breeding method is backcross breeding involves to transfer the resistant gene into susceptible cultivar through repeated hybridization of a hybrid to recurrent parent which is followed by a selection for identifying target trait . The pedigree method of gene transfer includes crossing and recombining genes among foremost selected lines and selects target traits among segregating generations. This leads to multiplication of genetic matter in the genotypes as it receives the gametes from the whole population and becomes homozygous in nature and even creates chances to derive transgressive segregants through this method. Pedigree method is usually applied for disease resistant breeding provided the trait is under control of a major gene . An efficient breeding tool named as recurrent selection, is a modified form of progeny selection which facilitate particular trait assortment based on phenotypic features among successive segregating generations of progenies . Gene pyramiding is one of the important approach to provide the resistance against different races of the pathogen. It can be achieved through composite crosses having mixture of uniform lines and multiline which is mixture of several iso-lines, each having single resistant gene against different pathogen race and developed through backcross method . These breeding methods, now combined with marker assisted selection to speed up the gene pyramiding or cultivar development.",
+          "table": []
+        },
+        {
+          "text": "As is mentioned these methods involve, growing and screening of large populations across numerous generations of crops and consequently becomes the prolonged and cumbersome process of breeding . Even transferring genes through these breeding methods include certain undesirable genes along with target genes which even exist after several generations of backcross and are not easily detectable. Hence, these drawbacks of traditional breeding entail the adoption of advanced and supreme approaches to protect yield potential of various crops under distressing environment. Thus advanced molecular breeding methods, are capable of precise, sophisticated, and rapid breeding through molecular markers as compared to conventional method  and will describe in coming section with example. Other modern breeding methods, viz., mutation breeding, TILLING (Targeted Induced Local Lesions IN Genome), RNAi mediated gene silencing and transgenic approach have not been used for disease resistance in maize.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Marker assisted selection, marker assisted backcross breeding and marker assisted recurrent selection for biotic resistance gene introgression in maize",
+      "div": [
+        {
+          "text": "Maize molecular breeding has adopted MAS as the most widely used approach for its improvement. In comparison to conventional approach, MAS has the ability to surpass the ambiguity of phenotypic selection along with substantial selection efficiency. Pyramiding resistance alleles at multiple dQTL into a single genotype can be accomplished through marker-assisted selection (MAS) (Fig. 2).",
+          "table": []
+        },
+        {
+          "text": "However, MAS is effective provided clear idea about the genetic construction on the controlling gene to a particular disease . MAS uses DNA based markers which are closely associated with the gene of interest to assist in phenotypic assessment and hence enhances breeding efficacy and speed up breeding process through target gene selection . Marker-assisted backcrossing aims at more than one genes or QTLs relocated from the donor to another prime line to augment the specified character. In contrast to Fig. 2 Molecular breeding approaches such marker-assisted selection (MAS), QTLs and genomic selection to exploit the maize landraces for discovery of unique resistant genes and improve the genetic diver-sity of maize for climate resilience. These resistant genes can be targeted via CRISPR/Cas systems to manipulate the maize genome to acquire disease resistant in modern maize cultivars traditional backcross breeding, MABC relies on the alleles of a marker relatable to desired genes or QTLs rather than phenotypic behavior. By employing MABC, within two years of short time the results can be drawn . Markerassisted recurrent selection (MARS) is an advanced form of recurrent selection that facilitate selection of genotype as well as intercrossing in a single season and eventually increases the conventional recurrent selection efficacy and hasten the procedure . This also aid in stacking of multiple promising genes from diverse backgrounds subjected to multiple parental population. Few instances of MAS based gene transfer, the successful introgression of Ht genes through MAS and recurrent backcrossing against the NCLB (Northern corn leaf blight) caused by Setosphaeria turcica was accounted by Miedaner, 2016. The gene Htn1, was located from the Mexican landrace Pepitilla, imparts partial resistance towards NCLB . In Maize, a major QTL, qHSR1 is found to be resistant to head smut disease and was well integrated via MABC into the background of ten high performing inbred lines  reported the introgression of resistant allele of the QTL, qMrdd8 from the donor X178 into the elite inbred lines by means of MAS and multi-generation backcrossing.  reported MAS based head smut resistance gene (RsrR) transfer into into two elite maize inbred lines.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Advances in QTL fine mapping technologies for maize",
+      "div": [
+        {
+          "text": "The genetic dissection of QDR can be made possible by means of QTL mapping. With QDR, a range of mechanism is been linked and of which some are broader in spectrum and highly durable from the rest. The transfer of partial resistance is more complex through conventional breeding strategies rather than simply inherited resistance owing to its anticipated multi-genic nature. However, combining the molecular mapping methods along with marker-assisted selection may facilitate the identification and exploitation of these forms of resistance more effectively .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Biparental mapping population",
+      "div": [
+        {
+          "text": "There are several types of genetic materials available which can be subjected to QTL fine mapping. NILs (Near isogenic lines) are considered as standard population and were broadly applied to depict targeted QTL from a precise biparental population in various crops as these NILs only varies at the QTL region besides possess the identical genetic background . However, the NIL population development is a tedious and cumbersome process. In maize, another sequential fine mapping approach utilizing recombinant derived progeny has effectively preferred for various QDR (Quantitative disease resistance) loci fine mapping . This method starts the QTLs mapping from the third backcross onwards and facilitate genotypic and phenotypic assessment of each progeny and via multiple repetitions it minimizes both genetic and environmental background noise. By using this approach the experimental errors can be lowered considerably to derive precise recombinant phenotypes  but this strategy also demands more time duration.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Association mapping and genomic selection",
+      "div": [
+        {
+          "text": "Mapping with the help of biparental population offers the analysis of only two alleles at lower mapping resolution. Whereas association mapping enables target trait detection by exploring historical assembled recombination and carrying out SNPs genomic screening in linkage disequilibrium. This method provides finer resolution and retains greater allele richness. On account of historical recombination in this mapping strategy, short confidence intervals of QTLs are present hence this facilitates the multiple allele analysis and QTL tracking for manifold characters. Howbeit, the population structure enhances the false positive detection and consequently the mapping power is getting affected . As association mapping claims extensive details on SNPs, so it may only be able to use for diverse species like maize. With the introduction of GWAS (Genome wide association study), the difficulty with marker density is resolved through cost effective medium to high density marker assays. As GWAS reaps the benefits of historic recombination events, it enables the identification of novel alleles that are not available in the biparental mapping population . The GWAS results are subjected to the population size as well as on the linkage disequilibrium (LD) specific to genome and crop between marker and phenotype. So as per the basic rule, the marker density has to be outpacing the LD decays. As a result of which the fast decay of LD enables further more precise localization of the QTLs than QTL mapping while marker density is adequately high. But GWAS is unable to detect the QTLS having rare alleles or with non-additive genetic effects  used GWAS studies to detect the biochemical pathways associated with Corn Earworm Resistance in maize and so far, allowing GWAS several QTLs or genomic regions imparting resistance have been discovered in maize viz., gray leaf spot , Fusarium ear rot , Southern corn leaf blight .",
+          "table": []
+        },
+        {
+          "text": "Genomic selection (GS) serves as an alternative to traditional selection or MAS to decipher complex polygenic traits and to enhance the efficacy and hasten the breeding duration ",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Nested association mapping",
+      "div": [
+        {
+          "text": "The purpose of designing Nested Association Mapping (NAM) population is to develop a community mapping resource which pulls both the merits of linkage and association mapping while restricting their respective limitations. The advantages of NAM over these two populations are that it can aid in enhancing the allelic diversity including the number of recombination events and again can reduce the confounding population structure . Again this approach attempts to resolve the complicated quantitative characters to their causal loci. In Maize, the NAM population design was first proposed  and it comprises of 5000 RILs generated from 25 segregating families which were derived from crossing the B73 homozygous line with 25 lines depicting global diversity of the domesticated maize genepool . This was evaluated for resistance to southern leaf blight disease. Joint-linkage analysis detected 32 QTLs with predominantly small, additive effects southern leaf blight on resistance .",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Multi-parent advanced generation intercross (MAGIC) population for high resolution mapping",
+      "div": [
+        {
+          "text": "Recently, Multi-parent advanced generation intercross (MAGIC) population is proposed as a unique crossing scheme to establish potent breeding stocks through remarkable founder alleles assortment. This method focuses more on population substructure along with richer allele diversities and allows high mapping resolution in contrast to biparental and association mapping  and . Various multi-parent populations have been generated and genotyped in maize . The developmental phase of MAGIC population includes continual intercrossing (generally four, eighteen or sixteen way) among the selected founder lines to stack the highly recombined genetic information and then the advanced intercrossing in a random and sequential manner among the produced progenies causes introgression of diverse and desirable alleles into a single line from all the selected parents which also enhances the character mapping resolution of the whole population . In Maize, the corn borers are considered as a high potential pest to reduce yield drastically. Hence  used eight founder lines to derive one eight way cross and then was randomly mated up to 6 generations allowing fifty crosses among hundred different lines in each generation. Then applying single seed descent method, the plants were selfed after six recombinant cycles and eventually developed 672 highly homozygous lines (recombinant inbred lines, RILs). This population enabled the mapping of genetic determinants of defense mechanisms against MCB (Mediterranean corn borer) infestation through high resolution mapping.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "AgRenSeq to use gene from wild relatives of maize",
+      "div": [
+        {
+          "text": "Currently, a k-mer-based association mapping approach named association genetics with resistance gene-enrichment sequencing (AgRenSeq) has been utilized efficiently to discover and clone disease-resistance genes from crop wild relatives . With the help of this technique a cheaper discovery and resistance (R) gene cloning from a diverse germplasm panel and wild relatives of any crop species can be facilitated. And there is no requirement of referencegenome by this technique and it can directly identify the nucleotide-binding/leucine-rich (NLR) regions which confer resistance rather than identifying a genomic region encoding multiple paralogs. To identify resistance genes, screening of wild plants for a variety of diseases and sequencing can be performed. The combination of association analysis along with RenSeq technique are made to screen and identify the R-gene and for RenSeq a bait library which targets R-genes in specific plant species is required. A sequence capture bait library was designed and optimized for capturing nucleotide-binding/leucine-rich (NLR) sequences encoded by the R-genes in this population. The enriched R-gene sequences are then assembled into NLR contigs and NLR k-mers are extracted for each accession. After a pre-filtering step, k-mer based association mapping was carried out to identify k-mers accompanying the resistance trait. Phenotype scores are converted to AgRenSeq scores that assign positive values to resistance and negative values to susceptibility. Intermediate phenotype should have an AgRenSeq score close to zero. It was successfully applied in wheat crop and four stem rust resistance genes; Sr33, Sr45, Sr46, and SrTA1662, against three races of the stem rust pathogen were identified using this approach . The work in wild wheat is being used as a proof of concept, preparing the way for the method to be utilised in protecting many crops which have wild relatives, therefore could be effectively utilised in maize. As per our knowledge there are no studies implicating AgRenSeq in maize, therefore critical evaluation of this method with context to improvement of disease resistance in maize must be explored. In addition to clone R genes from wild relatives, modification in this method could be done to explore its further potential to capture and use the genetic potential of wild relatives.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Outlook of genome editing for maize disease resistance using land races",
+      "div": [
+        {
+          "text": "With the advent of modern genome editing technologies, we can target any gene of interest with greater precision and accuracy to improve any trait of interest in major crops. Different variants of clustered regularly interspaced short palindromic repeats/CRISPR-associated protein (CRISPR/ Cas) are now being exploited successfully for improving disease resistance in several plant species . But there are still some major bottlenecks that persist in the widespread use of CRISPR/Cas-mediated genome editing in maize. Such as limited availability of high-quality genomic datasets for maize germplasm (cultivated, wild relatives, landraces), and lack of efficient and germplasm-independent vector delivery systems which are hindering its application for maize improvement. Due to this, there is no such report of CRISPR/Cas-based genome editing for disease improvement in maize landraces or even in currently cultivated modern maize varieties.",
+          "table": []
+        },
+        {
+          "text": "Recent advancement in CRISPR technologies has led to the discovery of more efficient Cas-variants which might be applied to target the diverse germplasm of maize . Genome-wide knockout libraries are important for detecting the candidate genes controlling stress-resistant mechanisms. Conventional maize knockout libraries are generally produced via ethyl-methane sulfonate mutagenesis , and/ or transposons . However, the offspring developed from these random mutation libraries may contain mutations at undesirable loci and several backcrosses are needed in successive generations to maintain the knockout mutations and analyze the respective phenotype. On the other hand, direct stable mutations can be achieved in maize through CRISPR/ Cas9 system. For example, DNA-free genome-edited maize was successfully obtained using ribonucleoprotein with guide RNA (gRNA) and Cas9 complex . Similarly, multiplex-gene editing for more than one gene or multiple alleles of the same gene can be targeted via CRISPR/Cas9 technology by delivering the several gRNAs within the same vector or just a single gRNA target the homologous gene in maize . The transformation efficiency of vectors in the maize was enhanced by delivering of Cas9-gRNA complex with morphogenic regulators genes within ternary vectors . Multiple trait hybrids of maize are difficult to develop and usually take several years. Gao et al.  used CRISPR/Cas9 to enable the trait stacking by targeting the complex trait locus in maize and is a breakthrough step in producing a multi-trait hybrid. Likewise, pericentric chromosomal inversion of 75.5-Mb was produced in superior inbred lines of maize. This resulted in the opening of large chromosomal section having greater genetic variation . Base editing via CRISPR/Cas9 can develop homozygous knockout libraries in a single generation and it was recently achieved by Liu H and colleagues in maize . This study was a significant step towards achieving genome-wide precise mutations in maize. The development of whole-genome mutants libraries using the CRISPR/Cas system will transform the maize functional studies. These technologies have promising potential and should be applied to target the diversified germplasm including landraces of maize to improve biotic diseases resistance.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Conclusion and future perspective",
+      "div": [
+        {
+          "text": "Several novel alleles present in maize landraces can be beneficial for increasing the genetic diversity and also for improving the disease resistance without affecting the yield. Several disease tolerant alleles that have been lost during domestication can also be retrieved from landraces. However, the introduction of landraces in breeding programs has been very time consuming due to the bottlenecks of genetic drag and transfer of some undesirable traits which can affect the maize quality. Furthermore, conventional breeding techniques are inadequate to speed up the maize breeding programs and needs to replace by advanced molecular breeding strategies. There is very little data available about the genetic architecture of landraces which limits their use in maize improvement. Genetic mapping through QTLs and other molecular breeding techniques will helps to uncover the hidden treasures of genetic variation within the landraces. It will accelerate the elucidation of allelic variation linked with the desired traits and identify several novel genes for disease resistance. Efficient, precise, targeted and genotype-independent genome editing driven by systematic knowledge related to potential candidate genes through genomic tools will open new horizons for the development of climate resilient maize varieties.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": [
+    "{\"title\": \"List of important wild species as source of maize disease resistance\", \"head\": [\"S. no. Wild species donor\", \"Diseases\", \"Chr. no.\", \"Origin\", \"References\"], \"value\": [[\"1\", \"Tripsacum dactyloides Common Rust\", \"36, 72, 108 Mexico and Guatemala\", \"Bergquist [43]\"], [\"2\", \"Zea diploperennis\", \"Maize Chlorotic Dwarf Virus\", \"20\", \"Jalisco and Mexico\", \"Nault et al. [151] & Findley et al.\"], [\"\", \"\", \"\", \"\", \"\", \"[152]\"], [\"3\", \"Zea diploperennis\", \"Maize Chlorotic Mottle Virus\", \"20\", \"Jalisco and Mexico\", \"Nault et al. [151]\"], [\"4\", \"Zea diploperennis\", \"Maize Streak Virus\", \"20\", \"Jalisco and Mexico\", \"Nault et al. [151]\"], [\"5\", \"Tripsacum dactyloides Northern Corn Leaf Blight\", \"36, 72, 108 Mexico and Guatemala\", \"Goodman et al. [44] & Hoising-\"], [\"\", \"\", \"\", \"\", \"\", \"ton et al. [153]\"], [\"6\", \"Zea mexicana,\", \"Downy mildew\", \"20\", \"Jalisco and Mexico\", \"Ramirez [154]\"], [\"\", \"Zea diploperennis\", \"\", \"\", \"\", \"\"], [\"7\", \"Zea diploperennis\", \"Northern corn leaf blight &\", \"20\", \"Jalisco and Mexico\", \"Wei et al. [41]\"], [\"\", \"\", \"Southern\", \"\", \"\", \"\"], [\"\", \"\", \"corn leaf blight\", \"\", \"\", \"\"], [\"8\", \"Zea parviglumis\", \"Gray leaf spot\", \"20\", \"Southern and Eastern Mexico Lennon et al. [39] & Zhang et al.\"], [\"\", \"\", \"\", \"\", \"\", \"[40]\"], [\"9\", \"Zea parviglumis\", \"Southern corn leaf blight\", \"20\", \"Southern and Eastern Mexico Lennon et al. [155]\"], [\"10\", \"Zea parviglumis\", \"Red flour beetle\", \"1,3\", \"Southern and Eastern Mexico Joshi et al. [46]\"], [\"11\", \"Tripsacum dactyloides Maize weevil\", \"-\", \"Mexico and Guatemala\", \"Throne and Eubanks [47]\"], [\"12\", \"Zea diploperennis\", \"Striga hermonthica\", \"-\", \"Jalisco and Mexico\", \"Shaibu et al. [48]\"], [\"13\", \"Zea mexicana\", \"Gray leaf spot\", \"-\", \"Jalisco and Mexico\", \"Guerrero-Corona et al. [49]\"], [\"14\", \"Zea parviglumis\", \"Banded leaf and sheath blight\", \"5\", \"Southern and Eastern Mexico Adhikari et al. [50]\"]]}",
+    "{\"title\": \"Bin locations on the maize chromosome for disease resistance genes/QTL Locations on the bin are represented by an X.Y code, where X is the linkage group containing the bin and Y is the bin location Ref: Genomic organization of disease and insect resistance genes in maize, Mc Mullen, 1995\", \"head\": [\"Trait\", \"Locus\", \"Chromosome\", \"\", \"\", \"\", \"\", \"\", \"\"], \"value\": [[\"\", \"\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"10\"], [\"Gray leaf spot\", \"QTL\", \"1.04\", \"2.04/5\", \"\", \"4.02\", \"\", \"\", \"\", \"8.05\", \"10.05\"], [\"\", \"\", \"\", \"\", \"\", \"4.04\", \"\", \"\", \"\", \"\"], [\"\", \"\", \"\", \"\", \"\", \"4.08\", \"\", \"\", \"\", \"\"], [\"Northern corn leaf blight\", \"ht1\", \"\", \"2.08\", \"\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"ht2\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"8.06\"], [\"\", \"htn1\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"8.06\"], [\"\", \"QTL\", \"1.01/2\", \"\", \"3.07/8\", \"4.02/3\", \"5.01/2\", \"\", \"7.03\", \"8.03/4\"], [\"\", \"\", \"\", \"\", \"\", \"\", \"5.06\", \"\", \"\", \"\"], [\"Fusarium stalk rot\", \"QTL\", \"1.07\", \"2.04\", \"3.04/5\", \"4.04\", \"5.02\", \"\", \"\", \"\", \"10.6\"], [\"\", \"\", \"\", \"\", \"\", \"\", \"5.04\", \"\", \"\", \"\"], [\"Southern corn leaf blight\", \"rhml\", \"\", \"\", \"\", \"\", \"\", \"6.01\", \"\", \"\"], [\"Southern rust\", \"rpp9\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"10.01\"], [\"Maize mosaic\", \"ncv1\", \"\", \"\", \"3.04\", \"\", \"\", \"\", \"\", \"\"], [\"Maize streak\", \"msv1\", \"1.04\", \"\", \"\", \"\", \"\", \"6.01\", \"\", \"\"], [\"Common rust\", \"rp3\", \"\", \"\", \"3.04\", \"\", \"\", \"\", \"\", \"\"], [\"\", \"rp4\", \"\", \"\", \"\", \"4.02/3\", \"\", \"\", \"\", \"\"], [\"\", \"rp1\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"10.01\"], [\"\", \"rp5\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"10.01\"], [\"\", \"rp1-G\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"\", \"10.01\"], [\"Maize dwarf mosaic\", \"mdml\", \"\", \"\", \"\", \"\", \"\", \"6.01\", \"\", \"\"], [\"Anthracnose stalk rot\", \"QTL\", \"\", \"\", \"\", \"4.08\", \"\", \"\", \"\", \"\"]]}",
+    "{\"title\": \"Genes (cloned/implicated) associated with disease resistance in maize\", \"head\": [\"Ref: Quantitative disease resistance: dissection and adoption in maize [96]\"], \"value\": []}"
+  ]
+}

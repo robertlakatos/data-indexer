@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "The role of the exponential and linear phases of maize (Zea mays L.) ear growth for determination of kernel number and kernel weight",
+    "author": "Sarah Mueller M Mueller, Carlos Messina D Messina, Tony Vyn J Vyn",
+    "journal": "Elsevier BV",
+    "date": "2019. 11."
+  },
+  "paragraphs": [
+    {
+      "title": "Abstract",
+      "div": [
+        {
+          "text": "Although the importance of the critical period for establishing the maize (Zea mays L.) yield components of kernel number (KN) and kernel weight (KW) is well known, there is little detailed information on how early ear development during the critical period and lag phase are influenced by hybrid improvement or N stress. Seven hybrids commercialized between 1946 and 2015 were compared under a range of N stress created by five N fertilizer treatments: no N applied or a total of 220 kg N ha -1 where N was applied either at the four-leaf stage (V4), at flowering, or a combination of these two times. Ears (cobs plus kernels) were sampled five times at weekly intervals, from approximately 14 days before until 14 days after flowering, to determine dry weight, N concentration, and N content. The dynamics of these traits were modeled using an expolinear function and parameters estimated using a non-linear mixed model. Hybrid and N treatment influences on the exponential and linear phases of ear growth were determined by comparing parameters. The greatest impact of genotype or plant N status was realized in the linear phase when modern hybrids exhibited higher linear growth rates and ears accumulated progressively more N with increasing V4 stage N rate. Neither genotype nor N stress resulted in different ear growth or N accumulation rates during the exponential phase; however, modern hybrids exhibited a longer exponential phase duration. Use of expolinear function with parameters estimated within the non-linear mixed models enabled us to gain insight on development phases modified as the result of genetic improvement or affected by N stress. During the exponential phase, which overlaps with the lag phase when cell division is a key determinant of potential kernel weight and sink strength, neither hybrid era nor N treatments substantially impacted ear growth. Instead, the most important early ear growth characteristics to differentially impact final KN and KW at maturity were the duration of the lag phase and ear growth rates during the linear phase. Future research is suggested to unravel how the duration of the exponential phase is related to cell number and kernel size determination, and how these in turn affect kernel growth rate during the linear phase.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Introduction",
+      "div": [
+        {
+          "text": "Genotype, environment, and management interactions are ubiquitous in agricultural systems, making it difficult to predict plant growth and yield. In maize, these interactions result in variations in the yield components of kernel number (KN) and kernel weight (KW) which are determined by separate, but overlapping, processes (Gambín and Borrás, 2010). While KN is considered to be established during the critical period (the four weeks bracketing silking) (Andrade et al., 1999), KW is determined during the linear growth phase of grain filling which begins approximately 14 days after R1 (Johnson and Tanner, 1972). However, there is little understanding of the smooth transition between the critical period and grain filling phases, and how plant resource allocation to the ear during this time is influenced by genetics or soil nitrogen availability.",
+          "table": []
+        },
+        {
+          "text": "The relationship between KN and plant or ear growth rate during the critical period has been reported to be non-linear (Edmeades and Daynard, 1979;Andrade et al., 1999Andrade et al., , 2002)), and this non-linear relationship is frequently used in mathematical models of maize growth and development (Jones and Kiniry, 1986;Soufizadeh et al., 2018). However, some studies have not found a relationship between KN and ear growth rate (Gambín et al., 2006;Mueller and Vyn, 2018a), which can result in prediction errors. Furthermore, recent evidence suggests that the relationship between kernel set and plant growth rates could be predicted from fundamental processes of silk elongation, competition between kernels and the ear, and competition between kernels within the ear (Messina et al., 2019).",
+          "table": []
+        },
+        {
+          "text": "Potential KN is established early during vegetative growth, around V8 (Abendroth et al., 2011;Gonzalez et al., 2019). This potential is reduced at or after flowering (R1) in response to stress factors such as N or water deficits. Abortion of pollinated kernels occurs primarily in the two to three weeks following R1 and is influenced by assimilate supply to the growing kernel (Kiniry and Ritchie, 1985;Schussler and Westgate, 1991) and developmental synchrony (Oury et al., 2016).",
+          "table": []
+        },
+        {
+          "text": "The relationship between ear growth rate during the critical period and KN has been shown to be associated with genotype and soil N availability (Echarte et al., 2004;Luque et al., 2006;Pagano et al., 2007;Rossini et al., 2011). Both plant and ear growth respond positively to an improved nutritional state and associated carbon assimilation rate during the critical period, and a higher apparent ear growth rate is simply a manifestation of the higher kernel set and more reproductive structures growing in high N environments (Uhart and Andrade, 1995a;Vos et al., 2005).",
+          "table": []
+        },
+        {
+          "text": "In contrast to KN, KW is determined during three phases of kernel development following R1: the lag phase, the linear phase, and the maturation phase (Johnson and Tanner, 1972). The lag phase extends about two weeks after silking and is characterized by rapid cell division but very little DM accumulation. After the lag phase, kernel growth becomes linear and it is during this time that about 90% of the grain dry weight is accumulated (Ouattar et al., 1987). During the maturation phase, kernels lose moisture and reach physiological maturity (Borrás and Gambín, 2010).",
+          "table": []
+        },
+        {
+          "text": "The latter half of the critical period overlaps with the lag-phase of grain filling (Setter and Meller, 1984;Artlip et al., 1995;Uhart and Andrade, 1995b;Zinselmeier et al., 1999;Below et al., 2000), and during this time both KN and KW are determined in an intertwined process. Sink capacity (potential KW) is determined during the lag phase because it is during this time that the number of endosperm cells and starch granules is established (Jones et al., 1985). There is evidence for genotypic variation in KW traits including the duration of the lag and linear phases and kernel growth rate during the linear phase (Poneleit and Egli, 1979;Maddonni et al., 1998;Gambín et al., 2007;Borrás et al., 2009). Although source limitations during the lag phase can restrict eventual KW, there appears to be little potential to increase KW through increased source strength or plant growth rate in the postsilking period (Borrás et al., 2004;Gambín et al., 2006;Borrás and Gambín, 2010).",
+          "table": []
+        },
+        {
+          "text": "Considering the importance of processes occurring during the overlapping critical period and lag phase for the determination of KN and KW, there are few studies on the roles of genotypic variation and plant N status in the physiological processes occurring during the lag phase or critical period. Mueller and Vyn (2018a) recently described the effects of N availability and four genotypes on the ear growth rate and N accumulation rate during the critical period by evaluating the derivative of nonlinear models fit to a five-week time series of ear DM and N content (Nc) data, and then comparing the treatment means at calculated intervals. While this method is useful to describe the behavior of ear DM and Nc during the critical period, it is not informative for understanding how changes in the ear during the critical period impact final yield components. The simultaneous modeling of lag and linear growth of the maize ear can be useful to understand whether KN determines ear growth during the linear phase, or if the growth during the lag phase is the determinant of the KN, as was previously proposed. It is also valuable to determine how lag and linear ear growth dynamics influence final kernel weight. Studying how ear growth parameters have changed with cycles of breeding selection and environmental variation through N treatments can advance our knowledge towards unraveling the convoluted process of ear growth-kernel set-kernel weight determination.",
+          "table": []
+        },
+        {
+          "text": "The objectives of this research were to 1) propose a methodology which simultaneously models continuous ear growth during the critical period, lag, and linear phases to assess the role of these parameters in final KN and KW, 2) characterize how hybrid improvement over the past 70 years has changed the development of maize ears during the critical period, and 3) determine how plant N status during the critical period impacts ear growth and N accumulation.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Materials and methods",
+      "div": []
+    },
+    {
+      "title": "Experimental design",
+      "div": [
+        {
+          "text": "The N treatments were intended to create a range of whole-plant N stress at flowering. The treatments included a 0 N control with no N application and a conventional treatment of 220 kg N ha -1 all applied at the four-leaf stage (V4, 220_0). Three additional N treatments all received a total of 220 kg N ha -1 applied either at V4 and/or R1. These treatments were: 0 kg N applied at V4 and 220 kg N applied at R1 (0_220), 55 kg N applied at V4 and 165 kg N applied at R1 (55_165), and 165 kg N applied at V4 and 55 kg N applied at R1 (165_55).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Ear sampling and non-linear model fitting",
+      "div": [
+        {
+          "text": "To characterize ear growth during the critical period, ears (cobs plus kernels after husk and ear shank removal) were sampled from 10 consecutive plants in each plot at weekly intervals for four weeks beginning approximately two weeks before R1. This resulted in a total of five sampling dates, and all plots were sampled on the same day. Only apical ears were considered for this analysis and there were no secondary ears with kernels at maturity in either year. During the critical period there was no incidence of barren plants. All barren plants aborted their ears after the sampling period explored in this manuscript. Ear samples were dried to a constant weight, weighed, ground to 1 mm, and analyzed for N concentration by DuPont Pioneer using the combustion method. Because of very small sample size at the first sampling date (average of 0.01 g ear -1 ), the ear samples were pooled across all three replications by treatment to make a single composite sample of 30 ears for N concentration (N%) analysis. For all subsequent sampling dates, each plot (composite sample of 10 ears) was analyzed separately.",
+          "table": []
+        },
+        {
+          "text": "At all sampling dates the ears were left intact and all references to ears within this article include both cobs and kernels. The sampling procedure stopped approximately two weeks after R1, which coincides with R2 and the beginning of the linear grain filling period (Johnson and Tanner, 1972). Prior to R2 there is very little dry matter accumulated in the grain and, therefore, the majority of both the DM and Nc reported here is present in the cobs of the developing ears.",
+          "table": []
+        },
+        {
+          "text": "The procedures for measuring grain yield, yield components, and biomass sampling at harvest are described in Mueller and Vyn (2018b).",
+          "table": []
+        },
+        {
+          "text": "Understanding how hybrid improvement and plant N status impacted ear growth and N accumulation during the four weeks bracketing silking was an important focus in this study. Because the treatment effects on ear growth were highly influenced by small differences in silking date among the plots, the scaling procedure described in Mueller and Vyn (2018a) was implemented. Briefly, the sampling time for all DM and Nc data was converted from five discrete sampling dates to thermal time (°Cd) in relation to the date of 50% silking. The date of 50% silking in each plot was determined from daily observations of silking on 10 plants tagged prior to silking. Plants were considered silked when at least 1 cm of silks had protruded from the husks on the apical ear. A base temperature of 8 °C (Ritchie and Nesmith, 1991) was used in computing thermal time. Thermal time was calculated from the initiation of ear elongation, which has been shown to be approximately 200 °Cd prior to R1 (Otegui and Bonhomme, 1998;D'Andrea et al., 2008). Therefore, 200 °Cd represents R1. This re-scaling to thermal time, instead of discrete sampling dates, allows for evaluation of treatment effects without the influence of differences in phenology due to variation in silking date.",
+          "table": []
+        },
+        {
+          "text": "After rescaling, ear DM and Nc data were fit with the expolinear model (Goudriaan and Monteith, 1990). The expolinear function was originally developed to model leaf growth but has also been applied to fruit growth in apple (Lakso et al., 1995) and total aboveground biomass accumulation in chrysanthemum (Chrysanthemum morifolium Ramat.) (Jeong et al., 2003), faba bean (Vicia faba L.), pea (Pisum sativum L.), lentil (Lens culinars Medic.) (Ishag and Dennett, 1998), wheat (Triticum aestivum L.) and maize (Yin et al., 2003). The underlying principle of the expolinear function is that early growth is exponential and then enters a linear phase. The expolinear function is defined as: 1)",
+          "table": []
+        },
+        {
+          "text": "where W is ear DM (g ear -1 ) or Nc (mg ear -1 ), Cm is maximum absolute ear growth rate (g ear -1 °Cd -1 ), Rm is initial maximum relative growth rate (g g -1 °Cd -1 ), tb is time where the extrapolated Cm slope crosses the thermal time axis (°Cd), and t is the explanatory variable thermal time (°Cd). Therefore, Cm describes the constant growth rate during the linear phase, Rm describes the relative growth rate during the exponential, or lag, phase, and tb describes the duration of the exponential growth phase. Previous research has described the thermal time at which ear growth enters the linear phase. To compare our method to others, we estimated the thermal time when the ear began linear growth. Because the second derivative of a linear function is always zero, the beginning of the linear growth phase can be calculated by finding the zeros of the second derivative of the expolinear function. However, the expolinear function does not achieve true linearity and therefore the second derivative has no zeros. To estimate the beginning of linear ear growth, we considered the time at which the second derivative was less than 5% of the peak value (occurring at time tb) to represent \"effective linearity\" and assumed this to be the beginning of linear growth.",
+          "table": []
+        },
+        {
+          "text": "Ear N% data was fit using the four-parameter sigmoid function which has been widely used for crop growth modeling (Paine et al., 2012;Archontoulis and Miguez, 2015) and is defined as:",
+          "table": []
+        },
+        {
+          "text": "where A is the upper asymptote (N%), B is the lower asymptote (N%), xm is the inflection point (°Cd), and k controls the steepness of the curve.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Statistical analysis",
+      "div": [
+        {
+          "text": "The treatment effects (N treatment and YOC) on the parameters of the expolinear and sigmoid functions fit to the ear DM, Nc, and N% data were evaluated using non-linear mixed effects models with the nlme package (Pinheiro and Bates, 2000) in RStudio (RStudio Team, 2016). The use of non-linear mixed effects models allows for interpretation of how experimental treatments influence the shape of non-linear curves fit to repeated measures data. This method has been used extensively in forest science (Zhao et al., 2005;Mehtatalo et al., 2014;Njana et al., 2016). The fitted expolinear model for the ith block, jth plot, and kth sampling date was:",
+          "table": []
+        },
+        {
+          "text": ")",
+          "table": []
+        },
+        {
+          "text": "where the model parameters Cm, Rm, and tb are represented by Φ 1 , Φ 2 , and Φ 3 , respectively. The fixed effects (ß) are the average of each parameter and b i are the random effects for each parameter modeled with the diagonal variance-covariance matrix. The effects of l years (γ 1l ), m N treatments (γ 2m ), and n hybrids (γ 3n ) were treated as covariates of the fixed effects. The interaction of hybrid and N treatment was also tested as a covariate, and was found to be significant. However, because our primary interest was in describing the influence of the main effects of hybrid and N treatment on ear development, a simpler final model was used which included only the main effects without an interaction. The weights = varPower option was used to account for the heteroscedasticity caused by the increase in sample variance over time.",
+          "table": []
+        },
+        {
+          "text": "The same procedure was used to fit the sigmoid model to the ear N% data. Because the beginning of linear growth was estimated from each model fit by treatment and not by plot, no analysis for means separation was conducted. The ear DM, Nc, and N% data and the R script for nonlinear mixed model analysis are publicly available at: https://github. com/smmueller/critical-period-ear-growth. Analysis of variance for grain yield, KN, KW, and grain Nc, was conducted using PROC MIXED in SAS 9.3 (SAS Institute Inc., 2012). Fixed effects were N treatment (whole plot) and hybrid (sub-plot). Block was considered nested within year (block(year)) and block(year) and year x block(year) x N treatment interactions were treated as random effects. All treatment means and parameter estimates are presented as the average of two years.",
+          "table": []
+        },
+        {
+          "text": "To test for correlation of growth rate estimates with grain yield, KN, KW, and grain Nc, the parameters of the expolinear models were regressed against the treatment means of those variables using linear regression in RStudio.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Results",
+      "div": []
+    },
+    {
+      "title": "Yield increased with year of commercialization and nitrogen application",
+      "div": [
+        {
+          "text": "Initial ear DM and Nc were both near zero when ear samples were collected about two weeks prior to R1 (Supplemental Tables 1 and2). By two weeks after R1, ear DM had increased to 25.4 g ear -1 and Nc to 420 mg N ear -1 (average of all hybrids and N treatments). In contrast, the ear N%, averaged across all hybrids and N treatments, declined from 7.1% to 1.7% over the four-week sampling period.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Year of commercialization increased ear growth during the linear phase",
+      "div": []
+    },
+    {
+      "title": "Ear nitrogen content during the linear phase is most sensitive to plant nitrogen status",
+      "div": []
+    },
+    {
+      "title": "Kernel weight variation is most correlated with changes in ear growth and nitrogen accumulation",
+      "div": [
+        {
+          "text": "When parameter means were evaluated by N treatments (averaged over all hybrids), there was a very strong correlation between Cm and all yield components for both DM and Nc (Tables 2 and3). In contrast, Rm only resulted in a slope significantly different from zero when regressed with KW (R 2 = 0.78 and 0.87 for DM and Nc, respectively).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Table 1",
+      "div": [
+        {
+          "text": "Effect of hybrid year of commercialization (YOC) and N treatment on grain yield (g plant -1 ), kernel number (kernels plant -1 , KN), kernel weight (mg kernel -1 , KW), grain N content (g plant -1 , Nc), cob dry matter (g plant -1 , DM), cob N content (g plant -1 , Nc) at physiological maturity, and percent barren plants (%). Nitrogen treatment labels reflect the kg N ha -1 applied at V4 (number before the underscore) and at R1 (number after the underscore). Means are presented as the average of 2 years. Means assigned different letters are different at a significance level of p < 0.05. Where no means separation are assigned, means were not significantly different from each other. Fig. 1. Effect of hybrid year of commercialization (YOC, A) and N treatment (B) on the fitted expolinear curves for ear (cobs and kernels) dry weight (g ear -1 ). The x axis represents cumulative thermal time since the initiation of ear elongation and R1 occurred at 200 °Cd. Gray points represent all data points (5 N treatments, 7 hybrids, 2 years, 5 sampling dates). Nitrogen treatment labels reflect the kg N ha -1 applied at V4 (number before the underscore) and at R1 (number after the underscore). Different letters indicate that the treatments were significantly different from each other for the expolinear parameters describing the linear phase (Cm, g ear -1 °Cd -1 ), the exponential phase (Rm, g g -1 °Cd -1 ), and length of exponential phase (tb, °Cd).",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Discussion",
+      "div": [
+        {
+          "text": "The objective of this research was threefold: 1) to propose a methodology which unravels the intertwined relationship between early ear growth and the determination of KN and KW, 2) to study how selection for grain yield over the past 70 years has changed ear growth during the lag and early linear phases of ear growth and development, and 3) to shed light on the role of plant N status on ear growth during the critical period. Our methodology used the expolinear function to describe ear (cob plus kernels) growth during the critical period, and used nonlinear mixed effects models to parameterize the function and enable evaluation of the effects of YOC and plant N status on biological process represented by parameters Cm, Rm, and tb. By simultaneously modeling exponential (Rm) and linear (Cm) ear growth and N accumulation during the critical period, which encompasses the lag and early linear phases of grain development, this method provides a simple interpretation for how both genotype and N stress impact the parameters which control KN and KW. This modeling approach can enhance mechanistic frameworks for prediction of reproductive resilience in maize (Messina et al., 2019) and expand the scope of these tools to design breeding strategies focused on accelerating genetic gain for nitrogen use efficiency (Mueller et al., 2019).",
+          "table": []
+        },
+        {
+          "text": "Previous research has found that ear elongation takes place from about 227 °Cd prior to R1 until 100 °Cd after R1 (Otegui and Bonhomme, 1998). Furthermore, it has been shown that the lag phase of kernel development ends between 144-226 °Cd after R1, and this length is genotype dependent (Maddonni et al., 1998). Overlaying these values with the time-scale used in this research, where 200 °Cd represents R1, indicates that ear elongation occurs between 3-300 °Cd and the lag phase ends near 344-426 °Cd. The estimates for the beginning of linear ear growth, averaged across all hybrids and N treatments, was 357 °Cd and 342 °Cd for ear DM and Nc, respectively (Supplemental Tables 3 and4). This is similar to the initiation of linear Fig. 2. Effect of hybrid year of commercialization (YOC, A) and N treatment (B) on the fitted expolinear curves for ear (cobs and kernels) N content (mg ear -1 ). The x axis represents cumulative thermal time since the initiation of ear elongation and R1 occurred at 200 °Cd. Gray points represent all data points (5 N treatments, 7 hybrids, 2 years, 5 sampling dates). Nitrogen treatment labels reflect the kg N ha -1 applied at V4 (number before the underscore) and at R1 (number after the underscore). Different letters indicate that the treatments were significantly different from each other for the expolinear parameters describing the linear phase (Cm, mg ear -1 °Cd -1 ), the exponential phase (Rm, mg mg -1 °Cd -1 ), and length of exponential phase (tb, °Cd). ,A) and N treatment (B) on the fitted sigmoid curves for ear (cobs and kernels) N concentration (%). The x axis represents cumulative thermal time since the initiation of ear elongation and R1 occurred at 200 °Cd. Gray points represent all data points (5 N treatments, 7 hybrids, 2 years, 5 sampling dates). Nitrogen treatment labels reflect the kg N ha -1 applied at V4 (number before the underscore) and at R1 (number after the underscore). Different letters indicate that the treatments were significantly different from each other for the sigmoid parameters of upper asymptote (A, N%), lower asymptote (B, N%), inflection point (xm, °Cd), and steepness of the curve (k, unitless). kernel growth found by Maddonni et al. (1998). Therefore, we suggest that Rm can interpreted as cob growth during the lag phase when the kernels accumulate very little dry matter and Cm may represent the kernel growth rate once the linear phase has begun and ear elongation has ceased.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Fig. 3. Effect of hybrid year of commercialization (YOC",
+      "div": [
+        {
+          "text": "The YOC effect on the B parameter fit to ear N% (Fig. 3A) mimics the pattern of decreasing grain N% with hybrid improvement (Ciampitti and Vyn, 2013;Mueller and Vyn, 2016;Mueller et al., 2019). Our analysis, which shows that ear N% plateaus near the end of the critical period, agrees with Jones and Simmons (1983). Those authors also showed that kernel N% remained stable (near 3.5% N) between six and 12 days after R1 before decreasing rapidly once kernel DM accumulation began with the onset of the linear phase. For comparison, we found",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Table 2",
+      "div": [
+        {
+          "text": "Correlations between ear (cob and kernels) dry matter and the parameters describing the linear phase (Cm, g ear -1 °Cd -1 ), the exponential phase (Rm, g g -1 °Cd -1 ), and length of exponential phase (tb, °Cd) with grain yield, kernel number (kernels plant -1 , KN), kernel weight (mg kernel -1 , KW), and grain N content (g plant -1 ) at physiological maturity when averaged over either year of commercialization (YOC) or N treatments. *Denotes p-values < 0.05.",
+          "table": []
+        }
+      ]
+    },
+    {
+      "title": "Table 3",
+      "div": []
+    },
+    {
+      "title": "Conclusions",
+      "div": [
+        {
+          "text": "The expolinear function provides a useful framework for the interpretation of how hybrid improvement or plant N status influences the rate of ear growth and N accumulation during the critical period which encompasses the lag and early linear phases of grain growth. We have demonstrated that there is very little impact of either genotype or N stress during the exponential phase of ear growth, except that modern hybrids exhibit a longer exponential phase duration. The greatest impacts of genotype or N treatment was realized in the linear phase, which corresponds to rapid kernel growth. Furthermore, KW was more often correlated than KN to estimates of Cm, Rm, or tb indicating that early ear growth has a strong influence on KW but not on final KN. Recent hybrid improvement resulting in higher KW appears to be driven by a longer exponential phase in ear growth, which may result in greater potential KW and drive higher growth rates during the linear phase. In contrast, N treatments affected neither tb nor Rm indicating that treatments were similar in potential KW, but subsequent source limitations during the linear phase reduced Cm and lowered final KW. This framework increases our understanding of the dynamic processes that control maize yield components. Integration of this knowledge with prediction frameworks will accelerate genetic gain for improved grain yields and nitrogen use efficiency.",
+          "table": []
+        }
+      ]
+    }
+  ],
+  "tables": []
+}
