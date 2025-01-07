@@ -1,7 +1,0 @@
-# TYPE Humidity gauge
-# UNIT Humidity TBF
-# HELP Humidity Humidity
-
-LABELS {location="DEB-KER06",validated="Y"}
-
-#hour_index,hour_avg,min,max,sum,count
